@@ -21,17 +21,18 @@ def test_readme_assumption_and_decisions():  # 「假設」、G-42
     row = next(line for line in section_a.splitlines() if "形成假設" in line)
     for w in ("`why`", "inference", "另一種方法確認"):
         assert w in row, w
-    head = README.split("## Harness 實驗結果", 1)[0]
+    assert "## 4. Harness 實驗結果" in README
+    head = README.split("## 4. Harness 實驗結果", 1)[0]
     for w in ("5 段", "使用中、已下架", "寫入審核", "reject", "experience.overturned", "Reviewer Agent", "不另加 Judge AI", "另類的 Judge AI"):
         assert w in head, w
     assert "7 段" not in head and "候選、正式、停用" not in head and "research_log 寫" not in head
 
 
 def test_readme_limits_and_plan():  # G-41、G-43、G-55
-    limits = README.split("## 目前限制", 1)[1].split("\n## ", 1)[0]
+    limits = README.split("## 5. 目前限制", 1)[1].split("\n## ", 1)[0]
     for w in ("可能是運氣", "多塞引用", "表面功夫", "沒用到不會下架", "--refresh"):
         assert w in limits, w
-    plan = README.split("## 若再有 4 週", 1)[1].split("\n## ", 1)[0]
+    plan = README.split("## 6. 若再有 4 週", 1)[1].split("\n## ", 1)[0]
     for n in range(1, 6):
         assert f"### 優先 {n}：" in plan, n
     for w in ("原型已提前做", "長期被擋", "sitemap index", "連續 3 個動作"):

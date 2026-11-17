@@ -1,0 +1,36 @@
+# Glossary（README 用詞對照）
+
+- **Harness**：包在模型外面的環境：Tool、證據存檔、停止條件、Reviewer、經驗、檢查。本 repo 的主體。
+- **Hermes Loop**：Hermes 的 Agent 迴圈；模型決定、Hermes 執行 Tool 呼叫。
+- **One Shot**：同模型、不經 Harness，只開 WebSearch／WebFetch，同一份任務文字；當作對照組。
+- **目前架構（決策 #71）**：精簡研究段＋未讀分區提示（`sections_not_yet_read`）＋Reviewer Agent＋經驗。
+- **Reviewer Agent**：run 內第 5 步，程式固定另開 1 次、沒有 Tool，只看報告與引用證據，產出待修清單。
+- **Grader Agent**：run 結束後，遮名盲評、照固定指令（[`inst71.md`](docs/research/credible-rescore/inst71.md)、[`grader_prompt.md`](reports/sequence/r6/grader_prompt.md)）算可信 SEO 技術數的唯讀 Agent。
+- **凍結 grader**：`src/seo_agent/grader.py`＋`eval/rubric_2030.json`，固定文字規則，hash 已凍結；給 14 項與程式判錯數。
+- **可信 SEO 技術數**：主分數；報告寫出的 SEO 做法裡，引用的 Evidence ID 存在、證據撐得住的不同項目數。
+- **14 項**：事先整理的 14 個已知 SEO 事實（[`eval/rubric_2030.json`](eval/rubric_2030.json)）；現在只當「已知答案涵蓋率」參考。
+- **Evidence ID**：每份證據的編號。`evidence_id`＝抓到的原檔（例如網頁）；`derived_evidence_id`＝查詢類 Tool 算出的結果（例如 sitemap 統計）。
+- **網站底稿**：第 2 步程式抓好的固定偵察結果，每站一份。
+- **資料卡**：把底稿各來源的數字並排的摘要（`data_card.md`），不標差異。
+- **分區**：資料卡上的網站區塊（例如 sitemap 的子目錄）；`sections_not_yet_read`＝還沒有 Tool 讀過的分區。
+- **why**：研究 Tool 的選填欄位，寫這一步為什麼這樣做；Tool 收不到，只進 `tool_calls.jsonl`。
+- **time_used**：每次研究 Tool 回傳附的「已用 xx／上限 分」。
+- **fact／inference**：直接看到的／根據證據推想的（要寫 limits）。
+- **經驗**：走過的路線（情況 → 路線 → 結果），狀態只有使用中、已下架。
+- **照走／別走**：經驗的結果。別走分「查不到」「會誤導」。
+- **輕試**：對「別走（查不到）」的經驗，允許用同一 Tool 打同一目標重試 1 次，確認網站沒變。
+- **經驗提案（P1、P2…）**：這次 run 寫的、還沒審核的路線；通過審核後拿到 `EXP-xxx` 編號。
+- **寫入審核**：提案要過 7 項檢查才變使用中（`audit.py`）。
+- **下架判定**：用過的經驗沒效果、被推翻或被判錯就下架（`lifecycle.py`）。
+- **停止條件 A**：連續 5 次研究 Tool 呼叫沒有新證據。
+- **停止條件 B**：時間上限 120 分鐘（最後 20 分鐘只能交報告與修正）。
+- **講太滿**：標成事實或寫成肯定句，但證據撐不起、以少推全。
+- **說錯**：14 項裡和已知事實相反的說法；說錯數（判定用）另加講太滿筆數。
+- **判錯**：凍結 grader 判定為說錯的結論；用在經驗下架。
+- **假否定**：說「沒有／讀不到」，其實有。
+- **白做工**：沒有帶來新證據的 Tool 呼叫（參考數字）。
+- **untrusted_run**：用了專案外 Tool 等，不列入比較、不寫入經驗。
+- **sim 執行器**：批次實驗用 Claude Code CLI 叫模型，Tool、證據、審查、經驗是同一套程式。
+- **決策 #nn、G-xx**：設計決策與施工項目編號，對照見 [`docs/codes.md`](docs/codes.md)。
+- **舊編號**：②網站底稿 ③④研究 ⑥審查 ⑦定稿 ⑧經驗（程式註解仍可能出現）。
+

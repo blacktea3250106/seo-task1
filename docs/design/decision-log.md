@@ -1105,3 +1105,4 @@
 - 判讀：證明整條流程能在 Hermes 上跑完，但只有 1 輪、未用 Grader Agent 評可信技術數，不和模擬成績表比。成績表待 API 額度恢復後用 Hermes 重跑。
 - 順手修：README「Harness 實驗結果」有一段重複的舊成績表（Opus 只有 3 輪），已刪除。
 - 使用者決定：sim 執行器和 Hermes 實跑走同一套 Tool、審查、經驗程式，文件不再反覆強調「模擬，非 Hermes」；README 只留一行說明批次實驗用 sim 執行器。
+- 使用者認為 Task1 README 結構不如 Task2：改照 Task2 骨架（快速開始 → 系統怎麼運作 → 符合題目要求 → 實驗結果 → 限制 → 4 週 → 常見問題 → 題目原文），手動命令、輸出檔、專案結構移到 `docs/usage.md`，Glossary 移到 `docs/glossary.md`；Demo Video 改用 GitHub user-attachments 網址，可在 README 內直接播放。
