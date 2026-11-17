@@ -1,0 +1,580 @@
+{
+ "at": "2026-11-17T21:18:15+0800",
+ "steps": [
+  {
+   "n": 1,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "先看首頁 title/H1/JSON-LD/追蹤碼與關鍵字定位",
+   "evidence_ids": [
+    "E-0043",
+    "E-0059"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 2,
+   "tool": "sitemap_tree",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-001 建 sitemap 資料庫以分析大分區",
+   "evidence_ids": [
+    "E-0101"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 3,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-002 註冊日 2026 但存檔自 2020，查舊站網址樣式",
+   "evidence_ids": [
+    "E-0103",
+    "E-0104"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 4,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "EXP-001 看量產頁群網址樣式",
+   "evidence_ids": [
+    "E-0105"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 5,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "EXP-001 搜指定關鍵字在 sitemap 的頁",
+   "evidence_ids": [
+    "E-0106"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 6,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-001 找選單「線上娛樂城推薦」與外連 CTA",
+   "evidence_ids": [
+    "E-0043",
+    "E-0107"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 7,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "EXP-001 找 3A娛樂城 變體頁",
+   "evidence_ids": [
+    "E-0108"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 8,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/"
+   },
+   "why": "EXP-001 看選單入口頁",
+   "evidence_ids": [
+    "E-0109",
+    "E-0110"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 9,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "EXP-001 看指定關鍵字頁模板",
+   "evidence_ids": [
+    "E-0111",
+    "E-0112"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 10,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "EXP-001 看 CTA rel 與推廣參數",
+   "evidence_ids": [
+    "E-0111",
+    "E-0113"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 11,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城出金"
+   },
+   "why": "EXP-001 比對關鍵字變體頁模板",
+   "evidence_ids": [
+    "E-0114",
+    "E-0115"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 12,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/娛樂城"
+   },
+   "why": "EXP-001 看主關鍵字「娛樂城」頁",
+   "evidence_ids": [
+    "E-0116",
+    "E-0117"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 13,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/robots.txt"
+   },
+   "why": "EXP-001 核對 /wordcup/sitemap.xml 是否列在 robots",
+   "evidence_ids": [
+    "E-0118"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 14,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "EXP-003 看 last-modified/age/快取標頭，判斷頁首更新日是否快取副作用",
+   "evidence_ids": [
+    "E-0119"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 15,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "第二大分區內容是什麼",
+   "evidence_ids": [
+    "E-0120"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 16,
+   "tool": "text_match",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城出金"
+   },
+   "why": "EXP-003 比對頁首更新日與 JSON-LD 日期",
+   "evidence_ids": [
+    "E-0114",
+    "E-0121"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 17,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/2kAPB2a"
+   },
+   "why": "EXP-002/EXP-004 看舊網址現況：失效、補斜線或被接住",
+   "evidence_ids": [
+    "E-0134"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 18,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-002 讀舊首頁確認舊站主題",
+   "evidence_ids": [
+    "E-0135",
+    "E-0136"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 19,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/2kAPB2a/"
+   },
+   "why": "EXP-004 第二跳：補斜線後最終落點",
+   "evidence_ids": [
+    "E-0142"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 20,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "web.archive.org",
+    "path": "/web/20240525015210id_/https://2030.tw/"
+   },
+   "why": "EXP-002 舊站主題",
+   "evidence_ids": [
+    "E-0135",
+    "E-0143"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 21,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/2kAPB2a/"
+   },
+   "why": "EXP-004 舊短碼最終頁 title/canonical",
+   "evidence_ids": [
+    "E-0137",
+    "E-0144"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 22,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/article/Generative-AI-44-demeterGPT/"
+   },
+   "why": "EXP-004 舊文章網址最終頁",
+   "evidence_ids": [
+    "E-0141",
+    "E-0145"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 23,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/5G_Taiwan/"
+   },
+   "why": "EXP-004 舊分類網址最終頁",
+   "evidence_ids": [
+    "E-0139",
+    "E-0146"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 24,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "EXP-002 sitemap 中沿用舊站 /article/ 舊網址的有哪些",
+   "evidence_ids": [
+    "E-0147"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 25,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/taiwanplus/mlb-live-20260822-sf-vs-bos/"
+   },
+   "why": "第二大分區量產賽事頁模板",
+   "evidence_ids": [
+    "E-0148",
+    "E-0149"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 26,
+   "tool": "web_search",
+   "target": {
+    "domain": "web_search",
+    "path": "\"2030.tw\" 娛樂城"
+   },
+   "why": "確認搜尋工具是否恢復，找外部提及",
+   "evidence_ids": [
+    "E-0150"
+   ],
+   "ok": false,
+   "light_test_of": null
+  },
+  {
+   "n": 27,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-002 舊站是否有 taiwanplus/digi_taiwan 等分類名，新站沿用",
+   "evidence_ids": [
+    "E-0151",
+    "E-0152"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 28,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "EXP-002 sitemap 中舊短碼頁數量",
+   "evidence_ids": [
+    "E-0153"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 29,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "確認娛樂城頁 FAQPage 與錯置的 MLB 實體",
+   "evidence_ids": [
+    "E-0111",
+    "E-0154"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 31,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "EXP-003 重抓同一頁看快取標頭與日期是否變動（審查 R1/R2）",
+   "evidence_ids": [
+    "E-0155"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 32,
+   "tool": "domain_info",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "審查 R10：即時 RDAP＋WHOIS 交叉確認註冊時間",
+   "evidence_ids": [
+    "E-0167"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 33,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/2kRmVSF"
+   },
+   "why": "EXP-004 審查 R11：看原始 301 Location",
+   "evidence_ids": [
+    "E-0168"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 34,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/AI_Taiwan"
+   },
+   "why": "EXP-004 審查 R11：看原始 301 Location",
+   "evidence_ids": [
+    "E-0169"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 35,
+   "tool": "text_match",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "EXP-003 同一份即時抓取裡核對日期與 generator（審查 R1/R2/R7）",
+   "evidence_ids": [
+    "E-0155",
+    "E-0170"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 36,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/article/smart-nation-70/"
+   },
+   "why": "EXP-004 審查 R12：404 舊網址改補斜線/小寫重試",
+   "evidence_ids": [
+    "E-0178"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 37,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/taiwanplus/mlb-live-20260822-sf-vs-bos/"
+   },
+   "why": "審查 R9/R17：賽事頁外連 rel 與是否連到 /wordcup/",
+   "evidence_ids": [
+    "E-0148",
+    "E-0179"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 38,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "EXP-002 sitemap 中沿用舊文章 slug 的頁",
+   "evidence_ids": [
+    "E-0180"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 39,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/娛樂城"
+   },
+   "why": "EXP-001 審查 R4：相關推薦是否站內互連",
+   "evidence_ids": [
+    "E-0116",
+    "E-0181"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 40,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/"
+   },
+   "why": "審查 R5：列表頁分頁數",
+   "evidence_ids": [
+    "E-0109",
+    "E-0182"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 41,
+   "tool": "web_search",
+   "target": {
+    "domain": "web_search",
+    "path": "site:2030.tw 3a娛樂城"
+   },
+   "why": "審查 R13：換查詢再試一次搜尋",
+   "evidence_ids": [
+    "E-0183"
+   ],
+   "ok": false,
+   "light_test_of": null
+  },
+  {
+   "n": 42,
+   "tool": "text_match",
+   "target": {
+    "domain": "web.archive.org",
+    "path": "/web/20240525015210id_/https://2030.tw/"
+   },
+   "why": "EXP-002 審查 R10：確認舊首頁 DIGI⁺ 與政府外連",
+   "evidence_ids": [
+    "E-0135",
+    "E-0184"
+   ],
+   "ok": true,
+   "light_test_of": null
+  }
+ ]
+}

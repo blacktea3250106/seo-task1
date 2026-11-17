@@ -1,0 +1,205 @@
+{
+ "at": "2026-11-17T21:18:15+0800",
+ "rubric": "2030-rubric-v1",
+ "total": 6.0,
+ "max": 14,
+ "marks": "ynynyyynnynnnn",
+ "dimensions": {
+  "完整度": {
+   "score": 6.0,
+   "max": 14,
+   "marks": "ynynyyynnynnnn"
+  },
+  "正確度": {
+   "wrong_items": [],
+   "check_issues_left": [],
+   "rejections": 0
+  },
+  "誠實度": {
+   "absolute_scoped_2ev": {
+    "ok": 0,
+    "of": 6,
+    "rate": 0.0
+   },
+   "inference_with_limits": {
+    "ok": 6,
+    "of": 6,
+    "rate": 1.0
+   },
+   "unknowns": 7
+  },
+  "可追溯": {
+   "claims_with_existing_evidence": {
+    "ok": 20,
+    "of": 20,
+    "rate": 1.0
+   }
+  },
+  "建議有根據": {
+   "actions_based_on_valid_claims": {
+    "ok": 5,
+    "of": 5,
+    "rate": 1.0
+   }
+  },
+  "新發現": {
+   "claims_outside_14": 9,
+   "list_for_human": [
+    "ON-4：這三頁的標題結構完全一樣，網址又是逐字展開的關鍵字變體，推測 /wordcup/ 大部分頁面是同一個模板加關鍵字清單批次產生的。各頁開場會換人設（阿豪、小李、小",
+    "ON-6：3a娛樂城頁的 CTA（例如「立即註冊領取優惠」）出現 4 次，連到外部娛樂城網域並帶 ?st=wg2030 參數，rel 是 nofollow noopene",
+    "ON-8：同一次即時抓取裡，CDN 的 last-modified 是 Sat, 14 Nov 2026 21:42:35 GMT（台灣時間 11/15），和 JSON-",
+    "ON-10：sitemap 可能沒有反映現況：/taiwanplus/ 和 /mlb/ 的 lastmod 停在 2026-08-21，但站上已有 10 月底的賽事頁，標籤",
+    "ON-11：3a娛樂城頁 HTML 的 generator 是 WordPress 7.0.1，首頁和賽事頁是 WordPress 7.1.4。",
+    "OFF-2：這個網域很可能在舊的政府溝通平台停用後換了經營者，也就是過期網域再利用。",
+    "OFF-3：舊站網址目前的狀況：/2kAPB2a、/2kRmVSF、/5G_Taiwan、/AI_Taiwan 都是 301 到補了斜線的同一路徑（2kRmVSF 和 AI",
+    "OFF-5：也有舊網址沒有被接住。/article/smart-taiwan-02-1-audrey-tang、/article/Smart-Nation-70、/arti",
+    "OFF-7：抽查的賽事頁裡，Facebook／Twitter 連結、分享按鈕和外部註冊 CTA 都是 nofollow，只有側欄一個 youtu.be 連結沒有 rel。"
+   ],
+   "note": "只列出不屬於 14 項的主張；是否為真且有價值要人工看"
+  }
+ },
+ "judged_wrong": [],
+ "key_finding": {
+  "claim_id": "ON-13",
+  "rubric_items": [
+   "T03"
+  ],
+  "evidence_id": "E-0044",
+  "calls": 0,
+  "elapsed_s": 0.0
+ },
+ "prev_run": "<repo>/reports/sequence/c71-opus/sim-r2",
+ "new_findings": {
+  "count": 0,
+  "items": []
+ },
+ "wrong_count": 0,
+ "cost": {
+  "tool_calls": 46,
+  "api_calls": 21,
+  "tokens": 2612009,
+  "elapsed_s_reference": 547.9
+ },
+ "untrusted_run": null,
+ "review_outcomes": [
+  {
+   "id": "R1",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R2",
+   "source": "審查",
+   "claim_id": "ON-8",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R3",
+   "source": "審查",
+   "claim_id": "ON-7",
+   "outcome": "補查後修正",
+   "needs_evidence": false
+  },
+  {
+   "id": "R4",
+   "source": "審查",
+   "claim_id": "ON-3",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R5",
+   "source": "審查",
+   "claim_id": "ON-1",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R6",
+   "source": "審查",
+   "claim_id": "ON-9",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R7",
+   "source": "審查",
+   "claim_id": "ON-10",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R8",
+   "source": "審查",
+   "claim_id": "ON-11",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R9",
+   "source": "審查",
+   "claim_id": "OFF-5",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R10",
+   "source": "審查",
+   "claim_id": "OFF-1",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R11",
+   "source": "審查",
+   "claim_id": "OFF-2",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R12",
+   "source": "審查",
+   "claim_id": "OFF-3",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R13",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R14",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R15",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R16",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R17",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  }
+ ]
+}

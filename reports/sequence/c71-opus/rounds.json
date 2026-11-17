@@ -1,0 +1,116 @@
+{
+ "at": "2026-11-17T21:39:26+0800",
+ "rows": [
+  {
+   "round": 1,
+   "run": "sim-r1",
+   "status": "passed",
+   "score": 8.0,
+   "max": 14,
+   "wrong_count": 0,
+   "cost": {
+    "tool_calls": 46,
+    "api_calls": 23,
+    "tokens": 2251378,
+    "elapsed_s_reference": 633.3
+   },
+   "review_outcomes": {
+    "補查後修正": 9,
+    "降成推論": 0,
+    "沒處理": 0,
+    "需人工判定": 9
+   },
+   "compare": true,
+   "untrusted_run": null
+  },
+  {
+   "round": 2,
+   "run": "sim-r2",
+   "status": "passed",
+   "score": 6.5,
+   "max": 14,
+   "wrong_count": 0,
+   "cost": {
+    "tool_calls": 52,
+    "api_calls": 24,
+    "tokens": 3032271,
+    "elapsed_s_reference": 564.8
+   },
+   "review_outcomes": {
+    "補查後修正": 9,
+    "降成推論": 0,
+    "沒處理": 0,
+    "需人工判定": 6
+   },
+   "compare": true,
+   "untrusted_run": null
+  },
+  {
+   "round": 3,
+   "run": "sim-r3",
+   "status": "passed",
+   "score": 6.0,
+   "max": 14,
+   "wrong_count": 0,
+   "cost": {
+    "tool_calls": 46,
+    "api_calls": 21,
+    "tokens": 2612009,
+    "elapsed_s_reference": 547.9
+   },
+   "review_outcomes": {
+    "補查後修正": 10,
+    "降成推論": 0,
+    "沒處理": 0,
+    "需人工判定": 7
+   },
+   "compare": true,
+   "untrusted_run": null
+  },
+  {
+   "round": 4,
+   "run": "sim-r4",
+   "status": "passed",
+   "score": 6.0,
+   "max": 14,
+   "wrong_count": 0,
+   "cost": {
+    "tool_calls": 47,
+    "api_calls": 25,
+    "tokens": 2863843,
+    "elapsed_s_reference": 549.9
+   },
+   "review_outcomes": {
+    "補查後修正": 12,
+    "降成推論": 0,
+    "沒處理": 0,
+    "需人工判定": 11
+   },
+   "compare": true,
+   "untrusted_run": null
+  },
+  {
+   "round": 5,
+   "run": "sim-r5",
+   "status": "passed",
+   "score": 6.5,
+   "max": 14,
+   "wrong_count": 0,
+   "cost": {
+    "tool_calls": 49,
+    "api_calls": 26,
+    "tokens": 3001565,
+    "elapsed_s_reference": 675.3
+   },
+   "review_outcomes": {
+    "補查後修正": 7,
+    "降成推論": 0,
+    "沒處理": 0,
+    "需人工判定": 12
+   },
+   "compare": true,
+   "untrusted_run": null
+  }
+ ],
+ "note": "每輪單獨評分；不列入比較＝untrusted_run；秒數只當參考；累計表只當參考（決策 #59）"
+}

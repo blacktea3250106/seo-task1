@@ -1,0 +1,54 @@
+{
+ "at": "2026-11-17T21:00:47+0800",
+ "status": "done",
+ "results": [
+  {
+   "id": "EXP-001",
+   "result": "照走",
+   "avoid_reason": "",
+   "verdict": "有用到＋有新東西",
+   "evidence_ids": [
+    "E-0100"
+   ],
+   "calls": [
+    1
+   ]
+  },
+  {
+   "id": "EXP-002",
+   "result": "照走",
+   "avoid_reason": "",
+   "verdict": "有用到＋有新東西",
+   "evidence_ids": [
+    "E-0107",
+    "E-0108",
+    "E-0109",
+    "E-0110",
+    "E-0112",
+    "E-0113",
+    "E-0114",
+    "E-0115"
+   ],
+   "calls": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "id": "EXP-003",
+   "result": "照走",
+   "avoid_reason": "",
+   "verdict": "沒用到"
+  },
+  {
+   "id": "EXP-004",
+   "result": "照走",
+   "avoid_reason": "",
+   "verdict": "沒用到"
+  }
+ ],
+ "followed_pairs": [],
+ "blocked": []
+}

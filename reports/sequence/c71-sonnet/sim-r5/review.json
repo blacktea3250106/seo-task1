@@ -1,0 +1,157 @@
+{
+  "status": "passed",
+  "items": [
+    {
+      "source": "審查",
+      "sentence": "on3：兩個品牌頁「2 個 H1、6 個相同的 H2 模板…title 與 description 也是模板句型」",
+      "problem": "引用的 E-0107、E-0109 只有可見文字和 head 欄位，看不出 H1 數量、標題層級，也沒有 meta description。兩頁 title 句型不同：「3a娛樂城｜遊戲種類、優惠、出金全攻略」與「富遊娛樂城評價｜台灣玩家首選平台」。說「開頭都有老實說／坦白說」也不準：富遊開頭是「其實不少玩家私訊小編問」。只有 2 頁樣本，卻把 H1／H2 結構與 title、description 寫成事實。",
+      "evidence_ids": [
+        "E-0107",
+        "E-0109"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R1"
+    },
+    {
+      "source": "審查",
+      "sentence": "on4：品牌頁內部連結密集，「相關推薦」連到其他品牌與長尾頁（如 3a娛樂城出金速度、tu娛樂城app下載）",
+      "problem": "證據只有可見文字，沒有 link 清單，看不出這些詞是不是真的連結、連到哪個網址、目標頁是否存在。「站內網狀連結」是從文字推出來的，不是讀到連結。",
+      "evidence_ids": [
+        "E-0107",
+        "E-0109",
+        "E-0105"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R2"
+    },
+    {
+      "source": "審查",
+      "sentence": "on5：「article:section 與 tag 繼承自 MLB 戰績文章…Article 的日期寫 2026-11（寫的是更新日）」",
+      "problem": "E-0105/0107/0109 的 og 欄位只有 type、url、published_time、modified_time，沒有 article:section 或 tag，這部分無證據。JSON-LD 實際是 datePublished=2026-11-10、dateModified=2026-11-15，並非只寫「2026-11」。og 的 2026-07-12 剛好等於混入的 MLB 文章日期，較像整個 og 區塊繼承自該文章，報告沒有點出。",
+      "evidence_ids": [
+        "E-0107",
+        "E-0109",
+        "E-0105"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R3"
+    },
+    {
+      "source": "審查",
+      "sentence": "on6：「/taiwanplus/ 與 /mlb/ 大量是每日 MLB 直播／戰績模板文章」「選單有線上娛樂城推薦直連 /wordcup/」",
+      "problem": "首頁只看得到 MLB 文章標題，沒有 /taiwanplus/（1820 個網址）的網址或內容樣本，卻把它歸為 MLB 模板文章。報告的 unknowns 自己也說這區未逐頁檢查。選單文字「線上娛樂城推薦」也看不出連結目標。「提供新鮮度與流量入口」沒有流量證據。",
+      "evidence_ids": [
+        "E-0101",
+        "E-0100"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R4"
+    },
+    {
+      "source": "審查",
+      "sentence": "off1：CTA 按鈕全部帶 rel=nofollow noopener，指向同一個外部主機，網址含 ?st=wg2030，列表頁與首頁另有 wg1888 推廣網域",
+      "problem": "引用的四份證據（E-0116、E-0107、E-0109、E-0105）都只有可見文字與 head 欄位，沒有任何連結屬性、外部主機或追蹤參數，wg2030、wg1888 這些字串都不在其中。「3 個 body、1 個 sidebar」也看不出 sidebar 那一個。E-0116 與 E-0107 是同一網址的重複抓取，不算獨立佐證。「導流目標一致」和 action 4 的 rel 建議都建立在讀不到的資料上。",
+      "evidence_ids": [
+        "E-0116",
+        "E-0107",
+        "E-0109",
+        "E-0105"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R5"
+    },
+    {
+      "source": "審查",
+      "sentence": "off2／summary：RDAP 註冊日是 2026-04-15，之後由新用途接手",
+      "problem": "首頁 JSON-LD 的 datePublished 是 2026-02-11，早於註冊日 2026-04-15。這與「4 月註冊後才由新站接手」的時間線衝突，報告沒處理。RDAP 註冊日只代表目前這次註冊，Wayback 2026-01 為 301，更像更換過主人或轉址，但 2025-11 到 2026-04 的空窗細節沒有證據。E-0055 為快照。",
+      "evidence_ids": [
+        "E-0055",
+        "E-0101",
+        "E-0112",
+        "E-0114"
+      ],
+      "needs_evidence": true,
+      "stale": true,
+      "id": "R6"
+    },
+    {
+      "source": "審查",
+      "sentence": "off3：新站的 /article/ 還沿用舊的政策文章網址（如 space-tech-003-industry），選單把它們改標成世界盃標題",
+      "problem": "證據裡完全沒有 space-tech-003-industry 這個網址。E-0100 只給 /article/ 有 17 個網址，E-0101 選單只有標題文字，E-0114 也沒列出舊文章網址。「沿用舊網址、改標題」是無依據的具體敘述，後面「繼承舊權重」的推測也因此站不穩。",
+      "evidence_ids": [
+        "E-0101",
+        "E-0114",
+        "E-0100"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R7"
+    },
+    {
+      "source": "審查",
+      "sentence": "action 1：「對方品牌頁是相同模板，沒有可驗證的實測資料；在同一個關鍵字上用有證據的內容有機會勝出」",
+      "problem": "沒有任何 SERP、排名、流量資料（DuckDuckGo 查詢失敗），不知道對方在這些詞上是否有排名，也不知道競爭強度。「有機會勝出」是無依據的推論。「相同模板」只抽 2 頁，且 title 並不相同。",
+      "evidence_ids": [
+        "E-0107",
+        "E-0109"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R8"
+    },
+    {
+      "source": "審查",
+      "sentence": "action 2：「優先挑對方網址已出現的長尾變體」；對方 2300 多個網址覆蓋品牌長尾，「我們要用更少但更紮實的頁面對應高價值變體」",
+      "problem": "對方網址存在不代表有搜尋量或排名，「高價值變體」沒有任何量化資料可選。沒有關鍵字量或排名資料，這個優先順序沒有依據。",
+      "evidence_ids": [
+        "E-0103",
+        "E-0104"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R9"
+    },
+    {
+      "source": "審查",
+      "sentence": "action 3：建立體育內容每日更新機制並導入娛樂城頁，「複製內容新鮮度＋站內導流的結構」",
+      "problem": "只依據 on7 的策略推測（報告自己承認無法證明頁面有排名）。沒有證據顯示日更 MLB 內容帶來權重或把流量導向 /wordcup/，建議等於複製一個沒被驗證有效的做法。",
+      "evidence_ids": [
+        "E-0100",
+        "E-0101",
+        "E-0105"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R10"
+    },
+    {
+      "source": "審查",
+      "sentence": "action 5：「對方的優勢可能來自舊網域，我們要用自己的方式建立權威」",
+      "problem": "沒有外鏈資料，也沒有對方有排名優勢的證據。「對方有優勢」與「優勢來自舊網域」都是假設，其依據 off3 又包含無證據的網址沿用敘述。",
+      "evidence_ids": [
+        "E-0114",
+        "E-0055"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R11"
+    }
+  ],
+  "cost": {
+    "api_calls": 1,
+    "tokens": {
+      "input": 49433,
+      "output": 6723,
+      "total": 56156
+    },
+    "elapsed_s": 50.7
+  },
+  "tools_offered": [],
+  "error": null,
+  "at": "2026-11-17T20:59:58+0800"
+}

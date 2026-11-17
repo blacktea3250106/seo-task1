@@ -1,0 +1,204 @@
+{
+ "at": "2026-11-17T20:59:02+0800",
+ "rubric": "2030-rubric-v1",
+ "total": 8.0,
+ "max": 14,
+ "marks": "yyynyyynnyynnn",
+ "dimensions": {
+  "完整度": {
+   "score": 8.0,
+   "max": 14,
+   "marks": "yyynyyynnyynnn"
+  },
+  "正確度": {
+   "wrong_items": [],
+   "check_issues_left": [],
+   "rejections": 0
+  },
+  "誠實度": {
+   "absolute_scoped_2ev": {
+    "ok": 0,
+    "of": 5,
+    "rate": 0.0
+   },
+   "inference_with_limits": {
+    "ok": 5,
+    "of": 5,
+    "rate": 1.0
+   },
+   "unknowns": 8
+  },
+  "可追溯": {
+   "claims_with_existing_evidence": {
+    "ok": 15,
+    "of": 15,
+    "rate": 1.0
+   }
+  },
+  "建議有根據": {
+   "actions_based_on_valid_claims": {
+    "ok": 5,
+    "of": 5,
+    "rate": 1.0
+   }
+  },
+  "新發現": {
+   "claims_outside_14": 3,
+   "list_for_human": [
+    "ON-7b：這些頁的 og 時間和混進來的 MLB 實體，比較可能是模板從某個 MLB 頁繼承來的。正文的「更新」日期可能是動態產生或快取導致，不代表內容真的有更新。",
+    "ON-8：/taiwanplus/ 的 sitemap 樣本都是 mlb-live-YYYYMMDD-隊伍-vs-隊伍。抽查的 1 頁 title 是「【MLB直播】… ",
+    "OFF-1b：這個網域很可能是政府計畫站停用後過期，再被新主人註冊、改成博弈內容站。"
+   ],
+   "note": "只列出不屬於 14 項的主張；是否為真且有價值要人工看"
+  }
+ },
+ "judged_wrong": [],
+ "key_finding": {
+  "claim_id": "OFF-1",
+  "rubric_items": [
+   "T05",
+   "T06"
+  ],
+  "evidence_id": "E-0058",
+  "calls": 0,
+  "elapsed_s": 0.0
+ },
+ "prev_run": null,
+ "new_findings": null,
+ "wrong_count": 0,
+ "cost": {
+  "tool_calls": 46,
+  "api_calls": 23,
+  "tokens": 2251378,
+  "elapsed_s_reference": 633.3
+ },
+ "untrusted_run": null,
+ "review_outcomes": [
+  {
+   "id": "R1",
+   "source": "審查",
+   "claim_id": "ON-6",
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R2",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R3",
+   "source": "審查",
+   "claim_id": "ON-8",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R4",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R5",
+   "source": "審查",
+   "claim_id": "ON-9",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R6",
+   "source": "審查",
+   "claim_id": "ON-4",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R7",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R8",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R9",
+   "source": "審查",
+   "claim_id": "ON-7",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R10",
+   "source": "審查",
+   "claim_id": "OFF-2",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R11",
+   "source": "審查",
+   "claim_id": "OFF-2",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R12",
+   "source": "審查",
+   "claim_id": "OFF-3",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R13",
+   "source": "審查",
+   "claim_id": "OFF-3",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R14",
+   "source": "審查",
+   "claim_id": "OFF-1",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R15",
+   "source": "審查",
+   "claim_id": "OFF-4",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R16",
+   "source": "審查",
+   "claim_id": "OFF-4",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R17",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R18",
+   "source": "審查",
+   "claim_id": "ON-2",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  }
+ ]
+}

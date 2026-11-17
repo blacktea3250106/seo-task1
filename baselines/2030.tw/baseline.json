@@ -1,0 +1,2734 @@
+{
+  "domain": "2030.tw",
+  "site": "https://2030.tw",
+  "keywords": [
+    "娛樂城",
+    "3A娛樂城"
+  ],
+  "sources": {
+    "sitemap": {
+      "label": "robots＋全部 sitemap",
+      "tool": "sitemap_tree",
+      "args": {
+        "action": "build",
+        "site": "https://2030.tw"
+      },
+      "ok": true,
+      "fetched_at": "2026-11-17T09:40:29+0800",
+      "evidence_ids": [
+        "E-0001",
+        "E-0002",
+        "E-0003",
+        "E-0004",
+        "E-0005",
+        "E-0006",
+        "E-0007",
+        "E-0008",
+        "E-0009",
+        "E-0010",
+        "E-0011",
+        "E-0012",
+        "E-0013",
+        "E-0014",
+        "E-0015",
+        "E-0016",
+        "E-0017",
+        "E-0018",
+        "E-0019",
+        "E-0020",
+        "E-0021",
+        "E-0022",
+        "E-0023",
+        "E-0024",
+        "E-0025",
+        "E-0026",
+        "E-0027",
+        "E-0028",
+        "E-0029",
+        "E-0030",
+        "E-0031",
+        "E-0032",
+        "E-0033",
+        "E-0034",
+        "E-0035",
+        "E-0036",
+        "E-0037",
+        "E-0038",
+        "E-0039",
+        "E-0040",
+        "E-0041",
+        "E-0042"
+      ],
+      "derived_evidence_id": "E-0042",
+      "sha256": "473fa9a440434d138f6bf9f24c19aa53c630f5cc088b5263f2e59966838af512",
+      "result": {
+        "ok": true,
+        "url_rows": 4869,
+        "distinct_urls": 4676,
+        "sections": [
+          {
+            "section": "/wordcup/",
+            "urls": 2503,
+            "share": 0.514,
+            "lastmod_min": "2026-07-17",
+            "lastmod_max": "2026-08-16"
+          },
+          {
+            "section": "/taiwanplus/",
+            "urls": 1850,
+            "share": 0.38,
+            "lastmod_min": "2026-04-21T03:05:39+00:00",
+            "lastmod_max": "2026-08-21T06:08:29+00:00"
+          },
+          {
+            "section": "/mlb/",
+            "urls": 316,
+            "share": 0.065,
+            "lastmod_min": "2026-04-24T12:53:55+00:00",
+            "lastmod_max": "2026-08-21T07:31:24+00:00"
+          },
+          {
+            "section": "/digi_taiwan/",
+            "urls": 77,
+            "share": 0.016,
+            "lastmod_min": "2026-04-17T08:18:51+00:00",
+            "lastmod_max": "2026-07-12T00:43:57+00:00"
+          },
+          {
+            "section": "/article/",
+            "urls": 18,
+            "share": 0.004,
+            "lastmod_min": "2026-04-17T05:03:13+00:00",
+            "lastmod_max": "2026-06-02T07:41:48+00:00"
+          },
+          {
+            "section": "/2026-worldcup/",
+            "urls": 14,
+            "share": 0.003,
+            "lastmod_min": "2026-05-26T03:03:10+00:00",
+            "lastmod_max": "2026-06-04T12:00:50+00:00"
+          },
+          {
+            "section": "/2026-fifa-world-cup/",
+            "urls": 8,
+            "share": 0.002,
+            "lastmod_min": "2026-05-26T03:26:22+00:00",
+            "lastmod_max": "2026-06-02T07:41:48+00:00"
+          },
+          {
+            "section": "/world-cup-betting-guide/",
+            "urls": 7,
+            "share": 0.001,
+            "lastmod_min": "2026-06-01T08:44:23+00:00",
+            "lastmod_max": "2026-06-02T07:41:48+00:00"
+          },
+          {
+            "section": "/ai_taiwan/",
+            "urls": 6,
+            "share": 0.001,
+            "lastmod_min": "2026-04-20T07:04:04+00:00",
+            "lastmod_max": "2026-05-14T06:17:22+00:00"
+          },
+          {
+            "section": "/topic/",
+            "urls": 6,
+            "share": 0.001,
+            "lastmod_min": "2026-04-17T08:17:24+00:00",
+            "lastmod_max": "2026-07-12T00:43:57+00:00"
+          },
+          {
+            "section": "/world-cup-2026-predictions/",
+            "urls": 6,
+            "share": 0.001,
+            "lastmod_min": "2026-05-31T09:45:52+00:00",
+            "lastmod_max": "2026-06-04T11:57:38+00:00"
+          },
+          {
+            "section": "/world-cup-sports-betting/",
+            "urls": 6,
+            "share": 0.001,
+            "lastmod_min": "2026-05-31T09:50:27+00:00",
+            "lastmod_max": "2026-06-04T11:53:17+00:00"
+          },
+          {
+            "section": "/iftomm2015cd/",
+            "urls": 5,
+            "share": 0.001,
+            "lastmod_min": "2026-04-28T09:46:12+00:00",
+            "lastmod_max": "2026-07-12T06:08:42+00:00"
+          },
+          {
+            "section": "/b5g/",
+            "urls": 4,
+            "share": 0.001,
+            "lastmod_min": "2026-04-20T07:06:53+00:00",
+            "lastmod_max": "2026-04-21T03:24:57+00:00"
+          },
+          {
+            "section": "/pretech/",
+            "urls": 4,
+            "share": 0.001,
+            "lastmod_min": "2026-04-20T08:01:58+00:00",
+            "lastmod_max": "2026-05-14T06:27:43+00:00"
+          },
+          {
+            "section": "/5g_taiwan/",
+            "urls": 3,
+            "share": 0.001,
+            "lastmod_min": "2026-04-21T02:49:37+00:00",
+            "lastmod_max": "2026-07-12T06:08:42+00:00"
+          },
+          {
+            "section": "/ai/",
+            "urls": 3,
+            "share": 0.001,
+            "lastmod_min": "2026-04-20T07:02:17+00:00",
+            "lastmod_max": "2026-04-20T09:44:31+00:00"
+          },
+          {
+            "section": "/uncategorized/",
+            "urls": 2,
+            "share": 0.0,
+            "lastmod_min": "2026-04-21T03:36:21+00:00",
+            "lastmod_max": "2026-04-21T03:36:21+00:00"
+          },
+          {
+            "section": "/world-cup-schedule/",
+            "urls": 2,
+            "share": 0.0,
+            "lastmod_min": "2026-06-01T11:02:44+00:00",
+            "lastmod_max": "2026-06-01T11:02:44+00:00"
+          },
+          {
+            "section": "/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-23T02:11:48+00:00",
+            "lastmod_max": "2026-04-23T02:11:48+00:00"
+          },
+          {
+            "section": "/2026-nba-ai-e8-b3-bd-e4-ba-8b-e9-a0-90-e6-b8-ac-e7-b5-82-e7-ab-af-ef-bc-9a-e5-a4-a7-e6-95-b8-e6-93-9a-e8-a7-a3-e6-a7-8b-e5-8d-b3-e6-99-82-e6-88-b0-e6-b3-81-e3-80-81-e5-ad-a3-e5-be-8c-e8-b3-bd/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T05:48:12+00:00",
+            "lastmod_max": "2026-04-20T05:48:12+00:00"
+          },
+          {
+            "section": "/2k4xxza/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T05:48:41+00:00",
+            "lastmod_max": "2026-04-20T05:48:41+00:00"
+          },
+          {
+            "section": "/2kapb2a/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-21T05:02:33+00:00",
+            "lastmod_max": "2026-04-21T05:02:33+00:00"
+          },
+          {
+            "section": "/2kextwv/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T07:58:49+00:00",
+            "lastmod_max": "2026-04-20T07:58:49+00:00"
+          },
+          {
+            "section": "/2kinhbc/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T07:57:15+00:00",
+            "lastmod_max": "2026-04-20T07:57:15+00:00"
+          },
+          {
+            "section": "/2kkflq7/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T07:56:33+00:00",
+            "lastmod_max": "2026-04-20T07:56:33+00:00"
+          },
+          {
+            "section": "/2kkx0cx/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T06:15:39+00:00",
+            "lastmod_max": "2026-04-20T06:15:39+00:00"
+          },
+          {
+            "section": "/2knx0sr/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T05:58:36+00:00",
+            "lastmod_max": "2026-04-20T05:58:36+00:00"
+          },
+          {
+            "section": "/2knx84n/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T07:59:16+00:00",
+            "lastmod_max": "2026-04-20T07:59:16+00:00"
+          },
+          {
+            "section": "/2knxfnl/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T06:34:48+00:00",
+            "lastmod_max": "2026-04-20T06:34:48+00:00"
+          },
+          {
+            "section": "/2krmvsf/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T07:59:48+00:00",
+            "lastmod_max": "2026-04-20T07:59:48+00:00"
+          },
+          {
+            "section": "/2lond3x/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T06:26:02+00:00",
+            "lastmod_max": "2026-04-20T06:26:02+00:00"
+          },
+          {
+            "section": "/2lu8mem/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T06:34:13+00:00",
+            "lastmod_max": "2026-04-20T06:34:13+00:00"
+          },
+          {
+            "section": "/2lui3mr/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T04:31:31+00:00",
+            "lastmod_max": "2026-04-20T04:31:31+00:00"
+          },
+          {
+            "section": "/2lxec8c/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T06:34:27+00:00",
+            "lastmod_max": "2026-04-20T06:34:27+00:00"
+          },
+          {
+            "section": "/2lxfjyk/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T06:34:36+00:00",
+            "lastmod_max": "2026-04-20T06:34:36+00:00"
+          },
+          {
+            "section": "/2mjq759/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-20T05:27:30+00:00",
+            "lastmod_max": "2026-04-20T05:27:30+00:00"
+          },
+          {
+            "section": "/community-2/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-17T07:30:54+00:00",
+            "lastmod_max": "2026-04-17T07:30:54+00:00"
+          },
+          {
+            "section": "/community/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-04-17T07:30:54+00:00",
+            "lastmod_max": "2026-04-17T07:30:54+00:00"
+          },
+          {
+            "section": "/home-2/",
+            "urls": 1,
+            "share": 0.0,
+            "lastmod_min": "2026-02-10T22:05:47+00:00",
+            "lastmod_max": "2026-02-10T22:05:47+00:00"
+          }
+        ],
+        "sitemap_files_ok": [
+          {
+            "url": "https://2030.tw/sitemap_index.xml",
+            "status": 200,
+            "kind": "sitemapindex",
+            "n": 6,
+            "parent": null,
+            "found_by": "robots.txt",
+            "evidence_id": "E-0003",
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/category-sitemap.xml",
+            "status": 200,
+            "kind": "urlset",
+            "n": 23,
+            "parent": "https://2030.tw/sitemap_index.xml",
+            "found_by": "sitemap 索引",
+            "evidence_id": "E-0039",
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/local-sitemap.xml",
+            "status": 200,
+            "kind": "urlset",
+            "n": 1,
+            "parent": "https://2030.tw/sitemap_index.xml",
+            "found_by": "sitemap 索引",
+            "evidence_id": "E-0041",
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/news-sitemap.xml",
+            "status": 200,
+            "kind": "urlset",
+            "n": 34,
+            "parent": "https://2030.tw/sitemap_index.xml",
+            "found_by": "sitemap 索引",
+            "evidence_id": "E-0040",
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/page-sitemap.xml",
+            "status": 200,
+            "kind": "urlset",
+            "n": 35,
+            "parent": "https://2030.tw/sitemap_index.xml",
+            "found_by": "sitemap 索引",
+            "evidence_id": "E-0038",
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/post-sitemap1.xml",
+            "status": 200,
+            "kind": "urlset",
+            "n": 1999,
+            "parent": "https://2030.tw/sitemap_index.xml",
+            "found_by": "sitemap 索引",
+            "evidence_id": "E-0036",
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/post-sitemap2.xml",
+            "status": 200,
+            "kind": "urlset",
+            "n": 274,
+            "parent": "https://2030.tw/sitemap_index.xml",
+            "found_by": "sitemap 索引",
+            "evidence_id": "E-0037",
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/sitemap.xml",
+            "status": 200,
+            "kind": "sitemapindex",
+            "n": 6,
+            "parent": null,
+            "found_by": "常見位置",
+            "evidence_id": "E-0004",
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/wp-sitemap.xml",
+            "status": 200,
+            "kind": "sitemapindex",
+            "n": 6,
+            "parent": null,
+            "found_by": "常見位置",
+            "evidence_id": "E-0005",
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/wordcup/sitemap.xml",
+            "status": 200,
+            "kind": "urlset",
+            "n": 2503,
+            "parent": null,
+            "found_by": "資料夾探測",
+            "evidence_id": "E-0031",
+            "note": null
+          }
+        ],
+        "sitemap_files_ok_total": 10,
+        "sitemap_files_missing_or_error": [
+          {
+            "url": "https://2030.tw/2026-fifa-world-cup/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/2026-worldcup/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/2kapb2a/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/2kkflq7/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/2kkx0cx/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/2lond3x/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/2lxec8c/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/ai/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/ai_taiwan/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/article/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/author/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/b5g/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/digi_taiwan/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/iftomm2015cd/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/inclusion/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/mlb%e6%96%b0%e8%81%9e/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/mlb/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/nba%e6%96%b0%e8%81%9e/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/page/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/pretech/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/tag/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/topic/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/uncategorized/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/world-cup-2026-predictions/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/world-cup-betting-guide/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/world-cup-schedule/sitemap.xml",
+            "status": 404,
+            "note": null
+          },
+          {
+            "url": "https://2030.tw/world-cup-sports-betting/sitemap.xml",
+            "status": 404,
+            "note": null
+          }
+        ],
+        "sitemap_files_tried": 39,
+        "queue_left": 0,
+        "folders_probed": [
+          "2026-fifa-world-cup",
+          "2026-worldcup",
+          "2kapb2a",
+          "2kkflq7",
+          "2kkx0cx",
+          "2lond3x",
+          "2lxec8c",
+          "5g_taiwan",
+          "ai",
+          "ai_taiwan",
+          "article",
+          "author",
+          "b5g",
+          "digi_taiwan",
+          "iftomm2015cd",
+          "inclusion",
+          "mlb",
+          "mlb%e6%96%b0%e8%81%9e",
+          "nba%e6%96%b0%e8%81%9e",
+          "page",
+          "pretech",
+          "tag",
+          "taiwanplus",
+          "topic",
+          "uncategorized",
+          "wordcup",
+          "world-cup-2026-predictions",
+          "world-cup-betting-guide",
+          "world-cup-schedule",
+          "world-cup-sports-betting"
+        ]
+      },
+      "error": null
+    },
+    "home_menu": {
+      "label": "首頁選單",
+      "tool": "inspect_page",
+      "args": {
+        "url": "https://2030.tw/",
+        "part": "links",
+        "max_links": 500
+      },
+      "ok": true,
+      "fetched_at": "2026-11-17T09:40:29+0800",
+      "evidence_ids": [
+        "E-0043",
+        "E-0044"
+      ],
+      "derived_evidence_id": "E-0044",
+      "sha256": "2febcd314a8ed50db664f642e6f580f7d143aac7a1aa0eea1e37228402a26a1b",
+      "result": {
+        "ok": true,
+        "evidence_id": "E-0043",
+        "url": "https://2030.tw/",
+        "status": 200,
+        "links": [
+          {
+            "url": "https://2030.tw/",
+            "text": "2030玩運彩瘋世足",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/sports-everywhere-49-tzyy-yuang-shiang/",
+            "text": "2026世界盃討論區",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/smart-recreation-016-jang-hwa-leuafbclidiwar1xngy0u8-cdlf09htsmzblyhnevss33htui-1myg7lhkphjoo79mxgzzu/",
+            "text": "世界盃賽程表",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/space-tech-003-industry/",
+            "text": "世界盃直播",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/space-tech-002-jong-shinn-wu/",
+            "text": "世界盃小組賽",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/the-twin-green-digital-transition-itri-nzsso/",
+            "text": "世界杯足球運彩",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/cultivation-of-innovative-talents-035-moe/",
+            "text": "世界盃運彩玩法",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/digi_taiwan/",
+            "text": "世界盃分析",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/mlb/",
+            "text": "mlb今日戰績",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/",
+            "text": "FIFA2026世界盃足球",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/sports-everywhere-49-tzyy-yuang-shiang/",
+            "text": "2026世界盃討論區",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/responsible-ai-008-audrey-tang/",
+            "text": "2026世足資格賽全攻略：完整解析各區晉級賽制、同分規則與最新戰況",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/the-twin-green-digital-transition-itri-nzsso/",
+            "text": "2026世界杯足球運彩盤口教學",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/space-tech-002-jong-shinn-wu/",
+            "text": "【2026世界盃小組賽】分組名單、對戰表",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/smart-recreation-016-jang-hwa-leuafbclidiwar1xngy0u8-cdlf09htsmzblyhnevss33htui-1myg7lhkphjoo79mxgzzu/",
+            "text": "【2026 世界盃賽程表】完整時間軸",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/cultivation-of-innovative-talents-035-moe/",
+            "text": "2026世界盃懶人包與運彩玩法教程",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/space-tech-003-industry/",
+            "text": "2026 世界盃哪裡看？全台最快世足直播頻道推薦，結合 AI 大數據精準玩運彩",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/generative-ai-44-demetergpt/",
+            "text": "2030 世足 AI 預測專區：2026 奪冠大數據分析",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/generative-ai-45-chang-shing-lee/",
+            "text": "2026 FIFA 世界盃完整指南：賽程表、48 隊名單、分組賽制懶人包",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/wordcup/",
+            "text": "線上娛樂城推薦",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/digi_taiwan/",
+            "text": "世界盃分析",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/mlb/",
+            "text": "mlb今日戰績",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/",
+            "text": "FIFA2026世界盃足球",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/sports-everywhere-49-tzyy-yuang-shiang/",
+            "text": "2026世界盃討論區",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/responsible-ai-008-audrey-tang/",
+            "text": "2026世足資格賽全攻略：完整解析各區晉級賽制、同分規則與最新戰況",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/the-twin-green-digital-transition-itri-nzsso/",
+            "text": "2026世界杯足球運彩盤口教學",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/space-tech-002-jong-shinn-wu/",
+            "text": "【2026世界盃小組賽】分組名單、對戰表",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/smart-recreation-016-jang-hwa-leuafbclidiwar1xngy0u8-cdlf09htsmzblyhnevss33htui-1myg7lhkphjoo79mxgzzu/",
+            "text": "【2026 世界盃賽程表】完整時間軸",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/cultivation-of-innovative-talents-035-moe/",
+            "text": "2026世界盃懶人包與運彩玩法教程",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/space-tech-003-industry/",
+            "text": "2026 世界盃哪裡看？全台最快世足直播頻道推薦，結合 AI 大數據精準玩運彩",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/generative-ai-44-demetergpt/",
+            "text": "2030 世足 AI 預測專區：2026 奪冠大數據分析",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/generative-ai-45-chang-shing-lee/",
+            "text": "2026 FIFA 世界盃完整指南：賽程表、48 隊名單、分組賽制懶人包",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/wordcup/",
+            "text": "線上娛樂城推薦",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/",
+            "text": "",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261031-tb-vs-mil/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261031-tb-vs-mil/",
+            "text": "【MLB直播】2026/10/31 坦帕灣光芒 VS 密爾瓦基釀酒人 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/author/machnage/",
+            "text": "小編妮妮",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261031-tb-vs-mil/",
+            "text": "2026 年 11 月 13 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261029-mil-vs-tb/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261029-mil-vs-tb/",
+            "text": "【MLB直播】2026/10/29 密爾瓦基釀酒人 VS 坦帕灣光芒 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261029-mil-vs-tb/",
+            "text": "2026 年 10 月 30 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261028-mil-vs-tb/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261028-mil-vs-tb/",
+            "text": "【MLB直播】2026/10/28 密爾瓦基釀酒人 VS 坦帕灣光芒 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261028-mil-vs-tb/",
+            "text": "2026 年 10 月 28 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261027-mil-vs-tb/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261027-mil-vs-tb/",
+            "text": "【MLB直播】2026/10/27 密爾瓦基釀酒人 VS 坦帕灣光芒 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261027-mil-vs-tb/",
+            "text": "2026 年 10 月 27 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261025-tb-vs-mil/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261025-tb-vs-mil/",
+            "text": "【MLB直播】2026/10/25 坦帕灣光芒 VS 密爾瓦基釀酒人 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261025-tb-vs-mil/",
+            "text": "2026 年 10 月 26 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261024-tb-vs-mil/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261024-tb-vs-mil/",
+            "text": "【MLB直播】2026/10/24 坦帕灣光芒 VS 密爾瓦基釀酒人 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261024-tb-vs-mil/",
+            "text": "2026 年 10 月 24 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261020-cle-vs-tb/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261020-cle-vs-tb/",
+            "text": "【MLB直播】2026/10/20 克里夫蘭守護者 VS 坦帕灣光芒 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261020-cle-vs-tb/",
+            "text": "2026 年 10 月 20 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261019-tb-vs-cle/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261019-tb-vs-cle/",
+            "text": "【MLB直播】2026/10/19 坦帕灣光芒 VS 克里夫蘭守護者 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261019-tb-vs-cle/",
+            "text": "2026 年 10 月 19 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261018-tb-vs-cle/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261018-tb-vs-cle/",
+            "text": "【MLB直播】2026/10/18 坦帕灣光芒 VS 克里夫蘭守護者 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261018-tb-vs-cle/",
+            "text": "2026 年 10 月 18 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261017-tb-vs-cle/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261017-tb-vs-cle/",
+            "text": "【MLB直播】2026/10/17 坦帕灣光芒 VS 克里夫蘭守護者 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261017-tb-vs-cle/",
+            "text": "2026 年 10 月 17 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261016-tb-vs-cle/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261016-tb-vs-cle/",
+            "text": "【MLB直播】2026/10/16 坦帕灣光芒 VS 克里夫蘭守護者 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261016-tb-vs-cle/",
+            "text": "2026 年 10 月 16 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/2kapb2a/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/2kapb2a/",
+            "text": "2026 NBA冠軍預測！最新NBA分析、運彩指南與直播平台總整理",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/2lond3x/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/2lond3x/",
+            "text": "【中華職棒分析】2026 運彩分析與啦啦隊戰力解析：從盤口趨勢看透女孩經濟學",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/2kkx0cx/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/2kkx0cx/",
+            "text": "【中華職棒分析】2026 六隊爭霸：戰力版圖、球星效應與票房經濟學全解析",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/2kkflq7/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/2kkflq7/",
+            "text": "【NBA直播】2026季後賽首輪賽程、對戰組合與台灣轉播完整指南",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/2lxec8c/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/2lxec8c/",
+            "text": "【MLB分析】Mason Miller：克服糖尿病挑戰 104 英里極限 | MLB 球星專欄",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/digi_taiwan/",
+            "text": "世界盃分析",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/mlb/mlb-scores-20261024-tb-vs-mil/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/mlb/",
+            "text": "mlb今日戰績",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/mlb/mlb-scores-20261024-tb-vs-mil/",
+            "text": "【MLB今日戰績】2026/10/29 密爾瓦基釀酒人 4-1 坦帕灣光芒 MLB比分終場",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/author/machnage/",
+            "text": "小編妮妮",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/mlb/mlb-scores-20261024-tb-vs-mil/",
+            "text": "2026 年 10 月 30 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261016-mil-vs-lad/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261016-mil-vs-lad/",
+            "text": "【MLB直播】2026/10/16 密爾瓦基釀酒人 VS 洛杉磯道奇 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/author/machnage/",
+            "text": "小編妮妮",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261016-mil-vs-lad/",
+            "text": "2026 年 10 月 16 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261015-mil-vs-lad/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261015-mil-vs-lad/",
+            "text": "【MLB直播】2026/10/15 密爾瓦基釀酒人 VS 洛杉磯道奇 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/author/machnage/",
+            "text": "小編妮妮",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261015-mil-vs-lad/",
+            "text": "2026 年 10 月 15 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/digi_taiwan/",
+            "text": "🏆 2026世界盃運彩精準分析",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/pretech/",
+            "text": "🏀 NBA 即時比分與戰力榜",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "⚾ MLB 即時比分與戰力榜",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/",
+            "text": "📖 運彩投注新手教學懶人包",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/ai/2026-nba%e7%9b%b4%e6%92%ad%e7%b7%9a%e4%b8%8a%e7%9c%8b%e5%85%a8%e6%94%bb%e7%95%a5%ef%bc%9a%e5%85%8d%e8%b2%bb%e8%88%87%e4%bb%98%e8%b2%bb%e8%bd%89%e6%92%ad%e5%b9%b3%e5%8f%b0%e5%93%aa%e8%a3%a1%e7%9c%8b/",
+            "text": "",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/ai/2026-nba%e7%9b%b4%e6%92%ad%e7%b7%9a%e4%b8%8a%e7%9c%8b%e5%85%a8%e6%94%bb%e7%95%a5%ef%bc%9a%e5%85%8d%e8%b2%bb%e8%88%87%e4%bb%98%e8%b2%bb%e8%bd%89%e6%92%ad%e5%b9%b3%e5%8f%b0%e5%93%aa%e8%a3%a1%e7%9c%8b/",
+            "text": "2026 NBA直播線上看全攻略：免費與付費轉播平台哪裡看？",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-scores-20260523-lad-vs-mil/",
+            "text": "【MLB直播】2026/05/23 洛杉磯道奇 VS 密爾瓦基釀酒人 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/digi_taiwan/england-vs-croatia-wc-2026/",
+            "text": "【世界盃小組賽L組 第1輪】英格蘭 vs 克羅埃西亞 B. Saka × A. Kramaric 領軍對決 – 2026-06-18 週四 04:00 直播對戰",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260502-tex-vs-det/",
+            "text": "【MLB直播】2026/05/01 德州遊騎兵 VS 底特律老虎 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/world-cup-2026-predictions/%e8%b6%b3%e7%90%83%e8%a7%92%e7%90%83%e5%ae%8c%e5%85%a8%e6%8c%87%e5%8d%97%ef%bc%9a%e5%9c%96%e8%a7%a3%e8%a7%92%e7%90%83%e8%a6%8f%e5%89%87%e8%88%87-5-%e5%a4%a7%e9%ab%98%e5%8b%9d%e7%8e%87%e9%81%8b/",
+            "text": "足球角球完全指南：圖解角球規則與 5 大高勝率運彩預測技巧",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260606-tb-vs-mia-2/",
+            "text": "",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260606-tb-vs-mia-2/",
+            "text": "【MLB直播】2026/06/06 坦帕灣光芒 VS 邁阿密馬林魚 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/author/machnage/",
+            "text": "小編妮妮",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260606-tb-vs-mia-2/",
+            "text": "2026 年 6 月 6 日",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260606-tb-vs-mia-2/#respond",
+            "text": "0",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260429-sf-vs-phi/",
+            "text": "",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260429-sf-vs-phi/",
+            "text": "【MLB直播】2026/04/29 舊金山巨人 VS 費城費城人 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/author/machnage/",
+            "text": "小編妮妮",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260429-sf-vs-phi/",
+            "text": "2026 年 4 月 29 日",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260429-sf-vs-phi/#respond",
+            "text": "0",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260517-sd-vs-sea/",
+            "text": "",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260517-sd-vs-sea/",
+            "text": "【MLB直播】2026/05/17 聖地牙哥教士 VS 西雅圖水手 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/author/machnage/",
+            "text": "小編妮妮",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260517-sd-vs-sea/",
+            "text": "2026 年 5 月 17 日",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260517-sd-vs-sea/#respond",
+            "text": "0",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260617-chw-vs-nyy/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260617-chw-vs-nyy/",
+            "text": "【MLB直播】2026/06/16 芝加哥白襪 VS 紐約洋基 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260617-chw-vs-nyy/",
+            "text": "2026 年 6 月 16 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/mlb/mlb-scores-20260517-chc-vs-chw/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/mlb/",
+            "text": "mlb今日戰績",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/mlb/mlb-scores-20260517-chc-vs-chw/",
+            "text": "【MLB今日戰績】2026/08/20 芝加哥白襪 3-0 芝加哥小熊 MLB比分終場",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/mlb/mlb-scores-20260517-chc-vs-chw/",
+            "text": "2026 年 8 月 21 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/digi_taiwan/france-vs-senegal-wc-2026/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/digi_taiwan/",
+            "text": "世界盃分析",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/digi_taiwan/france-vs-senegal-wc-2026/",
+            "text": "【世界盃小組賽I組 第1輪】法國 vs 塞內加爾 O. Dembélé × Assane Diao 領軍對決 – 2026-06-17 週三 03:00 直播對",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/digi_taiwan/france-vs-senegal-wc-2026/",
+            "text": "2026 年 7 月 12 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260618-sf-vs-atl/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260618-sf-vs-atl/",
+            "text": "【MLB直播】2026/06/18 舊金山巨人 VS 亞特蘭大勇士 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260618-sf-vs-atl/",
+            "text": "2026 年 6 月 18 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260607-kc-vs-min/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260607-kc-vs-min/",
+            "text": "【MLB直播】2026/06/07 堪薩斯市皇家 VS 明尼蘇達雙城 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260607-kc-vs-min/",
+            "text": "2026 年 6 月 7 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260913-tex-vs-ari/",
+            "text": "",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260913-tex-vs-ari/",
+            "text": "【MLB直播】2026/09/13 德州遊騎兵 VS 亞利桑那響尾蛇 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20260913-tex-vs-ari/",
+            "text": "2026 年 9 月 13 日",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/article/sports-everywhere-49-tzyy-yuang-shiang/",
+            "text": "加入我們",
+            "rel": null,
+            "position": "body"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261031-tb-vs-mil/",
+            "text": "",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261031-tb-vs-mil/",
+            "text": "【MLB直播】2026/10/31 坦帕灣光芒 VS 密爾瓦基釀酒人 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/author/machnage/",
+            "text": "小編妮妮",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261031-tb-vs-mil/",
+            "text": "2026 年 11 月 13 日",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261029-mil-vs-tb/",
+            "text": "",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261029-mil-vs-tb/",
+            "text": "【MLB直播】2026/10/29 密爾瓦基釀酒人 VS 坦帕灣光芒 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/author/machnage/",
+            "text": "小編妮妮",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261029-mil-vs-tb/",
+            "text": "2026 年 10 月 30 日",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261028-mil-vs-tb/",
+            "text": "",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261028-mil-vs-tb/",
+            "text": "【MLB直播】2026/10/28 密爾瓦基釀酒人 VS 坦帕灣光芒 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/author/machnage/",
+            "text": "小編妮妮",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261028-mil-vs-tb/",
+            "text": "2026 年 10 月 28 日",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261027-mil-vs-tb/",
+            "text": "",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261027-mil-vs-tb/",
+            "text": "【MLB直播】2026/10/27 密爾瓦基釀酒人 VS 坦帕灣光芒 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/author/machnage/",
+            "text": "小編妮妮",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261027-mil-vs-tb/",
+            "text": "2026 年 10 月 27 日",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261025-tb-vs-mil/",
+            "text": "",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261025-tb-vs-mil/",
+            "text": "【MLB直播】2026/10/25 坦帕灣光芒 VS 密爾瓦基釀酒人 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/author/machnage/",
+            "text": "小編妮妮",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261025-tb-vs-mil/",
+            "text": "2026 年 10 月 26 日",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/page/2/",
+            "text": "2",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/page/680/",
+            "text": "680",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/page/2/",
+            "text": "Next",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261031-tb-vs-mil/",
+            "text": "",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261031-tb-vs-mil/",
+            "text": "【MLB直播】2026/10/31 坦帕灣光芒 VS 密爾瓦基釀酒人 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261031-tb-vs-mil/",
+            "text": "2026 年 11 月 13 日",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261029-mil-vs-tb/",
+            "text": "",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261029-mil-vs-tb/",
+            "text": "【MLB直播】2026/10/29 密爾瓦基釀酒人 VS 坦帕灣光芒 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261029-mil-vs-tb/",
+            "text": "2026 年 10 月 30 日",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261028-mil-vs-tb/",
+            "text": "",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261028-mil-vs-tb/",
+            "text": "【MLB直播】2026/10/28 密爾瓦基釀酒人 VS 坦帕灣光芒 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261028-mil-vs-tb/",
+            "text": "2026 年 10 月 28 日",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261027-mil-vs-tb/",
+            "text": "",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261027-mil-vs-tb/",
+            "text": "【MLB直播】2026/10/27 密爾瓦基釀酒人 VS 坦帕灣光芒 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261027-mil-vs-tb/",
+            "text": "2026 年 10 月 27 日",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261025-tb-vs-mil/",
+            "text": "",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261025-tb-vs-mil/",
+            "text": "【MLB直播】2026/10/25 坦帕灣光芒 VS 密爾瓦基釀酒人 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261025-tb-vs-mil/",
+            "text": "2026 年 10 月 26 日",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://2030.tw/2026-fifa-world-cup/",
+            "text": "2026 FIFA 世界盃",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/2026-worldcup/",
+            "text": "2026世足",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/mlb/",
+            "text": "mlb今日戰績",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/iftomm2015cd/pdf/",
+            "text": "MLB情報",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/mlb%e6%96%b0%e8%81%9e/",
+            "text": "MLB新聞",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/iftomm2015cd/",
+            "text": "MLB每日分析",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/b5g/",
+            "text": "MLB直播",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/pretech/",
+            "text": "NBA分析",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/nba%e6%96%b0%e8%81%9e/",
+            "text": "NBA新聞",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/ai/",
+            "text": "NBA直播",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/digi_taiwan/",
+            "text": "世界盃分析",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/topic/section/",
+            "text": "世界盃戰力榜",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/world-cup-betting-guide/",
+            "text": "世界盃投注",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/article/",
+            "text": "世界盃新聞",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/inclusion/",
+            "text": "世界盃直播",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/topic/",
+            "text": "世界盃資格賽",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/world-cup-schedule/",
+            "text": "世界盃賽程",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/world-cup-sports-betting/",
+            "text": "世足運彩",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/world-cup-2026-predictions/",
+            "text": "世足預測",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/ai_taiwan/",
+            "text": "中華職棒分析",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/uncategorized/",
+            "text": "未分類",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/",
+            "text": "運彩分析",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/article/sports-everywhere-49-tzyy-yuang-shiang/",
+            "text": "2026世界盃討論區",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/smart-recreation-016-jang-hwa-leuafbclidiwar1xngy0u8-cdlf09htsmzblyhnevss33htui-1myg7lhkphjoo79mxgzzu/",
+            "text": "世界盃賽程表",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/space-tech-003-industry/",
+            "text": "世界盃直播",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/space-tech-002-jong-shinn-wu/",
+            "text": "世界盃小組賽",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/the-twin-green-digital-transition-itri-nzsso/",
+            "text": "世界杯足球運彩",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/cultivation-of-innovative-talents-035-moe/",
+            "text": "世界盃運彩玩法",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/tag/32%e5%bc%b7%e6%b7%98%e6%b1%b0%e8%b3%bd/",
+            "text": "32強淘汰賽 (12)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/2026%e4%b8%96%e7%95%8c%e7%9b%83/",
+            "text": "2026世界盃 (94)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/2026%e4%b8%96%e8%b6%b3/",
+            "text": "2026世足 (34)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/2026%e7%9b%b4%e6%92%ad%e6%95%b8%e6%93%9a/",
+            "text": "2026直播數據 (15)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/fifa/",
+            "text": "FIFA (35)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/fifa%e4%b8%96%e7%95%8c%e7%9b%83/",
+            "text": "FIFA世界盃 (72)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/mlb%e4%bb%8a%e6%97%a5%e6%88%b0%e7%b8%be/",
+            "text": "MLB今日戰績 (791)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/mlb%e4%bb%8a%e6%97%a5%e8%b3%bd%e7%a8%8b/",
+            "text": "MLB今日賽程 (2418)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/mlb%e5%88%86%e6%9e%90/",
+            "text": "MLB分析 (46)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/mlb%e5%8d%b3%e6%99%82%e6%af%94%e5%88%86/",
+            "text": "MLB即時比分 (3209)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/mlb%e6%88%b0%e7%b8%be/",
+            "text": "mlb戰績 (3209)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/mlb%e6%89%93%e7%b7%9a/",
+            "text": "MLB打線 (2448)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/mlb%e6%af%94%e5%88%86/",
+            "text": "MLB比分 (3209)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/mlb%e6%af%94%e8%b3%bd%e7%b5%90%e6%9e%9c/",
+            "text": "MLB比賽結果 (764)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/mlb-live/",
+            "text": "MLB直播 (2463)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/mlb%e8%b3%bd%e6%9e%9c/",
+            "text": "MLB賽果 (764)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/mlb%e8%b3%bd%e7%a8%8b/",
+            "text": "MLB賽程 (2448)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e4%b8%96%e7%95%8c%e7%9b%83/",
+            "text": "世界盃 (73)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e4%b8%96%e7%95%8c%e7%9b%83%e7%9b%b4%e6%92%ad/",
+            "text": "世界盃直播 (76)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e4%b8%96%e7%95%8c%e7%9b%83%e8%b3%bd%e7%a8%8b/",
+            "text": "世界盃賽程 (76)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e4%bb%8a%e6%97%a5mlb/",
+            "text": "今日MLB (42)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e4%bb%8a%e6%97%a5%e6%af%94%e5%88%86/",
+            "text": "今日比分 (764)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e5%85%88%e7%99%bc%e6%89%93%e7%b7%9a/",
+            "text": "先發打線 (15)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e5%85%88%e7%99%bc%e6%8a%95%e6%89%8b/",
+            "text": "先發投手 (2448)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e5%a4%a7%e8%81%af%e7%9b%9f/",
+            "text": "大聯盟 (2418)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e5%a4%a7%e8%81%af%e7%9b%9f%e6%88%b0%e7%b8%be/",
+            "text": "大聯盟戰績 (749)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e5%b0%8f%e7%b5%84%e8%b3%bd-%e7%ac%ac1%e8%bc%aa/",
+            "text": "小組賽 第1輪 (24)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e5%b0%8f%e7%b5%84%e8%b3%bd-%e7%ac%ac2%e8%bc%aa/",
+            "text": "小組賽 第2輪 (24)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e5%b0%8f%e7%b5%84%e8%b3%bd-%e7%ac%ac3%e8%bc%aa/",
+            "text": "小組賽 第3輪 (24)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e6%a2%85%e8%a5%bf/",
+            "text": "梅西 (8)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e6%b4%8b%e5%9f%ba%e4%bb%8a%e6%97%a5%e6%88%b0%e7%b8%be/",
+            "text": "洋基今日戰績 (50)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e6%b4%8b%e5%9f%ba%e7%9b%b4%e6%92%ad/",
+            "text": "洋基直播 (163)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e6%b4%8b%e5%9f%ba%e8%b3%bd%e7%a8%8b/",
+            "text": "洋基賽程 (163)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e7%be%8e%e5%8a%a0%e5%a2%a8%e4%b8%96%e7%95%8c%e7%9b%83/",
+            "text": "美加墨世界盃 (9)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e7%be%8e%e5%9c%8b%e8%81%b7%e6%a3%92%e6%88%b0%e7%b8%be/",
+            "text": "美國職棒戰績 (749)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e7%be%8e%e5%9c%8b%e8%81%b7%e6%a3%92%e8%b3%bd%e7%a8%8b/",
+            "text": "美國職棒賽程 (2418)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e8%b6%b3%e7%90%83%e4%b8%96%e7%95%8c%e7%9b%83/",
+            "text": "足球世界盃 (7)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e8%b6%b3%e7%90%83%e6%88%b0%e8%a1%93/",
+            "text": "足球戰術 (8)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e8%b6%b3%e7%90%83%e6%96%b0%e8%81%9e/",
+            "text": "足球新聞 (8)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e9%81%8b%e5%8b%95%e6%96%b0%e8%81%9e/",
+            "text": "運動新聞 (33)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e9%81%8b%e5%bd%a9%e5%88%86%e6%9e%90/",
+            "text": "運彩分析 (15)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e9%81%93%e5%a5%87%e4%bb%8a%e6%97%a5%e6%88%b0%e7%b8%be/",
+            "text": "道奇今日戰績 (205)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e9%81%93%e5%a5%87%e6%af%94%e8%b3%bd%e7%9b%b4%e6%92%ad/",
+            "text": "道奇比賽直播 (39)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e9%81%93%e5%a5%87%e7%9b%b4%e6%92%ad/",
+            "text": "道奇直播 (166)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/tag/%e9%81%93%e5%a5%87%e8%b3%bd%e7%a8%8b/",
+            "text": "道奇賽程 (166)",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261031-tb-vs-mil/",
+            "text": "",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261031-tb-vs-mil/",
+            "text": "【MLB直播】2026/10/31 坦帕灣光芒 VS 密爾瓦基釀酒人 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261029-mil-vs-tb/",
+            "text": "",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261029-mil-vs-tb/",
+            "text": "【MLB直播】2026/10/29 密爾瓦基釀酒人 VS 坦帕灣光芒 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261028-mil-vs-tb/",
+            "text": "",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/taiwanplus/mlb-live-20261028-mil-vs-tb/",
+            "text": "【MLB直播】2026/10/28 密爾瓦基釀酒人 VS 坦帕灣光芒 | 先發投手+打線+MLB今日賽程",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw",
+            "text": "2030玩運彩瘋世足",
+            "rel": null,
+            "position": "footer"
+          },
+          {
+            "url": "https://2030.tw/5g_taiwan/",
+            "text": "MLB分析",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/digi_taiwan/",
+            "text": "世界盃分析",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/mlb/",
+            "text": "mlb今日戰績",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/",
+            "text": "FIFA2026世界盃足球",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/sports-everywhere-49-tzyy-yuang-shiang/",
+            "text": "2026世界盃討論區",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/responsible-ai-008-audrey-tang/",
+            "text": "2026世足資格賽全攻略：完整解析各區晉級賽制、同分規則與最新戰況",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/the-twin-green-digital-transition-itri-nzsso/",
+            "text": "2026世界杯足球運彩盤口教學",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/space-tech-002-jong-shinn-wu/",
+            "text": "【2026世界盃小組賽】分組名單、對戰表",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/smart-recreation-016-jang-hwa-leuafbclidiwar1xngy0u8-cdlf09htsmzblyhnevss33htui-1myg7lhkphjoo79mxgzzu/",
+            "text": "【2026 世界盃賽程表】完整時間軸",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/cultivation-of-innovative-talents-035-moe/",
+            "text": "2026世界盃懶人包與運彩玩法教程",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/space-tech-003-industry/",
+            "text": "2026 世界盃哪裡看？全台最快世足直播頻道推薦，結合 AI 大數據精準玩運彩",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/generative-ai-44-demetergpt/",
+            "text": "2030 世足 AI 預測專區：2026 奪冠大數據分析",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/article/generative-ai-45-chang-shing-lee/",
+            "text": "2026 FIFA 世界盃完整指南：賽程表、48 隊名單、分組賽制懶人包",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw/wordcup/",
+            "text": "線上娛樂城推薦",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://2030.tw",
+            "text": "2030玩運彩瘋世足",
+            "rel": null,
+            "position": "menu"
+          },
+          {
+            "url": "https://www.facebook.com/www.2030.tw",
+            "text": "",
+            "rel": "external noopener nofollow",
+            "position": "menu"
+          },
+          {
+            "url": "https://twitter.com",
+            "text": "",
+            "rel": "external noopener nofollow",
+            "position": "menu"
+          },
+          {
+            "url": "https://bc5730m.wg1888.com/index/Register/?st=2030WG",
+            "text": "",
+            "rel": "nofollow noopener",
+            "position": "menu"
+          },
+          {
+            "url": "https://www.facebook.com/sharer.php?u=https%3A%2F%2F2030.tw%2Fai%2F2026-nba%25e7%259b%25b4%25e6%2592%25ad%25e7%25b7%259a%25e4%25b8%258a%25e7%259c%258b%25e5%2585%25a8%25e6%2594%25bb%25e7%2595%25a5%25ef%25bc%259a%25e5%2585%258d%25e8%25b2%25bb%25e8%2588%2587%25e4%25bb%2598%25e8%25b2%25bb%25e8%25bd%2589%25e6%2592%25ad%25e5%25b9%25b3%25e5%258f%25b0%25e5%2593%25aa%25e8%25a3%25a1%25e7%259c%258b%2F",
+            "text": "Share 0",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://twitter.com/intent/tweet?text=2026%20NBA%E7%9B%B4%E6%92%AD%E7%B7%9A%E4%B8%8A%E7%9C%8B%E5%85%A8%E6%94%BB%E7%95%A5%EF%BC%9A%E5%85%8D%E8%B2%BB%E8%88%87%E4%BB%98%E8%B2%BB%E8%BD%89%E6%92%AD%E5%B9%B3%E5%8F%B0%E5%93%AA%E8%A3%A1%E7%9C%8B%EF%BC%9F&url=https%3A%2F%2F2030.tw%2Fai%2F2026-nba%25e7%259b%25b4%25e6%2592%25ad%25e7%25b7%259a%25e4%25b8%258a%25e7%259c%258b%25e5%2585%25a8%25e6%2594%25bb%25e7%2595%25a5%25ef%25bc%259a%25e5%2585%258d%25e8%25b2%25bb%25e8%2588%2587%25e4%25bb%2598%25e8%25b2%25bb%25e8%25bd%2589%25e6%2592%25ad%25e5%25b9%25b3%25e5%258f%25b0%25e5%2593%25aa%25e8%25a3%25a1%25e7%259c%258b%2F",
+            "text": "Tweet 0",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://www.facebook.com/sharer.php?u=https%3A%2F%2F2030.tw%2Ftaiwanplus%2Fmlb-scores-20260523-lad-vs-mil%2F",
+            "text": "Share 0",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://twitter.com/intent/tweet?text=%E3%80%90MLB%E7%9B%B4%E6%92%AD%E3%80%912026%2F05%2F23%20%E6%B4%9B%E6%9D%89%E7%A3%AF%E9%81%93%E5%A5%87%20VS%20%E5%AF%86%E7%88%BE%E7%93%A6%E5%9F%BA%E9%87%80%E9%85%92%E4%BA%BA%20%7C%20%E5%85%88%E7%99%BC%E6%8A%95%E6%89%8B%2B%E6%89%93%E7%B7%9A%2BMLB%E4%BB%8A%E6%97%A5%E8%B3%BD%E7%A8%8B&url=https%3A%2F%2F2030.tw%2Ftaiwanplus%2Fmlb-scores-20260523-lad-vs-mil%2F",
+            "text": "Tweet 0",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://www.facebook.com/sharer.php?u=https%3A%2F%2F2030.tw%2Fdigi_taiwan%2Fengland-vs-croatia-wc-2026%2F",
+            "text": "Share 0",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://twitter.com/intent/tweet?text=%E3%80%90%E4%B8%96%E7%95%8C%E7%9B%83%E5%B0%8F%E7%B5%84%E8%B3%BDL%E7%B5%84%20%E7%AC%AC1%E8%BC%AA%E3%80%91%E8%8B%B1%E6%A0%BC%E8%98%AD%20vs%20%E5%85%8B%E7%BE%85%E5%9F%83%E8%A5%BF%E4%BA%9E%20B.%20Saka%20%C3%97%20A.%20Kramaric%20%E9%A0%98%E8%BB%8D%E5%B0%8D%E6%B1%BA%20%E2%80%93%202026-06-18%20%E9%80%B1%E5%9B%9B%2004%3A00%20%E7%9B%B4%E6%92%AD%E5%B0%8D%E6%88%B0%E5%88%86%E6%9E%90&url=https%3A%2F%2F2030.tw%2Fdigi_taiwan%2Fengland-vs-croatia-wc-2026%2F",
+            "text": "Tweet 0",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://www.facebook.com/sharer.php?u=https%3A%2F%2F2030.tw%2Ftaiwanplus%2Fmlb-live-20260502-tex-vs-det%2F",
+            "text": "Share 0",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://twitter.com/intent/tweet?text=%E3%80%90MLB%E7%9B%B4%E6%92%AD%E3%80%912026%2F05%2F01%20%E5%BE%B7%E5%B7%9E%E9%81%8A%E9%A8%8E%E5%85%B5%20VS%20%E5%BA%95%E7%89%B9%E5%BE%8B%E8%80%81%E8%99%8E%20%7C%20%E5%85%88%E7%99%BC%E6%8A%95%E6%89%8B%2B%E6%89%93%E7%B7%9A%2BMLB%E4%BB%8A%E6%97%A5%E8%B3%BD%E7%A8%8B&url=https%3A%2F%2F2030.tw%2Ftaiwanplus%2Fmlb-live-20260502-tex-vs-det%2F",
+            "text": "Tweet 0",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://www.facebook.com/sharer.php?u=https%3A%2F%2F2030.tw%2Fworld-cup-2026-predictions%2F%25e8%25b6%25b3%25e7%2590%2583%25e8%25a7%2592%25e7%2590%2583%25e5%25ae%258c%25e5%2585%25a8%25e6%258c%2587%25e5%258d%2597%25ef%25bc%259a%25e5%259c%2596%25e8%25a7%25a3%25e8%25a7%2592%25e7%2590%2583%25e8%25a6%258f%25e5%2589%2587%25e8%2588%2587-5-%25e5%25a4%25a7%25e9%25ab%2598%25e5%258b%259d%25e7%258e%2587%25e9%2581%258b%2F",
+            "text": "Share 0",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://twitter.com/intent/tweet?text=%E8%B6%B3%E7%90%83%E8%A7%92%E7%90%83%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%EF%BC%9A%E5%9C%96%E8%A7%A3%E8%A7%92%E7%90%83%E8%A6%8F%E5%89%87%E8%88%87%205%20%E5%A4%A7%E9%AB%98%E5%8B%9D%E7%8E%87%E9%81%8B%E5%BD%A9%E9%A0%90%E6%B8%AC%E6%8A%80%E5%B7%A7&url=https%3A%2F%2F2030.tw%2Fworld-cup-2026-predictions%2F%25e8%25b6%25b3%25e7%2590%2583%25e8%25a7%2592%25e7%2590%2583%25e5%25ae%258c%25e5%2585%25a8%25e6%258c%2587%25e5%258d%2597%25ef%25bc%259a%25e5%259c%2596%25e8%25a7%25a3%25e8%25a7%2592%25e7%2590%2583%25e8%25a6%258f%25e5%2589%2587%25e8%2588%2587-5-%25e5%25a4%25a7%25e9%25ab%2598%25e5%258b%259d%25e7%258e%2587%25e9%2581%258b%2F",
+            "text": "Tweet 0",
+            "rel": null,
+            "position": "sidebar"
+          },
+          {
+            "url": "https://bc5730m.wg1888.com/index/Register/?st=wg2030",
+            "text": "",
+            "rel": "nofollow noopener",
+            "position": "body"
+          },
+          {
+            "url": "https://www.facebook.com/www.2030.tw",
+            "text": "",
+            "rel": "external noopener nofollow",
+            "position": "footer"
+          },
+          {
+            "url": "https://twitter.com",
+            "text": "",
+            "rel": "external noopener nofollow",
+            "position": "footer"
+          },
+          {
+            "url": "https://www.facebook.com/www.2030.tw",
+            "text": "",
+            "rel": "external noopener nofollow",
+            "position": "menu"
+          },
+          {
+            "url": "https://twitter.com",
+            "text": "",
+            "rel": "external noopener nofollow",
+            "position": "menu"
+          }
+        ],
+        "links_total": 308
+      },
+      "error": null
+    },
+    "whois": {
+      "label": "WHOIS／RDAP",
+      "tool": "domain_info",
+      "args": {
+        "domain": "2030.tw"
+      },
+      "ok": true,
+      "fetched_at": "2026-11-17T09:40:40+0800",
+      "evidence_ids": [
+        "E-0045",
+        "E-0046",
+        "E-0047",
+        "E-0048",
+        "E-0049",
+        "E-0050",
+        "E-0051",
+        "E-0052",
+        "E-0053",
+        "E-0054",
+        "E-0055"
+      ],
+      "derived_evidence_id": "E-0055",
+      "sha256": "a56fb35ddbc6765ee0ca4c1d654738a52372cd5875ee8f7939bad769b57a4896",
+      "result": {
+        "ok": true,
+        "domain": "2030.tw",
+        "sources": [],
+        "rdap": {
+          "evidence_id": "E-0048",
+          "new_content": true,
+          "sha256": "27ec59c8cd9537b7",
+          "handle": "TWDOMAIN0008089022-0",
+          "ldhName": "2030.tw",
+          "status": [
+            "client transfer prohibited"
+          ],
+          "events": {
+            "registration": "2026-04-15T09:19:40Z",
+            "expiration": "2027-04-15T09:19:40Z",
+            "last changed": "2026-04-16T21:34:14Z",
+            "last update of RDAP database": "2026-11-17T01:10:04Z"
+          },
+          "nameservers": [
+            "tara.ns.cloudflare.com",
+            "zac.ns.cloudflare.com"
+          ],
+          "entities": [
+            {
+              "roles": [
+                "registrar"
+              ],
+              "name": "GNAME.COM",
+              "handle": "gname"
+            },
+            {
+              "roles": [
+                "registrant"
+              ],
+              "name": "Redacted for Privacy",
+              "handle": "2030-tw-reg"
+            },
+            {
+              "roles": [
+                "administrative"
+              ],
+              "name": "Redacted for Privacy",
+              "handle": "2030-tw-admin"
+            },
+            {
+              "roles": [
+                "technical"
+              ],
+              "name": "Redacted for Privacy",
+              "handle": "2030-tw-tech"
+            }
+          ],
+          "port43": "whois.twnic.net.tw"
+        },
+        "dns": {
+          "A": [
+            "172.67.178.70",
+            "104.21.31.162"
+          ],
+          "AAAA": [
+            "2606:4700:3031::6815:1fa2",
+            "2606:4700:3036::ac43:b246"
+          ],
+          "NS": [
+            "tara.ns.cloudflare.com.",
+            "zac.ns.cloudflare.com."
+          ],
+          "MX": [],
+          "TXT": [
+            "\"google-site-verification=n9Yl5nJW3jFvCNXTu7Noy-A6ECfgazWnOoYua9fEOmI\""
+          ]
+        },
+        "note": "註冊日期只代表目前這次註冊；過去是否換過主人要配合 wayback 時間線判斷。"
+      },
+      "error": null
+    },
+    "wayback": {
+      "label": "Wayback",
+      "tool": "wayback",
+      "args": {
+        "action": "timeline",
+        "url": "2030.tw"
+      },
+      "ok": true,
+      "fetched_at": "2026-11-17T09:40:42+0800",
+      "evidence_ids": [
+        "E-0056",
+        "E-0057",
+        "E-0058"
+      ],
+      "derived_evidence_id": "E-0058",
+      "sha256": "3ce9664c02d7c29663f99c65dacfcae5661b45a6094684e7c4e46f015c9b3d40",
+      "result": {
+        "ok": true,
+        "evidence_id": "E-0057",
+        "new_content": true,
+        "sha256": "98385d84b6da331d",
+        "target": "2030.tw",
+        "months_with_snapshots": 50,
+        "by_year": {
+          "2020": 5,
+          "2021": 10,
+          "2022": 8,
+          "2023": 9,
+          "2024": 10,
+          "2025": 7,
+          "2026": 1
+        },
+        "first": [
+          {
+            "timestamp": "20200302211011",
+            "statuscode": "302",
+            "mimetype": "text/html",
+            "original": "http://2030.tw/"
+          },
+          {
+            "timestamp": "20200805095339",
+            "statuscode": "200",
+            "mimetype": "text/html",
+            "original": "https://www.2030.tw/"
+          },
+          {
+            "timestamp": "20200919211756",
+            "statuscode": "200",
+            "mimetype": "text/html",
+            "original": "https://www.2030.tw/"
+          }
+        ],
+        "last": [
+          {
+            "timestamp": "20250808010316",
+            "statuscode": "200",
+            "mimetype": "text/html",
+            "original": "https://2030.tw/"
+          },
+          {
+            "timestamp": "20251108182921",
+            "statuscode": "200",
+            "mimetype": "text/html",
+            "original": "https://2030.tw/"
+          },
+          {
+            "timestamp": "20260105205859",
+            "statuscode": "301",
+            "mimetype": "unk",
+            "original": "https://2030.tw/"
+          }
+        ]
+      },
+      "error": null
+    },
+    "search_1": {
+      "label": "關鍵字搜尋 1",
+      "tool": "web_search",
+      "args": {
+        "query": "娛樂城"
+      },
+      "ok": false,
+      "fetched_at": "2026-11-17T22:54:55+0800",
+      "evidence_ids": [
+        "E-0074",
+        "E-0075"
+      ],
+      "derived_evidence_id": null,
+      "sha256": "8c6247dfcffd00b68c5ddd9b3366a6028316953508a9bf16fea524337e2dfa08",
+      "result": null,
+      "error": {
+        "code": "unknown",
+        "detail": "搜尋來源回人機驗證或非 200，不繞過；這題請標為未知（待確認），寫明試過什麼。"
+      }
+    },
+    "search_2": {
+      "label": "關鍵字搜尋 2",
+      "tool": "web_search",
+      "args": {
+        "query": "3A娛樂城"
+      },
+      "ok": false,
+      "fetched_at": "2026-11-17T22:54:56+0800",
+      "evidence_ids": [
+        "E-0076"
+      ],
+      "derived_evidence_id": null,
+      "sha256": "bde13830fde785fb5fab1e448ddb32dc1bcf15125de491c4debaea76f3f02c4d",
+      "result": null,
+      "error": {
+        "code": "unknown",
+        "detail": "搜尋來源回人機驗證或非 200，不繞過；這題請標為未知（待確認），寫明試過什麼。"
+      }
+    }
+  },
+  "updated_at": "2026-11-17T22:54:56+0800",
+  "baseline_hash": "c146692fe46ad4278922b08ea24a68096a10228cbb3eda59876a415bfd84137a",
+  "action": "refetched_failed",
+  "refetched": [
+    "search_1",
+    "search_2"
+  ]
+}

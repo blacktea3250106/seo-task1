@@ -1,0 +1,178 @@
+{
+ "at": "2026-11-17T23:02:31+0800",
+ "rubric": "2030-rubric-v1",
+ "total": 6.0,
+ "max": 14,
+ "marks": "yyynyynnnynnnn",
+ "dimensions": {
+  "完整度": {
+   "score": 6.0,
+   "max": 14,
+   "marks": "yyynyynnnynnnn"
+  },
+  "正確度": {
+   "wrong_items": [],
+   "check_issues_left": [],
+   "rejections": 0
+  },
+  "誠實度": {
+   "absolute_scoped_2ev": {
+    "ok": 0,
+    "of": 10,
+    "rate": 0.0
+   },
+   "inference_with_limits": {
+    "ok": 3,
+    "of": 3,
+    "rate": 1.0
+   },
+   "unknowns": 8
+  },
+  "可追溯": {
+   "claims_with_existing_evidence": {
+    "ok": 14,
+    "of": 14,
+    "rate": 1.0
+   }
+  },
+  "建議有根據": {
+   "actions_based_on_valid_claims": {
+    "ok": 5,
+    "of": 5,
+    "rate": 1.0
+   }
+  },
+  "新發現": {
+   "claims_outside_14": 5,
+   "list_for_human": [
+    "on1b：sitemap 並不涵蓋全站最新內容：/taiwanplus/ 的 lastmod 只到 2026-08，沒有 2026-09 以後的月份；首頁最新的 10/3",
+    "on2：兩個指定關鍵字都有專頁。『3a娛樂城』頁 title 是「3a娛樂城｜遊戲種類、優惠、出金全攻略」，H1 是「3a娛樂城 - 完整評測與玩家指南」，有 6 個 ",
+    "off2：這個網域曾是政府智慧國家政策站，現在內容換成運彩與娛樂城，可以確定的只有「內容主題完全換過、註冊日是 2026-04」。至於是過期後被人重新註冊、轉移，還是其他",
+    "off4：品牌頁上有 nofollow 的外部網址、註冊 CTA 按鈕，列表頁還有「立即註冊」，與聯盟導流（拿註冊／推薦碼分潤）的做法相符；但我沒有看到推薦參數、分潤合約",
+    "off5：關鍵字『娛樂城』『3A娛樂城』的 SERP 排名、2030.tw 是否被 Google 收錄或處罰、外鏈數量與來源、流量，本次都沒有取得。已試過：兩個關鍵字搜尋"
+   ],
+   "note": "只列出不屬於 14 項的主張；是否為真且有價值要人工看"
+  }
+ },
+ "judged_wrong": [],
+ "key_finding": {
+  "claim_id": "on1",
+  "rubric_items": [
+   "T01",
+   "T10"
+  ],
+  "evidence_id": "E-0042",
+  "calls": 0,
+  "elapsed_s": 0.0
+ },
+ "prev_run": null,
+ "new_findings": null,
+ "wrong_count": 0,
+ "cost": {
+  "tool_calls": 27,
+  "api_calls": 12,
+  "tokens": 1309711,
+  "elapsed_s_reference": 454.6
+ },
+ "untrusted_run": null,
+ "review_outcomes": [
+  {
+   "id": "R1",
+   "source": "審查",
+   "claim_id": "on1",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R2",
+   "source": "審查",
+   "claim_id": "on2",
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R3",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R4",
+   "source": "審查",
+   "claim_id": "off2",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R5",
+   "source": "審查",
+   "claim_id": "on7",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R6",
+   "source": "審查",
+   "claim_id": "on6",
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R7",
+   "source": "審查",
+   "claim_id": "on6",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R8",
+   "source": "審查",
+   "claim_id": "on5",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R9",
+   "source": "審查",
+   "claim_id": "on3",
+   "outcome": "降成推論",
+   "needs_evidence": true
+  },
+  {
+   "id": "R10",
+   "source": "審查",
+   "claim_id": "on4",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R11",
+   "source": "審查",
+   "claim_id": "off3",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R12",
+   "source": "審查",
+   "claim_id": "off4",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R13",
+   "source": "審查",
+   "claim_id": "off5",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R14",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  }
+ ]
+}

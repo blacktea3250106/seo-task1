@@ -1,0 +1,192 @@
+{
+  "status": "passed",
+  "status_label": "完成",
+  "run_id": "sim-r1",
+  "model": "claude-sonnet-5-5",
+  "started_at": 1794918845.998,
+  "elapsed_s": 216.4,
+  "tool_calls_total": 16,
+  "tool_calls_by_name": {
+    "inspect_page": 7,
+    "sitemap_tree": 3,
+    "wayback": 2,
+    "submit_report": 2,
+    "polite_fetch": 1,
+    "experience": 1
+  },
+  "tool_errors": {
+    "bad_args": 1
+  },
+  "evidence_total": 119,
+  "baseline": {
+    "domain": "2030.tw",
+    "baseline_hash": "0018311732677cb38f94d5d86d63e6ce5d1e5282cd94dabbde3a447aa9ebb9a3",
+    "updated_at": "2026-11-17T20:34:05+0800",
+    "action": "refetched_failed",
+    "refetched": [
+      "search_1",
+      "search_2"
+    ]
+  },
+  "http_requests": 53,
+  "coverage": {
+    "sections_read": [
+      "/",
+      "/5g_taiwan/",
+      "/article/",
+      "/taiwanplus/",
+      "/wordcup/"
+    ],
+    "sections_not_yet_read": [
+      "/mlb/（316 個 sitemap 網址、3 個選單連結）",
+      "/digi_taiwan/（77 個 sitemap 網址、3 個選單連結）",
+      "/2026-worldcup/（14 個 sitemap 網址）",
+      "/2026-fifa-world-cup/（8 個 sitemap 網址）",
+      "/world-cup-betting-guide/（7 個 sitemap 網址）",
+      "/ai_taiwan/（6 個 sitemap 網址）",
+      "/topic/（6 個 sitemap 網址）",
+      "/world-cup-2026-predictions/（6 個 sitemap 網址）",
+      "/world-cup-sports-betting/（6 個 sitemap 網址）",
+      "/iftomm2015cd/（5 個 sitemap 網址）",
+      "/b5g/（4 個 sitemap 網址）",
+      "/pretech/（4 個 sitemap 網址）",
+      "/ai/（3 個 sitemap 網址）",
+      "/uncategorized/（2 個 sitemap 網址）",
+      "/world-cup-schedule/（2 個 sitemap 網址）",
+      "/2026-nba-ai-e8-b3-bd-e4-ba-8b-e9-a0-90-e6-b8-ac-e7-b5-82-e7-ab-af-ef-bc-9a-e5-a4-a7-e6-95-b8-e6-93-9a-e8-a7-a3-e6-a7-8b-e5-8d-b3-e6-99-82-e6-88-b0-e6-b3-81-e3-80-81-e5-ad-a3-e5-be-8c-e8-b3-bd/（1 個 sitemap 網址）",
+      "/2k4xxza/（1 個 sitemap 網址）",
+      "/2kapb2a/（1 個 sitemap 網址）",
+      "/2kextwv/（1 個 sitemap 網址）",
+      "/2kinhbc/（1 個 sitemap 網址）",
+      "/2kkflq7/（1 個 sitemap 網址）",
+      "/2kkx0cx/（1 個 sitemap 網址）",
+      "/2knx0sr/（1 個 sitemap 網址）",
+      "/2knx84n/（1 個 sitemap 網址）",
+      "/2knxfnl/（1 個 sitemap 網址）",
+      "/2krmvsf/（1 個 sitemap 網址）",
+      "/2lond3x/（1 個 sitemap 網址）",
+      "/2lu8mem/（1 個 sitemap 網址）",
+      "/2lui3mr/（1 個 sitemap 網址）",
+      "/2lxec8c/（1 個 sitemap 網址）",
+      "/2lxfjyk/（1 個 sitemap 網址）",
+      "/2mjq759/（1 個 sitemap 網址）",
+      "/community-2/（1 個 sitemap 網址）",
+      "/community/（1 個 sitemap 網址）",
+      "/home-2/（1 個 sitemap 網址）",
+      "/author/（5 個選單連結）",
+      "/page/（3 個選單連結）"
+    ]
+  },
+  "why_filled": 1,
+  "stop": {
+    "elapsed_s": 216.4,
+    "final_streak": 0,
+    "stop_events": [],
+    "phase": "final",
+    "recheck_calls": 4
+  },
+  "experience_read": {
+    "notes_sha256": "706d1d8faf7e40cf48eacc96cd8b9a6ce3ca46625c43d0831748b0ea86a888df",
+    "entry_ids": []
+  },
+  "experience_proposals": 1,
+  "experience_changes": [],
+  "review": {
+    "triggered": 1,
+    "status": "passed",
+    "items": 15,
+    "revised": true,
+    "cost": {
+      "api_calls": 1,
+      "tokens": {
+        "input": 47300,
+        "output": 3493,
+        "total": 50793
+      },
+      "elapsed_s": 29.0
+    },
+    "total_with_review": {
+      "api_calls": 10,
+      "tokens": {
+        "input": 775731,
+        "output": 13980,
+        "total": 789711
+      }
+    }
+  },
+  "metrics": {
+    "wasted_calls": 1,
+    "blocked": [],
+    "saved_calls": {
+      "count": 0,
+      "items": [],
+      "note": "模型自稱避開，不計分"
+    },
+    "key_finding": {
+      "claim_id": "on1",
+      "rubric_items": [
+        "T06"
+      ],
+      "evidence_id": "E-0055",
+      "calls": 0,
+      "elapsed_s": 0.0
+    },
+    "new_findings": null
+  },
+  "approvals_pending": [],
+  "tools_offered": [
+    "mcp__seo__domain_info",
+    "mcp__seo__experience",
+    "mcp__seo__inspect_page",
+    "mcp__seo__polite_fetch",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__submit_report",
+    "mcp__seo__text_match",
+    "mcp__seo__wayback",
+    "mcp__seo__web_search"
+  ],
+  "tools_used": [
+    "mcp__seo__inspect_page",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__inspect_page",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__wayback",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__inspect_page",
+    "mcp__seo__submit_report",
+    "mcp__seo__wayback",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__text_match",
+    "mcp__seo__polite_fetch",
+    "mcp__seo__submit_report",
+    "mcp__seo__experience"
+  ],
+  "api_calls": 9,
+  "final_response": "報告已被接受，我也寫入了 1 條路線經驗（P1，等評分和審核）。\n\n**結論：** 2030.tw 把運彩、世足、MLB 內容當外層，另在 `/wordcup/` 放大量「○○娛樂城」關鍵字頁。這些頁面導向外部註冊連結，連結帶推廣參數、多為 nofollow。`/wordcup/` 約佔 sitemap 一半的網址（2354／4654）。\n\n**未知：** 排名、流量、外鏈這次都查不到。網域是否借用舊政府站權重，只能列為推論。\n\n**建議行動（依先後）：**\n1. 先用 Search Console 或第三方工具查它在「娛樂城」「3A娛樂城」的排名。\n2. 補上對手頁面沒有的可核對內容，例如出金測試紀錄和條款比較。\n3. 全量抓取 `/wordcup/` 的標題，找出它有、我們沒有的關鍵字。\n4. 自己的頁面保持主題單純、結構化資料正確。\n5. 外鏈策略等查到外鏈資料後再定，推廣連結一律用 nofollow 或 sponsored。",
+  "completed": true,
+  "num_turns": 18,
+  "stop_reason": "success",
+  "cost_usd_equiv": 0.6532352999999999,
+  "tokens": {
+    "input": 728431,
+    "output": 10487,
+    "total": 738918
+  },
+  "error": null,
+  "runtime": "claude-code-cli",
+  "runner": "claude",
+  "simulated": true,
+  "exit_code": 0,
+  "non_project_tools_offered": [],
+  "non_project_tools_used": [],
+  "sim_note": "模擬執行：用 Claude Code CLI（訂閱）代替 Hermes AIAgent；不是 Hermes 整合證據",
+  "score": {
+    "total": 4.0,
+    "max": 14,
+    "marks": "yyynnynnnnnnnn",
+    "note": "只給人看"
+  }
+}

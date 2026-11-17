@@ -1,0 +1,166 @@
+{
+  "status": "passed",
+  "items": [
+    {
+      "sentence": "ON6：2030.tw 的 RDAP 註冊日是 2026-04-15，存檔卻從 2020 年就有，表示這個網域是被重新註冊（或轉手）後改用途。",
+      "problem": "「表示被重新註冊」寫成事實。RDAP 的 note 明說註冊日只代表目前這次註冊；Wayback 2026-01-05 還有 301，之後到 2026-04-15 才重新註冊，確實可能是掉落後重註，但也可能是轉移或註冊商層面的變動。證據撐起「註冊日晚於存檔」，撐不起轉手與改用途的因果。另外 /article/ 的 slug 風格與 2024 存檔的關聯，也只是推論，沒有證據顯示舊站內容被沿用。",
+      "evidence_ids": [
+        "E-0055",
+        "E-0058",
+        "E-0110",
+        "E-0115"
+      ],
+      "needs_evidence": false,
+      "stale": true
+    },
+    {
+      "sentence": "OFF2：網域 2026-04-15 重新註冊、到期 2027-04-15（只續一年）；Wayback 存檔 2020–2026 共 50 筆，2024 年存檔內容為政府智慧國家站。",
+      "problem": "「重新註冊」把推論寫成事實（RDAP 只有目前這次註冊日）。「只續一年」是註冊一年的預設到期，不能當成站方行為的訊號。E-0058 與 E-0055 是快照（抓取時間 09:40，早於其他頁面），尚未重抓。「2024 年存檔內容為政府站」只讀了 2024-06-01 一份存檔，不能代表整個 2024 年或 2020–2025。",
+      "evidence_ids": [
+        "E-0055",
+        "E-0058",
+        "E-0110"
+      ],
+      "needs_evidence": true,
+      "stale": true
+    },
+    {
+      "sentence": "OFF3：網域有 2020 年起的歷史且曾是政府站，可能是為了承接舊網域外鏈／權威而重新註冊（expired domain 手法）。",
+      "problem": "動機推論沒有外鏈資料、沒有 301 或舊 URL 對應的證據支持；2030.tw 現站與舊站內容、結構不同，也沒有證據顯示同一經營者。標為 inference 並附 limits 是合理的，但後面的行動建議以此為依據，等於把未驗證推論當前提。另外，政府站是否真是這個網域的原擁有者，只靠一份存檔。",
+      "evidence_ids": [
+        "E-0058",
+        "E-0110",
+        "E-0055"
+      ],
+      "needs_evidence": true,
+      "stale": true
+    },
+    {
+      "sentence": "ON3：品牌頁是模板化內容：同樣的 6 段 H2 與 5 題 FAQ，只換品牌名；……FAQPage JSON-LD 與頁面 FAQ 一致。",
+      "problem": "只讀 2 個品牌頁（3a、娛樂城）。這兩頁結構相同，且「娛樂城」頁內文是泛論而非單一品牌，不能證明「品牌頁」總體就是同一模板、只換品牌名；E-0062 列表只顯示摘要開頭口吻相似，也不等於整頁模板化。而 E-0107 的文字被截斷，FAQPage JSON-LD 與頁面 FAQ「一致」的比對，證據裡並沒有呈現 JSON-LD 的 Question 內容，只有型別名稱。",
+      "evidence_ids": [
+        "E-0105",
+        "E-0107",
+        "E-0062"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON4：同時 H1 有兩個、JSON-LD 帶入無關的 MLB 賽事實體（jsonld_entity_mismatch=true）、article:section 為「mlb今日戰績」",
+      "problem": "證據裡看不到「H1 有兩個」（只有可見文字，沒有標籤結構）、也沒有 article:section 欄位，og 欄位列出的並沒有 article:section；jsonld_entity_mismatch 這個旗標也沒出現，只有 jsonld_foreign_entities，該欄位確實有 MLB 實體。因此雙 H1 與 article:section 的說法在提供的證據中無法驗證。後面的行動建議（「對方有雙 H1 與錯置實體，是可超越的技術弱點」）也依賴這點。「相關推薦約 8 個、sidebar 約 8 個」是看可見文字數出來的，沒有 DOM 證據區分 body 與 sidebar。」",
+      "evidence_ids": [
+        "E-0105",
+        "E-0107",
+        "E-0062"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON7：sitemap 顯示 /wordcup/ 的 lastmod 集中在 2026-07-17 至 08-16，而 3a 頁的 JSON-LD 日期是 2026-11-10 發佈／11-15 修改……推想是程式批量生成並定期更新日期，維持「新鮮」訊號。",
+      "problem": "「程式批量生成並定期更新日期」只由兩個來源日期不一致推得，且報告自己承認無法確認內容是否有改動；同一頁還有 JSON-LD 日期 2026-07-12（og 與 WebPage）與 2026-11-10 並存，頁面的 11 月日期也可能只是顯示「今日日期」的模板行為（E-0105 的頁頭日期就是抓取日 2026-11-15）。推論成立度低，且 ON7 的 lastmod 範圍只來自 E-0104 的整區統計，「集中」的說法不精確（是 min–max 而非分布）。",
+      "evidence_ids": [
+        "E-0104",
+        "E-0105",
+        "E-0113",
+        "E-0107"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON1：宣稱共 2502 篇，分 6 類（品牌 1182、評價推薦 142、優惠 116、遊戲玩法 160、安全出金 154、其他 748），分 53 頁。",
+      "problem": "數字有可核對的落差：6 類加總 1182+142+116+160+154+748 = 2502，沒問題，但與 sitemap 2354 不重複網址不一致，報告已在 unknowns 提到，但 summary 與 ON1 仍把「約 2,354 個網址」「佔 sitemap 一半」當事實；且 ON1 的「佔全站約 50%」是 E-0104 的 share=0.503，那是佔 sitemap 網址的比例，不是佔全站頁面。另外，「獨立的 sitemap」只出現在 E-0104 的資料夾探測，OK。",
+      "evidence_ids": [
+        "E-0062",
+        "E-0104"
+      ],
+      "needs_evidence": false,
+      "stale": false
+    },
+    {
+      "sentence": "ON2：sitemap 另有 3a 的 94 個符合網址（官網、下載、評價、登入、dcard、註冊、app、出金等變體）。",
+      "problem": "search 結果顯示 matches=94，但 rows=100 且 by_sitemap 為 100，查詢文字 \"3a\" 是子字串比對，可能包含非 3a 娛樂城的網址（如含 3a 的其他詞）；只列出 10 個範例，94 個全是 3a 品牌變體並未被證實。此外，沒有讀這些變體頁，無法說「生成」了這些頁、也不知道內容是否獨立。行動建議「對方 3a 詞有 94 個網址」直接引用此數。",
+      "evidence_ids": [
+        "E-0113"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "OFF1：娛樂城頁的導出連結指向 affiliate 網域（don0911.3a1788.bet、bc5730m.wg1888.com），在品牌頁與首頁都有（首頁的連結寫在 script 字串裡），外部連結都帶 nofollow。",
+      "problem": "提供的證據文字裡完全看不到這兩個網域、script 字串或 nofollow 屬性（E-0105、E-0107、E-0060、E-0115 的可見文字都沒有連結 href 或 rel）。無法從證據驗證；「affiliate」「導流變現」是依按鈕文字推的。「外部連結都帶 nofollow」是全稱，樣本只有少數頁。」",
+      "evidence_ids": [
+        "E-0105",
+        "E-0107",
+        "E-0060",
+        "E-0115"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON5：首頁 JSON-LD 與 canonical 都正常，GT 追蹤碼 GT-57VMS4XR。/taiwanplus/（約 1,820 網址）與 /mlb/（約 303）是每日 MLB 直播／戰績文章",
+      "problem": "/taiwanplus/ 與 /mlb/ 的內容性質沒有讀過任何一頁（unknowns 也承認），只從首頁標題格式推到整個目錄；/taiwanplus/ 的內容是否為 MLB 文章沒有證據。另外「首頁選單把體育流量導入娛樂城區」是把一個選單連結寫成流量導向策略，沒有流量證據。",
+      "evidence_ids": [
+        "E-0060",
+        "E-0104"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "summary：它以關鍵字「3a娛樂城」「娛樂城」各設一個獨立頁……體育內容（MLB／世足）則作為主題權威與流量入口。……2030.tw 是一個把前身（政府「2030 智慧國家」站，2024 年存檔可見）接手並改成運彩／娛樂城導流的站。",
+      "problem": "「接手」與「主題權威與流量入口」是推論，且 summary 說「以上是抓取到的事實」，把推論一併包成事實。同時 summary 稱「以關鍵字…設一個獨立頁」，也屬意圖推測，沒有排名資料佐證其是針對這些關鍵字。",
+      "evidence_ids": [
+        "E-0110",
+        "E-0055",
+        "E-0058",
+        "E-0105",
+        "E-0107"
+      ],
+      "needs_evidence": false,
+      "stale": true
+    },
+    {
+      "sentence": "actions 1–3：為「娛樂城」「3A娛樂城」建立有實質差異的主頁……用體育內容做主題權威，並在體育頁自然連到娛樂城主頁。",
+      "problem": "建議的前提是「對方這套做法有效」（覆蓋度高、體育導流），但報告自己承認沒有排名、流量、索引資料，無法確認這些頁是否被收錄或有成效。對方可能被處罰、未被收錄。行動 2「建立每詞一頁的長尾群」直接複製可能無效甚至有薄內容風險的做法。同時賭博內容的法律風險在 unknowns 完全未評估，卻建議建立此類內容。",
+      "evidence_ids": [
+        "E-0105",
+        "E-0113",
+        "E-0060"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "actions 5：用付費工具（Ahrefs／Semrush／GSC 對照）補查對方的排名、外鏈與索引量，再決定資源。",
+      "problem": "based_on 只引用 OFF3，但此建議其實出自「排名／外鏈未知」這個缺口；另外 GSC 只能查自己的站，不能查競品，建議有誤。",
+      "evidence_ids": [],
+      "needs_evidence": false,
+      "stale": false
+    },
+    {
+      "sentence": "unknowns：關鍵字搜尋工具（DuckDuckGo）連不上，沒能看 SERP。／沒有排名、流量、外鏈資料",
+      "problem": "否定結論（無排名、無外鏈、沒 SERP）的原因是工具不可用，不是對方沒有；證據清單中沒有任何工具失敗的記錄，無法判斷是被擋、逾時或其他。報告已把它列為未知，這點處理得當，但 ON7、OFF3 等推論仍依賴此缺口，應限縮語氣。",
+      "evidence_ids": [],
+      "needs_evidence": true,
+      "stale": false
+    }
+  ],
+  "tools_offered": [],
+  "tools_used": [],
+  "api_calls": 1,
+  "tokens": {
+    "input": 40302,
+    "output": 4146,
+    "total": 44448
+  },
+  "error": null,
+  "elapsed_s": 34.9,
+  "model": "claude-sonnet-5-5",
+  "simulated": true,
+  "runtime": "claude-code-cli",
+  "runner": "claude"
+}

@@ -1,0 +1,11 @@
+{
+  "_說明": "自主邊界（需求 2.4）。工具只有讀取；以下動作一律擋下並記錄為『需人工批准』，AI 不能自己放行。經驗通過寫入審核變使用中、依規則下架，都不需批准（G-27）。",
+  "allowed_methods": ["GET", "HEAD"],
+  "paid_or_login_hosts": [
+    "api.ahrefs.com", "ahrefs.com", "api.semrush.com", "semrush.com", "api.dataforseo.com",
+    "api.moz.com", "moz.com", "api.similarweb.com", "serpapi.com", "api.serpstack.com",
+    "majestic.com", "api.majestic.com", "app.sistrix.com", "api.brightdata.com"
+  ],
+  "blocked_path_words": ["login", "signin", "sign-in", "register", "checkout", "payment", "cart", "wp-admin", "wp-login.php", "logout"],
+  "approval_required_actions": ["修改評分表", "修改正解檔", "修改寫入審核與下架的規則", "付費資料查詢", "登入", "送出表單", "永久刪除經驗", "修改 Tool 程式"]
+}

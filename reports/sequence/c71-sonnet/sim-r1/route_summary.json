@@ -1,0 +1,188 @@
+{
+ "at": "2026-11-17T20:37:42+0800",
+ "steps": [
+  {
+   "n": 1,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0060",
+    "E-0061"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 2,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "",
+   "evidence_ids": [],
+   "ok": false,
+   "light_test_of": null
+  },
+  {
+   "n": 3,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/"
+   },
+   "why": "娛樂城推薦分區",
+   "evidence_ids": [
+    "E-0062",
+    "E-0063"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 4,
+   "tool": "sitemap_tree",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0104"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 5,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0106",
+    "E-0107"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 6,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a%E5%A8%9B%E6%A8%82%E5%9F%8E"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0108",
+    "E-0109"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 7,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "web.archive.org",
+    "path": "/web/20250602040317id_/https://2030.tw/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0106",
+    "E-0110"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 8,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "",
+   "evidence_ids": [
+    "E-0111"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 9,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/article/space-tech-003-industry/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0112",
+    "E-0113"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 11,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0114",
+    "E-0115"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 12,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/taiwanplus/mlb-live-20261031-tb-vs-mil/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0116",
+    "E-0117"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 13,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a%E5%A8%9B%E6%A8%82%E5%9F%8E"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0108",
+    "E-0118"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 14,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/5g_taiwan/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0119"
+   ],
+   "ok": true,
+   "light_test_of": null
+  }
+ ]
+}

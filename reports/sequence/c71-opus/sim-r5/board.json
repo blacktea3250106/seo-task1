@@ -1,0 +1,7 @@
+{
+ "updated_at": "2026-11-17T21:39:26+0800",
+ "evidence_index": "evidence.jsonl",
+ "evidence_total": 181,
+ "tool_calls_total": 44,
+ "why_filled": 43
+}

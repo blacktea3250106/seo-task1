@@ -1,0 +1,39 @@
+{
+  "at": "2026-11-17T21:38:51+0800",
+  "simulated": true,
+  "runtime": "claude-code-cli",
+  "runner": "claude",
+  "model": "sonnet",
+  "minutes": 120.0,
+  "effort": null,
+  "sim_note": "模擬執行：用 Claude Code CLI（訂閱）代替 Hermes AIAgent；不是 Hermes 整合證據",
+  "rounds": 1,
+  "experience": "<repo>/reports/sequence/c71-sonnet-noexp-3/experience/candidates.jsonl",
+  "experience_sha256": "820280e2ca0322dd462bb57ead8167aeba2bd3a6c079ae8a26c29d799b503446",
+  "steps": [
+    {
+      "round": 1,
+      "step": "research",
+      "run_dir": "<repo>/reports/sequence/c71-sonnet-noexp-3/sim-r1",
+      "experience_in": []
+    },
+    {
+      "round": 1,
+      "step": "evaluate",
+      "total": 6.0,
+      "marks": "yyynyynnnynnnn",
+      "wrong_count": 0,
+      "untrusted_run": null,
+      "new_findings": null
+    },
+    {
+      "round": 1,
+      "step": "post_run",
+      "judgement": "done",
+      "audit": "done",
+      "active_after": [
+        "EXP-001"
+      ]
+    }
+  ]
+}

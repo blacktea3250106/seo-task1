@@ -1,0 +1,248 @@
+{
+  "status": "passed",
+  "status_label": "完成",
+  "run_id": "sim-r1",
+  "model": "claude-opus-5-5",
+  "started_at": 1794919709.589,
+  "elapsed_s": 633.3,
+  "tool_calls_total": 46,
+  "tool_calls_by_name": {
+    "inspect_page": 15,
+    "text_match": 2,
+    "sitemap_tree": 13,
+    "polite_fetch": 4,
+    "wayback": 5,
+    "domain_info": 1,
+    "web_search": 1,
+    "submit_report": 2,
+    "experience": 3
+  },
+  "tool_errors": {
+    "bad_args": 2,
+    "network_error": 2,
+    "rejected": 1
+  },
+  "evidence_total": 163,
+  "baseline": {
+    "domain": "2030.tw",
+    "baseline_hash": "0018311732677cb38f94d5d86d63e6ce5d1e5282cd94dabbde3a447aa9ebb9a3",
+    "updated_at": "2026-11-17T20:48:29+0800",
+    "action": "refetched_failed",
+    "refetched": [
+      "search_1",
+      "search_2"
+    ]
+  },
+  "http_requests": 78,
+  "coverage": {
+    "sections_read": [
+      "/",
+      "/2kapb2a/",
+      "/5g_taiwan/",
+      "/about-us/",
+      "/ai_taiwan/",
+      "/article/",
+      "/robots.txt/",
+      "/taiwanplus/",
+      "/wordcup/"
+    ],
+    "sections_not_yet_read": [
+      "/mlb/（316 個 sitemap 網址、3 個選單連結）",
+      "/digi_taiwan/（77 個 sitemap 網址、3 個選單連結）",
+      "/2026-worldcup/（14 個 sitemap 網址）",
+      "/2026-fifa-world-cup/（8 個 sitemap 網址）",
+      "/world-cup-betting-guide/（7 個 sitemap 網址）",
+      "/topic/（6 個 sitemap 網址）",
+      "/world-cup-2026-predictions/（6 個 sitemap 網址）",
+      "/world-cup-sports-betting/（6 個 sitemap 網址）",
+      "/iftomm2015cd/（5 個 sitemap 網址）",
+      "/b5g/（4 個 sitemap 網址）",
+      "/pretech/（4 個 sitemap 網址）",
+      "/ai/（3 個 sitemap 網址）",
+      "/uncategorized/（2 個 sitemap 網址）",
+      "/world-cup-schedule/（2 個 sitemap 網址）",
+      "/2026-nba-ai-e8-b3-bd-e4-ba-8b-e9-a0-90-e6-b8-ac-e7-b5-82-e7-ab-af-ef-bc-9a-e5-a4-a7-e6-95-b8-e6-93-9a-e8-a7-a3-e6-a7-8b-e5-8d-b3-e6-99-82-e6-88-b0-e6-b3-81-e3-80-81-e5-ad-a3-e5-be-8c-e8-b3-bd/（1 個 sitemap 網址）",
+      "/2k4xxza/（1 個 sitemap 網址）",
+      "/2kextwv/（1 個 sitemap 網址）",
+      "/2kinhbc/（1 個 sitemap 網址）",
+      "/2kkflq7/（1 個 sitemap 網址）",
+      "/2kkx0cx/（1 個 sitemap 網址）",
+      "/2knx0sr/（1 個 sitemap 網址）",
+      "/2knx84n/（1 個 sitemap 網址）",
+      "/2knxfnl/（1 個 sitemap 網址）",
+      "/2krmvsf/（1 個 sitemap 網址）",
+      "/2lond3x/（1 個 sitemap 網址）",
+      "/2lu8mem/（1 個 sitemap 網址）",
+      "/2lui3mr/（1 個 sitemap 網址）",
+      "/2lxec8c/（1 個 sitemap 網址）",
+      "/2lxfjyk/（1 個 sitemap 網址）",
+      "/2mjq759/（1 個 sitemap 網址）",
+      "/community-2/（1 個 sitemap 網址）",
+      "/community/（1 個 sitemap 網址）",
+      "/home-2/（1 個 sitemap 網址）",
+      "/author/（5 個選單連結）",
+      "/page/（3 個選單連結）"
+    ]
+  },
+  "why_filled": 41,
+  "stop": {
+    "elapsed_s": 633.3,
+    "final_streak": 1,
+    "stop_events": [],
+    "phase": "final",
+    "recheck_calls": 11
+  },
+  "experience_read": {
+    "notes_sha256": "706d1d8faf7e40cf48eacc96cd8b9a6ce3ca46625c43d0831748b0ea86a888df",
+    "entry_ids": []
+  },
+  "experience_proposals": 2,
+  "experience_changes": [],
+  "review": {
+    "triggered": 1,
+    "status": "passed",
+    "items": 18,
+    "revised": true,
+    "cost": {
+      "api_calls": 1,
+      "tokens": {
+        "input": 57323,
+        "output": 10464,
+        "total": 67787
+      },
+      "elapsed_s": 99.8
+    },
+    "total_with_review": {
+      "api_calls": 23,
+      "tokens": {
+        "input": 2208900,
+        "output": 42478,
+        "total": 2251378
+      }
+    }
+  },
+  "metrics": {
+    "wasted_calls": 4,
+    "blocked": [
+      {
+        "tool": "web_search",
+        "domain": "web_search",
+        "path": "3A娛樂城",
+        "error": "network_error",
+        "evidence_ids": [
+          "E-0149"
+        ]
+      },
+      {
+        "tool": "wayback",
+        "domain": "2030.tw",
+        "path": "/",
+        "error": "network_error",
+        "evidence_ids": [
+          "E-0163"
+        ]
+      }
+    ],
+    "saved_calls": {
+      "count": 0,
+      "items": [],
+      "note": "模型自稱避開，不計分"
+    },
+    "key_finding": {
+      "claim_id": "OFF-1",
+      "rubric_items": [
+        "T05",
+        "T06"
+      ],
+      "evidence_id": "E-0058",
+      "calls": 0,
+      "elapsed_s": 0.0
+    },
+    "new_findings": null
+  },
+  "approvals_pending": [],
+  "tools_offered": [
+    "mcp__seo__domain_info",
+    "mcp__seo__experience",
+    "mcp__seo__inspect_page",
+    "mcp__seo__polite_fetch",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__submit_report",
+    "mcp__seo__text_match",
+    "mcp__seo__wayback",
+    "mcp__seo__web_search"
+  ],
+  "tools_used": [
+    "mcp__seo__inspect_page",
+    "mcp__seo__text_match",
+    "mcp__seo__inspect_page",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__polite_fetch",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__wayback",
+    "mcp__seo__wayback",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__polite_fetch",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__wayback",
+    "mcp__seo__inspect_page",
+    "mcp__seo__polite_fetch",
+    "mcp__seo__domain_info",
+    "mcp__seo__wayback",
+    "mcp__seo__inspect_page",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__web_search",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__submit_report",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__text_match",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__polite_fetch",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__wayback",
+    "mcp__seo__submit_report",
+    "mcp__seo__experience",
+    "mcp__seo__experience",
+    "mcp__seo__experience"
+  ],
+  "api_calls": 22,
+  "final_response": "報告已通過，兩條查法路線也已記下待審。2030.tw 的娛樂城 SEO 主要靠大量關鍵字頁面，加上一個曾是政府計畫網站的舊網域。它的排名、收錄、流量和外鏈數量都查不到：免費搜尋兩次都連不上，也沒有外鏈工具。所以下面只講它做了什麼，不能說這些做法有沒有效。\n\n**它的做法**\n- **娛樂城關鍵字頁大量鋪開：**\n  - /wordcup/ 底下有 2354 個網址，其中 2197 個含「娛樂城」，一個關鍵字變體開一頁。例如「3a娛樂城」和「3a 娛樂城」是兩個各自獨立的頁面；含「3A」的網址有 94 個，涵蓋官網、登入、出金、不出金、合法嗎、ptt 等意圖詞。\n  - 抽查的 3 頁用同一套標題、段落、5 題 FAQ 的結構，也都有 FAQ 結構化資料。\n  - 這批頁面的 sitemap 不在 robots.txt 和 sitemap 索引裡，我是試探資料夾路徑才找到的。這可能是刻意分開，也可能只是另一套 WordPress 安裝造成的。\n- **連結導向：** 每頁選單都有「線上娛樂城推薦」連到娛樂城入口頁。抽查的關鍵字頁大約有 16 個連結連到其他關鍵字頁。娛樂城頁上的註冊按鈕都連到同一個 3A 品牌網址，帶推廣參數，並設 nofollow。\n- **運彩內容當主體：** 每場 MLB 比賽各有賽前頁和賽後比分頁。抽查的賽前頁寫明數據來源是 Tank01 MLB API。\n- **沿用舊網域：**\n  - 網域目前這次註冊是 2026-04-15。2024 年的存檔顯示，這裡以前是政府 DIGI⁺ 的「2030 智慧國家」政策溝通平台。\n  - 現在有 15 個舊短網址代碼被重建成運彩頁。舊分類網址 /5G_Taiwan/ 現在是「MLB分析」分類頁；首頁選單「世界盃直播」連到 space-tech-003-industry 這種舊主題命名的網址，內容已換成世足運彩頁。舊站的文章網址則大多回 404。\n  - 我推測它是想接住舊站累積的外鏈和信任，但沒有外鏈資料可以證實。\n\n**建議優先做的事**\n1. **先驗證關鍵字再寫頁：** 用自己的工具查「娛樂城」「3A娛樂城」相關意圖詞的搜尋量和搜尋結果，確認值得做之後，合併成少數幾個有深度的頁面。不要學它一個變體開一頁。\n2. **做它沒有的可信內容：** 放有日期的實測截圖、出金紀錄、條款原文、真實作者頁。顯示的更新日期、結構化資料裡的修改日期和 sitemap 日期要一致；對方這三者互相矛盾，結構化資料還混進別頁的資訊。\n3. **建乾淨的主題結構：** 一個入口頁連到品牌頁和教學頁，全站選單放入口連結，各頁加麵包屑和適量相關連結。\n4. **靠正常方式累積權威：** 不要學它沿用過期網域的舊網址，這類做法有被搜尋引擎視為濫用的風險。\n5. **定期追蹤它：** 重新讀取它的 sitemap，包括 /wordcup/ 那個不在 robots.txt、要試探路徑才找得到的 sitemap，看關鍵字頁的數量和新意圖詞。\n\n只抽查了約 9 個頁面，這些觀察不能直接推成全站現象。",
+  "completed": true,
+  "num_turns": 47,
+  "stop_reason": "success",
+  "cost_usd_equiv": 2.3961463999999997,
+  "tokens": {
+    "input": 2151577,
+    "output": 32014,
+    "total": 2183591
+  },
+  "error": null,
+  "runtime": "claude-code-cli",
+  "runner": "claude",
+  "simulated": true,
+  "exit_code": 0,
+  "non_project_tools_offered": [],
+  "non_project_tools_used": [],
+  "sim_note": "模擬執行：用 Claude Code CLI（訂閱）代替 Hermes AIAgent；不是 Hermes 整合證據",
+  "score": {
+    "total": 8.0,
+    "max": 14,
+    "marks": "yyynyyynnyynnn",
+    "note": "只給人看"
+  }
+}

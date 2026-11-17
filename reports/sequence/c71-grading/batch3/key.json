@@ -1,0 +1,6 @@
+{
+  "R01": {
+    "arm": "opus-r5",
+    "dir": "c71-opus/sim-r5"
+  }
+}

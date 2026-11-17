@@ -1,0 +1,200 @@
+{
+  "status": "passed",
+  "items": [
+    {
+      "source": "審查",
+      "sentence": "on1：「這是把舊網域的歷史權重改作運彩／娛樂城用途的做法。」；summary「網域 2026-04 重新註冊後改成運彩／世足／MLB 站」",
+      "problem": "Wayback 時間線顯示 2025-11-08 仍為 200，2026-01-05 為 301，RDAP 註冊日 2026-04-15；證據只能證明「舊站存在」與「現在註冊日較新」，推不出『借舊網域歷史權重』是對方的意圖或策略。另外 2026-01-05 的 301 去向、2026-01 至 04 之間網域狀態都沒查，網域是否換主、是否有 301 轉移外鏈均未驗證。且 on1 寫成 fact，實為推論。RDAP 註冊日只代表目前這次註冊，工具自己也提醒要配合 wayback 判斷。",
+      "evidence_ids": [
+        "E-0055",
+        "E-0058",
+        "E-0106"
+      ],
+      "needs_evidence": true,
+      "stale": true,
+      "id": "R1"
+    },
+    {
+      "source": "審查",
+      "sentence": "on1：「菜單中的『世界盃直播』等連結指向舊科技專題風格的網址（如 space-tech-003-industry）」「現站仍保留舊分區（/5g_taiwan/、/digi_taiwan/、/ai_taiwan/）」",
+      "problem": "E-0112 該頁 canonical 為 /article/space-tech-003-industry/，內容是世足直播行銷頁，發佈日 2026-04-17，是新站作者自行取的網址，不是舊站殘留。/5g_taiwan/ 在 sitemap 前十區並未出現，只看到 /digi_taiwan/、/ai_taiwan/；/5g_taiwan/ 沒有證據。「選單連結」指向該網址也沒有在引用證據中見到。",
+      "evidence_ids": [
+        "E-0112",
+        "E-0104"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R2"
+    },
+    {
+      "source": "審查",
+      "sentence": "off2：「Wayback 顯示 2020–2025 年一直有存檔（舊政府站），2026 年只剩 1 筆。」",
+      "problem": "時間線只有計數，沒有逐年內容；2020–2024 是否都是政府站未驗證（只有 2025-06 快照內容為證據）。最後一筆 2026-01-05 為 301，代表網域在註冊日（2026-04）前就有轉向，與「2026-04 重新註冊後改成」的敘述有時序落差，未被解釋。",
+      "evidence_ids": [
+        "E-0058",
+        "E-0106",
+        "E-0055"
+      ],
+      "needs_evidence": true,
+      "stale": true,
+      "id": "R3"
+    },
+    {
+      "source": "審查",
+      "sentence": "summary / on2：「這些頁面約佔 sitemap 一半（2354／4654）」與「/wordcup/ 下大量生成『○○娛樂城』關鍵字頁」",
+      "problem": "2354 是整個 /wordcup/ 路徑的網址數，並非每個都是娛樂城頁；列表頁自稱 2502 篇、分類含「其他 748」，只抽樣讀了列表頁與 3A 頁。此外 sitemap 又顯示 url_rows 4846 與 distinct 4654，列表頁寫 2502 與 sitemap 2354 兩數字也有差距未解釋。「大量生成」（AI 或模板）是推論，寫成事實。",
+      "evidence_ids": [
+        "E-0104",
+        "E-0062"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R4"
+    },
+    {
+      "source": "審查",
+      "sentence": "on3：「sitemap 內約 94 個含 3a 的網址，涵蓋官網、下載、評價、登入、dcard、註冊、app、出金等長尾變體」",
+      "problem": "只看了 search 的前 10 個範例，94 個中其餘 84 個未列；含「3a」的網址不一定都是 3A娛樂城長尾（也可能包含其他品牌或含 3a 字串的詞）。且 sitemap 的 3a 長尾頁都沒有實際抓取，不知是否各自獨立內容、還是重導或重複頁。「單一關鍵字一頁、一頁多個長尾變體」的說法與「每個長尾一頁」互相矛盾（summary 裡的『一頁多個長尾變體』）。",
+      "evidence_ids": [
+        "E-0111",
+        "E-0108"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R5"
+    },
+    {
+      "source": "審查",
+      "sentence": "on5：「3A 頁的 article 結構化資料另寫 datePublished 2026-11-10、dateModified 2026-11-15，與外層 og 的 2026-07-12 不一致。這顯示頁面由模板大量生成。」",
+      "problem": "日期不一致只是兩個欄位不一致，且頁面可見『2026年11月10日 更新』與 JSON-LD 一致，可能是正常更新而 og 未更新；推論「模板大量生成」證據弱（只有兩頁相同的 MLB 外來實體）。另 E-0108 jsonld_dates 與 inspect 的 jsonld_raw 被截斷，article 日期未看到原文。",
+      "evidence_ids": [
+        "E-0108",
+        "E-0062",
+        "E-0109"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R6"
+    },
+    {
+      "source": "審查",
+      "sentence": "on4：「沒有可核對的具體數據；多頁開頭句型相同」",
+      "problem": "3A 頁其實有出金「半小時到一小時」、最低入金 1000 元等具體說法，只是無第三方可核對；說「沒有數據」不精確。「多頁開頭句型相同」僅靠列表頁摘要，樣本是前 48 篇摘要。",
+      "evidence_ids": [
+        "E-0108",
+        "E-0062"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R7"
+    },
+    {
+      "source": "審查",
+      "sentence": "on6：「/taiwanplus/（1819 網址）與 /mlb/（302）每日產出……賽事頁」；「被放在首頁與各頁側欄／頁尾內鏈」",
+      "problem": "/taiwanplus/ 與 /mlb/ 沒有抓過任何頁面；unknowns 也承認只由 sitemap 與首頁標題推斷，但 on6 寫成 fact，且「提供主題相關性與抓取量」是未驗證的推論。",
+      "evidence_ids": [
+        "E-0104",
+        "E-0060"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R8"
+    },
+    {
+      "source": "審查",
+      "sentence": "on6：「Space-Tech 衛星零延遲訊號領先 3 秒」等行銷說法，無第三方來源可核實",
+      "problem": "可作為頁面出現此說法的證據，但「無第三方來源可核實」是沒查（沒有做任何查證）而非查過找不到；屬否定結論。",
+      "evidence_ids": [
+        "E-0112"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R9"
+    },
+    {
+      "source": "審查",
+      "sentence": "off1：「娛樂城頁的外部連結全帶 nofollow」「立即註冊按鈕是整站變現出口，也就是導流到娛樂城的聯盟或推廣模式」",
+      "problem": "引用的 inspect 輸出（E-0109、E-0063）看到的只有 external_hosts 與被截斷的內容，nofollow 欄位（external_nofollow）在被截斷的部分沒看到，無法確認；若 external_hosts 的主機含 twitter、facebook 也不一定 nofollow。「全帶 nofollow」只驗了 2 頁。『整站變現出口』與『聯盟模式』是推論，非事實。首頁的 wg1888 script 字串在引用證據也沒見到。",
+      "evidence_ids": [
+        "E-0109",
+        "E-0063",
+        "E-0060"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R10"
+    },
+    {
+      "source": "審查",
+      "sentence": "on7：「GA 只比到 Google tag GT-57VMS4XR」；on1 對比舊站 GA4 G-5N98F2YVQ4",
+      "problem": "可作為舊站與新站追蹤碼不同的旁證（暗示不同擁有者），但報告沒有利用它，反而依據它推導『改作』；且 on7 的「只比到」是工具解析範圍，不代表沒有其他追蹤碼。",
+      "evidence_ids": [
+        "E-0060",
+        "E-0106"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R11"
+    },
+    {
+      "source": "審查",
+      "sentence": "off4：「sameAs 裡含 plus.google.com 等失效網址，顯示是模板殘留」",
+      "problem": "引用的 E-0060、E-0112 內容中看不到 sameAs 或 plus.google.com；證據不支持此陳述。「15.8k Subscribers」可見於 E-0112，但「萬名專業球迷」在 E-0060，其餘無依據。",
+      "evidence_ids": [
+        "E-0060",
+        "E-0112"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R12"
+    },
+    {
+      "source": "審查",
+      "sentence": "actions 第 1 條：「對手用同一模式切頁但內容是同質口語、沒有數據與證據，有機會用資訊增益與 E-E-A-T 超過它」",
+      "problem": "排名、流量、收錄完全未知（unknowns 自承），無法判斷對手模式是否有效，也未看過排名前列的其他競品；由「內容品質低」推到「能超過它」缺證據。建議也未考量博弈內容風險。",
+      "evidence_ids": [
+        "E-0108",
+        "E-0062"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R13"
+    },
+    {
+      "source": "審查",
+      "sentence": "actions 第 3 條：「對手的 schema 錯置、日期不一致（on5），代表技術品質可被超越。」",
+      "problem": "schema 錯置只是小瑕疵，無證據顯示它影響排名；『可被超越』推論不成立。",
+      "evidence_ids": [
+        "E-0108",
+        "E-0062"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R14"
+    },
+    {
+      "source": "審查",
+      "sentence": "actions 第 5 條：「對手對推廣連結全部使用 nofollow（off1），我們也要遵守規則。」；「Google 對 expired domain 濫用有政策」",
+      "problem": "nofollow 結論只由兩頁樣本；「對手受益於舊網域歷史」未證實（off3 自稱未驗證）；Google 政策為外部知識，沒有證據引用。",
+      "evidence_ids": [
+        "E-0109",
+        "E-0063"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R15"
+    }
+  ],
+  "cost": {
+    "api_calls": 1,
+    "tokens": {
+      "input": 47300,
+      "output": 3493,
+      "total": 50793
+    },
+    "elapsed_s": 29.0
+  },
+  "tools_offered": [],
+  "error": null,
+  "at": "2026-11-17T20:36:56+0800"
+}

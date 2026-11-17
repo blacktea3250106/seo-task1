@@ -1,0 +1,248 @@
+{
+ "at": "2026-11-17T21:27:50+0800",
+ "rubric": "2030-rubric-v1",
+ "total": 6.0,
+ "max": 14,
+ "marks": "ynynyyynnynnnn",
+ "dimensions": {
+  "完整度": {
+   "score": 6.0,
+   "max": 14,
+   "marks": "ynynyyynnynnnn"
+  },
+  "正確度": {
+   "wrong_items": [],
+   "check_issues_left": [],
+   "rejections": 0
+  },
+  "誠實度": {
+   "absolute_scoped_2ev": {
+    "ok": 0,
+    "of": 3,
+    "rate": 0.0
+   },
+   "inference_with_limits": {
+    "ok": 3,
+    "of": 3,
+    "rate": 1.0
+   },
+   "unknowns": 6
+  },
+  "可追溯": {
+   "claims_with_existing_evidence": {
+    "ok": 16,
+    "of": 16,
+    "rate": 1.0
+   }
+  },
+  "建議有根據": {
+   "actions_based_on_valid_claims": {
+    "ok": 6,
+    "of": 6,
+    "rate": 1.0
+   }
+  },
+  "新發現": {
+   "claims_outside_14": 9,
+   "list_for_human": [
+    "ON-3：用 inspect_page summary 抽查 3 個變體頁（3a娛樂城、3a娛樂城出金、娛樂城），各有 2 個 H1（h1_count=2：站名，以及「<",
+    "ON-5：變體頁自己的 Article JSON-LD 日期各頁不同：3a娛樂城 是 datePublished 2026-11-10、dateModified 2026",
+    "ON-6：頁首「更新」日期和 JSON-LD 日期很可能是頁面產生（快取）時才寫入，不是內容真的修改過：3a娛樂城 重抓時回應標頭的 last-modified 是 20",
+    "ON-8：第二大分區 /taiwanplus/（1850 列）的網址格式是 mlb-live-日期-隊伍-vs-隊伍。抽查的 1 頁內容是戰績、先發投手、打線表格，頁面註",
+    "OFF-2：這個網域很可能是舊政府網站到期後被重新註冊，改做運彩和娛樂城用途（過期網域再利用）。",
+    "OFF-3：舊站的短網址代碼現在被新內容接住：/2kAPB2a 回 301，Location 是 /2kAPB2a/；帶斜線的網址回 200，是新寫的「2026 NBA冠軍",
+    "OFF-4：sitemap 裡用「2030.tw/2」前綴搜尋，在 page-sitemap 命中 17 筆；列出的範例裡至少有 10 個是小寫的舊短網址代碼頁（例如 /2",
+    "OFF-5：不是所有舊網址都被接住。抽查的舊 /article/ 文章網址（cover-story-04、digi-plus-2022-05-moda、Digital-Go",
+    "OFF-7：抽查的 2 個娛樂城頁（3a娛樂城、娛樂城），各有 4 個 CTA 連到 3A 品牌網域並帶 st=wg2030 參數，HTML a 連結都是 rel=nofo"
+   ],
+   "note": "只列出不屬於 14 項的主張；是否為真且有價值要人工看"
+  }
+ },
+ "judged_wrong": [],
+ "key_finding": {
+  "claim_id": "OFF-1",
+  "rubric_items": [
+   "T05",
+   "T06"
+  ],
+  "evidence_id": "E-0057",
+  "calls": 0,
+  "elapsed_s": 0.0
+ },
+ "prev_run": "<repo>/reports/sequence/c71-opus/sim-r3",
+ "new_findings": {
+  "count": 0,
+  "items": []
+ },
+ "wrong_count": 0,
+ "cost": {
+  "tool_calls": 47,
+  "api_calls": 25,
+  "tokens": 2863843,
+  "elapsed_s_reference": 549.9
+ },
+ "untrusted_run": null,
+ "review_outcomes": [
+  {
+   "id": "R1",
+   "source": "審查",
+   "claim_id": "ON-3",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R2",
+   "source": "審查",
+   "claim_id": "ON-3",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R3",
+   "source": "審查",
+   "claim_id": "ON-3",
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R4",
+   "source": "審查",
+   "claim_id": "ON-4",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R5",
+   "source": "審查",
+   "claim_id": "ON-4",
+   "outcome": "補查後修正",
+   "needs_evidence": false
+  },
+  {
+   "id": "R6",
+   "source": "審查",
+   "claim_id": "ON-5",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R7",
+   "source": "審查",
+   "claim_id": "ON-5",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R8",
+   "source": "審查",
+   "claim_id": "ON-6",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R9",
+   "source": "審查",
+   "claim_id": "ON-7",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R10",
+   "source": "審查",
+   "claim_id": "ON-8",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R11",
+   "source": "審查",
+   "claim_id": "OFF-1",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R12",
+   "source": "審查",
+   "claim_id": "OFF-1",
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R13",
+   "source": "審查",
+   "claim_id": "OFF-2",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R14",
+   "source": "審查",
+   "claim_id": "OFF-2",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R15",
+   "source": "審查",
+   "claim_id": "OFF-2",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R16",
+   "source": "審查",
+   "claim_id": "OFF-3",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R17",
+   "source": "審查",
+   "claim_id": "OFF-4",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R18",
+   "source": "審查",
+   "claim_id": "OFF-5",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R19",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R20",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R21",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R22",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R23",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  }
+ ]
+}

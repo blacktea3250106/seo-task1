@@ -1,0 +1,10 @@
+{
+  "job": "research",
+  "run_id": "seq-r1-20261117-225453",
+  "payload": {
+    "total_minutes": 120,
+    "max_iterations": 400,
+    "fetch_delay_s": 1.5,
+    "experience_path": "<repo>/reports/sequence/hermes-sonnet/experience/candidates.jsonl"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "at": "2026-11-17T23:02:31+0800",
+  "runtime": "live",
+  "rounds": 1,
+  "experience": "<repo>/reports/sequence/hermes-sonnet/experience/candidates.jsonl",
+  "experience_sha256": "229594ddcefd159df43c248123d9d922bac8376f64a884698b42c5006f673c70",
+  "steps": [
+    {
+      "round": 1,
+      "step": "research",
+      "run_dir": "<repo>/reports/runs/seq-r1-20261117-225453",
+      "experience_in": []
+    },
+    {
+      "round": 1,
+      "step": "evaluate",
+      "total": 6.0,
+      "marks": "yyynyynnnynnnn",
+      "wrong_count": 0,
+      "untrusted_run": null,
+      "new_findings": null
+    },
+    {
+      "round": 1,
+      "step": "post_run",
+      "judgement": "done",
+      "audit": "done",
+      "active_after": [
+        "EXP-001"
+      ]
+    }
+  ]
+}

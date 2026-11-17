@@ -1,0 +1,202 @@
+{
+  "status": "passed",
+  "status_label": "完成",
+  "run_id": "sim-r5",
+  "model": "claude-sonnet-5-5",
+  "started_at": 1794920234.789,
+  "elapsed_s": 213.2,
+  "tool_calls_total": 17,
+  "tool_calls_by_name": {
+    "sitemap_tree": 4,
+    "inspect_page": 7,
+    "wayback": 2,
+    "submit_report": 2,
+    "experience": 2
+  },
+  "tool_errors": {
+    "rejected": 1
+  },
+  "evidence_total": 121,
+  "baseline": {
+    "domain": "2030.tw",
+    "baseline_hash": "0018311732677cb38f94d5d86d63e6ce5d1e5282cd94dabbde3a447aa9ebb9a3",
+    "updated_at": "2026-11-17T20:57:14+0800",
+    "action": "refetched_failed",
+    "refetched": [
+      "search_1",
+      "search_2"
+    ]
+  },
+  "http_requests": 52,
+  "coverage": {
+    "sections_read": [
+      "/",
+      "/wordcup/"
+    ],
+    "sections_not_yet_read": [
+      "/taiwanplus/（1850 個 sitemap 網址、15 個選單連結）",
+      "/mlb/（316 個 sitemap 網址、3 個選單連結）",
+      "/digi_taiwan/（77 個 sitemap 網址、3 個選單連結）",
+      "/article/（18 個 sitemap 網址、42 個選單連結）",
+      "/2026-worldcup/（14 個 sitemap 網址）",
+      "/2026-fifa-world-cup/（8 個 sitemap 網址）",
+      "/world-cup-betting-guide/（7 個 sitemap 網址）",
+      "/ai_taiwan/（6 個 sitemap 網址）",
+      "/topic/（6 個 sitemap 網址）",
+      "/world-cup-2026-predictions/（6 個 sitemap 網址）",
+      "/world-cup-sports-betting/（6 個 sitemap 網址）",
+      "/iftomm2015cd/（5 個 sitemap 網址）",
+      "/b5g/（4 個 sitemap 網址）",
+      "/pretech/（4 個 sitemap 網址）",
+      "/5g_taiwan/（3 個 sitemap 網址、8 個選單連結）",
+      "/ai/（3 個 sitemap 網址）",
+      "/uncategorized/（2 個 sitemap 網址）",
+      "/world-cup-schedule/（2 個 sitemap 網址）",
+      "/2026-nba-ai-e8-b3-bd-e4-ba-8b-e9-a0-90-e6-b8-ac-e7-b5-82-e7-ab-af-ef-bc-9a-e5-a4-a7-e6-95-b8-e6-93-9a-e8-a7-a3-e6-a7-8b-e5-8d-b3-e6-99-82-e6-88-b0-e6-b3-81-e3-80-81-e5-ad-a3-e5-be-8c-e8-b3-bd/（1 個 sitemap 網址）",
+      "/2k4xxza/（1 個 sitemap 網址）",
+      "/2kapb2a/（1 個 sitemap 網址）",
+      "/2kextwv/（1 個 sitemap 網址）",
+      "/2kinhbc/（1 個 sitemap 網址）",
+      "/2kkflq7/（1 個 sitemap 網址）",
+      "/2kkx0cx/（1 個 sitemap 網址）",
+      "/2knx0sr/（1 個 sitemap 網址）",
+      "/2knx84n/（1 個 sitemap 網址）",
+      "/2knxfnl/（1 個 sitemap 網址）",
+      "/2krmvsf/（1 個 sitemap 網址）",
+      "/2lond3x/（1 個 sitemap 網址）",
+      "/2lu8mem/（1 個 sitemap 網址）",
+      "/2lui3mr/（1 個 sitemap 網址）",
+      "/2lxec8c/（1 個 sitemap 網址）",
+      "/2lxfjyk/（1 個 sitemap 網址）",
+      "/2mjq759/（1 個 sitemap 網址）",
+      "/community-2/（1 個 sitemap 網址）",
+      "/community/（1 個 sitemap 網址）",
+      "/home-2/（1 個 sitemap 網址）",
+      "/author/（5 個選單連結）",
+      "/page/（3 個選單連結）"
+    ]
+  },
+  "why_filled": 5,
+  "stop": {
+    "elapsed_s": 213.2,
+    "final_streak": 0,
+    "stop_events": [],
+    "phase": "final",
+    "recheck_calls": 2
+  },
+  "experience_read": {
+    "notes_sha256": "8b6fb709cd61d9acc6c1ab57290ba28a5bda2d2ba92b42cd53d8ae12f7648788",
+    "entry_ids": [
+      "EXP-001",
+      "EXP-002",
+      "EXP-003",
+      "EXP-004"
+    ]
+  },
+  "experience_proposals": 1,
+  "experience_changes": [],
+  "review": {
+    "triggered": 1,
+    "status": "passed",
+    "items": 11,
+    "revised": true,
+    "cost": {
+      "api_calls": 1,
+      "tokens": {
+        "input": 49433,
+        "output": 6723,
+        "total": 56156
+      },
+      "elapsed_s": 50.7
+    },
+    "total_with_review": {
+      "api_calls": 12,
+      "tokens": {
+        "input": 1098248,
+        "output": 17754,
+        "total": 1116002
+      }
+    }
+  },
+  "metrics": {
+    "wasted_calls": 0,
+    "blocked": [],
+    "saved_calls": {
+      "count": 0,
+      "items": [],
+      "note": "模型自稱避開，不計分"
+    },
+    "key_finding": {
+      "claim_id": "off2",
+      "rubric_items": [
+        "T06"
+      ],
+      "evidence_id": "E-0055",
+      "calls": 0,
+      "elapsed_s": 0.0
+    },
+    "new_findings": {
+      "count": 1,
+      "items": [
+        "T10"
+      ]
+    }
+  },
+  "approvals_pending": [],
+  "tools_offered": [
+    "mcp__seo__domain_info",
+    "mcp__seo__experience",
+    "mcp__seo__inspect_page",
+    "mcp__seo__polite_fetch",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__submit_report",
+    "mcp__seo__text_match",
+    "mcp__seo__wayback",
+    "mcp__seo__web_search"
+  ],
+  "tools_used": [
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__inspect_page",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__wayback",
+    "mcp__seo__wayback",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__submit_report",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__inspect_page",
+    "mcp__seo__text_match",
+    "mcp__seo__submit_report",
+    "mcp__seo__experience",
+    "mcp__seo__experience"
+  ],
+  "api_calls": 11,
+  "final_response": "報告已交出並通過審查，我也寫了一條經驗筆記（P1），等評分後由程式審核。\n\n**結論摘要**\n- **網域歷史**：2030.tw 在 2025-11 的 Wayback 快照還是政府「智慧國家」政策網站。現在首頁是運彩、MLB、世足內容站。\n- **/wordcup/**：sitemap 約一半網址（2354 個）在這個資料夾，是「品牌名＋娛樂城」關鍵字頁。「娛樂城」「3a娛樂城」「娛樂城推薦」都有專頁。\n- **模板化**：抽樣兩個品牌頁（3a、富遊），H2 與 FAQ 結構相同，都是第一人稱口語評測。兩頁的 title 句型不同，不能說是同一句型。\n- **導流**：這兩頁的推廣按鈕都導向同一個外部網址，帶追蹤參數，rel 為 nofollow noopener，沒有 sponsored。\n- **頁面問題**：JSON-LD 混入一篇無關的 MLB 文章；og 的日期與頁面自己的 Article 日期互相衝突。\n- **/taiwanplus/**：只看了網址樣本，格式是日更的 MLB 直播模板；內文沒讀。\n\n**行動建議**\n1. 針對「娛樂城」「3A娛樂城」先做少數有查證內容的頁面，並先確認搜尋結果的競爭情況。\n2. 把對方網址裡的品牌與長尾詞拿去查量，再決定建哪些頁。\n3. 體育內容先小規模試做，不直接複製日更模板。\n4. 自己的頁面保持乾淨：單一 H1、結構化資料只放本頁實體、日期一致、推廣連結用 sponsored nofollow。\n5. 用外鏈工具查對方的真實外鏈與排名。\n\n**未知**\n- 沒有外鏈、排名、流量資料，對方各頁的實際成效不明。\n- 搜尋引擎查詢因 DuckDuckGo 連不上而失敗，沒有搜尋結果證據。\n- 只抽樣 2 個品牌頁，其餘約 2300 頁是否同模板沒確認。\n- 2025-11 到 2026-04 之間網域的空窗期，以及舊網址是否被保留，沒有證據。",
+  "completed": true,
+  "num_turns": 19,
+  "stop_reason": "success",
+  "cost_usd_equiv": 0.7129591000000001,
+  "tokens": {
+    "input": 1048815,
+    "output": 11031,
+    "total": 1059846
+  },
+  "error": null,
+  "runtime": "claude-code-cli",
+  "runner": "claude",
+  "simulated": true,
+  "exit_code": 0,
+  "non_project_tools_offered": [],
+  "non_project_tools_used": [],
+  "sim_note": "模擬執行：用 Claude Code CLI（訂閱）代替 Hermes AIAgent；不是 Hermes 整合證據",
+  "score": {
+    "total": 4.0,
+    "max": 14,
+    "marks": "ynynnynnnynnnn",
+    "note": "只給人看"
+  }
+}

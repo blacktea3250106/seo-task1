@@ -1,0 +1,175 @@
+{
+  "at": "2026-11-17T21:00:47+0800",
+  "simulated": true,
+  "runtime": "claude-code-cli",
+  "runner": "claude",
+  "model": "sonnet",
+  "minutes": 120.0,
+  "effort": null,
+  "sim_note": "模擬執行：用 Claude Code CLI（訂閱）代替 Hermes AIAgent；不是 Hermes 整合證據",
+  "rounds": 5,
+  "experience": "<repo>/reports/sequence/c71-sonnet/experience/candidates.jsonl",
+  "experience_sha256": "10fee9e76577baabe2bec714ea7cc844744a4006822f1214c727487d0fe0ae41",
+  "steps": [
+    {
+      "round": 1,
+      "step": "research",
+      "run_dir": "<repo>/reports/sequence/c71-sonnet/sim-r1",
+      "experience_in": []
+    },
+    {
+      "round": 1,
+      "step": "evaluate",
+      "total": 4.0,
+      "marks": "yyynnynnnnnnnn",
+      "wrong_count": 0,
+      "untrusted_run": null,
+      "new_findings": null
+    },
+    {
+      "round": 1,
+      "step": "post_run",
+      "judgement": "done",
+      "audit": "done",
+      "active_after": [
+        "EXP-001"
+      ]
+    },
+    {
+      "round": 2,
+      "step": "research",
+      "run_dir": "<repo>/reports/sequence/c71-sonnet/sim-r2",
+      "experience_in": [
+        "EXP-001"
+      ]
+    },
+    {
+      "round": 2,
+      "step": "evaluate",
+      "total": 5.0,
+      "marks": "yyynyynnnnnnnn",
+      "wrong_count": 0,
+      "untrusted_run": null,
+      "new_findings": {
+        "count": 1,
+        "items": [
+          "T05"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "step": "post_run",
+      "judgement": "done",
+      "audit": "done",
+      "active_after": [
+        "EXP-001",
+        "EXP-002"
+      ]
+    },
+    {
+      "round": 3,
+      "step": "research",
+      "run_dir": "<repo>/reports/sequence/c71-sonnet/sim-r3",
+      "experience_in": [
+        "EXP-001",
+        "EXP-002"
+      ]
+    },
+    {
+      "round": 3,
+      "step": "evaluate",
+      "total": 5.0,
+      "marks": "yyynyynnnnnnnn",
+      "wrong_count": 0,
+      "untrusted_run": null,
+      "new_findings": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "round": 3,
+      "step": "post_run",
+      "judgement": "done",
+      "audit": "done",
+      "active_after": [
+        "EXP-001",
+        "EXP-002",
+        "EXP-003"
+      ]
+    },
+    {
+      "round": 4,
+      "step": "research",
+      "run_dir": "<repo>/reports/sequence/c71-sonnet/sim-r4",
+      "experience_in": [
+        "EXP-001",
+        "EXP-002",
+        "EXP-003"
+      ]
+    },
+    {
+      "round": 4,
+      "step": "evaluate",
+      "total": 5.0,
+      "marks": "yyynyynnnnnnnn",
+      "wrong_count": 0,
+      "untrusted_run": null,
+      "new_findings": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "round": 4,
+      "step": "post_run",
+      "judgement": "done",
+      "audit": "done",
+      "active_after": [
+        "EXP-001",
+        "EXP-002",
+        "EXP-003",
+        "EXP-004"
+      ]
+    },
+    {
+      "round": 5,
+      "step": "research",
+      "run_dir": "<repo>/reports/sequence/c71-sonnet/sim-r5",
+      "experience_in": [
+        "EXP-001",
+        "EXP-002",
+        "EXP-003",
+        "EXP-004"
+      ]
+    },
+    {
+      "round": 5,
+      "step": "evaluate",
+      "total": 4.0,
+      "marks": "ynynnynnnynnnn",
+      "wrong_count": 0,
+      "untrusted_run": null,
+      "new_findings": {
+        "count": 1,
+        "items": [
+          "T10"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "step": "post_run",
+      "judgement": "done",
+      "audit": "done",
+      "active_after": [
+        "EXP-001",
+        "EXP-002",
+        "EXP-003",
+        "EXP-004",
+        "EXP-005"
+      ]
+    }
+  ]
+}

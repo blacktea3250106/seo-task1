@@ -1,0 +1,235 @@
+{
+  "status": "passed",
+  "items": [
+    {
+      "source": "審查",
+      "sentence": "summary：「頁首「更新」日期和 JSON-LD 日期會跟著快取生成時間變動」",
+      "problem": "ON-8 自己標成 inference，limits 和 unknowns 也承認沒有重抓過，summary 卻寫成肯定的事實。而且證據跟這句對不上：頁首「更新」日期等於 datePublished（3a娛樂城頁是 11/10），和頁面上的當日日期小工具（11/15 星期日）不同。真正和快取時間一致的只有 dateModified 與那個日期小工具，「更新」日期並沒有跟著快取走。另一種可能是日期每次產生頁面時隨機給，目前沒有排除。要在不同時間重抓同一頁才能確認。",
+      "evidence_ids": [
+        "E-0111",
+        "E-0114",
+        "E-0116"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R1"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-8：「同一頁的 CDN last-modified 是 2026-11-14 21:42 UTC（台灣時間 11/15）」",
+      "problem": "引用的 E-0119 內容是空的，沒有任何回應標頭。報告裡的 last-modified 時間，在證據中找不到出處。",
+      "evidence_ids": [
+        "E-0119"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R2"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-7：「og 的 article:section 也誤標成「mlb今日戰績」」",
+      "problem": "E-0111 解析出的 og 欄位只有 published_time 和 modified_time，沒有 article:section。「mlb今日戰績」出現在 JSON-LD NewsArticle 的 articleSection（E-0154）。報告把來源寫錯了。",
+      "evidence_ids": [
+        "E-0111",
+        "E-0154"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R3"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-3：「抽查…三頁，模板完全相同…固定 6 個 H2…每頁都有 5 題 FAQ…還有 8 個「相關推薦」站內互連」",
+      "problem": "三頁的證據都只有可見文字，沒有抓 heading 層級，所以「H2」只是推測。E-0114 和 E-0116 被截斷，看不到 5 題 FAQ 和 8 個相關推薦是否存在；相關推薦是不是站內連結也沒驗證。只抽 3 頁就推到 2,354 頁「同一模板量產」，樣本太小。/wordcup/ 列表頁也顯示各頁開頭的人設不一樣（阿豪、小李、小編）。",
+      "evidence_ids": [
+        "E-0111",
+        "E-0114",
+        "E-0116",
+        "E-0109"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R4"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-1／summary：「這組頁面的 sitemap 沒列在 robots 和 sitemap 索引裡，只有直接探測資料夾才找得到」",
+      "problem": "「只有探測才找得到」講得太滿。首頁選單直接連到 /wordcup/（E-0107），列表頁有 53 頁分頁，各頁之間也有相關推薦互連，一般爬蟲順著站內連結就能找到這些頁。對手也可能直接把 sitemap 提交到 Search Console，這點無從排除。另外，sitemap 有 2,354 個不重複網址，列表頁卻自稱 2,502 篇；sitemap 的 lastmod 停在 8/16，頁面上卻有 11 月的日期，sitemap 可能沒有反映現況。",
+      "evidence_ids": [
+        "E-0101",
+        "E-0118",
+        "E-0107",
+        "E-0109",
+        "E-0105"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R5"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-9：「/taiwanplus/ 有約 1,820 個網址，都是「mlb-live-日期-隊伍-vs-隊伍」形式…模板固定…作者是「小編妮妮」」",
+      "problem": "網址形式只看了 head、middle、tail 共 15 筆樣本，就說「都是」。模板、JSON-LD 和作者也只看了 E-0148 這一頁。summary 說「維持站內更新頻率」屬於推論：/taiwanplus/ 和 /mlb/ 的 sitemap lastmod 都停在 8/21，首頁卻有 10 月底的賽事頁，可見 sitemap 計數可能沒涵蓋近期網址，「約 1,820」可能偏低。",
+      "evidence_ids": [
+        "E-0120",
+        "E-0148",
+        "E-0101",
+        "E-0059"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R6"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-10：「/wordcup/ 的頁面 generator 是 WordPress 7.0.1，主站是 7.1.4」",
+      "problem": "引用的 E-0109 和 E-0111 都沒有 generator 欄位，7.0.1 在證據中找不到。用 E-0101 證明「sitemap 獨立」可以，但「另一套程式產生」的推論缺少前提證據。",
+      "evidence_ids": [
+        "E-0109",
+        "E-0111",
+        "E-0059"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R7"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-11：「首頁 title 主打「2030玩運彩瘋世足｜MLB/NBA比分…」，有 Organization、WebSite、ItemList 等 JSON-LD。選單有 90 個連結，其中 42 個指向 /article/」",
+      "problem": "E-0059 被截斷，只看得到 canonical、generator、headings 和 external_hosts。title、JSON-LD 類型、90 和 42 這兩個連結數都不在證據內。",
+      "evidence_ids": [
+        "E-0059"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R8"
+    },
+    {
+      "source": "審查",
+      "sentence": "OFF-5：「全站外部社群連結（Facebook、Twitter）和 CTA 幾乎都是 nofollow。抽查頁面中，只有一個 youtu.be 連結是 follow」",
+      "problem": "引用的 E-0111、E-0148、E-0139 都是可見文字，沒有任何 rel 資料，也沒有出現 youtu.be。唯一有 rel 的 E-0113 只過濾了 3a1788 的連結。首頁 script 字串裡的 wg1888 連結，工具也註明不含 rel（E-0107）。「全站」和 summary 的「導流 CTA 一律加 nofollow」都撐不起來。",
+      "evidence_ids": [
+        "E-0111",
+        "E-0148",
+        "E-0139",
+        "E-0113",
+        "E-0107"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R9"
+    },
+    {
+      "source": "審查",
+      "sentence": "OFF-1：「RDAP 顯示註冊日是 2026-04-15…依 DIGI⁺ 計畫做的科技政策專題…還有外連到 digi.nstc.gov.tw」",
+      "problem": "E-0135 的可見文字裡沒有 DIGI⁺，也沒有 digi.nstc.gov.tw（只有「國家科學及技術委員會科技辦公室」字樣），這兩點缺少證據。「網域重新註冊」只靠 RDAP 快照一份證據。RDAP 裡 registrant 實體的建立日期是 2026-01-06，Wayback 在 2026-01 已經是 301，所以時間線也可能是移轉或更換註冊商，不一定是過期後被別人重新註冊。要用另一個來源（例如 whois 歷史）交叉確認。",
+      "evidence_ids": [
+        "E-0048",
+        "E-0057",
+        "E-0135"
+      ],
+      "needs_evidence": true,
+      "stale": true,
+      "id": "R10"
+    },
+    {
+      "source": "審查",
+      "sentence": "OFF-2：「舊短碼 /2kAPB2a、/2kinhBC、/2kRmVSF 和舊分類 /5G_Taiwan、/AI_Taiwan 都是先 301 到補斜線的版本，再回 200」",
+      "problem": "有 301 證據的只有 /2kAPB2a、/5G_Taiwan 和舊文章。301 的 Location 是空的，所以「301 到補斜線版本」是推論。/2kinhBC 和 /AI_Taiwan 只有補斜線版回 200 的紀錄，/2kRmVSF 完全沒有證據。",
+      "evidence_ids": [
+        "E-0122",
+        "E-0125",
+        "E-0129",
+        "E-0142"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R11"
+    },
+    {
+      "source": "審查",
+      "sentence": "OFF-3：「抽查的 12 個裡，…等 6 個現在回 404」",
+      "problem": "列出、也有引用證據的只有 5 個，第 6 個和 12 個樣本的完整清單都沒有交代。這是否定結論：這些 404 都是 nginx 純文字頁，不是 WordPress 主題的 404 頁；被接住的網址又是靠補斜線和小寫 canonical。所以有可能只是沒試補斜線或小寫版本（例如 /article/smart-nation-70/），或伺服器層規則擋掉。應該改用補斜線和小寫重試，並用 sitemap 搜尋等另一種方法交叉確認，才能說「沒被接住」。",
+      "evidence_ids": [
+        "E-0127",
+        "E-0128",
+        "E-0130",
+        "E-0131",
+        "E-0133",
+        "E-0153"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R12"
+    },
+    {
+      "source": "審查",
+      "sentence": "unknowns：「搜尋工具（DuckDuckGo）連不上，無法確認…排名、/wordcup/ 頁面的索引數」",
+      "problem": "證據裡沒有連線失敗的紀錄，無法判斷是被擋、逾時還是查詢格式錯誤。而且只試了一種搜尋工具，沒有換其他搜尋來源或 site: 查詢再試。後面多條行動建議都建立在「不知道排名和索引」這個缺口上。",
+      "evidence_ids": [],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R13"
+    },
+    {
+      "source": "審查",
+      "sentence": "actions[0] rationale：「這些頁容易被判成低品質或重複內容」",
+      "problem": "報告沒有任何索引數或排名證據（unknowns 也承認拿不到），無法判斷對手這種做法實際上有沒有效、有沒有被降權。這只是一般 SEO 常識，不是從證據得出的結論。照這條決策前，應該先補上對手頁面的索引和排名資料。",
+      "evidence_ids": [
+        "E-0106",
+        "E-0108"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R14"
+    },
+    {
+      "source": "審查",
+      "sentence": "actions[2] rationale：「這份 sitemap 不在 robots 和索引裡，一般爬蟲工具可能漏掉」",
+      "problem": "/wordcup/ 從首頁選單就連得到，還有 53 頁分頁列表，爬蟲沿站內連結就能找到，所以「會漏掉」不成立。based_on 引用的 OFF-2 和 sitemap 監控也沒有關係。",
+      "evidence_ids": [
+        "E-0107",
+        "E-0109"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R15"
+    },
+    {
+      "source": "審查",
+      "sentence": "actions[3] rationale：「這是它在新註冊下仍能快速累積 4,600 多個網址的可能原因」",
+      "problem": "推論不成立。網址數量取決於自己發布多少頁（模板加 API 量產），和網域權重無關；權重影響的是收錄和排名，而報告沒有任何收錄或排名資料。「對手權重主要來自舊站」也沒有證據支持。另外 sitemap 計數本身可能過時。",
+      "evidence_ids": [
+        "E-0101"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R16"
+    },
+    {
+      "source": "審查",
+      "sentence": "actions[4]：「建立體育賽事資料頁…當流量和互連的來源，再從賽事頁自然連到娛樂城的評價中心頁」",
+      "problem": "沒有流量資料，無法說明對手的賽事頁帶來流量。也沒有證據顯示對手的賽事頁有連到娛樂城頁，只看到全站選單裡的「線上娛樂城推薦」。based_on 的 ON-9 和 ON-11 本身也有證據不足的問題。",
+      "evidence_ids": [
+        "E-0148",
+        "E-0059",
+        "E-0107"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R17"
+    }
+  ],
+  "cost": {
+    "api_calls": 1,
+    "tokens": {
+      "input": 80403,
+      "output": 10288,
+      "total": 90691
+    },
+    "elapsed_s": 108.0
+  },
+  "tools_offered": [],
+  "error": null,
+  "at": "2026-11-17T21:15:50+0800"
+}

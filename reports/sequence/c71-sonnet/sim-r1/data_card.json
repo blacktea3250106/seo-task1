@@ -1,0 +1,580 @@
+{
+  "domain": "2030.tw",
+  "baseline_hash": "0018311732677cb38f94d5d86d63e6ce5d1e5282cd94dabbde3a447aa9ebb9a3",
+  "fetched_at": {
+    "sitemap": "2026-11-17T09:40:29+0800",
+    "home_menu": "2026-11-17T09:40:29+0800",
+    "whois": "2026-11-17T09:40:40+0800",
+    "wayback": "2026-11-17T09:40:42+0800",
+    "search_1": "2026-11-17T20:34:05+0800",
+    "search_2": "2026-11-17T20:34:05+0800"
+  },
+  "sources": {
+    "sitemap": {
+      "label": "robots＋全部 sitemap",
+      "fetched_at": "2026-11-17T09:40:29+0800",
+      "evidence_ids": [
+        "E-0001",
+        "E-0002",
+        "E-0003",
+        "E-0004",
+        "E-0005",
+        "E-0006",
+        "E-0007",
+        "E-0008",
+        "E-0009",
+        "E-0010",
+        "E-0011",
+        "E-0012",
+        "E-0013",
+        "E-0014",
+        "E-0015",
+        "E-0016",
+        "E-0017",
+        "E-0018",
+        "E-0019",
+        "E-0020",
+        "E-0021",
+        "E-0022",
+        "E-0023",
+        "E-0024",
+        "E-0025",
+        "E-0026",
+        "E-0027",
+        "E-0028",
+        "E-0029",
+        "E-0030",
+        "E-0031",
+        "E-0032",
+        "E-0033",
+        "E-0034",
+        "E-0035",
+        "E-0036",
+        "E-0037",
+        "E-0038",
+        "E-0039",
+        "E-0040",
+        "E-0041",
+        "E-0042"
+      ],
+      "evidence_kinds": [
+        {
+          "what": "robots.txt（抓取許可，不是內容）",
+          "ids": [
+            "E-0001"
+          ]
+        },
+        {
+          "what": "網頁原檔",
+          "ids": [
+            "E-0002"
+          ]
+        },
+        {
+          "what": "sitemap 原檔",
+          "ids": [
+            "E-0003",
+            "E-0004",
+            "E-0005",
+            "E-0031",
+            "E-0036",
+            "E-0037",
+            "E-0038",
+            "E-0039",
+            "E-0040",
+            "E-0041"
+          ]
+        },
+        {
+          "what": "sitemap 原檔，HTTP 404",
+          "ids": [
+            "E-0006",
+            "E-0007",
+            "E-0008",
+            "E-0009",
+            "E-0010",
+            "E-0011",
+            "E-0012",
+            "E-0013",
+            "E-0014",
+            "E-0015",
+            "E-0016",
+            "E-0017",
+            "E-0018",
+            "E-0019",
+            "E-0020",
+            "E-0021",
+            "E-0022",
+            "E-0023",
+            "E-0024",
+            "E-0025",
+            "E-0026",
+            "E-0027",
+            "E-0028",
+            "E-0029",
+            "E-0030",
+            "E-0032",
+            "E-0033",
+            "E-0034",
+            "E-0035"
+          ]
+        },
+        {
+          "what": "Tool 整理結果（JSON）",
+          "ids": [
+            "E-0042"
+          ]
+        }
+      ],
+      "status": "成功",
+      "url_rows": 4869,
+      "distinct_urls": 4676,
+      "sitemap_files": 10,
+      "sections_total": null,
+      "sections": [
+        {
+          "section": "/wordcup/",
+          "urls": 2503,
+          "rows": null,
+          "lastmod_min": "2026-07-17",
+          "lastmod_max": "2026-08-16"
+        },
+        {
+          "section": "/taiwanplus/",
+          "urls": 1850,
+          "rows": null,
+          "lastmod_min": "2026-04-21T03:05:39+00:00",
+          "lastmod_max": "2026-08-21T06:08:29+00:00"
+        },
+        {
+          "section": "/mlb/",
+          "urls": 316,
+          "rows": null,
+          "lastmod_min": "2026-04-24T12:53:55+00:00",
+          "lastmod_max": "2026-08-21T07:31:24+00:00"
+        },
+        {
+          "section": "/digi_taiwan/",
+          "urls": 77,
+          "rows": null,
+          "lastmod_min": "2026-04-17T08:18:51+00:00",
+          "lastmod_max": "2026-07-12T00:43:57+00:00"
+        },
+        {
+          "section": "/article/",
+          "urls": 18,
+          "rows": null,
+          "lastmod_min": "2026-04-17T05:03:13+00:00",
+          "lastmod_max": "2026-06-02T07:41:48+00:00"
+        },
+        {
+          "section": "/2026-worldcup/",
+          "urls": 14,
+          "rows": null,
+          "lastmod_min": "2026-05-26T03:03:10+00:00",
+          "lastmod_max": "2026-06-04T12:00:50+00:00"
+        },
+        {
+          "section": "/2026-fifa-world-cup/",
+          "urls": 8,
+          "rows": null,
+          "lastmod_min": "2026-05-26T03:26:22+00:00",
+          "lastmod_max": "2026-06-02T07:41:48+00:00"
+        },
+        {
+          "section": "/world-cup-betting-guide/",
+          "urls": 7,
+          "rows": null,
+          "lastmod_min": "2026-06-01T08:44:23+00:00",
+          "lastmod_max": "2026-06-02T07:41:48+00:00"
+        },
+        {
+          "section": "/ai_taiwan/",
+          "urls": 6,
+          "rows": null,
+          "lastmod_min": "2026-04-20T07:04:04+00:00",
+          "lastmod_max": "2026-05-14T06:17:22+00:00"
+        },
+        {
+          "section": "/topic/",
+          "urls": 6,
+          "rows": null,
+          "lastmod_min": "2026-04-17T08:17:24+00:00",
+          "lastmod_max": "2026-07-12T00:43:57+00:00"
+        },
+        {
+          "section": "/world-cup-2026-predictions/",
+          "urls": 6,
+          "rows": null,
+          "lastmod_min": "2026-05-31T09:45:52+00:00",
+          "lastmod_max": "2026-06-04T11:57:38+00:00"
+        },
+        {
+          "section": "/world-cup-sports-betting/",
+          "urls": 6,
+          "rows": null,
+          "lastmod_min": "2026-05-31T09:50:27+00:00",
+          "lastmod_max": "2026-06-04T11:53:17+00:00"
+        },
+        {
+          "section": "/iftomm2015cd/",
+          "urls": 5,
+          "rows": null,
+          "lastmod_min": "2026-04-28T09:46:12+00:00",
+          "lastmod_max": "2026-07-12T06:08:42+00:00"
+        },
+        {
+          "section": "/b5g/",
+          "urls": 4,
+          "rows": null,
+          "lastmod_min": "2026-04-20T07:06:53+00:00",
+          "lastmod_max": "2026-04-21T03:24:57+00:00"
+        },
+        {
+          "section": "/pretech/",
+          "urls": 4,
+          "rows": null,
+          "lastmod_min": "2026-04-20T08:01:58+00:00",
+          "lastmod_max": "2026-05-14T06:27:43+00:00"
+        },
+        {
+          "section": "/5g_taiwan/",
+          "urls": 3,
+          "rows": null,
+          "lastmod_min": "2026-04-21T02:49:37+00:00",
+          "lastmod_max": "2026-07-12T06:08:42+00:00"
+        },
+        {
+          "section": "/ai/",
+          "urls": 3,
+          "rows": null,
+          "lastmod_min": "2026-04-20T07:02:17+00:00",
+          "lastmod_max": "2026-04-20T09:44:31+00:00"
+        },
+        {
+          "section": "/uncategorized/",
+          "urls": 2,
+          "rows": null,
+          "lastmod_min": "2026-04-21T03:36:21+00:00",
+          "lastmod_max": "2026-04-21T03:36:21+00:00"
+        },
+        {
+          "section": "/world-cup-schedule/",
+          "urls": 2,
+          "rows": null,
+          "lastmod_min": "2026-06-01T11:02:44+00:00",
+          "lastmod_max": "2026-06-01T11:02:44+00:00"
+        },
+        {
+          "section": "/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-23T02:11:48+00:00",
+          "lastmod_max": "2026-04-23T02:11:48+00:00"
+        },
+        {
+          "section": "/2026-nba-ai-e8-b3-bd-e4-ba-8b-e9-a0-90-e6-b8-ac-e7-b5-82-e7-ab-af-ef-bc-9a-e5-a4-a7-e6-95-b8-e6-93-9a-e8-a7-a3-e6-a7-8b-e5-8d-b3-e6-99-82-e6-88-b0-e6-b3-81-e3-80-81-e5-ad-a3-e5-be-8c-e8-b3-bd/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T05:48:12+00:00",
+          "lastmod_max": "2026-04-20T05:48:12+00:00"
+        },
+        {
+          "section": "/2k4xxza/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T05:48:41+00:00",
+          "lastmod_max": "2026-04-20T05:48:41+00:00"
+        },
+        {
+          "section": "/2kapb2a/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-21T05:02:33+00:00",
+          "lastmod_max": "2026-04-21T05:02:33+00:00"
+        },
+        {
+          "section": "/2kextwv/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T07:58:49+00:00",
+          "lastmod_max": "2026-04-20T07:58:49+00:00"
+        },
+        {
+          "section": "/2kinhbc/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T07:57:15+00:00",
+          "lastmod_max": "2026-04-20T07:57:15+00:00"
+        },
+        {
+          "section": "/2kkflq7/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T07:56:33+00:00",
+          "lastmod_max": "2026-04-20T07:56:33+00:00"
+        },
+        {
+          "section": "/2kkx0cx/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T06:15:39+00:00",
+          "lastmod_max": "2026-04-20T06:15:39+00:00"
+        },
+        {
+          "section": "/2knx0sr/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T05:58:36+00:00",
+          "lastmod_max": "2026-04-20T05:58:36+00:00"
+        },
+        {
+          "section": "/2knx84n/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T07:59:16+00:00",
+          "lastmod_max": "2026-04-20T07:59:16+00:00"
+        },
+        {
+          "section": "/2knxfnl/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T06:34:48+00:00",
+          "lastmod_max": "2026-04-20T06:34:48+00:00"
+        },
+        {
+          "section": "/2krmvsf/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T07:59:48+00:00",
+          "lastmod_max": "2026-04-20T07:59:48+00:00"
+        },
+        {
+          "section": "/2lond3x/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T06:26:02+00:00",
+          "lastmod_max": "2026-04-20T06:26:02+00:00"
+        },
+        {
+          "section": "/2lu8mem/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T06:34:13+00:00",
+          "lastmod_max": "2026-04-20T06:34:13+00:00"
+        },
+        {
+          "section": "/2lui3mr/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T04:31:31+00:00",
+          "lastmod_max": "2026-04-20T04:31:31+00:00"
+        },
+        {
+          "section": "/2lxec8c/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T06:34:27+00:00",
+          "lastmod_max": "2026-04-20T06:34:27+00:00"
+        },
+        {
+          "section": "/2lxfjyk/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T06:34:36+00:00",
+          "lastmod_max": "2026-04-20T06:34:36+00:00"
+        },
+        {
+          "section": "/2mjq759/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-20T05:27:30+00:00",
+          "lastmod_max": "2026-04-20T05:27:30+00:00"
+        },
+        {
+          "section": "/community-2/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-17T07:30:54+00:00",
+          "lastmod_max": "2026-04-17T07:30:54+00:00"
+        },
+        {
+          "section": "/community/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-04-17T07:30:54+00:00",
+          "lastmod_max": "2026-04-17T07:30:54+00:00"
+        },
+        {
+          "section": "/home-2/",
+          "urls": 1,
+          "rows": null,
+          "lastmod_min": "2026-02-10T22:05:47+00:00",
+          "lastmod_max": "2026-02-10T22:05:47+00:00"
+        }
+      ]
+    },
+    "home_menu": {
+      "label": "首頁選單",
+      "fetched_at": "2026-11-17T09:40:29+0800",
+      "evidence_ids": [
+        "E-0043",
+        "E-0044"
+      ],
+      "evidence_kinds": [
+        {
+          "what": "網頁原檔",
+          "ids": [
+            "E-0043"
+          ]
+        },
+        {
+          "what": "Tool 整理結果（JSON）",
+          "ids": [
+            "E-0044"
+          ]
+        }
+      ],
+      "status": "成功",
+      "menu_links": 90,
+      "sections": {
+        "/": 3,
+        "/article/": 42,
+        "/5g_taiwan/": 8,
+        "/digi_taiwan/": 3,
+        "/mlb/": 3,
+        "/wordcup/": 3,
+        "/taiwanplus/": 15,
+        "/author/": 5,
+        "/page/": 3
+      }
+    },
+    "whois": {
+      "label": "WHOIS／RDAP",
+      "fetched_at": "2026-11-17T09:40:40+0800",
+      "evidence_ids": [
+        "E-0045",
+        "E-0046",
+        "E-0047",
+        "E-0048",
+        "E-0049",
+        "E-0050",
+        "E-0051",
+        "E-0052",
+        "E-0053",
+        "E-0054",
+        "E-0055"
+      ],
+      "evidence_kinds": [
+        {
+          "what": "robots.txt（抓取許可，不是內容）",
+          "ids": [
+            "E-0045",
+            "E-0049"
+          ]
+        },
+        {
+          "what": "RDAP 查詢入口",
+          "ids": [
+            "E-0046"
+          ]
+        },
+        {
+          "what": "robots.txt（抓取許可，不是內容），HTTP 404",
+          "ids": [
+            "E-0047"
+          ]
+        },
+        {
+          "what": "RDAP 註冊資料",
+          "ids": [
+            "E-0048"
+          ]
+        },
+        {
+          "what": "DNS 紀錄",
+          "ids": [
+            "E-0050",
+            "E-0051",
+            "E-0052",
+            "E-0053",
+            "E-0054"
+          ]
+        },
+        {
+          "what": "Tool 整理結果（JSON）",
+          "ids": [
+            "E-0055"
+          ]
+        }
+      ],
+      "status": "成功",
+      "dates": {
+        "registration": "2026-04-15T09:19:40Z",
+        "expiration": "2027-04-15T09:19:40Z",
+        "last changed": "2026-04-16T21:34:14Z",
+        "last update of RDAP database": "2026-11-17T01:10:04Z"
+      },
+      "whois_text_chars": 0
+    },
+    "wayback": {
+      "label": "Wayback",
+      "fetched_at": "2026-11-17T09:40:42+0800",
+      "evidence_ids": [
+        "E-0056",
+        "E-0057",
+        "E-0058"
+      ],
+      "evidence_kinds": [
+        {
+          "what": "robots.txt（抓取許可，不是內容），HTTP 404",
+          "ids": [
+            "E-0056"
+          ]
+        },
+        {
+          "what": "Wayback 存檔清單",
+          "ids": [
+            "E-0057"
+          ]
+        },
+        {
+          "what": "Tool 整理結果（JSON）",
+          "ids": [
+            "E-0058"
+          ]
+        }
+      ],
+      "status": "成功",
+      "snapshots": 50,
+      "earliest": "2020-03-02",
+      "latest": "2026-01-05",
+      "by_year": {
+        "2020": 5,
+        "2021": 10,
+        "2022": 8,
+        "2023": 9,
+        "2024": 10,
+        "2025": 7,
+        "2026": 1
+      },
+      "date_evidence_id": "E-0057"
+    },
+    "search_1": {
+      "label": "關鍵字搜尋 1",
+      "fetched_at": "2026-11-17T20:34:05+0800",
+      "evidence_ids": [],
+      "evidence_kinds": [],
+      "status": "失敗",
+      "error": "network_error: 連不上 https://html.duckduckgo.com（robots.txt 讀不到，依規則不抓）"
+    },
+    "search_2": {
+      "label": "關鍵字搜尋 2",
+      "fetched_at": "2026-11-17T20:34:05+0800",
+      "evidence_ids": [],
+      "evidence_kinds": [],
+      "status": "失敗",
+      "error": "network_error: 連不上 https://html.duckduckgo.com（robots.txt 讀不到，依規則不抓）"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "status": "passed",
+  "items": [
+    {
+      "sentence": "on1：搜尋「娛樂城」在 sitemap 比對到約 2,197 個不重複網址，全部位於 /wordcup/ 這個 sitemap 檔。",
+      "problem": "證據內 by_sitemap 顯示 rows=2335、matches=2197，兩個數字不同；報告只取 2197 並說「不重複」，沒說明差異。且 /wordcup/ 約 2,354 頁、其中 2,350 頁都是「XX娛樂城」關鍵字頁的說法（summary）無證據：只證明 URL 含「娛樂城」的約 2,197–2,335 個，其餘如「天空之城娛樂」等不含該字。「約 2,350 個模板化」把 URL 數量直接當作模板化頁數，但模板化只驗了兩頁。",
+      "evidence_ids": [
+        "E-0103",
+        "E-0100",
+        "E-0104"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "summary：真正的變現引擎是 /wordcup/ 底下約 2,350 個模板化「XX娛樂城」關鍵字頁，佔 sitemap 約 50%。",
+      "problem": "「模板化」只比對兩頁，報告自己在 unknowns 也承認其餘是推測；摘要卻寫成事實。「真正的變現引擎」也只看到兩個品牌頁的聯盟連結，沒有檢查其他頁是否有導流。",
+      "evidence_ids": [
+        "E-0107",
+        "E-0109",
+        "E-0100"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "on2：宣稱共 2502 篇評測，……首頁選單以「線上娛樂城推薦」錨文字直接連到此資料夾，是站內主要權重入口之一。",
+      "problem": "證據沒顯示該選單連結的 href 指向 /wordcup/，也沒有內部連結權重資料；「主要權重入口」是推論寫成事實。另外 2502 與 sitemap 2,354 個網址、分類加總（1182+748+160+154+142+116=2502）可核對，但與 sitemap 差距未解釋。",
+      "evidence_ids": [
+        "E-0105",
+        "E-0101",
+        "E-0100"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "on3：2 個 H1（一個為站名）、相同的 6 個 H2……「相關推薦」與「熱門娛樂城推薦」內鏈……（僅比對兩頁）",
+      "problem": "證據中品牌頁沒有 inspect_page 的 headings／h1_count 結果，只有 polite_fetch 可見文字；「2 個 H1」「6 個 H2」「5 題 FAQ」無法從提供的原文驗證。可見文字裡 H2 名稱雖看得出，但 H1 數量缺證據。另外 3a 頁的 6 個區塊 FAQ 內容各異，「相同 H2」尚可，但「內文只換品牌名」過度：兩頁敘述（如 3a 的 KYC/五步驟註冊與富遊的不同措辭）並非單純換名。",
+      "evidence_ids": [
+        "E-0107",
+        "E-0109"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "on4：og/article 與 JSON-LD 的 NewsArticle 錯置為一場 MLB 比賽（jsonld_entity_mismatch=true、article:section 為「mlb今日戰績」）……頁面 2 個 H1",
+      "problem": "證據只有 jsonld_foreign_entities 指向 mlb-scores-20260712-phi-vs-det；報告引用的 jsonld_entity_mismatch=true、article:section 與 H1 數量都不在給出的證據原文中。另「頁面自述更新日 2026-11-10/15」與「sitemap lastmod 2026-07 至 08」不一致的比較有效，但 sitemap 的 lastmod 是快照型資料，且 JSON-LD 中另有 2026-07-12 的 modified，三種日期並存，不一致原因未查。「FAQ 數字重複出現在不同品牌頁」只比兩頁（1000 元、半小時至一小時），不能推到「重複出現在不同品牌頁」的一般性。「未含牌照、帳號截圖」只讀兩頁，也不能外推。",
+      "evidence_ids": [
+        "E-0107",
+        "E-0109",
+        "E-0104"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "on5：首頁標題與 meta 以運彩／MLB／NBA／世足為主題，並不出現「娛樂城」字樣……這樣把博弈內容隱藏在體育主題之下，是 topical 包裝策略。",
+      "problem": "「刻意隱藏／包裝策略」是動機推論，卻列為 fact。首頁選單其實出現「線上娛樂城推薦」，且 meta description 證據（首頁）未提供。",
+      "evidence_ids": [
+        "E-0101",
+        "E-0102"
+      ],
+      "needs_evidence": false,
+      "stale": false
+    },
+    {
+      "sentence": "on6：……13 張圖片缺 alt，且有導向 bc5730m.wg1888.com 的運彩直播導流連結。",
+      "problem": "「運彩直播導流」性質只靠網域名和 script 內連結推測，沒看實際落地頁；證據註明 script 內連結不含 rel。另 sitemap 顯示 /taiwanplus/ 1,820 頁，報告稱「約 1,800 個 MLB 資料驅動頁」只看了一頁，且 /taiwanplus/ 頁內的 Tank01 資料頁是否皆如此未驗。",
+      "evidence_ids": [
+        "E-0116",
+        "E-0117"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "on7：sitemap 與選單中有大量與主題不符的舊資料夾與亂碼網址……「世界盃賽程表」指向 /article/smart-recreation-016-...；「MLB分析」指向 /5g_taiwan/ ……十多個 7 碼隨機 slug 與 /home-2/、/community-2/。",
+      "problem": "給出的證據（E-0100 前 10 區、E-0101 文字）不含選單 href，也看不到 /5g_taiwan/、7 碼 slug、/home-2/ 等，無法驗證；「大量」也與 /article/ 17 頁、/digi_taiwan/ 77 頁等小比例不合。『直接在舊 WordPress 內容上改文』是推論。",
+      "evidence_ids": [
+        "E-0100",
+        "E-0101"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "off1：RDAP 註冊日為 2026-04-15……表示這是已有歷史的舊網域在 2026 年重新註冊後改作博弈導流站",
+      "problem": "RDAP 結果沒有出現在提供的證據中（引用的 E-0112、E-0114、E-0118、E-0100 都不是 RDAP），註冊日無法驗證。此外，Wayback 的 301 和 2026-01-05 之後空窗，無法證明舊站與新站是同一擁有者或有轉讓；「重新註冊」是推論。另 2026-01 起 301 只有一筆 Wayback 紀錄，且 mimetype unk，是否持續 301 至今未驗。sitemap lastmod 最早 2026-04-17，與註冊日 04-15 相近，這比 Wayback 更直接，但報告未使用。",
+      "evidence_ids": [
+        "E-0112",
+        "E-0114",
+        "E-0118",
+        "E-0100"
+      ],
+      "needs_evidence": true,
+      "stale": true
+    },
+    {
+      "sentence": "off2：3a 品牌頁的「立即註冊」按鈕連到 don0911.3a1788.bet/?st=wg2030……rel 為 nofollow（noopener），無 sponsored 標示。站台只有 GT-57VMS4XR 一組 Google tag。",
+      "problem": "E-0107 的原文只有可見文字與解析欄位，沒有連結 href 或 rel，don0911.3a1788.bet 與 rel 屬性無證據可驗證；對 3a 頁的 inspect_page 未出現。唯一的 rel 證據來自 MLB 頁（external_nofollow 17／18，且 script 內連結不含 rel），不能推到 3a 品牌頁。「無 sponsored」也沒有直接證據。「只有一組 Google tag」只對抓取的頁面成立。",
+      "evidence_ids": [
+        "E-0107",
+        "E-0105",
+        "E-0101",
+        "E-0116",
+        "E-0117"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "off3：它可能刻意承接舊政府網域的歷史信任……加快新博弈內容被索引的速度",
+      "problem": "已標為推論並有 limits，但「刻意」動機沒有證據；且舊站 Wayback 紀錄中 2025-11 站仍是政府站、之後僅一筆 301，無法判斷是否保留外鏈或轉讓。若註冊日 2026-04-15 為新註冊，反而可能是網域過期被搶註（drop domain），報告未排除。",
+      "evidence_ids": [
+        "E-0112",
+        "E-0114",
+        "E-0100"
+      ],
+      "needs_evidence": true,
+      "stale": true
+    },
+    {
+      "sentence": "off4：站台社群外鏈只有 Facebook／Twitter 分享鈕與 15.8k 訂閱者的社群區塊，缺乏可驗證的外部背書",
+      "problem": "外部背書屬於 off-page，但證據只看了站內連結（出站），沒有任何入站外鏈資料；從站內出站連結推「缺乏外部背書」證據類型不對。報告已在 limits 承認，但仍把「缺乏」寫成結論。",
+      "evidence_ids": [
+        "E-0116",
+        "E-0101"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "actions 1：建立「娛樂城」與「3A娛樂城」的深度主頁……勝過其口語模板文。",
+      "problem": "「娛樂城」主頁 /wordcup/娛樂城 未單獨檢查，且沒有排名或 SERP 證據，無法確認對手頁是不是在該關鍵字上有成績；建議的前提（雙 H1、NewsArticle 錯置）部分缺證據。「真實證據（註冊／入金／出金截圖）」涉及博弈推廣，也未討論台灣法規風險。",
+      "evidence_ids": [
+        "E-0107",
+        "E-0109"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "actions 4：外鏈與推廣連結要正確標示 rel=sponsored（它只用 nofollow）……它的作者是「小編妮妮」、外部背書不明",
+      "problem": "「它只用 nofollow」對品牌頁無證據（見 off2）；3a／富遊頁的作者顯示為「2030編輯部」或「小編」，「小編妮妮」出現在 MLB 頁，作者敘述混用不同頁類型。「E-E-A-T 與合規有明顯空間」過度推論。",
+      "evidence_ids": [
+        "E-0107",
+        "E-0109",
+        "E-0116"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "actions 5：持續監控……每月抽查 20 頁",
+      "problem": "建議本身合理，但摘要與其他行動以「它已在這些關鍵字上有排名」為前提（要與它競爭、切入主關鍵字），而 unknowns 承認沒有任何排名與收錄資料；行動 1–3 的投入規模建議（50–200 頁）沒有任何搜尋量或競爭度證據支持。",
+      "evidence_ids": [
+        "E-0103"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "summary：2025/11 前仍是政策溝通站，2026/01 起 301",
+      "problem": "Wayback 只有 2025-11-08 一筆正常與 2026-01-05 一筆 301，期間與之後狀況未知；「2026/01 起 301」說成持續狀態。另 sitemap lastmod 與首頁 2026-02 的 datePublished 顯示 2026-02 已有新站內容，與「2026-04 註冊」互相矛盾，報告沒有處理。",
+      "evidence_ids": [
+        "E-0112",
+        "E-0101",
+        "E-0100"
+      ],
+      "needs_evidence": true,
+      "stale": true
+    }
+  ],
+  "tools_offered": [],
+  "tools_used": [],
+  "api_calls": 1,
+  "tokens": {
+    "input": 55032,
+    "output": 4274,
+    "total": 59306
+  },
+  "error": null,
+  "elapsed_s": 35.7,
+  "model": "claude-sonnet-5-5",
+  "simulated": true,
+  "runtime": "claude-code-cli",
+  "runner": "claude"
+}

@@ -1,0 +1,185 @@
+{
+ "at": "2026-11-17T20:37:42+0800",
+ "rubric": "2030-rubric-v1",
+ "total": 4.0,
+ "max": 14,
+ "marks": "yyynnynnnnnnnn",
+ "dimensions": {
+  "完整度": {
+   "score": 4.0,
+   "max": 14,
+   "marks": "yyynnynnnnnnnn"
+  },
+  "正確度": {
+   "wrong_items": [],
+   "check_issues_left": [],
+   "rejections": 0
+  },
+  "誠實度": {
+   "absolute_scoped_2ev": {
+    "ok": 0,
+    "of": 5,
+    "rate": 0.0
+   },
+   "inference_with_limits": {
+    "ok": 2,
+    "of": 2,
+    "rate": 1.0
+   },
+   "unknowns": 6
+  },
+  "可追溯": {
+   "claims_with_existing_evidence": {
+    "ok": 11,
+    "of": 11,
+    "rate": 1.0
+   }
+  },
+  "建議有根據": {
+   "actions_based_on_valid_claims": {
+    "ok": 5,
+    "of": 5,
+    "rate": 1.0
+   }
+  },
+  "新發現": {
+   "claims_outside_14": 6,
+   "list_for_human": [
+    "on2：現站 /5g_taiwan/ 與 /digi_taiwan/ 仍存在，且首頁選單把「MLB分析」連到 /5g_taiwan/、「世界盃分析」連到 /digi_t",
+    "on4：3A 主頁：title「3a娛樂城｜遊戲種類、優惠、出金全攻略」，2 個 H1、6 個含關鍵字 H2、5 題 FAQ（有 FAQPage JSON-LD）、頁尾",
+    "on5：sitemap 搜尋「3a」有 94 個符合網址（我只看了前 10 個範例），範例有 3a娛樂城官網、下載、評價、登入、dcard、註冊、app、出金。我沒有抓",
+    "on7：抽樣一個 /taiwanplus/ 賽事頁（MLB 2026/10/31）：標題格式固定，內容有隊伍數據表、先發投手數據、打線（寫「尚未公告，賽前1-2小時更新",
+    "off2：站台可能是用舊網域起步再轉做運彩／娛樂城內容：理由是 2025 年底前為政府站、2026-01 出現 301、2026-04 註冊日較新、GA 追蹤碼不同。",
+    "off3：頁面宣稱的「15.8k Subscribers」「萬名專業球迷」可能是信任訊號，但沒有任何第三方可核對。"
+   ],
+   "note": "只列出不屬於 14 項的主張；是否為真且有價值要人工看"
+  }
+ },
+ "judged_wrong": [],
+ "key_finding": {
+  "claim_id": "on1",
+  "rubric_items": [
+   "T06"
+  ],
+  "evidence_id": "E-0055",
+  "calls": 0,
+  "elapsed_s": 0.0
+ },
+ "prev_run": null,
+ "new_findings": null,
+ "wrong_count": 0,
+ "cost": {
+  "tool_calls": 16,
+  "api_calls": 10,
+  "tokens": 789711,
+  "elapsed_s_reference": 216.4
+ },
+ "untrusted_run": null,
+ "review_outcomes": [
+  {
+   "id": "R1",
+   "source": "審查",
+   "claim_id": "on1",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R2",
+   "source": "審查",
+   "claim_id": "on1",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R3",
+   "source": "審查",
+   "claim_id": "off2",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R4",
+   "source": "審查",
+   "claim_id": "on2",
+   "outcome": "補查後修正",
+   "needs_evidence": false
+  },
+  {
+   "id": "R5",
+   "source": "審查",
+   "claim_id": "on3",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R6",
+   "source": "審查",
+   "claim_id": "on5",
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R7",
+   "source": "審查",
+   "claim_id": "on4",
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R8",
+   "source": "審查",
+   "claim_id": "on6",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R9",
+   "source": "審查",
+   "claim_id": "on6",
+   "outcome": "補查後修正",
+   "needs_evidence": false
+  },
+  {
+   "id": "R10",
+   "source": "審查",
+   "claim_id": "off1",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R11",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R12",
+   "source": "審查",
+   "claim_id": "off4",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R13",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R14",
+   "source": "審查",
+   "claim_id": "on5",
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R15",
+   "source": "審查",
+   "claim_id": "off1",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  }
+ ]
+}

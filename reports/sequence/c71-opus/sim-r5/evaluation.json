@@ -1,0 +1,218 @@
+{
+ "at": "2026-11-17T21:39:26+0800",
+ "rubric": "2030-rubric-v1",
+ "total": 6.5,
+ "max": 14,
+ "marks": "yyynyypnnynnnn",
+ "dimensions": {
+  "完整度": {
+   "score": 6.5,
+   "max": 14,
+   "marks": "yyynyypnnynnnn"
+  },
+  "正確度": {
+   "wrong_items": [],
+   "check_issues_left": [],
+   "rejections": 0
+  },
+  "誠實度": {
+   "absolute_scoped_2ev": {
+    "ok": 0,
+    "of": 3,
+    "rate": 0.0
+   },
+   "inference_with_limits": {
+    "ok": 3,
+    "of": 3,
+    "rate": 1.0
+   },
+   "unknowns": 7
+  },
+  "可追溯": {
+   "claims_with_existing_evidence": {
+    "ok": 14,
+    "of": 14,
+    "rate": 1.0
+   }
+  },
+  "建議有根據": {
+   "actions_based_on_valid_claims": {
+    "ok": 5,
+    "of": 5,
+    "rate": 1.0
+   }
+  },
+  "新發現": {
+   "claims_outside_14": 5,
+   "list_for_human": [
+    "ON-3：抽查 3 個變體頁（3a娛樂城、娛樂城、3a娛樂城出金），三頁結構相同：title 為「<關鍵字>｜…」，第二個 H1 為「<關鍵字> - 完整評測與玩家指南」",
+    "ON-3b：/wordcup/ 其他頁很可能也是用同一模板配上自動（可能是生成式）改寫的內文量產出來的。",
+    "ON-6：量產頁 Article JSON-LD 的 dateModified 很可能在頁面產生時動態寫成當天日期（和頁頂當日日期相同），而不是內容真的修改日。重抓這頁時",
+    "ON-8：運彩內容區用模板產生 MLB 賽事頁：網址 /taiwanplus/mlb-live-YYYYMMDD-隊-vs-隊/，內容是先發投手、打線、球隊數據表，頁面註",
+    "ON-9：首頁 title 為「2030玩運彩瘋世足｜MLB/NBA比分、中職賽程、世界盃預測分析」，不含「娛樂城」。首頁文字裡「娛樂城」只出現 3 次，都是「線上娛樂城"
+   ],
+   "note": "只列出不屬於 14 項的主張；是否為真且有價值要人工看"
+  }
+ },
+ "judged_wrong": [],
+ "key_finding": {
+  "claim_id": "OFF-1",
+  "rubric_items": [
+   "T05",
+   "T06"
+  ],
+  "evidence_id": "E-0153",
+  "calls": 0,
+  "elapsed_s": 0.0
+ },
+ "prev_run": "<repo>/reports/sequence/c71-opus/sim-r4",
+ "new_findings": {
+  "count": 1,
+  "items": [
+   "T02"
+  ]
+ },
+ "wrong_count": 0,
+ "cost": {
+  "tool_calls": 49,
+  "api_calls": 26,
+  "tokens": 3001565,
+  "elapsed_s_reference": 675.3
+ },
+ "untrusted_run": null,
+ "review_outcomes": [
+  {
+   "id": "R1",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R2",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R3",
+   "source": "審查",
+   "claim_id": "OFF-1",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R4",
+   "source": "審查",
+   "claim_id": "OFF-1",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R5",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R6",
+   "source": "審查",
+   "claim_id": "ON-1",
+   "outcome": "補查後修正",
+   "needs_evidence": false
+  },
+  {
+   "id": "R7",
+   "source": "審查",
+   "claim_id": "ON-3",
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R8",
+   "source": "審查",
+   "claim_id": "ON-4",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R9",
+   "source": "審查",
+   "claim_id": "ON-5",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R10",
+   "source": "審查",
+   "claim_id": "ON-6",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R11",
+   "source": "審查",
+   "claim_id": "ON-7",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R12",
+   "source": "審查",
+   "claim_id": "ON-9",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R13",
+   "source": "審查",
+   "claim_id": "OFF-2",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R14",
+   "source": "審查",
+   "claim_id": "OFF-2",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R15",
+   "source": "審查",
+   "claim_id": "OFF-3",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R16",
+   "source": "審查",
+   "claim_id": "OFF-4",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R17",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R18",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R19",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  }
+ ]
+}

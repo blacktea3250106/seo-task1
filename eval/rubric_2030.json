@@ -1,0 +1,277 @@
+{
+ "version": "2030-rubric-v1",
+ "frozen_on": "2026-11-16",
+ "note": "14 項重點只拿來評分，不給研究 AI 看。規則為確定性文字比對（同一行／段落內同時出現），不是語意判斷；外部裁判 AI 未接，理由見 eval/README.md。",
+ "scoring": {
+  "full": 1,
+  "partial": 0.5,
+  "missing": 0,
+  "wrong": 0
+ },
+ "items": [
+  {
+   "id": "T01",
+   "point": "/wordcup/ 隱藏的娛樂城區，約 2,500 頁",
+   "truth": {
+    "status": "verified_live",
+    "how": "2026-11-16 scripts/live_tools_check.py：/wordcup/sitemap.xml 2,503 筆"
+   },
+   "full": [
+    [
+     "/wordcup"
+    ],
+    [
+     "2,?[345]\\d\\d"
+    ]
+   ],
+   "partial": [
+    [
+     "/wordcup"
+    ],
+    [
+     "娛樂城|casino"
+    ]
+   ]
+  },
+  {
+   "id": "T02",
+   "point": "所有註冊按鈕都導到同一個 3A 代理網址",
+   "truth": {
+    "status": "prior_raw",
+    "how": "前次 B／Codex／Gemini 原始 HTML 均見 don0911.3a1788.bet"
+   },
+   "full": [
+    [
+     "3a1788|don0911|(cta|註冊)[^\\n]{0,40}(都|均|全數|全部)[^\\n]{0,10}(指向|導向|導到|連到)[^\\n]{0,6}3a|同一[^\\n]{0,10}註冊目的地"
+    ]
+   ]
+  },
+  {
+   "id": "T03",
+   "point": "結構化資料放錯（MLB 舊文資料混進來）",
+   "truth": {
+    "status": "prior_raw",
+    "how": "前次三家原始 HTML"
+   },
+   "full": [
+    [
+     "schema|json-ld|結構化資料"
+    ],
+    [
+     "mlb"
+    ]
+   ]
+  },
+  {
+   "id": "T04",
+   "point": "同一個關鍵字有好幾頁互搶",
+   "truth": {
+    "status": "prior_raw",
+    "how": "前次三家抽樣"
+   },
+   "full": [
+    [
+     "cannibal|互搶|意圖重疊|自我競爭|內耗|互相競爭"
+    ]
+   ]
+  },
+  {
+   "id": "T05",
+   "point": "舊網站原本是政府科技政策網站",
+   "truth": {
+    "status": "prior_raw",
+    "how": "Wayback 2020–2026 有存檔（2026-11-16 實查）；主題沿用前次原始檔"
+   },
+   "full": [
+    [
+     "舊站|舊網站|原為|原本|歷史|過去|2020"
+    ],
+    [
+     "政府|科技政策|智慧國家|gov\\.tw|smart taiwan"
+    ]
+   ]
+  },
+  {
+   "id": "T06",
+   "point": "網域在 2026-04-15 被重新註冊",
+   "truth": {
+    "status": "verified_live",
+    "how": "2026-11-16 RDAP registration 事件 2026-04-15"
+   },
+   "full": [
+    [
+     "2026-04-15|2026 ?年 ?4 ?月 ?15"
+    ],
+    [
+     "註冊|搶註|registration|registered"
+    ]
+   ]
+  },
+  {
+   "id": "T07",
+   "point": "舊網址被重建，用來接住舊連結",
+   "truth": {
+    "status": "prior_raw",
+    "how": "前次 Wayback 舊網址＋現況比對"
+   },
+   "full": [
+    [
+     "舊 ?url|舊網址|舊路徑|舊短網址|slug|legacy"
+    ],
+    [
+     "重建|照舊|復刻|rebuil|精準重建"
+    ]
+   ],
+   "partial": [
+    [
+     "舊 ?url|舊網址|舊路徑"
+    ],
+    [
+     "沿用|現況"
+    ]
+   ]
+  },
+  {
+   "id": "T08",
+   "point": "另一個過期網域 iftomm2015.tw 整站 301 導進來",
+   "truth": {
+    "status": "prior_raw",
+    "how": "前次 B 原始標頭"
+   },
+   "full": [
+    [
+     "iftomm2015\\.tw"
+    ],
+    [
+     "301|導入|導進|轉址|redirect"
+    ]
+   ]
+  },
+  {
+   "id": "T09",
+   "point": "主 sitemap 停更，594 篇新文章沒列進去",
+   "truth": {
+    "status": "prior_raw",
+    "how": "前次 B：x-wp-total 3400、sitemap 最大 lastmod 2026-08-21"
+   },
+   "full": [
+    [
+     "sitemap|lastmod"
+    ],
+    [
+     "594"
+    ]
+   ],
+   "partial": [
+    [
+     "sitemap"
+    ],
+    [
+     "停更|沒再更新|未納入|不在 ?sitemap|未列入|漏"
+    ],
+    [
+     "篇|文章"
+    ]
+   ]
+  },
+  {
+   "id": "T10",
+   "point": "娛樂城區有自己的 sitemap（2,503 筆）",
+   "truth": {
+    "status": "verified_live",
+    "how": "2026-11-16 /wordcup/sitemap.xml 存在，2,503 筆"
+   },
+   "full": [
+    [
+     "wordcup/sitemap\\.xml|(娛樂城區|/wordcup/?)[^\\n]{0,30}((?<![沒無])有|自己的|獨立的?)[^\\n]{0,6}sitemap"
+    ]
+   ],
+   "partial": [
+    [
+     "不證明[^\\n]{0,30}沒有[^\\n]{0,10}sitemap|可能有其他 ?sitemap"
+    ]
+   ],
+   "wrong": [
+    "(娛樂城區|/wordcup/?)[^\\n。；]{0,20}(沒有|無)(?!其他)[^\\n。；]{0,4}sitemap",
+    "不在任何 ?sitemap[^\\n]{0,6}(的|裡)[^\\n]{0,4}`?/wordcup",
+    "/wordcup/?`?[^\\n。；]{0,6}不在任何 ?sitemap"
+   ]
+  },
+  {
+   "id": "T11",
+   "point": "分頁的 canonical 都指回第 1 頁",
+   "truth": {
+    "status": "prior_raw",
+    "how": "前次 B／Codex 原始 HTML"
+   },
+   "full": [
+    [
+     "canonical"
+    ],
+    [
+     "第 ?1 ?頁|第一頁|page ?1\\b|首頁"
+    ],
+    [
+     "分頁|page/"
+    ]
+   ]
+  },
+  {
+   "id": "T12",
+   "point": "發布日期每天自動往前推（假新鮮）",
+   "truth": {
+    "status": "prior_raw",
+    "how": "前次 B／Gemini 不同日期抓取比對"
+   },
+   "full": [
+    [
+     "假新鮮|fake freshness|刷新[^\\n]{0,6}日期|日期[^\\n]{0,4}刷新|(datepublished|datemodified|發布日期|日期)[^\\n]{0,40}(每日|每天|自動)[^\\n]{0,10}(推|更新|刷新|往前)"
+    ]
+   ]
+  },
+  {
+   "id": "T13",
+   "point": "論壇只有 1 位會員（假社群）",
+   "truth": {
+    "status": "prior_raw",
+    "how": "前次 B／Gemini wpForo 統計"
+   },
+   "full": [
+    [
+     "論壇|wpforo|forum"
+    ],
+    [
+     "`?1`? ?位?會員|一位會員|只有 ?1 ?(位|名)|1 ?member|members ?1"
+    ]
+   ]
+  },
+  {
+   "id": "T14",
+   "point": "網址有沒有結尾斜線都能開（重複頁）",
+   "truth": {
+    "status": "prior_raw",
+    "how": "前次 Gemini 標頭"
+   },
+   "full": [
+    [
+     "尾斜線|結尾斜線|trailing slash"
+    ],
+    [
+     "重複|都能開|duplicate|而非 ?`?301"
+    ]
+   ]
+  }
+ ],
+ "calibration": {
+  "source": "docs/research/2030-multimodel/d-review/abc-compare-latest.html 人工比對表（y=1, p=0.5, n=0, x=說錯）",
+  "files": {
+   "B-opus-direct.md": "yyyyyyyyyxyyyn",
+   "codex.md": "yyyyynpnnpynnn",
+   "gemini.md": "yyyyyyynpynyyy"
+  },
+  "A-v2-harness.md": {
+   "expect_total_at_most": 4,
+   "why": "前次盲審 A 為 3/8，低分基準"
+  }
+ }
+}

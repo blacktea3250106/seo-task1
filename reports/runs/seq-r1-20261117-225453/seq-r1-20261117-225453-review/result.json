@@ -1,0 +1,186 @@
+{
+  "status": "passed",
+  "items": [
+    {
+      "sentence": "summary／on1：「最大的內容是 /wordcup/ 底下約 2,350 個…頁面，占 sitemap 約 50%」",
+      "problem": "占比只來自 sitemap，而 sitemap 的 lastmod 停在 2026-08，站上內容卻一直發到 11 月。首頁分頁有 680 頁，標籤計數顯示 MLB 即時比分 3,209 篇、MLB 今日賽程 2,418 篇，都已超過 /wordcup/ 的約 2,500 頁。sitemap 很可能漏掉 8 月之後的大量運動文章，「最大」和「約 50%」可能高估。另外列表頁自稱 2,502 篇，與 2,354 個不重複網址也沒對上。",
+      "evidence_ids": [
+        "E-0105",
+        "E-0042",
+        "E-0066",
+        "E-0063",
+        "E-0130",
+        "E-0132"
+      ],
+      "needs_evidence": true,
+      "stale": true
+    },
+    {
+      "sentence": "on2：「內文約 3,900–5,000 字（程式計的 text_chars）」",
+      "problem": "證據的欄位是 cjk_chars，不是 text_chars。3a 頁是 2,926，娛樂城頁是 3,914，沒有任何一頁接近 5,000。這個範圍與證據不符。",
+      "evidence_ids": [
+        "E-0127",
+        "E-0129"
+      ],
+      "needs_evidence": false,
+      "stale": false
+    },
+    {
+      "sentence": "off1／off2：「在舊政府站網域失效後重新註冊（2026-04）」",
+      "problem": "時間線和證據互相矛盾，報告沒處理。Wayback 在 2026-01-05 還有一筆 301，代表網域當時仍在運作，不一定是「失效」。RDAP 的註冊人聯絡實體建立於 2026-01-06。首頁 JSON-LD 的 datePublished 是 2026-02-11，早於 2026-04-15 的註冊日。2025-11 到 2026-01 之間的快照也只有一筆，所以換手時間點和方式（過期重註冊、轉移或改寫 DNS）無法判定。",
+      "evidence_ids": [
+        "E-0109",
+        "E-0055",
+        "E-0120",
+        "E-0063",
+        "E-0125"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "off2：「沿用其歷史與舊網址結構…這是『過期網域再利用』的典型模式」；summary：「舊網域資產＋運動內容當門面」",
+      "problem": "「沿用舊網址結構」沒有證據。Wayback old_urls 逾時，舊站有沒有同名網址完全不明。現有證據只能證明網域曾是政府站、現在內容換了，無法證明操作者是為了舊權重而買，也無法證明 Google 繼承了信任。「最合理」「典型」把推論說得太滿，summary 還把它當成 SEO 手法的第一項。",
+      "evidence_ids": [
+        "E-0135",
+        "E-0125",
+        "E-0130",
+        "E-0136"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "on7：「選單裡的重點文章…slug 都是舊政府站的專題名稱，例如 /article/space-tech-003-industry/、/article/responsible-ai-008-audrey-tang/、…」",
+      "problem": "舊站的專題「名稱」（太空科技、負責任的 AI）在 2025-11 首頁快照裡看得到，但舊站的「網址 slug」沒有證據。old_urls 逾時是工具失敗，不是沒有。後兩個例子（responsible-ai-008、the-twin-green…）在給出的證據裡沒有抓取內容。說「都是」是以偏概全，用 Wayback 的 CDX 或舊頁面重查才能驗證。",
+      "evidence_ids": [
+        "E-0135",
+        "E-0125",
+        "E-0130",
+        "E-0131",
+        "E-0136"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "on6：「首頁每天更新（最新 MLB 文為 2026-10-31 比賽，發文日 2026-11-17）」",
+      "problem": "證據不支持「每天更新」。首頁列出的發文日是 10/24、10/26、10/27、10/28、10/30，之後直接到 11/17。另一頁把同一篇 10/31 賽事文標成 11/14，首頁列出的是 11/17，同一篇的發文日不一致。10/30 到 11/14 之間沒有新文，更新頻率不是每天。",
+      "evidence_ids": [
+        "E-0063",
+        "E-0130",
+        "E-0136"
+      ],
+      "needs_evidence": false,
+      "stale": false
+    },
+    {
+      "sentence": "on6：「首頁沒有任何『娛樂城』字樣出現在 title／meta／H1/H2，只有選單一個『線上娛樂城推薦』連結」",
+      "problem": "首頁只有 polite_fetch 文字（被截斷），沒有 inspect_page，所以 meta description 和 H1/H2 沒有看到。是否完全沒有，無法由現有證據確認。同一段把 /taiwanplus/ 的內容寫成「大量【MLB直播】…頁」，但 E-0063 只是首頁文章列表，沒有顯示網址歸屬，且 unknowns 也承認沒讀 /taiwanplus/ 單頁。",
+      "evidence_ids": [
+        "E-0063",
+        "E-0042",
+        "E-0105"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "on5：「每頁有 2 個 H1」「這些頁面是從 WordPress 主題外另外輸出」",
+      "problem": "H1 數只驗證了 /wordcup/ 的 2 個品牌頁；同站 /article/ 頁 h1_count 是 1，所以「每頁」是以 2 頁推全部。「從主題外另外輸出」是對 JSON-LD 異常的推測（也可能是 Rank Math／模板問題），卻用「也就是說」寫成結論。",
+      "evidence_ids": [
+        "E-0127",
+        "E-0129",
+        "E-0137",
+        "E-0066"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "on3／summary：「這些頁面是模板化文章」「FAQ 答案…也是同一套問法」「在不同品牌頁重複使用開場句」",
+      "problem": "實際只讀了 2 個品牌頁，加上列表頁的摘要。FAQ 的「問題」確實一致，但答案不同（3a 頁寫出金半小時到一小時，娛樂城頁寫 15 分鐘到 2 小時）。開場句重複只看過列表摘要，沒看過各品牌頁全文。summary 沒有加限定語，卻把樣本觀察講成全站事實；後續行動 2、4 也依賴這個「量產模板」判斷。",
+      "evidence_ids": [
+        "E-0118",
+        "E-0123",
+        "E-0124"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "on4：「3a 頁連到 ruz娛樂城、體育娛樂城…等其他 /wordcup/ 長尾頁」「首頁選單…連結指向 /wordcup/」「互相連結的 hub」",
+      "problem": "證據只顯示這些文字是 H3 標題或選單錨文字，沒有顯示 href。連到 /wordcup/、各連結是否互連，都是從列表頁標題與名稱推測。兩個頁面的相關推薦清單完全不同，也可能是隨機輸出，不一定是刻意的 hub。",
+      "evidence_ids": [
+        "E-0063",
+        "E-0118",
+        "E-0123",
+        "E-0127",
+        "E-0129"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "off3：「首頁與 /wordcup/ 列表頁也有指向 bc5730m.wg1888.com 的連結（首頁在 script 字串中、列表頁在 body 為 nofollow）」「CTA 按鈕就是這類導流連結」",
+      "problem": "引用的首頁與列表頁證據（E-0063、E-0118）只有可見文字，沒有連結清單，這兩句在證據中找不到。只有 /article/ 頁與兩個品牌頁有 inspect_page 的連結統計。「CTA 就是導流連結」也沒有把 CTA 的 href 對應到外部主機，是以位置推論。",
+      "evidence_ids": [
+        "E-0063",
+        "E-0118",
+        "E-0123",
+        "E-0136",
+        "E-0137"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "off4：「站內所有評測都是正面口吻，也符合這個動機」",
+      "problem": "只讀了 2 個品牌頁，不能說「所有評測」。娛樂城頁還有風險提示與「有待觀察」之類的保留語氣。商業模式（聯盟導流）本身限制欄已承認缺證據，正面口吻不是獨立證據。",
+      "evidence_ids": [
+        "E-0123",
+        "E-0124",
+        "E-0118"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "off5／summary：「排名、流量、外鏈、是否被收錄，本次都查不到」",
+      "problem": "否定結論只來自 DuckDuckGo HTML 版被人機驗證擋下（HTTP 202），且 DuckDuckGo 不是 Google。這是被擋，不是查無，「是否被收錄」也沒有換其他方法或來源（如其他搜尋引擎或 site: 查詢）排除。未知可以保留，但不應寫成「查不到」。",
+      "evidence_ids": [
+        "E-0060",
+        "E-0061"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "actions 3：「它靠『選單 → 列表 → 品牌頁 → 相關推薦』拿下長尾詞，這是可以仿的架構」",
+      "problem": "報告自己承認沒有任何排名、流量或收錄證據，卻說它「拿下長尾詞」，與 off5 矛盾。內部連結架構的存在不等於有效。行動 2、3 以它的頁面結構作為對照仿效，前提是它真的有成效，而這點正是行動 1 要先驗證的。",
+      "evidence_ids": [
+        "E-0060",
+        "E-0061",
+        "E-0118"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    }
+  ],
+  "tools_offered": [],
+  "api_calls": 1,
+  "tokens": {
+    "input": 4,
+    "output": 12033,
+    "total": 98437
+  },
+  "error": null,
+  "elapsed_s": 95.4,
+  "model": "claude-sonnet-5-5",
+  "hermes_home_matches_run": true,
+  "worker_exit_code": 0,
+  "global_hermes_home": {
+    "existed_before": true,
+    "exists_after": true
+  }
+}

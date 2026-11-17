@@ -1,0 +1,204 @@
+{
+  "status": "passed",
+  "status_label": "完成",
+  "run_id": "sim-r3",
+  "model": "claude-sonnet-5-5",
+  "started_at": 1794919350.702,
+  "elapsed_s": 310.1,
+  "tool_calls_total": 20,
+  "tool_calls_by_name": {
+    "sitemap_tree": 3,
+    "inspect_page": 9,
+    "wayback": 2,
+    "text_match": 1,
+    "submit_report": 2,
+    "domain_info": 1,
+    "experience": 2
+  },
+  "tool_errors": {
+    "rejected": 1
+  },
+  "evidence_total": 135,
+  "baseline": {
+    "domain": "2030.tw",
+    "baseline_hash": "0018311732677cb38f94d5d86d63e6ce5d1e5282cd94dabbde3a447aa9ebb9a3",
+    "updated_at": "2026-11-17T20:42:30+0800",
+    "action": "refetched_failed",
+    "refetched": [
+      "search_1",
+      "search_2"
+    ]
+  },
+  "http_requests": 64,
+  "coverage": {
+    "sections_read": [
+      "/",
+      "/taiwanplus/",
+      "/wordcup/"
+    ],
+    "sections_not_yet_read": [
+      "/mlb/（316 個 sitemap 網址、3 個選單連結）",
+      "/digi_taiwan/（77 個 sitemap 網址、3 個選單連結）",
+      "/article/（18 個 sitemap 網址、42 個選單連結）",
+      "/2026-worldcup/（14 個 sitemap 網址）",
+      "/2026-fifa-world-cup/（8 個 sitemap 網址）",
+      "/world-cup-betting-guide/（7 個 sitemap 網址）",
+      "/ai_taiwan/（6 個 sitemap 網址）",
+      "/topic/（6 個 sitemap 網址）",
+      "/world-cup-2026-predictions/（6 個 sitemap 網址）",
+      "/world-cup-sports-betting/（6 個 sitemap 網址）",
+      "/iftomm2015cd/（5 個 sitemap 網址）",
+      "/b5g/（4 個 sitemap 網址）",
+      "/pretech/（4 個 sitemap 網址）",
+      "/5g_taiwan/（3 個 sitemap 網址、8 個選單連結）",
+      "/ai/（3 個 sitemap 網址）",
+      "/uncategorized/（2 個 sitemap 網址）",
+      "/world-cup-schedule/（2 個 sitemap 網址）",
+      "/2026-nba-ai-e8-b3-bd-e4-ba-8b-e9-a0-90-e6-b8-ac-e7-b5-82-e7-ab-af-ef-bc-9a-e5-a4-a7-e6-95-b8-e6-93-9a-e8-a7-a3-e6-a7-8b-e5-8d-b3-e6-99-82-e6-88-b0-e6-b3-81-e3-80-81-e5-ad-a3-e5-be-8c-e8-b3-bd/（1 個 sitemap 網址）",
+      "/2k4xxza/（1 個 sitemap 網址）",
+      "/2kapb2a/（1 個 sitemap 網址）",
+      "/2kextwv/（1 個 sitemap 網址）",
+      "/2kinhbc/（1 個 sitemap 網址）",
+      "/2kkflq7/（1 個 sitemap 網址）",
+      "/2kkx0cx/（1 個 sitemap 網址）",
+      "/2knx0sr/（1 個 sitemap 網址）",
+      "/2knx84n/（1 個 sitemap 網址）",
+      "/2knxfnl/（1 個 sitemap 網址）",
+      "/2krmvsf/（1 個 sitemap 網址）",
+      "/2lond3x/（1 個 sitemap 網址）",
+      "/2lu8mem/（1 個 sitemap 網址）",
+      "/2lui3mr/（1 個 sitemap 網址）",
+      "/2lxec8c/（1 個 sitemap 網址）",
+      "/2lxfjyk/（1 個 sitemap 網址）",
+      "/2mjq759/（1 個 sitemap 網址）",
+      "/community-2/（1 個 sitemap 網址）",
+      "/community/（1 個 sitemap 網址）",
+      "/home-2/（1 個 sitemap 網址）",
+      "/author/（5 個選單連結）",
+      "/page/（3 個選單連結）"
+    ]
+  },
+  "why_filled": 9,
+  "stop": {
+    "elapsed_s": 310.1,
+    "final_streak": 0,
+    "stop_events": [],
+    "phase": "final",
+    "recheck_calls": 4
+  },
+  "experience_read": {
+    "notes_sha256": "39675027846bdd3fb88e4061e46bfe2010d397269de9e6a4befa618fdab24ac2",
+    "entry_ids": [
+      "EXP-001",
+      "EXP-002"
+    ]
+  },
+  "experience_proposals": 1,
+  "experience_changes": [],
+  "review": {
+    "triggered": 1,
+    "status": "passed",
+    "items": 16,
+    "revised": true,
+    "cost": {
+      "api_calls": 1,
+      "tokens": {
+        "input": 55032,
+        "output": 4274,
+        "total": 59306
+      },
+      "elapsed_s": 35.7
+    },
+    "total_with_review": {
+      "api_calls": 12,
+      "tokens": {
+        "input": 1130067,
+        "output": 24279,
+        "total": 1154346
+      }
+    }
+  },
+  "metrics": {
+    "wasted_calls": 0,
+    "blocked": [],
+    "saved_calls": {
+      "count": 0,
+      "items": [],
+      "note": "模型自稱避開，不計分"
+    },
+    "key_finding": {
+      "claim_id": "off1",
+      "rubric_items": [
+        "T05",
+        "T06"
+      ],
+      "evidence_id": "E-0123",
+      "calls": 0,
+      "elapsed_s": 0.0
+    },
+    "new_findings": {
+      "count": 0,
+      "items": []
+    }
+  },
+  "approvals_pending": [],
+  "tools_offered": [
+    "mcp__seo__domain_info",
+    "mcp__seo__experience",
+    "mcp__seo__inspect_page",
+    "mcp__seo__polite_fetch",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__submit_report",
+    "mcp__seo__text_match",
+    "mcp__seo__wayback",
+    "mcp__seo__web_search"
+  ],
+  "tools_used": [
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__inspect_page",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__wayback",
+    "mcp__seo__wayback",
+    "mcp__seo__inspect_page",
+    "mcp__seo__text_match",
+    "mcp__seo__inspect_page",
+    "mcp__seo__text_match",
+    "mcp__seo__submit_report",
+    "mcp__seo__domain_info",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__submit_report",
+    "mcp__seo__experience",
+    "mcp__seo__experience"
+  ],
+  "api_calls": 11,
+  "final_response": "報告已通過驗收，我也寫入了一條經驗路線，狀態是「待審核」。\n\n**2030.tw 的做法**\n- 這個網域在 2025-11-08 的最後一筆正常存檔仍是政府「智慧國家」政策站。現在對外是運彩、MLB、世足內容站，實際用來導流到博弈平台。\n- `/wordcup/` 在 sitemap 有約 2,354 個網址，約佔 50%。其中約 2,197 個網址含「娛樂城」，專頁有 `/wordcup/娛樂城` 和 `/wordcup/3a娛樂城`。\n- 我讀了 4 個 `/wordcup/` 頁，結構相同：\n  - 都是雙 H1、6 個相同的 H2、5 題 FAQ。\n  - 都帶有錯置的 NewsArticle JSON-LD，指向一場 MLB 賽事。\n  - 註冊按鈕都連到同一個推廣網域，rel 是 `nofollow noopener`，沒有 `sponsored`。富遊、威樂的頁面也導向 3a 的網域。\n- 首頁標題與 meta 都沒有「娛樂城」。選單只有一個「線上娛樂城推薦」連結通往 `/wordcup/`。\n- 首頁和 `/taiwanplus/` 約 1,820 個網址是 MLB 資料頁，我只讀了其中一頁。\n\n**我們可以怎麼競爭**\n1. 先做「娛樂城」和「3A娛樂城」兩頁有證據的主頁：單一 H1、乾淨的 schema、有日期的實測資料、風險與合規揭露。同時先用 SERP 確認競爭度。\n2. 評估品牌詞長尾的搜尋量，再決定建多少頁。每頁要有不同的實測內容，不要用換名模板。\n3. 建一個體育分析和博弈評測共用的主題 hub，錨文字用具體關鍵字。\n4. 推廣連結加 `rel=sponsored` 與揭露說明，並建立可查證的作者資訊。動手前先確認台灣博弈廣告的法規風險，報告沒有評估這點。\n5. 用付費工具補排名、流量和外鏈資料，並每月抽查它的頁數與 schema 有沒有修正。\n\n**未知與限制**\n- 沒有排名、流量、外鏈數據，搜尋工具也連不上，所以不知道它在這兩個關鍵字上有沒有成績。\n- 只讀了 4 個 `/wordcup/` 頁和 1 個 MLB 頁，其餘頁面是否同模板、同導流目標，沒有驗證。\n- 2026-01 到 04 月之間網域由誰持有不明。首頁 JSON-LD 的發布日 2026-02-11 與 RDAP 註冊日 2026-04-15 互相矛盾，原因沒查到。",
+  "completed": true,
+  "num_turns": 22,
+  "stop_reason": "success",
+  "cost_usd_equiv": 0.8579477,
+  "tokens": {
+    "input": 1075035,
+    "output": 20005,
+    "total": 1095040
+  },
+  "error": null,
+  "runtime": "claude-code-cli",
+  "runner": "claude",
+  "simulated": true,
+  "exit_code": 0,
+  "non_project_tools_offered": [],
+  "non_project_tools_used": [],
+  "sim_note": "模擬執行：用 Claude Code CLI（訂閱）代替 Hermes AIAgent；不是 Hermes 整合證據",
+  "score": {
+    "total": 5.0,
+    "max": 14,
+    "marks": "yyynyynnnnnnnn",
+    "note": "只給人看"
+  }
+}

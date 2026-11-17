@@ -1,0 +1,157 @@
+{
+ "at": "2026-11-17T21:38:30+0800",
+ "rubric": "2030-rubric-v1",
+ "total": 5.0,
+ "max": 14,
+ "marks": "yyynyynnnnnnnn",
+ "dimensions": {
+  "完整度": {
+   "score": 5.0,
+   "max": 14,
+   "marks": "yyynyynnnnnnnn"
+  },
+  "正確度": {
+   "wrong_items": [],
+   "check_issues_left": [],
+   "rejections": 0
+  },
+  "誠實度": {
+   "absolute_scoped_2ev": {
+    "ok": 0,
+    "of": 3,
+    "rate": 0.0
+   },
+   "inference_with_limits": {
+    "ok": 2,
+    "of": 2,
+    "rate": 1.0
+   },
+   "unknowns": 6
+  },
+  "可追溯": {
+   "claims_with_existing_evidence": {
+    "ok": 11,
+    "of": 11,
+    "rate": 1.0
+   }
+  },
+  "建議有根據": {
+   "actions_based_on_valid_claims": {
+    "ok": 5,
+    "of": 5,
+    "rate": 1.0
+   }
+  },
+  "新發現": {
+   "claims_outside_14": 5,
+   "list_for_human": [
+    "on2：指定關鍵字各有專屬頁。「3a娛樂城」頁 title 為「3a娛樂城｜遊戲種類、優惠、出金全攻略」，H1 為「3a娛樂城 - 完整評測與玩家指南」，H2 都以「3",
+    "on3：兩個頁面的 H2 架構完全相同，只替換關鍵字；內文都是第一人稱「老玩家」口語體驗文，開頭都有「老實說，現在市面上娛樂城品牌真的超多」類似句型，列表頁多篇摘要也有",
+    "on7：站內結構是「體育／運彩內容撐主題與更新頻率，/wordcup/ 專區承接博弈商業詞」：運彩文章用每日更新，/wordcup/ 靠首頁選單與頁內推薦連結取得內部權",
+    "off2：網域可能是取得有歷史的舊科技專題網域後重新啟用，並保留部分舊網址結構，用來提升新站的起點。",
+    "off4：首頁 Organization JSON-LD（舊外掛輸出）的 name 與 logo 為空，sameAs 只有 facebook.com/www.2030.t"
+   ],
+   "note": "只列出不屬於 14 項的主張；是否為真且有價值要人工看"
+  }
+ },
+ "judged_wrong": [],
+ "key_finding": {
+  "claim_id": "off1",
+  "rubric_items": [
+   "T05",
+   "T06"
+  ],
+  "evidence_id": "E-0055",
+  "calls": 0,
+  "elapsed_s": 0.0
+ },
+ "prev_run": null,
+ "new_findings": null,
+ "wrong_count": 0,
+ "cost": {
+  "tool_calls": 15,
+  "api_calls": 11,
+  "tokens": 789973,
+  "elapsed_s_reference": 219.3
+ },
+ "untrusted_run": null,
+ "review_outcomes": [
+  {
+   "id": "R1",
+   "source": "審查",
+   "claim_id": "on4",
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R2",
+   "source": "審查",
+   "claim_id": "off3",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R3",
+   "source": "審查",
+   "claim_id": "off4",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R4",
+   "source": "審查",
+   "claim_id": "on1",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R5",
+   "source": "審查",
+   "claim_id": "on3",
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R6",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R7",
+   "source": "審查",
+   "claim_id": "off1",
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R8",
+   "source": "審查",
+   "claim_id": "off2",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R9",
+   "source": "審查",
+   "claim_id": "on7",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R10",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R11",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  }
+ ]
+}

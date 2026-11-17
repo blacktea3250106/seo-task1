@@ -1,0 +1,176 @@
+{
+ "at": "2026-11-17T21:38:51+0800",
+ "rubric": "2030-rubric-v1",
+ "total": 6.0,
+ "max": 14,
+ "marks": "yyynyynnnynnnn",
+ "dimensions": {
+  "完整度": {
+   "score": 6.0,
+   "max": 14,
+   "marks": "yyynyynnnynnnn"
+  },
+  "正確度": {
+   "wrong_items": [],
+   "check_issues_left": [],
+   "rejections": 0
+  },
+  "誠實度": {
+   "absolute_scoped_2ev": {
+    "ok": 0,
+    "of": 5,
+    "rate": 0.0
+   },
+   "inference_with_limits": {
+    "ok": 2,
+    "of": 2,
+    "rate": 1.0
+   },
+   "unknowns": 8
+  },
+  "可追溯": {
+   "claims_with_existing_evidence": {
+    "ok": 12,
+    "of": 12,
+    "rate": 1.0
+   }
+  },
+  "建議有根據": {
+   "actions_based_on_valid_claims": {
+    "ok": 6,
+    "of": 6,
+    "rate": 1.0
+   }
+  },
+  "新發現": {
+   "claims_outside_14": 3,
+   "list_for_human": [
+    "ON4：抽樣的 3 個品牌頁（3a娛樂城、3a娛樂城官網、富遊娛樂城）與「娛樂城」泛詞頁，H2 結構與 5 題 FAQ 題型相同，只替換關鍵詞（官網頁把「官網」加進每個",
+    "ON6：品牌頁有「相關推薦」body 區塊與「熱門娛樂城推薦」sidebar 區塊（工具回報 body 13、sidebar 14 條連結位置），列出的是其他品牌／長尾",
+    "ON9：sitemap 的 /wordcup/ lastmod 區間是 2026-07-17 到 2026-08-16，而頁面顯示的「更新」日期為 2026-11-10"
+   ],
+   "note": "只列出不屬於 14 項的主張；是否為真且有價值要人工看"
+  }
+ },
+ "judged_wrong": [],
+ "key_finding": {
+  "claim_id": "OFF2",
+  "rubric_items": [
+   "T05",
+   "T06"
+  ],
+  "evidence_id": "E-0055",
+  "calls": 0,
+  "elapsed_s": 0.0
+ },
+ "prev_run": null,
+ "new_findings": null,
+ "wrong_count": 0,
+ "cost": {
+  "tool_calls": 19,
+  "api_calls": 11,
+  "tokens": 966595,
+  "elapsed_s_reference": 240.0
+ },
+ "untrusted_run": null,
+ "review_outcomes": [
+  {
+   "id": "R1",
+   "source": "審查",
+   "claim_id": "ON6",
+   "outcome": "補查後修正",
+   "needs_evidence": false
+  },
+  {
+   "id": "R2",
+   "source": "審查",
+   "claim_id": "OFF2",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R3",
+   "source": "審查",
+   "claim_id": "OFF3",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R4",
+   "source": "審查",
+   "claim_id": "ON3",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R5",
+   "source": "審查",
+   "claim_id": "ON4",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R6",
+   "source": "審查",
+   "claim_id": "ON7",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R7",
+   "source": "審查",
+   "claim_id": "ON1",
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R8",
+   "source": "審查",
+   "claim_id": "ON2",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R9",
+   "source": "審查",
+   "claim_id": "OFF1",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R10",
+   "source": "審查",
+   "claim_id": "ON5",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R11",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R12",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R13",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R14",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  }
+ ]
+}

@@ -1,0 +1,559 @@
+{
+ "at": "2026-11-17T20:59:02+0800",
+ "steps": [
+  {
+   "n": 1,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "看首頁 title/H1/JSON-LD/外連與正文，確認關鍵字定位",
+   "evidence_ids": [
+    "E-0043",
+    "E-0059"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 2,
+   "tool": "text_match",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "首頁指定關鍵字出現次數與位置",
+   "evidence_ids": [
+    "E-0043",
+    "E-0060"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 3,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "找「線上娛樂城推薦」選單連結指向哪裡",
+   "evidence_ids": [
+    "E-0043",
+    "E-0061"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 4,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "看 taiwanplus 1850 網址的結構（是否舊站遺留或量產頁）",
+   "evidence_ids": [],
+   "ok": false,
+   "light_test_of": null
+  },
+  {
+   "n": 5,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "看 wordcup 2503 網址的命名樣式",
+   "evidence_ids": [],
+   "ok": false,
+   "light_test_of": null
+  },
+  {
+   "n": 6,
+   "tool": "sitemap_tree",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "先讀入 sitemap 以便分區展開",
+   "evidence_ids": [
+    "E-0103"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 7,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "看 /wordcup/ 獨立 sitemap 的網址樣式",
+   "evidence_ids": [
+    "E-0104"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 8,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "看 taiwanplus 網址樣式",
+   "evidence_ids": [
+    "E-0105"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 9,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/"
+   },
+   "why": "「線上娛樂城推薦」選單指向此頁，看是否為娛樂城落地頁",
+   "evidence_ids": [
+    "E-0106"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 10,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "指定關鍵字 3A娛樂城 是否有對應的量產頁",
+   "evidence_ids": [
+    "E-0107"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 11,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/"
+   },
+   "why": "看娛樂城集合頁結構、canonical、內鏈、外連",
+   "evidence_ids": [
+    "E-0106",
+    "E-0108"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 12,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "指定關鍵字 3A娛樂城 的落地頁 on-page 結構",
+   "evidence_ids": [
+    "E-0109",
+    "E-0110"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 13,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/娛樂城"
+   },
+   "why": "指定關鍵字 娛樂城 的落地頁 on-page 結構",
+   "evidence_ids": [
+    "E-0111",
+    "E-0112"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 14,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a 娛樂城"
+   },
+   "why": "看近似關鍵字變體頁是否自我 canonical（關鍵字變體各開一頁）",
+   "evidence_ids": [
+    "E-0113",
+    "E-0114"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 15,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/taiwanplus/mlb-live-20260822-was-vs-mia/"
+   },
+   "why": "看第二大分區 MLB 賽事量產頁的模板與導流",
+   "evidence_ids": [
+    "E-0115",
+    "E-0116"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 16,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "網域 2026-04 才註冊但存檔從 2020 起：查舊站內容判斷是否為過期網域再利用",
+   "evidence_ids": [
+    "E-0118",
+    "E-0119"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 17,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/2kAPB2a"
+   },
+   "why": "舊站網址現在回什麼：判斷新站是否接住舊網址（承接舊外鏈）",
+   "evidence_ids": [
+    "E-0128"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 18,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "看沿用舊站分類名的分區現在放什麼",
+   "evidence_ids": [
+    "E-0129"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 19,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/2kAPB2a/"
+   },
+   "why": "舊站短網址在新站被重建為頁面？看最終落點與內容",
+   "evidence_ids": [
+    "E-0130"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 20,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "看沿用舊站分類名的分區內容",
+   "evidence_ids": [
+    "E-0131"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 21,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/2kAPB2a"
+   },
+   "why": "舊站短網址當年 301 指向哪裡",
+   "evidence_ids": [
+    "E-0132",
+    "E-0133"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 22,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/2kAPB2a/"
+   },
+   "why": "舊站短網址現在是 WordPress page 837，看標題與內容主題",
+   "evidence_ids": [
+    "E-0130",
+    "E-0134"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 23,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/robots.txt"
+   },
+   "why": "確認 robots 是否列出 /wordcup/ 的獨立 sitemap",
+   "evidence_ids": [
+    "E-0135"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 24,
+   "tool": "domain_info",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "確認註冊日與主機（Cloudflare），對照 Wayback 舊站年代",
+   "evidence_ids": [
+    "E-0144"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 25,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "確認舊站首頁主題（判斷過期網域再利用）",
+   "evidence_ids": [
+    "E-0145",
+    "E-0146"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 26,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "web.archive.org",
+    "path": "/web/20240525015210id_/https://2030.tw/"
+   },
+   "why": "讀 2024 年舊站首頁主題",
+   "evidence_ids": [
+    "E-0145",
+    "E-0147"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 27,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "看娛樂城關鍵字頁的上線節奏",
+   "evidence_ids": [
+    "E-0148"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 28,
+   "tool": "web_search",
+   "target": {
+    "domain": "web_search",
+    "path": "3A娛樂城"
+   },
+   "why": "資料卡搜尋失敗，輕試一次看 SERP 是否可取",
+   "evidence_ids": [
+    "E-0149"
+   ],
+   "ok": false,
+   "light_test_of": null
+  },
+  {
+   "n": 29,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "確認導向 3A 品牌的 CTA 連結 rel 與位置",
+   "evidence_ids": [
+    "E-0109",
+    "E-0150"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 30,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "看關鍵字頁之間的內鏈數量與位置",
+   "evidence_ids": [
+    "E-0109",
+    "E-0151"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 32,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "R3：/mlb/ 分區實際網址樣式",
+   "evidence_ids": [
+    "E-0152"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 33,
+   "tool": "text_match",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/taiwanplus/mlb-live-20260822-was-vs-mia/"
+   },
+   "why": "R3/R5：確認資料來源字樣與 MLB 頁是否連到娛樂城頁",
+   "evidence_ids": [
+    "E-0115",
+    "E-0153"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 34,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "R18：娛樂城網址出現在哪些 sitemap 檔",
+   "evidence_ids": [
+    "E-0154"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 35,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "R10：確認舊短網址代碼在 sitemap 的實際列",
+   "evidence_ids": [
+    "E-0155"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 36,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "R10：2k 開頭舊短網址代碼在 sitemap 的列",
+   "evidence_ids": [
+    "E-0156"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 37,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/5G_Taiwan/"
+   },
+   "why": "R11：舊分類網址補斜線後最終落點",
+   "evidence_ids": [
+    "E-0157"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 38,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/娛樂城"
+   },
+   "why": "R15：娛樂城頁 CTA 參數與 rel",
+   "evidence_ids": [
+    "E-0111",
+    "E-0158"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 39,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "R16：首頁外連 rel 統計（取 link_counts）",
+   "evidence_ids": [
+    "E-0043",
+    "E-0159"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 40,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/article/space-tech-003-industry/"
+   },
+   "why": "R12：首頁選單用舊站文章 slug（space-tech）放世足錨文字，看此網址現在內容",
+   "evidence_ids": [
+    "E-0160",
+    "E-0161"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 41,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/5G_Taiwan/"
+   },
+   "why": "R11：舊分類網址現在的內容",
+   "evidence_ids": [
+    "E-0157",
+    "E-0162"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 42,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "R12：確認 space-tech 文章網址舊站時期就存在",
+   "evidence_ids": [
+    "E-0163"
+   ],
+   "ok": false,
+   "light_test_of": null
+  }
+ ]
+}

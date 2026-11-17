@@ -1,0 +1,15 @@
+arm	code	credible
+opus-r1	R14	19
+opus-r2	R05	17
+opus-r3	R06	18
+os-opus-1	R03	17
+os-opus-2	R09	12
+os-opus-3	R12	14
+os-sonnet-1	R13	14
+os-sonnet-2	R08	16
+os-sonnet-3	R10	8
+sonnet-r1	R07	17
+sonnet-r2	R02	15
+sonnet-r3	R01	17
+sonnet-r4	R04	16
+sonnet-r5	R11	12

@@ -1,0 +1,324 @@
+{
+ "at": "2026-11-17T23:02:31+0800",
+ "steps": [
+  {
+   "n": 1,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "看首頁 title/H1/連結/結構化資料，找娛樂城關鍵字是否出現",
+   "evidence_ids": [
+    "E-0063",
+    "E-0064"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 2,
+   "tool": "sitemap_tree",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "把 sitemap 讀進資料庫以便搜尋關鍵字",
+   "evidence_ids": [
+    "E-0105"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 3,
+   "tool": "domain_info",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0115"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 4,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "找關鍵字相關網址",
+   "evidence_ids": [
+    "E-0116"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 5,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "看最大分區的網址型態",
+   "evidence_ids": [
+    "E-0117"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 6,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/"
+   },
+   "why": "讀選單「線上娛樂城推薦」指向的分區首頁",
+   "evidence_ids": [
+    "E-0118"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 7,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "確認網域註冊於 2026-04 但 Wayback 有 2020 起存檔，檢查舊站內容",
+   "evidence_ids": [
+    "E-0120",
+    "E-0121"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 8,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/"
+   },
+   "why": "看 /wordcup/ 頁面結構、連結、外部連結",
+   "evidence_ids": [
+    "E-0118",
+    "E-0122"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 9,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "指定關鍵字 3A娛樂城 對應頁",
+   "evidence_ids": [
+    "E-0123"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 10,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/娛樂城"
+   },
+   "why": "指定關鍵字 娛樂城 對應頁",
+   "evidence_ids": [
+    "E-0124"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 11,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "看 2025 年網域舊內容，判斷是否為舊站被接手",
+   "evidence_ids": [
+    "E-0125",
+    "E-0126"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 12,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "看 3A娛樂城頁的標題結構、外部連結、JSON-LD、內文",
+   "evidence_ids": [
+    "E-0123",
+    "E-0127"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 13,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "web.archive.org",
+    "path": "/web/20251108182921id_/https://2030.tw/"
+   },
+   "why": "看 2025 年舊站是什麼內容",
+   "evidence_ids": [
+    "E-0125",
+    "E-0128"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 14,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/娛樂城"
+   },
+   "why": "看 娛樂城 頁結構",
+   "evidence_ids": [
+    "E-0124",
+    "E-0129"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 15,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/article/space-tech-003-industry/"
+   },
+   "why": "確認現在的選單文章網址是否沿用舊政府站網址",
+   "evidence_ids": [
+    "E-0134"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 16,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "看舊站是否有同名 /article/ 網址",
+   "evidence_ids": [
+    "E-0135"
+   ],
+   "ok": false,
+   "light_test_of": null
+  },
+  {
+   "n": 17,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/article/space-tech-003-industry/"
+   },
+   "why": "看選單中「世界盃直播」文章實際內容是否與 slug（space-tech）相符",
+   "evidence_ids": [
+    "E-0136",
+    "E-0137"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 18,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/robots.txt"
+   },
+   "why": "確認 robots 與 sitemap 宣告",
+   "evidence_ids": [
+    "E-0138"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 20,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "確認 10 月底的文章是否在 sitemap（驗證 sitemap 是否漏掉 8 月後文章）",
+   "evidence_ids": [
+    "E-0139"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 21,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "看 /taiwanplus/ 每月 lastmod，驗證 sitemap 截止時間",
+   "evidence_ids": [
+    "E-0140"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 22,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/article/responsible-ai-008-audrey-tang/"
+   },
+   "why": "抓即時資料確認這兩個 slug 與首頁分頁是否存在",
+   "evidence_ids": [
+    "E-0144"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 23,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "縮小範圍重試，驗證舊站是否有同名 slug",
+   "evidence_ids": [
+    "E-0145",
+    "E-0146"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 24,
+   "tool": "web_search",
+   "target": {
+    "domain": "web_search",
+    "path": "site:2030.tw 3a娛樂城"
+   },
+   "why": "換查詢語法再試一次收錄狀況",
+   "evidence_ids": [
+    "E-0148"
+   ],
+   "ok": true,
+   "light_test_of": null
+  }
+ ]
+}

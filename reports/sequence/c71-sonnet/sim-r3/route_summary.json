@@ -1,0 +1,235 @@
+{
+ "at": "2026-11-17T20:47:40+0800",
+ "steps": [
+  {
+   "n": 1,
+   "tool": "sitemap_tree",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0100"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 2,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0101",
+    "E-0102"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 3,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "",
+   "evidence_ids": [
+    "E-0103"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 4,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "",
+   "evidence_ids": [
+    "E-0104"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 5,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0105",
+    "E-0106"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 6,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "EXP-002 compare brand pages",
+   "evidence_ids": [
+    "E-0107",
+    "E-0108"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 7,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/富遊娛樂城"
+   },
+   "why": "EXP-002",
+   "evidence_ids": [
+    "E-0109",
+    "E-0110"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 8,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-002 domain history",
+   "evidence_ids": [
+    "E-0112",
+    "E-0113"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 9,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-002 last normal snapshot before redirect",
+   "evidence_ids": [
+    "E-0114",
+    "E-0115"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 10,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/taiwanplus/mlb-live-20261031-tb-vs-mil/"
+   },
+   "why": "check templated MLB page and outbound links",
+   "evidence_ids": [
+    "E-0116",
+    "E-0117"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 11,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "web.archive.org",
+    "path": "/web/20251108182921id_/https://2030.tw/"
+   },
+   "why": "EXP-002 read old homepage",
+   "evidence_ids": [
+    "E-0114",
+    "E-0118"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 12,
+   "tool": "text_match",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0107",
+    "E-0119"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 14,
+   "tool": "domain_info",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-002 recheck RDAP registration",
+   "evidence_ids": [
+    "E-0130"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 15,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/娛樂城"
+   },
+   "why": "EXP-002 target keyword page",
+   "evidence_ids": [
+    "E-0131",
+    "E-0132"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 16,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/威樂娛樂城"
+   },
+   "why": "EXP-002 third brand page for template check",
+   "evidence_ids": [
+    "E-0133",
+    "E-0134"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 17,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0107",
+    "E-0135"
+   ],
+   "ok": true,
+   "light_test_of": null
+  }
+ ]
+}

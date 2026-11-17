@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Hermes 原始碼由 scripts/fetch_hermes.py 下載（驗 sha256）
+vendor/
+# 每個 run 的獨立 Hermes home 與登入資料
+.hermes-runs/
+.hermes-auth/
+
+# run 的原始檔與資料庫留本機（report、evidence.jsonl、tool_calls.jsonl 可進版控）
+reports/**/raw/
+reports/**/*.sqlite*
+baselines/**/raw/
+baselines/**/*.sqlite*
+
+# 一鍵啟動的輸出
+t1-output/

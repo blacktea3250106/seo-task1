@@ -1,0 +1,194 @@
+{
+ "at": "2026-11-17T20:47:40+0800",
+ "rubric": "2030-rubric-v1",
+ "total": 5.0,
+ "max": 14,
+ "marks": "yyynyynnnnnnnn",
+ "dimensions": {
+  "完整度": {
+   "score": 5.0,
+   "max": 14,
+   "marks": "yyynyynnnnnnnn"
+  },
+  "正確度": {
+   "wrong_items": [],
+   "check_issues_left": [],
+   "rejections": 0
+  },
+  "誠實度": {
+   "absolute_scoped_2ev": {
+    "ok": 0,
+    "of": 4,
+    "rate": 0.0
+   },
+   "inference_with_limits": {
+    "ok": 2,
+    "of": 2,
+    "rate": 1.0
+   },
+   "unknowns": 7
+  },
+  "可追溯": {
+   "claims_with_existing_evidence": {
+    "ok": 11,
+    "of": 11,
+    "rate": 1.0
+   }
+  },
+  "建議有根據": {
+   "actions_based_on_valid_claims": {
+    "ok": 5,
+    "of": 5,
+    "rate": 1.0
+   }
+  },
+  "新發現": {
+   "claims_outside_14": 4,
+   "list_for_human": [
+    "on5：首頁 title 為「2030玩運彩瘋世足｜MLB/NBA比分、中職賽程、世界盃預測分析」，meta description 也只講賽事與運彩分析，沒有「娛樂城",
+    "on6：/taiwanplus/ 的 MLB 直播頁只檢查一頁（2026/10/31 場次）：H1 含日期＋球隊＋「先發投手+打線+MLB今日賽程」，內含球隊指標表、先",
+    "on7：選單和 sitemap 可見舊站 slug 被改作新用途：首頁選單「世界盃賽程表」連到 /article/smart-recreation-016-...、「世",
+    "off4：站內出站連結僅見社群分享鈕、一個「15.8k Subscribers」社群區塊與導流連結，沒看到公開的編輯資料、牌照或資質註記。它的排名若有，不能判斷來自外鏈還"
+   ],
+   "note": "只列出不屬於 14 項的主張；是否為真且有價值要人工看"
+  }
+ },
+ "judged_wrong": [],
+ "key_finding": {
+  "claim_id": "off1",
+  "rubric_items": [
+   "T05",
+   "T06"
+  ],
+  "evidence_id": "E-0123",
+  "calls": 0,
+  "elapsed_s": 0.0
+ },
+ "prev_run": "<repo>/reports/sequence/c71-sonnet/sim-r2",
+ "new_findings": {
+  "count": 0,
+  "items": []
+ },
+ "wrong_count": 0,
+ "cost": {
+  "tool_calls": 20,
+  "api_calls": 12,
+  "tokens": 1154346,
+  "elapsed_s_reference": 310.1
+ },
+ "untrusted_run": null,
+ "review_outcomes": [
+  {
+   "id": "R1",
+   "source": "審查",
+   "claim_id": "on1",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R2",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R3",
+   "source": "審查",
+   "claim_id": "on2",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R4",
+   "source": "審查",
+   "claim_id": "on3",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R5",
+   "source": "審查",
+   "claim_id": "on4",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R6",
+   "source": "審查",
+   "claim_id": "on5",
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R7",
+   "source": "審查",
+   "claim_id": "on6",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R8",
+   "source": "審查",
+   "claim_id": "on7",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R9",
+   "source": "審查",
+   "claim_id": "off1",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R10",
+   "source": "審查",
+   "claim_id": "off2",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R11",
+   "source": "審查",
+   "claim_id": "off3",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R12",
+   "source": "審查",
+   "claim_id": "off4",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R13",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R14",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R15",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R16",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  }
+ ]
+}

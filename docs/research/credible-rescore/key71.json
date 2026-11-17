@@ -1,0 +1,16 @@
+{
+ "check27/N1": "new-sonnet-4",
+ "check27/N2": "old-opus-r3",
+ "check27/N3": "old-opus-r2",
+ "check27/N4": "new-opus-2",
+ "check27/N5": "oneshot-opus",
+ "check28/N1": "new-sonnet-3",
+ "check28/N2": "new-opus-1",
+ "check28/N3": "old-sonnet-r2",
+ "check28/N4": "old-sonnet-r1",
+ "check28/N5": "old-sonnet-r3",
+ "check29/N1": "oneshot-sonnet",
+ "check29/N2": "new-sonnet-2",
+ "check29/N3": "new-sonnet-1",
+ "check29/N4": "old-opus-r1"
+}

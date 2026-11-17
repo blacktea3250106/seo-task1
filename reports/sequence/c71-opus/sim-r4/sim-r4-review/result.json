@@ -1,0 +1,273 @@
+{
+  "status": "passed",
+  "items": [
+    {
+      "sentence": "ON-3：「有兩個 H1（站名＋「關鍵字 - 完整評測與玩家指南」），H2 固定是 特色／遊戲種類／出金安全／註冊教學／優惠／客服／FAQ／總結」",
+      "problem": "引用的證據只有可見文字，看不出標題層級。三頁都沒有 headings 或 h1_count 的解析結果，所以「兩個 H1」「這些是 H2」都是從文字排列推測的，卻寫成 fact。",
+      "evidence_ids": [
+        "E-0111",
+        "E-0116",
+        "E-0118"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON-3：「內文 3,900～5,800 字」",
+      "problem": "證據裡沒有任何字數統計，E-0116 和 E-0118 的文字還被截斷。這個字數範圍沒有來源。",
+      "evidence_ids": [
+        "E-0111",
+        "E-0116",
+        "E-0118"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON-3：「模板相同：title 是「關鍵字｜…」」",
+      "problem": "title 格式其實不一致。「娛樂城」那頁的 title 是「娛樂城評價｜台灣玩家首選平台」，｜前面不是關鍵字本身；三頁｜後面的文字也各不相同。說「模板相同」講過頭了。",
+      "evidence_ids": [
+        "E-0118",
+        "E-0111",
+        "E-0116"
+      ],
+      "needs_evidence": false,
+      "stale": false
+    },
+    {
+      "sentence": "ON-4：「所有頁的 og article:published_time 也都是 2026-07-12T15:32:34、article:section 都是「mlb今日戰績」」",
+      "problem": "(1) 只看了 /wordcup/ 的 4 頁，不能說「所有頁」。/taiwanplus/ 頁（E-0154）的 og 日期就不一樣。(2) 證據裡的 og 欄位沒有 article:section。「mlb今日戰績」出現在 E-0120 的 NewsArticle JSON-LD 的 articleSection，不在 og，而且只檢查了一頁。",
+      "evidence_ids": [
+        "E-0111",
+        "E-0116",
+        "E-0118",
+        "E-0109",
+        "E-0120",
+        "E-0154"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON-4：「頁面自己的 Article JSON-LD 日期則是 datePublished 2026-11-10、dateModified 2026-11-15」",
+      "problem": "這組日期只屬於 3a娛樂城 這一頁。3a娛樂城出金是 11-03／11-13，娛樂城是 11-11／11-15。寫法讓人以為所有頁都一樣。",
+      "evidence_ids": [
+        "E-0111",
+        "E-0116",
+        "E-0118"
+      ],
+      "needs_evidence": false,
+      "stale": false
+    },
+    {
+      "sentence": "ON-5：「重抓同一頁時，last-modified 是 2026-11-14 21:42 GMT…顯示 dateModified 至少和 CDN 快取產生時間一致」",
+      "problem": "E-0121 和 E-0122 都沒有 HTTP 回應標頭，證據裡找不到 last-modified。後面跟 CDN 快取時間的比對因此沒有依據。",
+      "evidence_ids": [
+        "E-0121",
+        "E-0122"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON-5：「頁首的「更新」日期很可能是動態產生，用來營造新鮮度」；summary：「頁首「更新」日期各頁不同，而且接近抓取當天」",
+      "problem": "證據比較支持另一種解釋：日期就是 JSON-LD 的 datePublished，而且很穩定。(1) 3a娛樂城 兩次抓取（E-0111、E-0121）都顯示 11/10，沒有在每次請求時變動。(2) 顯示的「更新」日期等於該頁 JSON-LD 的 datePublished（11-10、11-03、11-11）。(3) 同一時間抓的頁面，頂端日期列各不相同（11/15、11/13、11/04），比較像 CDN 快取各在不同時間產生。另外 11/03 距抓取日 11/17 已有兩週，談不上「接近抓取當天」。這些都沒有排除，就推成「營造新鮮度」。",
+      "evidence_ids": [
+        "E-0111",
+        "E-0121",
+        "E-0116",
+        "E-0118",
+        "E-0109",
+        "E-0122"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON-6：「每個變體頁都有麵包屑連回入口，並在正文和側欄連到約 17 個同資料夾的其他關鍵字頁」",
+      "problem": "連結只解析了一頁（E-0114），推到「每個變體頁」樣本不夠。數字也不對：E-0114 的 22 個連結扣掉 5 個分類連結後是 17 個，但其中有 1 個是連回入口的「娛樂城推薦」，ruz娛樂城 又重複出現。不重複的其他關鍵字頁其實是 15 個。",
+      "evidence_ids": [
+        "E-0114",
+        "E-0111",
+        "E-0116",
+        "E-0118"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON-7：「首頁 H2／H3 也多半是這類標題」",
+      "problem": "首頁證據（E-0101）只有可見文字，沒有 headings 解析，看不出哪些文字是 H2 或 H3。",
+      "evidence_ids": [
+        "E-0101"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON-8：「其他頁是 7.1.4；/wordcup/ 頁的 HTTP 回應標頭是 cf-apo-via: tcache」",
+      "problem": "證據裡只看得到 /wordcup/3a娛樂城 的 generator 是 WordPress 7.0.1（E-0122）。沒有任何證據顯示其他頁是 7.1.4，也沒有任何回應標頭。unknowns 第 4 點「是不是另一套系統產生」就是建立在這些查不到出處的特徵上。",
+      "evidence_ids": [
+        "E-0122",
+        "E-0101",
+        "E-0121"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "OFF-1：「網域 RDAP 註冊日期是 2026-04-15」；summary：「網域在 2026-04-15 重新註冊」",
+      "problem": "註冊日期只來自一份 RDAP 快照。「重新註冊」是推論：RDAP 的註冊日期也可能因為轉移或紀錄重建而重設，而且 registrant 聯絡人在 2026-01-06 就已建立，和「4/15 才重新註冊」的說法不完全吻合。整個「過期網域再利用」的論點靠這兩份快照，要用即時 RDAP 或 WHOIS 重查確認。",
+      "evidence_ids": [
+        "E-0048",
+        "E-0057"
+      ],
+      "needs_evidence": true,
+      "stale": true
+    },
+    {
+      "sentence": "OFF-1：「2024-12 的舊首頁是「2030 智慧國家｜Smart Taiwan」」",
+      "problem": "E-0139 請求的是 web/20250101id_，Wayback 會回最接近的存檔。CDX 顯示 20241228 那筆是 301，最接近的 200 存檔是 20250116，所以實際內容多半是 2025-01 的，標成 2024-12 沒有核對。",
+      "evidence_ids": [
+        "E-0139",
+        "E-0057"
+      ],
+      "needs_evidence": false,
+      "stale": false
+    },
+    {
+      "sentence": "OFF-2：「舊站的短網址代碼（例如 /2kAPB2a）先 301 補上斜線，再回 200」",
+      "problem": "E-0126 只記了 301，內容是空的，沒有 Location。E-0141 和 E-0150 是另外直接請求帶斜線的網址，所以「301 導向補斜線的版本」沒有被觀察到，是推測。",
+      "evidence_ids": [
+        "E-0126",
+        "E-0141",
+        "E-0150"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "OFF-2：「page-sitemap 裡有 17 個這類代碼頁」",
+      "problem": "E-0157 搜的是「2030.tw/2」這個前綴，page-sitemap 命中 17 筆，但範例只列出約 10 個代碼頁，沒有逐一確認 17 筆都是短網址代碼。另外，不是 2 開頭的舊代碼（例如 Wayback 裡的 /3nUtSCX）不會被這個搜尋找到，數量可能少算。",
+      "evidence_ids": [
+        "E-0157",
+        "E-0124"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "OFF-2：「舊分類網址（/5G_Taiwan、/AI_Taiwan）也一樣被接住」；summary：「舊的 5G 分類網址現在是 MLB 分類頁」",
+      "problem": "只有 /AI_Taiwan 有 current_check（E-0130 回 301、E-0144 回 200）。舊站的大寫 /5G_Taiwan 沒有實際請求過，證據只有直接抓小寫 /5g_taiwan/ 的 E-0152，沒有證實舊網址會導過去。",
+      "evidence_ids": [
+        "E-0124",
+        "E-0130",
+        "E-0144",
+        "E-0152"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "OFF-3：「抽查的舊 /article/ 文章網址…和 /about-us 現在都是 404」",
+      "problem": "這是否定結論。回應都是 nginx 預設的 404 頁，不是 WordPress 主題的 404，可能是 nginx 規則或對爬蟲的阻擋。而且只用了一種工具，只試了不帶斜線的版本；短網址就是要加斜線才回 200。應該換帶斜線或小寫的版本、換一種方法重查，才能排除被擋或路徑格式不同的可能。",
+      "evidence_ids": [
+        "E-0131",
+        "E-0132",
+        "E-0133",
+        "E-0134",
+        "E-0135",
+        "E-0137"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "summary：「看得出它在借用舊網域累積的權重」；OFF-4：「沿用舊政府網站累積的外鏈權重…承接舊連結的權重」",
+      "problem": "沒有任何外鏈資料（limits 和 unknowns 都承認），也看不出舊短網址或分類網址真的有外鏈指向。summary 卻用「看得出」寫成近乎事實。能觀察到的只有「舊網址被重建成新內容」，「借用權重」是動機推論。",
+      "evidence_ids": [
+        "E-0139",
+        "E-0150",
+        "E-0152",
+        "E-0160",
+        "E-0162"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "OFF-5：「娛樂城頁每頁有 4 個 CTA，都連到 3A 品牌網域…這些外連全部是 rel=nofollow noopener」；summary：「所有導流 CTA 都是 nofollow」",
+      "problem": "(1) 只解析了 3a娛樂城 一頁的連結，而且篩選條件是 3a1788。從一頁推到 2197 頁的「每頁」，連「娛樂城」這種非 3A 的頁也一起算進去，樣本不夠。(2) 首頁（E-0103）和運彩頁（E-0156）都有寫在 script 裡的 wg1888 連結，工具明說「本欄不含 rel」，所以「全部 nofollow」沒有被驗證。(3) 運彩頁的部分同樣只看了一頁。",
+      "evidence_ids": [
+        "E-0113",
+        "E-0156",
+        "E-0103",
+        "E-0101"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "unknowns：「DuckDuckGo 連不上（資料卡和本次各試 1 次，都是 network_error），看不到 SERP 和收錄情形」",
+      "problem": "SERP 和收錄被列為未知，只因為同一個來源試了兩次都是網路錯誤。沒有換搜尋引擎、沒有用 site: 查詢或其他方法。這可能只是暫時連不上，不代表查不到。排名、收錄是判斷這個策略有沒有效的關鍵，應該換來源補查。",
+      "evidence_ids": [],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "actions[0] rationale：「對手靠量產變體頁卡長尾詞…用內容深度和差異化可以在主詞上取勝」",
+      "problem": "沒有任何排名或收錄證據顯示對手的變體頁真的卡到長尾詞，也無從判斷主詞的競爭狀況。「卡長尾詞」和「可以取勝」都不是 ON-2、ON-3 推得出來的。ON-3 的模板描述本身也有一部分缺證據。",
+      "evidence_ids": [
+        "E-0106",
+        "E-0111",
+        "E-0116",
+        "E-0118"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "actions[1] rationale：「對手的網址清單等於一份公開的需求清單」",
+      "problem": "網址 slug 只代表對手選了哪些詞，不代表這些詞有搜尋需求，沒有搜尋量或 SERP 佐證。另外，「加上 FAQPage」只因為對手有用，前面的結論沒有說明對手因此得到任何複合式結果或排名效益。",
+      "evidence_ids": [
+        "E-0106"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "actions[2] rationale：「對手用選單錨文字加上每頁約 17 個同資料夾內連，把權重集中到這個頁群」",
+      "problem": "內連數只算了一頁，而且數字有誤（不重複的關鍵字頁是 15 個）。「把權重集中」是效果推論，前面沒有任何排名或收錄資料支持這種做法有效。",
+      "evidence_ids": [
+        "E-0114",
+        "E-0103"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "actions[4] rationale：「它的量產頁群和網域再利用是主要成長來源」",
+      "problem": "沒有流量、排名或外鏈資料，無法判斷哪一塊是「主要成長來源」。ON-1 和 OFF-2 只描述了頁面結構，撐不起「成長來源」的結論。",
+      "evidence_ids": [
+        "E-0100",
+        "E-0157"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    }
+  ],
+  "tools_offered": [],
+  "tools_used": [],
+  "api_calls": 1,
+  "tokens": {
+    "input": 104731,
+    "output": 11483,
+    "total": 116214
+  },
+  "error": null,
+  "elapsed_s": 109.1,
+  "model": "claude-opus-5-5",
+  "simulated": true,
+  "runtime": "claude-code-cli",
+  "runner": "claude"
+}

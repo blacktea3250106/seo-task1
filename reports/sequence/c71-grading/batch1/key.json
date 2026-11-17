@@ -1,0 +1,58 @@
+{
+  "R07": {
+    "arm": "sonnet-r1",
+    "dir": "c71-sonnet/sim-r1"
+  },
+  "R02": {
+    "arm": "sonnet-r2",
+    "dir": "c71-sonnet/sim-r2"
+  },
+  "R01": {
+    "arm": "sonnet-r3",
+    "dir": "c71-sonnet/sim-r3"
+  },
+  "R04": {
+    "arm": "sonnet-r4",
+    "dir": "c71-sonnet/sim-r4"
+  },
+  "R11": {
+    "arm": "sonnet-r5",
+    "dir": "c71-sonnet/sim-r5"
+  },
+  "R14": {
+    "arm": "opus-r1",
+    "dir": "c71-opus/sim-r1"
+  },
+  "R05": {
+    "arm": "opus-r2",
+    "dir": "c71-opus/sim-r2"
+  },
+  "R06": {
+    "arm": "opus-r3",
+    "dir": "c71-opus/sim-r3"
+  },
+  "R13": {
+    "arm": "os-sonnet-1",
+    "dir": "oneshot-c71/sonnet-1/direct-sonnet-20261117-203521"
+  },
+  "R08": {
+    "arm": "os-sonnet-2",
+    "dir": "oneshot-c71/sonnet-2/direct-sonnet-20261117-203734"
+  },
+  "R10": {
+    "arm": "os-sonnet-3",
+    "dir": "oneshot-c71/sonnet-3/direct-sonnet-20261117-203840"
+  },
+  "R03": {
+    "arm": "os-opus-1",
+    "dir": "oneshot-c71/opus-1/direct-opus-20261117-203521"
+  },
+  "R09": {
+    "arm": "os-opus-2",
+    "dir": "oneshot-c71/opus-2/direct-opus-20261117-204042"
+  },
+  "R12": {
+    "arm": "os-opus-3",
+    "dir": "oneshot-c71/opus-3/direct-opus-20261117-204520"
+  }
+}

@@ -1,0 +1,14 @@
+{
+ "at": "2026-11-17T20:42:10+0800",
+ "status": "done",
+ "results": [
+  {
+   "id": "EXP-001",
+   "result": "照走",
+   "avoid_reason": "",
+   "verdict": "沒用到"
+  }
+ ],
+ "followed_pairs": [],
+ "blocked": []
+}

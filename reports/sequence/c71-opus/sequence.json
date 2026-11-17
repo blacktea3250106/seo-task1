@@ -1,0 +1,195 @@
+{
+  "at": "2026-11-17T21:39:26+0800",
+  "simulated": true,
+  "runtime": "claude-code-cli",
+  "runner": "claude",
+  "model": "opus",
+  "minutes": 120.0,
+  "effort": null,
+  "sim_note": "模擬執行：用 Claude Code CLI（訂閱）代替 Hermes AIAgent；不是 Hermes 整合證據",
+  "rounds": 5,
+  "experience": "<repo>/reports/sequence/c71-opus/experience/candidates.jsonl",
+  "experience_sha256": "1bad565345ea4dbf81c344da6c3911c70138c4aaa5c84fe9280ef83abdf62321",
+  "steps": [
+    {
+      "round": 1,
+      "step": "research",
+      "run_dir": "<repo>/reports/sequence/c71-opus/sim-r1",
+      "experience_in": []
+    },
+    {
+      "round": 1,
+      "step": "evaluate",
+      "total": 8.0,
+      "marks": "yyynyyynnyynnn",
+      "wrong_count": 0,
+      "untrusted_run": null,
+      "new_findings": null
+    },
+    {
+      "round": 1,
+      "step": "post_run",
+      "judgement": "done",
+      "audit": "done",
+      "active_after": [
+        "EXP-001",
+        "EXP-002"
+      ]
+    },
+    {
+      "round": 2,
+      "step": "research",
+      "run_dir": "<repo>/reports/sequence/c71-opus/sim-r2",
+      "experience_in": [
+        "EXP-001",
+        "EXP-002"
+      ]
+    },
+    {
+      "round": 2,
+      "step": "evaluate",
+      "total": 6.5,
+      "marks": "yyynyypnnynnnn",
+      "wrong_count": 0,
+      "untrusted_run": null,
+      "new_findings": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "round": 2,
+      "step": "post_run",
+      "judgement": "done",
+      "audit": "done",
+      "active_after": [
+        "EXP-001",
+        "EXP-002",
+        "EXP-003",
+        "EXP-004"
+      ]
+    },
+    {
+      "round": 3,
+      "step": "research",
+      "run_dir": "<repo>/reports/sequence/c71-opus/sim-r3",
+      "experience_in": [
+        "EXP-001",
+        "EXP-002",
+        "EXP-003",
+        "EXP-004"
+      ]
+    },
+    {
+      "round": 3,
+      "step": "evaluate",
+      "total": 6.0,
+      "marks": "ynynyyynnynnnn",
+      "wrong_count": 0,
+      "untrusted_run": null,
+      "new_findings": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "round": 3,
+      "step": "post_run",
+      "judgement": "done",
+      "audit": "done",
+      "active_after": [
+        "EXP-001",
+        "EXP-002",
+        "EXP-003",
+        "EXP-004",
+        "EXP-005",
+        "EXP-006"
+      ]
+    },
+    {
+      "round": 4,
+      "step": "research",
+      "run_dir": "<repo>/reports/sequence/c71-opus/sim-r4",
+      "experience_in": [
+        "EXP-001",
+        "EXP-002",
+        "EXP-003",
+        "EXP-004",
+        "EXP-005",
+        "EXP-006"
+      ]
+    },
+    {
+      "round": 4,
+      "step": "evaluate",
+      "total": 6.0,
+      "marks": "ynynyyynnynnnn",
+      "wrong_count": 0,
+      "untrusted_run": null,
+      "new_findings": {
+        "count": 0,
+        "items": []
+      }
+    },
+    {
+      "round": 4,
+      "step": "post_run",
+      "judgement": "done",
+      "audit": "done",
+      "active_after": [
+        "EXP-001",
+        "EXP-002",
+        "EXP-003",
+        "EXP-004",
+        "EXP-005",
+        "EXP-006",
+        "EXP-007"
+      ]
+    },
+    {
+      "round": 5,
+      "step": "research",
+      "run_dir": "<repo>/reports/sequence/c71-opus/sim-r5",
+      "experience_in": [
+        "EXP-001",
+        "EXP-002",
+        "EXP-003",
+        "EXP-004",
+        "EXP-005",
+        "EXP-006",
+        "EXP-007"
+      ]
+    },
+    {
+      "round": 5,
+      "step": "evaluate",
+      "total": 6.5,
+      "marks": "yyynyypnnynnnn",
+      "wrong_count": 0,
+      "untrusted_run": null,
+      "new_findings": {
+        "count": 1,
+        "items": [
+          "T02"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "step": "post_run",
+      "judgement": "done",
+      "audit": "done",
+      "active_after": [
+        "EXP-001",
+        "EXP-002",
+        "EXP-003",
+        "EXP-004",
+        "EXP-005",
+        "EXP-006",
+        "EXP-007",
+        "EXP-008",
+        "EXP-009"
+      ]
+    }
+  ]
+}

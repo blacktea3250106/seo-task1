@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "seo": {
+      "command": "<repo>/.venv/bin/python",
+      "args": [
+        "-m",
+        "seo_agent.sim",
+        "proxy",
+        "/var/folders/py/r8hm7cks37jcdtbynzsm6ql00000gn/T/seo-sim-kivj70hj/s"
+      ],
+      "env": {
+        "PYTHONPATH": "<repo>/src",
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}

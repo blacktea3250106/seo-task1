@@ -1,0 +1,162 @@
+{
+ "at": "2026-11-17T20:42:10+0800",
+ "rubric": "2030-rubric-v1",
+ "total": 5.0,
+ "max": 14,
+ "marks": "yyynyynnnnnnnn",
+ "dimensions": {
+  "完整度": {
+   "score": 5.0,
+   "max": 14,
+   "marks": "yyynyynnnnnnnn"
+  },
+  "正確度": {
+   "wrong_items": [],
+   "check_issues_left": [],
+   "rejections": 0
+  },
+  "誠實度": {
+   "absolute_scoped_2ev": {
+    "ok": 0,
+    "of": 2,
+    "rate": 0.0
+   },
+   "inference_with_limits": {
+    "ok": 4,
+    "of": 4,
+    "rate": 1.0
+   },
+   "unknowns": 7
+  },
+  "可追溯": {
+   "claims_with_existing_evidence": {
+    "ok": 13,
+    "of": 13,
+    "rate": 1.0
+   }
+  },
+  "建議有根據": {
+   "actions_based_on_valid_claims": {
+    "ok": 4,
+    "of": 4,
+    "rate": 1.0
+   }
+  },
+  "新發現": {
+   "claims_outside_14": 5,
+   "list_for_human": [
+    "on4：3A 專頁：title「3a娛樂城｜遊戲種類、優惠、出金全攻略」；H1 兩個（一個是站名、一個是「3a娛樂城 - 完整評測與玩家指南」）；H2 為平台特色、遊戲",
+    "on5：品牌頁很可能是模板化大量生成：已抽查的 3A 與富遊兩頁，H2 結構逐項相同（只換品牌名），FAQ 五題相同、最低入金都是 1000、出金都是 30 分鐘到 1",
+    "on8：策略推測：以體育內容（每日 MLB、世足）維持主題與更新頻率，另用 /wordcup/ 大量品牌長尾頁承接商業搜尋，並用首頁選單把權重導向。",
+    "off4：這些帶推廣代碼樣式子網域的 nofollow 連結與「立即註冊領取優惠」按鈕，看起來是聯盟／導流變現。",
+    "off5：免費搜尋（DuckDuckGo）重試仍連不上（robots.txt 讀不到），沒有任何外部排名／收錄證據；外鏈與流量為付費資料，這次沒有。"
+   ],
+   "note": "只列出不屬於 14 項的主張；是否為真且有價值要人工看"
+  }
+ },
+ "judged_wrong": [],
+ "key_finding": {
+  "claim_id": "off1",
+  "rubric_items": [
+   "T05",
+   "T06"
+  ],
+  "evidence_id": "E-0121",
+  "calls": 0,
+  "elapsed_s": 0.0
+ },
+ "prev_run": "<repo>/reports/sequence/c71-sonnet/sim-r1",
+ "new_findings": {
+  "count": 1,
+  "items": [
+   "T05"
+  ]
+ },
+ "wrong_count": 0,
+ "cost": {
+  "tool_calls": 19,
+  "api_calls": 12,
+  "tokens": 975942,
+  "elapsed_s_reference": 248.0
+ },
+ "untrusted_run": null,
+ "review_outcomes": [
+  {
+   "id": "R1",
+   "source": "審查",
+   "claim_id": "off1",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R2",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R3",
+   "source": "審查",
+   "claim_id": "on1",
+   "outcome": "需人工判定",
+   "needs_evidence": false
+  },
+  {
+   "id": "R4",
+   "source": "審查",
+   "claim_id": "on3",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R5",
+   "source": "審查",
+   "claim_id": "on4",
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R6",
+   "source": "審查",
+   "claim_id": "on6",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R7",
+   "source": "審查",
+   "claim_id": "off3",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R8",
+   "source": "審查",
+   "claim_id": "off4",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R9",
+   "source": "審查",
+   "claim_id": "on5",
+   "outcome": "補查後修正",
+   "needs_evidence": true
+  },
+  {
+   "id": "R10",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  },
+  {
+   "id": "R11",
+   "source": "審查",
+   "claim_id": null,
+   "outcome": "需人工判定",
+   "needs_evidence": true
+  }
+ ]
+}

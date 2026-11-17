@@ -1,0 +1,209 @@
+{
+  "status": "passed",
+  "items": [
+    {
+      "sentence": "ON-6：「3a娛樂城頁的正文和側欄有 22 個連到其他 /wordcup/ 關鍵字頁的連結」",
+      "problem": "數字算錯。E-0151 的 22 是所有含 /wordcup/ 的連結總數。其中 6 個連到 /wordcup/ 根目錄：正文的「娛樂城推薦」，以及側欄的百家樂、老虎機、體育投注、真人娛樂、電子遊戲。ruz娛樂城在正文和側欄各出現一次。扣掉這些，實際連到其他關鍵字頁的是 16 個連結，只有 15 個不重複頁面。而且這只是 1 頁的結果，不能說關鍵字頁之間「密集互連」是普遍現象。",
+      "evidence_ids": [
+        "E-0151"
+      ],
+      "needs_evidence": false,
+      "stale": false
+    },
+    {
+      "sentence": "actions 第 3 條 rationale：「對方靠…每頁 20 多個互連撐起主題群」",
+      "problem": "這句沿用 ON-6 的錯誤數字，實際約 16 個連結。另外只量了 3a娛樂城這一頁，就寫成「每頁」，從單一樣本推到全部 2354 頁。",
+      "evidence_ids": [
+        "E-0151"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON-8：「/taiwanplus/（1820 個網址）和 /mlb/（303 個網址）都是每場 MLB 比賽一頁的格式，網址像 mlb-live-YYYYMMDD-隊伍-vs-隊伍…資料來源寫「Tank01 MLB API」」",
+      "problem": "/mlb/ 沒有抽樣，unknowns 也承認沒讀過。唯一看得到的 /mlb/ 網址是 mlb-scores-20260712-phi-vs-det，屬於賽後比分頁，格式和 mlb-live 不同。/taiwanplus/ 只看了 15 筆 sitemap 樣本和 1 頁。「Tank01 MLB API」在提供的證據中找不到，E-0116 的內容被截斷了。",
+      "evidence_ids": [
+        "E-0105",
+        "E-0116",
+        "E-0103",
+        "E-0110"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "summary (2)：「/taiwanplus/、/mlb/ 用 MLB 賽事 API 資料量產每場比賽的頁面，提供運彩流量和內鏈」",
+      "problem": "這句有兩個問題。「用 API 量產」依據的是看不到的 Tank01 證據。「提供運彩流量」沒有任何流量資料支持，而報告自己也寫了流量查不到。這是把推論寫成事實。",
+      "evidence_ids": [
+        "E-0116",
+        "E-0105"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON-9：「再靠選單和側欄把權重導到娛樂城關鍵字頁，同時把娛樂城頁和主 sitemap 索引分開」",
+      "problem": "證據不夠。只證明首頁選單連到 /wordcup/，沒有任何證據顯示運彩或MLB頁的側欄連到娛樂城關鍵字頁，E-0116 沒有過濾 /wordcup/ 連結。另有一個替代解釋沒有排除：/wordcup/ 頁的 generator 是 WordPress 7.0.1，主站是 7.1.4。這表示 /wordcup/ 可能是另一套安裝或另一個系統，sitemap 分開可能只是技術結構造成的，不一定是刻意分開。",
+      "evidence_ids": [
+        "E-0059",
+        "E-0061",
+        "E-0108",
+        "E-0110",
+        "E-0116"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON-4：「每頁約 2500–3900 個中日韓字元」",
+      "problem": "cjk_chars 算的是整頁字數，包含選單、側欄、頁尾，不等於正文長度。拿來描述內容量會高估。",
+      "evidence_ids": [
+        "E-0110",
+        "E-0112",
+        "E-0114"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "actions 第 1 條 rationale：「內容是同一套模板的近似重複」；actions 第 2 條 rationale：「FAQ 答案各頁大同小異」",
+      "problem": "證據只顯示 H2 和 FAQ 問題的結構相同。三頁的正文開頭明顯不同，也沒有做相似度比對。FAQ 的答案在證據裡完全沒有出現。「近似重複」和「答案大同小異」都沒有證據支持。",
+      "evidence_ids": [
+        "E-0110",
+        "E-0112",
+        "E-0114"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "actions 第 1 條：「參考對方 94 個 3A 相關網址的意圖詞…去搶同一組查詢」",
+      "problem": "這條建議假設對方的關鍵字布局有效，但對方的收錄、排名和搜尋量都查不到（見 unknowns）。我們不知道這組查詢值不值得搶，也不知道對方是否真的佔住這些查詢。另外，94 是 matches，但 by_sitemap 和 rows 是 100，兩個數字不一致，也只列出 20 個例子，所以 94 個網址是否都是 3A 品牌頁沒有核實。",
+      "evidence_ids": [
+        "E-0107"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON-7：「關鍵字頁正文顯示「2026年11月10日 更新」…但 article:modified_time 都是 2026-07-12」",
+      "problem": "矛盾本身成立，但解讀還少一層。三頁和 /wordcup/ 首頁的 og 時間完全相同，都是 2026-07-12T15:32:34，和混進來的 MLB 實體日期一樣，比較可能是 meta 從 MLB 頁繼承來的模板錯誤。頁首日期也落後抓取時間：抓取在 11/17，頁首顯示 11/4、11/15、11/16。這表示頁面可能是快取，或「更新」日期是動態產生的。另外，「娛樂城」這一頁的 sitemap lastmod 在證據中沒有出現。",
+      "evidence_ids": [
+        "E-0110",
+        "E-0112",
+        "E-0114",
+        "E-0108",
+        "E-0107"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "OFF-2：「舊站在 2022 年被存檔的短網址代碼（例如 2kAPB2a、2kinhBC、2lUi3MR），目前以小寫 slug 出現在新站 sitemap」",
+      "problem": "只有 2kAPB2a 實際驗證過：現在 301 到新頁，canonical 是小寫。2kinhBC 和 2lUi3MR 在 sitemap 裡出現的證據沒有提供。「WordPress page 837」在證據中也找不到。",
+      "evidence_ids": [
+        "E-0119",
+        "E-0128",
+        "E-0134",
+        "E-0103"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "OFF-2：「舊分類名 5G_Taiwan、AI_Taiwan 現在會 301 到新的分類頁；digi_taiwan 被拿來放世足賽事頁」",
+      "problem": "check_current 只看到 301 轉到加了結尾斜線的同名網址，最終頁的狀態和內容都沒有抓。這可能只是 WordPress 自動補斜線，最後落到 404，不能說是「新的分類頁」。另外，digi_taiwan 是舊站分類這件事，在證據中沒有出現，old_urls 被截斷了。",
+      "evidence_ids": [
+        "E-0128",
+        "E-0131",
+        "E-0119"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "OFF-3／summary (3)：「選擇性重建舊短網址和舊分類網址，想承接舊站累積的外鏈」；「舊站的短網址代碼被重建成新的運彩頁面」",
+      "problem": "確認被重建的舊短網址只有 1 個（2kAPB2a），舊分類的重建也沒有驗證完成。用一個樣本推出「選擇性重建」的策略，證據不足。外鏈的部分也完全沒有資料。",
+      "evidence_ids": [
+        "E-0119",
+        "E-0128",
+        "E-0134"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "OFF-3 limits／unknowns：「舊短網址 2022 年 301 的目標頁沒有拿到（Wayback 快照回 404，E-0133）」",
+      "problem": "這是否定結論。404 可能只是用 id_ 方式取快照失敗，不代表當年的目標頁不存在。可以改抓非 id_ 版本，或從 CDX 讀轉址的 location，用另一種方法再確認一次。",
+      "evidence_ids": [
+        "E-0133"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "OFF-1：「Wayback 從 2020-03 起就有存檔：2024-05 的首頁是「2030 智慧國家｜Smart Taiwan」」；summary：「在 2026-04-15 重新註冊的網域」",
+      "problem": "存檔時間線（E-0058）是快照資料。「2024-05」這個時間點在 E-0147 中看不到，因為原始快照 E-0145 沒有附上。只讀了一個舊快照，2025-11 那筆 200 存檔當時是什麼內容也沒有確認。所以政府站什麼時候結束、網域什麼時候換主人都不清楚。RDAP 只代表目前這次註冊，「重新註冊」和「換主」都是推論。",
+      "evidence_ids": [
+        "E-0058",
+        "E-0147",
+        "E-0144"
+      ],
+      "needs_evidence": true,
+      "stale": true
+    },
+    {
+      "sentence": "OFF-4：「娛樂城頁的外連 CTA 都指向帶推廣參數 ?st=wg2030 的博弈品牌網址，rel=nofollow noopener…全站頁面還有一個 WG 品牌連結」",
+      "problem": "只有 3a娛樂城這一頁做了連結明細（E-0150）。「娛樂城」頁只知道外連主機的數量，不知道參數和 rel。「都」和「全站」是用大約 6 頁推到全部頁面。",
+      "evidence_ids": [
+        "E-0150",
+        "E-0112",
+        "E-0061",
+        "E-0116",
+        "E-0134"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "OFF-4：「首頁 followed 的外連只有 Facebook 和 Twitter」",
+      "problem": "首頁的 E-0059 被截斷，link_counts 和 external_followed_hosts 都沒有出現在證據中，無法驗證。首頁還有 wg1888 連結，它的 rel 也不清楚。",
+      "evidence_ids": [
+        "E-0059"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "summary：「排名、流量、外鏈數量沒有免費工具可查，關鍵字搜尋也連不上。」；unknowns：「免費搜尋（DuckDuckGo）連不上（E-0149）」",
+      "problem": "這是否定結論，但只試了 DuckDuckGo 一種來源。連不上可能只是暫時被擋或逾時，E-0149 也沒有提供。沒有改用其他搜尋來源或其他方法交叉確認，「沒有免費工具可查」說得太絕對。",
+      "evidence_ids": [],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "ON-2：「它不在 robots 裡，也不在 sitemap 索引裡」",
+      "problem": "sitemap_index.xml 的子檔已逐一列出，結論大致成立。但 sitemap.xml 和 wp-sitemap.xml 也是 n=6 的索引，子檔沒有逐一列出。另外沒有確認 /wordcup/ 的網址是否也出現在 post-sitemap 裡。",
+      "evidence_ids": [
+        "E-0103",
+        "E-0135"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    }
+  ],
+  "tools_offered": [],
+  "tools_used": [],
+  "api_calls": 1,
+  "tokens": {
+    "input": 57323,
+    "output": 10464,
+    "total": 67787
+  },
+  "error": null,
+  "elapsed_s": 99.8,
+  "model": "claude-opus-5-5",
+  "simulated": true,
+  "runtime": "claude-code-cli",
+  "runner": "claude"
+}

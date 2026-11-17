@@ -1,0 +1,155 @@
+{
+  "status": "passed",
+  "items": [
+    {
+      "source": "審查",
+      "sentence": "on4：「同一頁的 NewsArticle／WebPage JSON-LD 指向無關的 MLB 比分頁……jsonld_entity_mismatch 為 true；……娛樂城頁疑似從 MLB 頁面模板複製而來。」",
+      "problem": "證據只有 jsonld_foreign_entities（指向同一則 MLB 頁）與 og 日期 2026-07-12，而且 /wordcup/ 列表頁（E-0062）也有同樣的外來實體與日期。這說明比較像整個 /wordcup/ 區共用錯誤模板，不是『從 MLB 頁複製』的推測；「og:article:section 是 mlb今日戰績」也未在證據原文出現；證據裡沒有 jsonld_entity_mismatch 欄位，這個欄位名稱與 true 值是報告自行加上的。「發佈日期不一致」把 og 的 07-12 與 FAQ 的 11-10 當成矛盾，但兩者是不同層（模板 vs 頁面）；若重點是『模板外來實體』，就不能只用 2 頁推到所有頁。",
+      "evidence_ids": [
+        "E-0108",
+        "E-0111",
+        "E-0062"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R1"
+    },
+    {
+      "source": "審查",
+      "sentence": "off3：「娛樂城頁面把外部連結導向不同的博弈導流網域（bc5730m.wg1888.com、don0911.3a1788.bet），這些連結在 HTML 中帶 nofollow，且首頁有寫在 script 字串裡的 wg1888 連結……顯示是聯盟導流變現。」",
+      "problem": "所附證據文字（E-0062、E-0108、E-0060）都只有可見文字與 head 欄位，完全沒有這兩個網域、nofollow 屬性或 script 字串中的 wg1888。這些細節無法從給出的證據驗證；『聯盟導流變現』也是推論（只看到 CTA 文字『立即註冊領取優惠』），被寫成 fact。",
+      "evidence_ids": [
+        "E-0062",
+        "E-0108",
+        "E-0060"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R2"
+    },
+    {
+      "source": "審查",
+      "sentence": "off4：「社群 sameAs 只有 Facebook 粉專、一個空的 twitter／plus.google 連結；Organization schema 的 name 與 logo 為空。品牌訊號弱。」",
+      "problem": "引用的 E-0062 只含 jsonld_types 與可見文字，沒有 sameAs、Organization name／logo 內容，證據撐不起。而且 E-0062 頁面的 Organization 欄位空白，不等於『品牌訊號弱』（外部提及、搜尋品牌量未查），是從 schema 空白推到品牌強度，跨了證據範圍。",
+      "evidence_ids": [
+        "E-0062"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R3"
+    },
+    {
+      "source": "審查",
+      "sentence": "on1：「分類頁自稱共 2502 篇評測……sitemap 記錄 /wordcup/ 有 2354 個不重複網址，約佔全站 50%。」",
+      "problem": "2502 篇與 2354 個網址有落差未說明（sitemap rows 2503 vs 不重複 2354）；且分類頁含『其他娛樂城資訊』748 篇等不一定是『品牌』頁。『約 2,350 個以「○○娛樂城」為單一關鍵字的程式化頁面』（summary）把『程式化』當事實，但只看過 2 頁全文與列表摘要，報告自己的 unknowns 也承認不能推到全部。此外 sitemap 是 sitemap_tree 一次性結果，sitemap_files_not_ok 29 個 404，可能漏掉其他分區，佔比 50% 僅是已讀到的 sitemap。",
+      "evidence_ids": [
+        "E-0062",
+        "E-0104"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R4"
+    },
+    {
+      "source": "審查",
+      "sentence": "on3：「內容看起來是模板化大量生成。『半小時到一小時出金』等說法沒有第三方佐證。」",
+      "problem": "『沒有第三方佐證』是沒有查證就下的否定結論；本次根本沒查過第三方（連 SERP 工具都連不上），不能說沒有，只能說未查證。另外兩頁出金說法其實不同（3a：半小時到一小時；娛樂城：15 分鐘到 2 小時），報告沒利用這點。樣本只有 2 頁加摘要。",
+      "evidence_ids": [
+        "E-0108",
+        "E-0111"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R5"
+    },
+    {
+      "source": "審查",
+      "sentence": "off1：「新舊站間網址與文章 slug 有延續（/digi_taiwan/、/5g_taiwan/、/ai_taiwan/ 等）」及 on6「選單的世足文章網址是舊智慧國家站的 slug（例如 responsible-ai-…、space-tech-…），表示舊文章被改寫成新主題。」",
+      "problem": "給出的證據中，E-0104 只列了 /digi_taiwan/、/ai_taiwan/ 的 sitemap 區段，沒有 /5g_taiwan/；E-0106 只是 2025-01-01 首頁文字，沒有舊網址 slug 清單。E-0060 選單可見文字也沒有網址 slug（responsible-ai-…、space-tech-…）。『舊文章被改寫成新主題』是推論，且未比對新舊頁內容；報告自己在 unknowns 也說沒檢查舊網址是否有轉址。",
+      "evidence_ids": [
+        "E-0104",
+        "E-0106",
+        "E-0060"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R6"
+    },
+    {
+      "source": "審查",
+      "sentence": "summary：「2030.tw 是 2026-04 才重新註冊的網域，前身是政府『2030 智慧國家』科技專題站」；off1 以 Wayback 與 RDAP 為依據。",
+      "problem": "RDAP 的註冊日期只代表這次註冊（工具 note 也如此說），E-0057 顯示 2026-01 仍有存檔、2026-04 註冊，只能說明中間有一次重新註冊；『前身是政府站』只看 2025-01-01 的單一快照（內容引用 digi.nstc.gov.tw 等），沒有證據該站是政府官方經營（可能是政府委辦或其他單位）。E-0055、E-0057 為快照（09:40 抓取），已過可能時間，但此結論大致穩定，只有部分過期風險。",
+      "evidence_ids": [
+        "E-0055",
+        "E-0057",
+        "E-0106"
+      ],
+      "needs_evidence": false,
+      "stale": true,
+      "id": "R7"
+    },
+    {
+      "source": "審查",
+      "sentence": "off2：「可能是看重舊政府主題網域累積的歷史……取得網域（expired／drop domain 策略）；這是博弈 SEO 常見做法。」",
+      "problem": "『博弈 SEO 常見做法』沒有任何證據支持；也無法區分是過期後購入、轉讓或原擁有者轉型。報告已標 inference 並說明限制，但仍建議把它當作判斷基礎。",
+      "evidence_ids": [
+        "E-0055",
+        "E-0106",
+        "E-0060"
+      ],
+      "needs_evidence": true,
+      "stale": true,
+      "id": "R8"
+    },
+    {
+      "source": "審查",
+      "sentence": "on7 與 actions 第三項：「網站用運彩／MLB／世足每日更新內容建立主題與新鮮度，再用 /wordcup/ 承接博弈商業字」→ 建議建立每日更新的體育內容作為主題權威。",
+      "problem": "沒有排名、流量或 SERP 資料，無法確認 MLB 每日內容真的帶來主題權威或對娛樂城頁有幫助；行動建議『每日更新體育內容是權威來源』只由站內結構與 sitemap 比例推出，因果未驗證。也沒檢查 /taiwanplus/、/mlb/ 是否為薄的程式化內容（unknowns 已承認），所以『值得學』的前提不穩。",
+      "evidence_ids": [
+        "E-0060",
+        "E-0104",
+        "E-0062"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R9"
+    },
+    {
+      "source": "審查",
+      "sentence": "actions 第一項：「為『娛樂城』『3A娛樂城』各建一個比它更完整的專屬頁……對手兩頁是結構一致的模板、沒有第三方佐證」",
+      "problem": "建議以對手頁面的品質薄弱為前提，但沒有 SERP／排名資料，不知對手是否真的排得好、真正的競爭者是誰（關鍵字搜尋連不上）。另外建議在博弈內容上投入而沒有提到合法性／廣告法規風險以外的評估，與證據無關；這項主要支撐點僅有 2 頁樣本。",
+      "evidence_ids": [
+        "E-0108",
+        "E-0111"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R10"
+    },
+    {
+      "source": "審查",
+      "sentence": "on2／on5：「/wordcup/ 列表頁……被放在首頁主選單」；on5「內部連結……品牌頁混有廣泛長尾詞」",
+      "problem": "on2 的『首頁主選單』有首頁選單文字『線上娛樂城推薦』支持。on5 的 53 頁分頁與相關推薦只由兩頁與列表頁看到，未驗證是否為所有品牌頁的通則，且『在各娛樂城頁間互連』沒有證據中的連結目標清單（可見文字只有名稱列表，沒有 href），互連關係是由文字名稱推測。",
+      "evidence_ids": [
+        "E-0108",
+        "E-0062",
+        "E-0060"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R11"
+    }
+  ],
+  "cost": {
+    "api_calls": 1,
+    "tokens": {
+      "input": 37560,
+      "output": 3279,
+      "total": 40839
+    },
+    "elapsed_s": 27.3
+  },
+  "tools_offered": [],
+  "error": null,
+  "at": "2026-11-17T21:37:41+0800"
+}

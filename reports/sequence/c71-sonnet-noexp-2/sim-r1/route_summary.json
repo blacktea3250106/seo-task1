@@ -1,0 +1,170 @@
+{
+ "at": "2026-11-17T21:38:30+0800",
+ "steps": [
+  {
+   "n": 1,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0060",
+    "E-0061"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 2,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "",
+   "evidence_ids": [],
+   "ok": false,
+   "light_test_of": null
+  },
+  {
+   "n": 3,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0062",
+    "E-0063"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 4,
+   "tool": "sitemap_tree",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0104"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 5,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0106",
+    "E-0107"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 6,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0108",
+    "E-0109"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 7,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "web.archive.org",
+    "path": "/web/20241228055346id_/https://2030.tw/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0106",
+    "E-0110"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 8,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/娛樂城"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0111",
+    "E-0112"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 10,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0108",
+    "E-0113"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 11,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0060",
+    "E-0114"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 12,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "",
+   "evidence_ids": [
+    "E-0115"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 13,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "",
+   "evidence_ids": [
+    "E-0116"
+   ],
+   "ok": true,
+   "light_test_of": null
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "job": "research",
+  "run_id": "sim-r1",
+  "payload": {
+    "total_minutes": 120.0,
+    "max_iterations": 400,
+    "fetch_delay_s": 1.5,
+    "experience_path": "<repo>/reports/sequence/c71-sonnet/experience/candidates.jsonl"
+  },
+  "simulated": true,
+  "runtime": "claude-code-cli",
+  "runner": "claude",
+  "model": "sonnet",
+  "effort": null,
+  "reviewer_model": "sonnet"
+}

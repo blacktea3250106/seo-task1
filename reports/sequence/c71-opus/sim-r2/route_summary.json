@@ -1,0 +1,663 @@
+{
+ "at": "2026-11-17T21:08:47+0800",
+ "steps": [
+  {
+   "n": 1,
+   "tool": "sitemap_tree",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-001 先建 sitemap 庫看大分區",
+   "evidence_ids": [
+    "E-0100"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 2,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "看首頁 title/H1/JSON-LD 與關鍵字定位",
+   "evidence_ids": [
+    "E-0043",
+    "E-0101"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 3,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-001 找選單「娛樂城」錨文字連到哪",
+   "evidence_ids": [
+    "E-0043",
+    "E-0102"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 4,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "EXP-001 看最大分區網址樣式",
+   "evidence_ids": [
+    "E-0103"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 5,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "EXP-001 找 3A 娛樂城變體頁",
+   "evidence_ids": [
+    "E-0104"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 6,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "EXP-001 數娛樂城變體頁總數與分布",
+   "evidence_ids": [
+    "E-0105"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 7,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/"
+   },
+   "why": "EXP-001 看選單錨文字入口頁",
+   "evidence_ids": [
+    "E-0106",
+    "E-0107"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 8,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "EXP-001 看指定關鍵字變體頁模板",
+   "evidence_ids": [
+    "E-0108",
+    "E-0109"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 9,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "EXP-001 看 CTA rel 與推廣參數",
+   "evidence_ids": [
+    "E-0108",
+    "E-0110"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 10,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "EXP-001 看同資料夾站內互連",
+   "evidence_ids": [
+    "E-0108",
+    "E-0111"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 11,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/robots.txt"
+   },
+   "why": "EXP-001 核對 /wordcup/sitemap.xml 是否列在 robots",
+   "evidence_ids": [
+    "E-0112"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 12,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城評價"
+   },
+   "why": "EXP-001 比對第二個 3A 變體頁模板",
+   "evidence_ids": [
+    "E-0113",
+    "E-0114"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 13,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/娛樂城"
+   },
+   "why": "EXP-001 看主關鍵字「娛樂城」頁",
+   "evidence_ids": [
+    "E-0115",
+    "E-0116"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 14,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-002 註冊日 2026 但存檔自 2020，查舊站網址樣式",
+   "evidence_ids": [
+    "E-0118"
+   ],
+   "ok": false,
+   "light_test_of": null
+  },
+  {
+   "n": 15,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-002 讀舊首頁了解舊站主題",
+   "evidence_ids": [
+    "E-0119",
+    "E-0120"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 16,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "看第二大分區網址樣式",
+   "evidence_ids": [
+    "E-0121"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 17,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "EXP-002 找舊站短代碼樣式網址",
+   "evidence_ids": [
+    "E-0122"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 18,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "web.archive.org",
+    "path": "/web/20240525015210id_/https://2030.tw/"
+   },
+   "why": "EXP-002 讀 2024 舊首頁主題",
+   "evidence_ids": [
+    "E-0119",
+    "E-0123"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 19,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/2kapb2a/"
+   },
+   "why": "EXP-002 看短代碼頁內容是什麼",
+   "evidence_ids": [
+    "E-0124",
+    "E-0125"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 20,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-002 重試舊網址清單（縮小年份）",
+   "evidence_ids": [
+    "E-0126"
+   ],
+   "ok": false,
+   "light_test_of": null
+  },
+  {
+   "n": 21,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "web.archive.org",
+    "path": "/web/20240525015210id_/https://2030.tw/"
+   },
+   "why": "EXP-002 看舊站網址樣式，比對新站分區名",
+   "evidence_ids": [
+    "E-0119",
+    "E-0127"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 22,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "EXP-002 看沿用舊分類名的分區內容",
+   "evidence_ids": [
+    "E-0128"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 23,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/article/The-Twin-Green-Digital-Transition-Sunnyfounder"
+   },
+   "why": "EXP-002 舊站網址現在回什麼",
+   "evidence_ids": [
+    "E-0140"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 24,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "EXP-002 看沿用舊名分區放了什麼",
+   "evidence_ids": [
+    "E-0141"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 25,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "EXP-002 核對 /article/ 下是否有舊站同名頁",
+   "evidence_ids": [
+    "E-0142"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 26,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/article/the-twin-green-digital-transition-itri-nzsso/"
+   },
+   "why": "EXP-002 看與舊站同名 slug 的頁現在放什麼內容",
+   "evidence_ids": [
+    "E-0143",
+    "E-0144"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 27,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/article/responsible-ai-008-audrey-tang/"
+   },
+   "why": "EXP-002 第二個舊站樣式 slug 核對",
+   "evidence_ids": [
+    "E-0145",
+    "E-0146"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 28,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/article/The-Twin-Green-Digital-Transition-ITRI-NZSSO"
+   },
+   "why": "EXP-002 舊大小寫網址是否被新站接住",
+   "evidence_ids": [
+    "E-0150"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 29,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/taiwanplus/mlb-live-20260822-sf-vs-bos/"
+   },
+   "why": "看第二大分區（MLB 賽事頁）模板與 CTA",
+   "evidence_ids": [
+    "E-0151",
+    "E-0152"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 30,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "確認量產頁 FAQPage 與錯置實體細節",
+   "evidence_ids": [
+    "E-0108",
+    "E-0153"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 31,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "看量產頁 lastmod 批次節奏",
+   "evidence_ids": [
+    "E-0154"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 32,
+   "tool": "text_match",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城官網"
+   },
+   "why": "第三個 3A 變體頁：看顯示更新日期、JSON-LD 日期與推廣參數是否一致套版",
+   "evidence_ids": [
+    "E-0155",
+    "E-0156"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 33,
+   "tool": "web_search",
+   "target": {
+    "domain": "web_search",
+    "path": "\"2030.tw\" 娛樂城"
+   },
+   "why": "查站外提及（DDG 先前連不上，重試一次）",
+   "evidence_ids": [
+    "E-0157"
+   ],
+   "ok": false,
+   "light_test_of": null
+  },
+  {
+   "n": 34,
+   "tool": "domain_info",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "重新取得 RDAP 註冊日與 DNS，供過期網域推論",
+   "evidence_ids": [
+    "E-0166"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 36,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "重抓即時首頁，核對選單錨文字與 og:title（R6/R7）",
+   "evidence_ids": [
+    "E-0167"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 37,
+   "tool": "polite_fetch",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "重抓同一頁看快取標頭與日期是否變動（R3）",
+   "evidence_ids": [
+    "E-0168"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 38,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/article/The-Twin-Green-Digital-Transition-ITRI-NZSSO/"
+   },
+   "why": "EXP-002 驗 ITRI 舊網址最終落點（R9）",
+   "evidence_ids": [
+    "E-0170"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 39,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "即時首頁核對連到 /wordcup/ 的錨文字（R7）",
+   "evidence_ids": [
+    "E-0167",
+    "E-0171"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 40,
+   "tool": "text_match",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "即時首頁核對 og:title（R6）",
+   "evidence_ids": [
+    "E-0167",
+    "E-0172"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 41,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/article/The-Twin-Green-Digital-Transition-ITRI-NZSSO/"
+   },
+   "why": "EXP-002 看 ITRI 舊大寫網址現在落點內容（R9）",
+   "evidence_ids": [
+    "E-0169",
+    "E-0173"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 42,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/富遊娛樂城"
+   },
+   "why": "EXP-001 擴大量產頁抽樣（R2），非 3a 品牌",
+   "evidence_ids": [
+    "E-0174",
+    "E-0175"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 43,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/娛樂城返水"
+   },
+   "why": "EXP-001 擴大量產頁抽樣（R2），資訊型關鍵字",
+   "evidence_ids": [
+    "E-0176",
+    "E-0177"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 44,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城不出金"
+   },
+   "why": "EXP-001 擴大 3a 變體抽樣（R2）",
+   "evidence_ids": [
+    "E-0178",
+    "E-0179"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 45,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/taiwanplus/mlb-live-20260623-hou-vs-tor/"
+   },
+   "why": "擴大 /taiwanplus/ 抽樣（R4/R5）",
+   "evidence_ids": [
+    "E-0180",
+    "E-0181"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 46,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-002 看 2025 底網域內容，判斷換主時點（R11）",
+   "evidence_ids": [
+    "E-0182",
+    "E-0183"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 47,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/article/space-tech-002-jong-shinn-wu/"
+   },
+   "why": "EXP-002 第三個舊站樣式 slug 現有內容（R12）",
+   "evidence_ids": [
+    "E-0184",
+    "E-0185"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 48,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "web.archive.org",
+    "path": "/web/20251108182921id_/https://2030.tw/"
+   },
+   "why": "EXP-002 讀 2025-11 存檔首頁主題（R11）",
+   "evidence_ids": [
+    "E-0182",
+    "E-0186"
+   ],
+   "ok": true,
+   "light_test_of": null
+  }
+ ]
+}

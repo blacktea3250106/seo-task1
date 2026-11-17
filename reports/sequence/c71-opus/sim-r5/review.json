@@ -1,0 +1,266 @@
+{
+  "status": "passed",
+  "items": [
+    {
+      "source": "審查",
+      "sentence": "summary：「每頁用同一套模板（品牌名＋6 個固定 H2＋FAQPage）」",
+      "problem": "只抽查了 3 個變體頁和入口頁（E-0109、E-0111、E-0121），就推成全部 2,197 頁都用同一模板。unknowns 自己也寫了「不能推論成全部 2,197 頁都同一模板」，summary 卻寫成全稱事實，前後矛盾。",
+      "evidence_ids": [
+        "E-0109",
+        "E-0111",
+        "E-0121",
+        "E-0110",
+        "E-0122"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R1"
+    },
+    {
+      "source": "審查",
+      "sentence": "summary：「頁面上的『更新』日期和 JSON-LD dateModified 會跟著 CDN 快取時間變動」",
+      "problem": "這是 ON-6 的推論，summary 寫成事實。而且證據和『更新』日期這一半對不上：三頁的頁首『更新』日期是 11-10、11-11、11-03，和頁頂的當日日期及 dateModified（11-15、11-15、11-13）都不同，看不出跟著快取變動。ON-6 的 limits 也承認『更新』日期的產生規則無法確定。",
+      "evidence_ids": [
+        "E-0109",
+        "E-0111",
+        "E-0121",
+        "E-0120"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R2"
+    },
+    {
+      "source": "審查",
+      "sentence": "summary：「網域在 2026-04-15 重新註冊」；OFF-1：「網域目前的註冊日是 2026-04-15」；行動 5：「過期網域再利用」",
+      "problem": "RDAP 的 registration 日期只代表目前這次註冊（E-0158 note 已提醒），推不出網域曾經過期後被他人重新註冊，也可能是移轉或換註冊商。另外 registrant 實體在 2026-01-06 就建立，Wayback 在 2026-01-05 已出現 301，換手時間點和 04-15 不一致。『過期網域』的判定還需要其他來源，例如 TWNIC 歷史 WHOIS 或 2026-01 到 04 的 Wayback 內容。",
+      "evidence_ids": [
+        "E-0153",
+        "E-0158",
+        "E-0057"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R3"
+    },
+    {
+      "source": "審查",
+      "sentence": "OFF-1：「Wayback 有 2020-03 到 2026-01 的存檔」",
+      "problem": "這句依據的是標為快照的 CDX 結果（fetched 09:40，比其他證據早約 12 小時），而且查詢條件是 collapse=timestamp:6 加 limit=200，不能代表完整存檔範圍。2026-01 之後是真的沒有存檔，還是查詢條件截掉，無法分辨。",
+      "evidence_ids": [
+        "E-0057"
+      ],
+      "needs_evidence": true,
+      "stale": true,
+      "id": "R4"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-1／ON-2／summary：「2,197 個含『娛樂城』的網址、94 個含『3A』的網址，全部來自一個沒列在 robots 的獨立 sitemap」",
+      "problem": "這些計數和『全部來自 /wordcup/sitemap.xml』的判斷，都是從 post-sitemap1.xml 回 525 時建立的 build 搜尋出來的（E-0100）。之後重抓雖然回 200，但沒有重新 build（unknowns 有寫）。post-sitemap1 裡有沒有娛樂城或 3a 網址沒被搜到，因此『全部』和兩個數字都可能偏低或不完整。",
+      "evidence_ids": [
+        "E-0100",
+        "E-0106",
+        "E-0105",
+        "E-0147"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R5"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-1：「2026-07 有 1,171 筆、2026-08 有 1,183 筆，集中在約一個月內上線」",
+      "problem": "by_month 統計的是整個 /wordcup/ 區（2,354 個網址），不是 2,197 個娛樂城網址。而且 lastmod 是修改日不是上線日，用它推『上線時間』是推論。另外 sitemap 的 lastmod 最晚是 08-16，頁面 dateModified 卻到 11-15，兩者不一致，lastmod 的可信度本身就有疑問。",
+      "evidence_ids": [
+        "E-0171",
+        "E-0102",
+        "E-0109"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R6"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-3：「各頁文字不同（推測是生成式改寫）」",
+      "problem": "這個結論標為 fact，裡面卻夾了『推測是生成式改寫』這種沒有證據支持的推論，應該拆出來改標 inference。",
+      "evidence_ids": [
+        "E-0109",
+        "E-0111",
+        "E-0121"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R7"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-4：「首頁選單和頁尾共有 3 個『線上娛樂城推薦』錨文字」；「每個變體頁底部另有 8 個『相關推薦』互連」",
+      "problem": "E-0103 把 3 個連結都標為 position=menu，沒有標成頁尾的，和『選單和頁尾』的說法不符。『8 個相關推薦』只在 3a娛樂城 一頁看得到完整清單（E-0109），卻推成『每個變體頁』，樣本只有 1 到 3 頁。",
+      "evidence_ids": [
+        "E-0103",
+        "E-0104",
+        "E-0109",
+        "E-0122"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R8"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-5：「這頁重抓時的 Cloudflare last-modified 是 2026-11-14 21:42 GMT（台灣時間 11-15），age 約 2.6 天」",
+      "problem": "引用的證據（E-0116、E-0120 等）都只有 HTML 和 JSON-LD 內容，沒有任何 HTTP 回應標頭。last-modified 和 age 數值在證據裡找不到，這句無法驗證。另外 ON-5 寫『另一組 Article JSON-LD 寫 dateModified 2026-11-15』，這只適用於 3a娛樂城 和 娛樂城 兩頁，3a娛樂城出金 是 11-13。",
+      "evidence_ids": [
+        "E-0116",
+        "E-0120",
+        "E-0121"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R9"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-6：「量產頁的 dateModified 很可能是頁面在快取產生時動態寫入的當天日期，用來營造內容新鮮度；實際內容的基準日期（og 和錯置實體）停在 2026-07-12」",
+      "problem": "(1) 推論依賴的快取標頭不在證據裡。比較好的支撐其實是 dateModified 和頁頂顯示的當日日期一致（11-15/11-15、11-13/11-13），報告沒有用到。(2)『用來營造新鮮度』是在推斷意圖，證據撐不起。(3) og 和錯置實體的日期屬於另一篇 MLB 文章（/mlb/mlb-scores-20260712-phi-vs-det/），不是這些頁的『內容基準日期』。sitemap 的 lastmod 是 07-17 到 08-16，和『停在 07-12』矛盾。",
+      "evidence_ids": [
+        "E-0114",
+        "E-0116",
+        "E-0109",
+        "E-0121",
+        "E-0102"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R10"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-7：「post-sitemap1.xml 第一次讀回 525，重試時回 200（帶 x-robots-tag noindex，Rank Math 類 sitemap 的常見設定）」",
+      "problem": "E-0147 只有 200 狀態和 XML 內容，沒有回應標頭，x-robots-tag noindex 無法驗證。『Rank Math 類常見設定』是推測，不是事實。",
+      "evidence_ids": [
+        "E-0147"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R11"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-9：「首頁 title 主打運彩、MLB/NBA 比分、世界盃，不含『娛樂城』」；「首頁全頁文字只在選單出現『娛樂城』」",
+      "problem": "提供的證據裡沒有首頁 title 原文（E-0101 被截斷，E-0043 未附上），title 的內容無法核對。E-0104 的 all_text 第 3 處『娛樂城』出現在『© 2026』旁邊，比較像頁尾，不只在選單。",
+      "evidence_ids": [
+        "E-0101",
+        "E-0104"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R12"
+    },
+    {
+      "source": "審查",
+      "sentence": "OFF-2：「舊站的 about-us、download、interactive、space-tech、semiconductor、theme/metaverse、article/DE&I-0xx 等網址現在回 404」；summary：「其餘大部分舊網址回 404」",
+      "problem": "這些路徑大多沒有 Wayback 證據證明舊站真的用過（只有 responsible-ai-008 有 timeline）。404 可能只是猜錯路徑。DE&I 網址含 &，沒有編碼，請求可能被截斷成錯的網址。總共只驗證約 14 個網址，而且是挑選的，用『大部分』概括全體舊網址缺乏分母，unknowns 也承認比例未知。",
+      "evidence_ids": [
+        "E-0138",
+        "E-0164"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R13"
+    },
+    {
+      "source": "審查",
+      "sentence": "OFF-2：「它和 space-tech-003-industry、generative-ai-44-demetergpt 等舊代號現在 301 補斜線後是 200」",
+      "problem": "E-0169 只證明這 4 個網址回 301。補斜線後回 200 只有 responsible-ai-008 一頁有實際抓取（E-0143），其他頁的 200 沒有證據。這些代號是不是舊站真的有的網址，也只有 responsible-ai-008 有 Wayback 驗證。",
+      "evidence_ids": [
+        "E-0169",
+        "E-0143",
+        "E-0164",
+        "E-0140"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R14"
+    },
+    {
+      "source": "審查",
+      "sentence": "OFF-3：「舊分類名（5g_taiwan、digi_taiwan、taiwanplus 等）改放 MLB/世足內容，目的是承接舊網域的信任度和外鏈，再往內連到娛樂城量產頁」",
+      "problem": "沒有任何證據顯示 5g_taiwan、digi_taiwan、taiwanplus 是舊政府站的分類名。2023 年首頁快照（E-0123）沒有這些路徑，引用的 E-0126 和 E-0170 都只是現況。『承接外鏈』的目的推論也缺外鏈資料，limits 已承認查不到。",
+      "evidence_ids": [
+        "E-0123",
+        "E-0126",
+        "E-0170"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R15"
+    },
+    {
+      "source": "審查",
+      "sentence": "OFF-4：「3a 系列頁有 4 個 CTA 連到 3a1788.bet……抽查頁的外部連結除 youtu.be 外都帶 nofollow」",
+      "problem": "4 個 CTA 只在 2 個 3a 頁看到（E-0113、E-0122），卻概括成『3a 系列頁』。入口頁也有 3a1788.bet（E-0108），所以不限於 3a 系列。寫在 script 字串裡的 wg1888 連結，工具明確說明『不含 rel』，因此『都帶 nofollow』沒有涵蓋這部分。首頁的 nofollow 統計在證據裡被截斷，看不到。",
+      "evidence_ids": [
+        "E-0113",
+        "E-0122",
+        "E-0108",
+        "E-0104",
+        "E-0142",
+        "E-0101"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R16"
+    },
+    {
+      "source": "審查",
+      "sentence": "summary：「要跟它競爭，優先順序是：做出比它的模板更有實質資訊的『3A娛樂城』品牌主頁……」；行動 5 rationale：「對手的優勢建立在政府舊網域權重和量產頁上」",
+      "problem": "排名、流量、收錄、外鏈全部查不到（unknowns），無法證明對手在『3A娛樂城』上有排名或優勢，也就無法判斷它的做法有效、值得作為競爭基準。『優勢』『優先順序』都缺乏成效證據。此外，報告自己指出線上娛樂城在台灣有法規風險，卻把法遵評估放在最後一項，而不是作為行動 1 的前提，建議的順序和自身結論不一致。",
+      "evidence_ids": [],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R17"
+    },
+    {
+      "source": "審查",
+      "sentence": "行動 1 rationale：「對手把 94 個 3A 網址做成同模板、關鍵字硬塞的頁，內容差異只靠改寫」",
+      "problem": "94 個 3A 網址實際只抽查了 2 頁（3a娛樂城、3a娛樂城出金），就斷定 94 頁都同模板而且只靠改寫，樣本不足。",
+      "evidence_ids": [
+        "E-0105",
+        "E-0110",
+        "E-0122"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R18"
+    },
+    {
+      "source": "審查",
+      "sentence": "行動 4 rationale：「對手的量產頁 sitemap 只能靠探測找到，數量會在短期內大幅變動」",
+      "problem": "『數量會大幅變動』沒有任何多時點的比較證據，只有一次 build。lastmod 停在 08-16，反而看不出還在增長。『只能靠探測找到』只對外部而言成立：網域有 Google Search Console 驗證，對手可能已直接向 Google 提交這份 sitemap，不在 robots 裡不等於搜尋引擎找不到。",
+      "evidence_ids": [
+        "E-0100",
+        "E-0171",
+        "E-0158",
+        "E-0115"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R19"
+    }
+  ],
+  "cost": {
+    "api_calls": 1,
+    "tokens": {
+      "input": 104911,
+      "output": 10564,
+      "total": 115475
+    },
+    "elapsed_s": 102.2
+  },
+  "tools_offered": [],
+  "error": null,
+  "at": "2026-11-17T21:36:00+0800"
+}

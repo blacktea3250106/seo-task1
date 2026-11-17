@@ -1,0 +1,200 @@
+{
+ "at": "2026-11-17T20:42:10+0800",
+ "steps": [
+  {
+   "n": 1,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0060",
+    "E-0061"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 2,
+   "tool": "sitemap_tree",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0102"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 3,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0104",
+    "E-0105"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 4,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "",
+   "evidence_ids": [
+    "E-0106"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 5,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "",
+   "evidence_ids": [
+    "E-0107"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 6,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0108",
+    "E-0109"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 7,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0110",
+    "E-0111"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 8,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0112",
+    "E-0113"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 9,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "web.archive.org",
+    "path": "/web/20251108182921id_/https://2030.tw/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0108",
+    "E-0114"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 11,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "",
+   "evidence_ids": [
+    "E-0115"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 12,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/富遊娛樂城"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0116",
+    "E-0117"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 13,
+   "tool": "domain_info",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0129"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 14,
+   "tool": "web_search",
+   "target": {
+    "domain": "web_search",
+    "path": "site:2030.tw 3a娛樂城"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0130"
+   ],
+   "ok": false,
+   "light_test_of": null
+  },
+  {
+   "n": 15,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "看 2025-11 到 2026-04 之間的存檔狀態",
+   "evidence_ids": [
+    "E-0131",
+    "E-0132"
+   ],
+   "ok": true,
+   "light_test_of": null
+  }
+ ]
+}

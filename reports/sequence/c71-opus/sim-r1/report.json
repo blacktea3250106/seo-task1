@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "run_id": "sim-r1",
+    "model": "opus",
+    "at": "2026-11-17 20:48",
+    "site": "https://2030.tw",
+    "keywords": [
+      "娛樂城",
+      "3A娛樂城"
+    ],
+    "baseline": {
+      "hash": "0018311732677cb38f94d5d86d63e6ce5d1e5282cd94dabbde3a447aa9ebb9a3",
+      "fetched_at": {
+        "sitemap": "2026-11-17T09:40:29+0800",
+        "home_menu": "2026-11-17T09:40:29+0800",
+        "whois": "2026-11-17T09:40:40+0800",
+        "wayback": "2026-11-17T09:40:42+0800",
+        "search_1": "2026-11-17T20:48:29+0800",
+        "search_2": "2026-11-17T20:48:29+0800"
+      }
+    },
+    "experience_read": {
+      "notes_sha256": "706d1d8faf7e40cf48eacc96cd8b9a6ce3ca46625c43d0831748b0ea86a888df",
+      "entry_ids": []
+    },
+    "unresolved_issues": [],
+    "rejections": 0,
+    "revised": true,
+    "review_items": 18,
+    "marks": {}
+  },
+  "report": {
+    "summary": "2030.tw 是 WordPress 的「2030玩運彩瘋世足」。目前這次註冊的日期是 2026-04-15（RDAP）。Wayback 存檔顯示，這個網域以前是政府 DIGI⁺「2030 智慧國家｜Smart Taiwan」政策溝通平台；換手時間只能推測。\n觀察到三條主線：\n(1) 每頁選單都有「線上娛樂城推薦」，連到 /wordcup/。這個資料夾有自己的 sitemap，不在 robots.txt 裡，也不在 sitemap 索引裡，收了 2354 個不重複網址，其中 2197 個網址含「娛樂城」。每個關鍵字變體一個網址，例如 3a娛樂城、3a 娛樂城、3a娛樂城出金。抽查的 3 頁都用同一套 H2／FAQ 結構，並帶 FAQPage JSON-LD；\n(2) /taiwanplus/ 是每場 MLB 比賽一頁的賽前頁，/mlb/ 是賽後比分頁。抽查的賽前頁寫明資料來源是 Tank01 MLB API；\n(3) 沿用舊站網址：sitemap 裡有 15 個舊式短網址代碼頁（例如 /2kapb2a/，這個代碼 2022 年就被 Wayback 存檔過）；舊分類網址 /5G_Taiwan/ 現在是「MLB分析」分類頁；首頁選單連到 space-tech、smart-recreation 這類舊主題命名的網址，內容已換成世足運彩頁。\n抽查的 2 個娛樂城頁，CTA 都是 nofollow 外連，帶推廣參數。排名、收錄、流量、外鏈數量查不到。",
+    "onpage": [
+      {
+        "id": "ON-1",
+        "kind": "fact",
+        "text": "首頁選單有「線上娛樂城推薦」連到 /wordcup/（HTML 裡出現 3 次）；抽查的 MLB 賽前頁 HTML 也有同樣 3 個連結。/wordcup/ 頁的 title 是「線上娛樂城推薦｜2026最新評價排名」，頁面寫「共 2502 篇評測」，並分成品牌、評價、優惠、遊戲、安全與出金等子分類。首頁的 title／H1 是運彩、MLB、世足，沒有「娛樂城」。",
+        "evidence_ids": [
+          "E-0061",
+          "E-0153",
+          "E-0108",
+          "E-0060"
+        ]
+      },
+      {
+        "id": "ON-2",
+        "kind": "fact",
+        "text": "/wordcup/ 有自己的 sitemap（2503 列、2354 個不重複網址），是靠資料夾探測找到的。robots.txt 只列 sitemap_index.xml。在 sitemap 裡搜「娛樂城」，2197 個符合的網址全部只出現在 /wordcup/sitemap.xml，沒有出現在 post／page sitemap 中。lastmod 分布是 2026-07 有 1171 筆、2026-08 有 1183 筆。",
+        "evidence_ids": [
+          "E-0103",
+          "E-0135",
+          "E-0154",
+          "E-0148"
+        ]
+      },
+      {
+        "id": "ON-3",
+        "kind": "fact",
+        "text": "/wordcup/ 的網址直接用中文關鍵字原字串當 slug，連空白也保留。「3a娛樂城」和「3a 娛樂城」是兩個各自 canonical 到自己的獨立頁。在 sitemap 搜「3A」有 94 個不重複網址（100 列）；列出的 20 個例子都是「3a娛樂城」加意圖詞，例如官網、下載、評價、登入、註冊、app、出金、合法嗎、ptt、dcard、不出金、無法登入。",
+        "evidence_ids": [
+          "E-0107",
+          "E-0110",
+          "E-0114"
+        ]
+      },
+      {
+        "id": "ON-4",
+        "kind": "fact",
+        "text": "抽查 3 個關鍵字頁（3a娛樂城、3a 娛樂城、娛樂城），三頁結構相同：title 是「{關鍵字}｜…」；H1 是「{關鍵字} - 完整評測與玩家指南」；6 個 H2 依序是平台特色、遊戲種類、出金與安全、註冊教學、優惠與首儲、客服；接著是 5 題同樣問題型式的 FAQ 和總結。JSON-LD 有 FAQPage／Question、Article、NewsArticle，還混進一個 MLB 頁的實體。og 的 article:section 是「mlb今日戰績」。三頁的開頭段落文字不同，都用 PTT／Dcard 口吻的第一人稱「實測」寫法。",
+        "evidence_ids": [
+          "E-0110",
+          "E-0112",
+          "E-0114"
+        ]
+      },
+      {
+        "id": "ON-5",
+        "kind": "inference",
+        "text": "/wordcup/ 這批娛樂城頁很可能是用關鍵字清單加上模板批次產生的長尾頁，用來大量覆蓋品牌加意圖的搜尋詞，包括指定的「娛樂城」「3A娛樂城」。",
+        "limits": "只抽查 3 頁加 sitemap 樣本，沒有做內容相似度比對，生成方式無法直接觀察；這些頁是否被收錄、有沒有排名都不知道。",
+        "evidence_ids": [
+          "E-0110",
+          "E-0112",
+          "E-0114",
+          "E-0104",
+          "E-0148"
+        ]
+      },
+      {
+        "id": "ON-6",
+        "kind": "fact",
+        "text": "只量了「3a娛樂城」這一頁：有 16 個連結連到其他 /wordcup/ 關鍵字頁，不重複約 15 頁，分佈在正文和側欄；另有 6 個連結回到 /wordcup/ 入口頁。頁面有麵包屑「首頁 > 娛樂城推薦 > 3a娛樂城」。",
+        "evidence_ids": [
+          "E-0151",
+          "E-0110"
+        ]
+      },
+      {
+        "id": "ON-7",
+        "kind": "fact",
+        "text": "日期訊號不一致。抽查的 3 個關鍵字頁和 /wordcup/ 入口頁，article:published_time／modified_time 都是同一個值 2026-07-12T15:32:34。正文顯示的「更新」日期則是 2026-11-07、11-10、11-11。sitemap lastmod 又是另一組值，例如 3a娛樂城是 2026-07-31。",
+        "evidence_ids": [
+          "E-0110",
+          "E-0112",
+          "E-0114",
+          "E-0108",
+          "E-0107"
+        ]
+      },
+      {
+        "id": "ON-7b",
+        "kind": "inference",
+        "text": "這些頁的 og 時間和混進來的 MLB 實體，比較可能是模板從某個 MLB 頁繼承來的。正文的「更新」日期可能是動態產生或快取導致，不代表內容真的有更新。",
+        "limits": "看不到後台；只抓了一次，沒有對同一頁重複抓取來比對日期。",
+        "evidence_ids": [
+          "E-0110",
+          "E-0108"
+        ]
+      },
+      {
+        "id": "ON-8",
+        "kind": "fact",
+        "text": "/taiwanplus/ 的 sitemap 樣本都是 mlb-live-YYYYMMDD-隊伍-vs-隊伍。抽查的 1 頁 title 是「【MLB直播】… | 先發投手+打線+MLB今日賽程」，內容是戰績對照表、先發投手和打線，頁上寫「數據來源：Tank01 MLB API」，meta description 是表格圖例文字。/mlb/ 的 sitemap 樣本主要是 mlb-scores-YYYYMMDD-隊伍-vs-隊伍 的賽後比分頁，有些帶 -2 後綴；這類頁沒有抓內文。",
+        "evidence_ids": [
+          "E-0105",
+          "E-0116",
+          "E-0153",
+          "E-0152"
+        ]
+      },
+      {
+        "id": "ON-9",
+        "kind": "inference",
+        "text": "這個站可能是用運彩、MLB、世足內容累積內容量和站內頁面，再透過每頁都有的「線上娛樂城推薦」選單連結，把連結權重導到 /wordcup/ 入口頁。",
+        "limits": "只確認了選單連到 /wordcup/ 入口，沒有看到運彩頁直接連到個別關鍵字頁。/wordcup/ 頁的 generator 是 WordPress 7.0.1，主站是 7.1.4，可能是另一套安裝；sitemap 分開可能只是技術結構造成，不一定是刻意。意圖和搜尋引擎怎麼評估都看不到。",
+        "evidence_ids": [
+          "E-0061",
+          "E-0153",
+          "E-0108",
+          "E-0059"
+        ]
+      }
+    ],
+    "offpage": [
+      {
+        "id": "OFF-1",
+        "kind": "fact",
+        "text": "RDAP 顯示目前這次註冊的日期是 2026-04-15，註冊商 GNAME.COM，DNS 在 Cloudflare，並有 google-site-verification TXT。Wayback 存檔清單從 2020-03 開始；其中 20240525 的首頁快照標題是「2030 智慧國家｜Smart Taiwan」，寫明是依 DIGI⁺2.0 計畫的政策溝通平台，連到 digi.nstc.gov.tw，專題包括太空科技（Space Tech）、智慧育樂（Smart Recreation）。",
+        "evidence_ids": [
+          "E-0144",
+          "E-0058",
+          "E-0145",
+          "E-0147"
+        ]
+      },
+      {
+        "id": "OFF-1b",
+        "kind": "inference",
+        "text": "這個網域很可能是政府計畫站停用後過期，再被新主人註冊、改成博弈內容站。",
+        "limits": "RDAP 只代表目前這次註冊；只讀了一個舊快照，政府站什麼時候結束、中間有沒有其他主人都沒有確認。",
+        "evidence_ids": [
+          "E-0144",
+          "E-0147",
+          "E-0058"
+        ]
+      },
+      {
+        "id": "OFF-2",
+        "kind": "fact",
+        "text": "舊網址被沿用的觀察：\n(a) Wayback 在 2022 年存檔過 2kAPB2a、2kinhBC、2kkX0Cx、2knX0Sr、2knX84n、2knXfNl、2kRmVSF、2lOnD3x、2lU8MEm、2lUi3MR、2lXfjyk 等短網址代碼；現在的 page-sitemap 有同名的小寫頁面，正在用的 /2k… 有 10 個、/2l… 有 5 個，lastmod 都在 2026-04-20～21。\n(b) 實抓 /2kAPB2a/ 會得到一個 2026-04 發布的「2026 NBA冠軍預測」運彩頁，response header 指向 wp/v2/pages/837，canonical 是小寫網址。\n(c) 舊分類網址 /5G_Taiwan 會 301 到 /5G_Taiwan/，現在是 title 「MLB分析」的 WordPress 分類頁，有 283 頁分頁。\n(d) 首頁選單「世界盃直播」連到 /article/space-tech-003-industry/，內容是「2026 世界盃哪裡看…精準玩運彩」，發布於 2026-04-17；其他選單項也連到 smart-recreation-016…、sports-everywhere-49… 這類網址。\n(e) 舊站存檔過的 /article/cover-story-04、digi-plus-2021-01…、/about-us 等抽查的 5 個網址，現在都回 404。",
+        "evidence_ids": [
+          "E-0119",
+          "E-0156",
+          "E-0155",
+          "E-0130",
+          "E-0134",
+          "E-0128",
+          "E-0157",
+          "E-0162",
+          "E-0159",
+          "E-0161"
+        ]
+      },
+      {
+        "id": "OFF-3",
+        "kind": "inference",
+        "text": "新站主可能有意把舊站的部分網址從 Wayback 等來源重建成新的運彩頁或分類頁，包括短網址代碼、舊分類名、舊主題 slug，想承接舊站累積的外鏈與信任；舊的文章網址則大多沒有重建。",
+        "limits": "沒有外鏈資料，無法確認這些舊網址有沒有外鏈，也無法確認權重有沒有轉移。space-tech、smart-recreation 這類 slug 是否就是舊站原本的文章網址，只從舊站專題名稱推測；用 Wayback 查詢時逾時（E-0163）。舊短網址 2022 年存檔時是 301，當年的目標未知。",
+        "evidence_ids": [
+          "E-0119",
+          "E-0156",
+          "E-0134",
+          "E-0162",
+          "E-0161",
+          "E-0147"
+        ]
+      },
+      {
+        "id": "OFF-4",
+        "kind": "fact",
+        "text": "抽查的 2 個娛樂城頁（3a娛樂城、娛樂城），各有 4 個 CTA（立即註冊領取優惠等），都指向同一個 3A 品牌網址，帶 ?st=wg2030 參數，rel=nofollow noopener。抽查的首頁、MLB 頁、舊短網址頁、分類頁都有 WG 品牌外連，其中一部分寫在 script 字串裡。工具統計首頁的 followed 外連主機只有 Facebook 和 Twitter。",
+        "evidence_ids": [
+          "E-0150",
+          "E-0158",
+          "E-0059",
+          "E-0116",
+          "E-0134",
+          "E-0162"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "action": "先把「3A娛樂城」和「娛樂城」的候選意圖詞拿去做搜尋量和 SERP 驗證。候選詞參考對方 sitemap 裡的品牌加意圖詞，例如官網、登入、註冊、出金、不出金、合法嗎、ptt／dcard、app。確認值得做之後，把這些詞合併成少數幾個有深度的頁面（品牌總覽、出金／安全、註冊登入），不要一個變體開一頁。",
+        "rationale": "對方的變體網址清單是現成的意圖詞種子，但它的收錄和排名查不到，所以要先用自己的工具驗證。一個變體一頁、共用同一套結構的做法，有薄內容的風險；用較少但較實在的頁面去覆蓋比較穩。",
+        "based_on": [
+          "ON-3",
+          "ON-4",
+          "ON-5"
+        ]
+      },
+      {
+        "action": "在核心頁放對方模板裡沒有的可驗證資訊：附日期的實測截圖、出金紀錄、條款和流水倍數原文、真實作者頁；並讓顯示的更新日期、dateModified 和 sitemap lastmod 一致。",
+        "rationale": "抽查的對方頁面是第一人稱口吻的評測，沒有可以查證的依據；三種日期訊號互相矛盾，JSON-LD 還混進別頁的實體。這些是可以用品質拉開差距的地方。",
+        "based_on": [
+          "ON-4",
+          "ON-7",
+          "ON-7b"
+        ]
+      },
+      {
+        "action": "建一個娛樂城主題的入口頁，連到品牌頁和教學頁；在全站選單放入口連結，各頁加上麵包屑和有限的相關連結；FAQPage／Article 結構化資料只描述本頁。",
+        "rationale": "對方的做法是全站選單連到入口頁，再加上麵包屑和站內互連；抽查的那一頁有約 16 個連到其他關鍵字頁的連結。我們可以用更乾淨的結構做同樣的事。",
+        "based_on": [
+          "ON-1",
+          "ON-6",
+          "ON-4"
+        ]
+      },
+      {
+        "action": "用正常的外鏈和品牌經營累積權威，不要學對方重建過期網域的舊網址；如果要做體育／運彩內容，只在能提供原創分析時才做。",
+        "rationale": "對方的網域曾是政府計畫站，舊網址被重建成博弈相關內容；這類做法有被搜尋引擎視為濫用的風險。它的運彩賽事頁依賴 API 數據。",
+        "based_on": [
+          "OFF-2",
+          "OFF-3",
+          "ON-8"
+        ]
+      },
+      {
+        "action": "定期重新讀取對方的 sitemap，包括要靠資料夾探測才找得到的 /wordcup/ 獨立 sitemap，追蹤關鍵字頁數量和新的意圖詞。",
+        "rationale": "這個 sitemap 不在 robots 和 sitemap 索引裡，只看這兩處的監測會漏掉。",
+        "based_on": [
+          "ON-2"
+        ]
+      }
+    ],
+    "unknowns": [
+      "「娛樂城」「3A娛樂城」的排名、搜尋量、對方流量：本次可用的唯一免費搜尋工具（DuckDuckGo HTML）資料卡和本次重試都回 network_error（E-0149）。沒有其他搜尋來源可以交叉確認，也沒有付費 SERP 工具。",
+      "/wordcup/ 頁有沒有被收錄、收錄多少：無法查證。",
+      "外鏈數量和來源，包括舊政府站的外鏈現在指向哪些網址：沒有外鏈工具。",
+      "/wordcup/ 頁的內容是否由 AI 生成、各頁正文的相似度：沒有做比對。",
+      "舊短網址 2022 年 301 的目標頁：用 id_ 方式取 Wayback 快照回 404（E-0133），可能只是取法失敗，尚未用其他方法確認。",
+      "用 Wayback 查「space-tech」舊網址清單時逾時（E-0163），所以首頁選單那些舊主題 slug 當年是否存在，沒有直接證實。",
+      "政府站什麼時候停用、網域什麼時候換主：只讀了 2024-05 的一個快照。",
+      "抽樣範圍有限：只看了 3 個娛樂城頁、1 個 MLB 賽前頁、1 個舊短網址頁、1 個分類頁、1 個選單文章頁；/mlb/ 賽後頁、/2026-worldcup/、/iftomm2015cd/、/b5g/ 等分區沒有讀內文。"
+    ],
+    "experience": {
+      "used": []
+    },
+    "strategy": [
+      {
+        "id": "ON-1",
+        "kind": "fact",
+        "text": "首頁選單有「線上娛樂城推薦」連到 /wordcup/（HTML 裡出現 3 次）；抽查的 MLB 賽前頁 HTML 也有同樣 3 個連結。/wordcup/ 頁的 title 是「線上娛樂城推薦｜2026最新評價排名」，頁面寫「共 2502 篇評測」，並分成品牌、評價、優惠、遊戲、安全與出金等子分類。首頁的 title／H1 是運彩、MLB、世足，沒有「娛樂城」。",
+        "evidence_ids": [
+          "E-0061",
+          "E-0153",
+          "E-0108",
+          "E-0060"
+        ]
+      },
+      {
+        "id": "ON-2",
+        "kind": "fact",
+        "text": "/wordcup/ 有自己的 sitemap（2503 列、2354 個不重複網址），是靠資料夾探測找到的。robots.txt 只列 sitemap_index.xml。在 sitemap 裡搜「娛樂城」，2197 個符合的網址全部只出現在 /wordcup/sitemap.xml，沒有出現在 post／page sitemap 中。lastmod 分布是 2026-07 有 1171 筆、2026-08 有 1183 筆。",
+        "evidence_ids": [
+          "E-0103",
+          "E-0135",
+          "E-0154",
+          "E-0148"
+        ]
+      },
+      {
+        "id": "ON-3",
+        "kind": "fact",
+        "text": "/wordcup/ 的網址直接用中文關鍵字原字串當 slug，連空白也保留。「3a娛樂城」和「3a 娛樂城」是兩個各自 canonical 到自己的獨立頁。在 sitemap 搜「3A」有 94 個不重複網址（100 列）；列出的 20 個例子都是「3a娛樂城」加意圖詞，例如官網、下載、評價、登入、註冊、app、出金、合法嗎、ptt、dcard、不出金、無法登入。",
+        "evidence_ids": [
+          "E-0107",
+          "E-0110",
+          "E-0114"
+        ]
+      },
+      {
+        "id": "ON-4",
+        "kind": "fact",
+        "text": "抽查 3 個關鍵字頁（3a娛樂城、3a 娛樂城、娛樂城），三頁結構相同：title 是「{關鍵字}｜…」；H1 是「{關鍵字} - 完整評測與玩家指南」；6 個 H2 依序是平台特色、遊戲種類、出金與安全、註冊教學、優惠與首儲、客服；接著是 5 題同樣問題型式的 FAQ 和總結。JSON-LD 有 FAQPage／Question、Article、NewsArticle，還混進一個 MLB 頁的實體。og 的 article:section 是「mlb今日戰績」。三頁的開頭段落文字不同，都用 PTT／Dcard 口吻的第一人稱「實測」寫法。",
+        "evidence_ids": [
+          "E-0110",
+          "E-0112",
+          "E-0114"
+        ]
+      },
+      {
+        "id": "ON-5",
+        "kind": "inference",
+        "text": "/wordcup/ 這批娛樂城頁很可能是用關鍵字清單加上模板批次產生的長尾頁，用來大量覆蓋品牌加意圖的搜尋詞，包括指定的「娛樂城」「3A娛樂城」。",
+        "limits": "只抽查 3 頁加 sitemap 樣本，沒有做內容相似度比對，生成方式無法直接觀察；這些頁是否被收錄、有沒有排名都不知道。",
+        "evidence_ids": [
+          "E-0110",
+          "E-0112",
+          "E-0114",
+          "E-0104",
+          "E-0148"
+        ]
+      },
+      {
+        "id": "ON-6",
+        "kind": "fact",
+        "text": "只量了「3a娛樂城」這一頁：有 16 個連結連到其他 /wordcup/ 關鍵字頁，不重複約 15 頁，分佈在正文和側欄；另有 6 個連結回到 /wordcup/ 入口頁。頁面有麵包屑「首頁 > 娛樂城推薦 > 3a娛樂城」。",
+        "evidence_ids": [
+          "E-0151",
+          "E-0110"
+        ]
+      },
+      {
+        "id": "ON-7",
+        "kind": "fact",
+        "text": "日期訊號不一致。抽查的 3 個關鍵字頁和 /wordcup/ 入口頁，article:published_time／modified_time 都是同一個值 2026-07-12T15:32:34。正文顯示的「更新」日期則是 2026-11-07、11-10、11-11。sitemap lastmod 又是另一組值，例如 3a娛樂城是 2026-07-31。",
+        "evidence_ids": [
+          "E-0110",
+          "E-0112",
+          "E-0114",
+          "E-0108",
+          "E-0107"
+        ]
+      },
+      {
+        "id": "ON-7b",
+        "kind": "inference",
+        "text": "這些頁的 og 時間和混進來的 MLB 實體，比較可能是模板從某個 MLB 頁繼承來的。正文的「更新」日期可能是動態產生或快取導致，不代表內容真的有更新。",
+        "limits": "看不到後台；只抓了一次，沒有對同一頁重複抓取來比對日期。",
+        "evidence_ids": [
+          "E-0110",
+          "E-0108"
+        ]
+      },
+      {
+        "id": "ON-8",
+        "kind": "fact",
+        "text": "/taiwanplus/ 的 sitemap 樣本都是 mlb-live-YYYYMMDD-隊伍-vs-隊伍。抽查的 1 頁 title 是「【MLB直播】… | 先發投手+打線+MLB今日賽程」，內容是戰績對照表、先發投手和打線，頁上寫「數據來源：Tank01 MLB API」，meta description 是表格圖例文字。/mlb/ 的 sitemap 樣本主要是 mlb-scores-YYYYMMDD-隊伍-vs-隊伍 的賽後比分頁，有些帶 -2 後綴；這類頁沒有抓內文。",
+        "evidence_ids": [
+          "E-0105",
+          "E-0116",
+          "E-0153",
+          "E-0152"
+        ]
+      },
+      {
+        "id": "ON-9",
+        "kind": "inference",
+        "text": "這個站可能是用運彩、MLB、世足內容累積內容量和站內頁面，再透過每頁都有的「線上娛樂城推薦」選單連結，把連結權重導到 /wordcup/ 入口頁。",
+        "limits": "只確認了選單連到 /wordcup/ 入口，沒有看到運彩頁直接連到個別關鍵字頁。/wordcup/ 頁的 generator 是 WordPress 7.0.1，主站是 7.1.4，可能是另一套安裝；sitemap 分開可能只是技術結構造成，不一定是刻意。意圖和搜尋引擎怎麼評估都看不到。",
+        "evidence_ids": [
+          "E-0061",
+          "E-0153",
+          "E-0108",
+          "E-0059"
+        ]
+      },
+      {
+        "id": "OFF-1",
+        "kind": "fact",
+        "text": "RDAP 顯示目前這次註冊的日期是 2026-04-15，註冊商 GNAME.COM，DNS 在 Cloudflare，並有 google-site-verification TXT。Wayback 存檔清單從 2020-03 開始；其中 20240525 的首頁快照標題是「2030 智慧國家｜Smart Taiwan」，寫明是依 DIGI⁺2.0 計畫的政策溝通平台，連到 digi.nstc.gov.tw，專題包括太空科技（Space Tech）、智慧育樂（Smart Recreation）。",
+        "evidence_ids": [
+          "E-0144",
+          "E-0058",
+          "E-0145",
+          "E-0147"
+        ]
+      },
+      {
+        "id": "OFF-1b",
+        "kind": "inference",
+        "text": "這個網域很可能是政府計畫站停用後過期，再被新主人註冊、改成博弈內容站。",
+        "limits": "RDAP 只代表目前這次註冊；只讀了一個舊快照，政府站什麼時候結束、中間有沒有其他主人都沒有確認。",
+        "evidence_ids": [
+          "E-0144",
+          "E-0147",
+          "E-0058"
+        ]
+      },
+      {
+        "id": "OFF-2",
+        "kind": "fact",
+        "text": "舊網址被沿用的觀察：\n(a) Wayback 在 2022 年存檔過 2kAPB2a、2kinhBC、2kkX0Cx、2knX0Sr、2knX84n、2knXfNl、2kRmVSF、2lOnD3x、2lU8MEm、2lUi3MR、2lXfjyk 等短網址代碼；現在的 page-sitemap 有同名的小寫頁面，正在用的 /2k… 有 10 個、/2l… 有 5 個，lastmod 都在 2026-04-20～21。\n(b) 實抓 /2kAPB2a/ 會得到一個 2026-04 發布的「2026 NBA冠軍預測」運彩頁，response header 指向 wp/v2/pages/837，canonical 是小寫網址。\n(c) 舊分類網址 /5G_Taiwan 會 301 到 /5G_Taiwan/，現在是 title 「MLB分析」的 WordPress 分類頁，有 283 頁分頁。\n(d) 首頁選單「世界盃直播」連到 /article/space-tech-003-industry/，內容是「2026 世界盃哪裡看…精準玩運彩」，發布於 2026-04-17；其他選單項也連到 smart-recreation-016…、sports-everywhere-49… 這類網址。\n(e) 舊站存檔過的 /article/cover-story-04、digi-plus-2021-01…、/about-us 等抽查的 5 個網址，現在都回 404。",
+        "evidence_ids": [
+          "E-0119",
+          "E-0156",
+          "E-0155",
+          "E-0130",
+          "E-0134",
+          "E-0128",
+          "E-0157",
+          "E-0162",
+          "E-0159",
+          "E-0161"
+        ]
+      },
+      {
+        "id": "OFF-3",
+        "kind": "inference",
+        "text": "新站主可能有意把舊站的部分網址從 Wayback 等來源重建成新的運彩頁或分類頁，包括短網址代碼、舊分類名、舊主題 slug，想承接舊站累積的外鏈與信任；舊的文章網址則大多沒有重建。",
+        "limits": "沒有外鏈資料，無法確認這些舊網址有沒有外鏈，也無法確認權重有沒有轉移。space-tech、smart-recreation 這類 slug 是否就是舊站原本的文章網址，只從舊站專題名稱推測；用 Wayback 查詢時逾時（E-0163）。舊短網址 2022 年存檔時是 301，當年的目標未知。",
+        "evidence_ids": [
+          "E-0119",
+          "E-0156",
+          "E-0134",
+          "E-0162",
+          "E-0161",
+          "E-0147"
+        ]
+      },
+      {
+        "id": "OFF-4",
+        "kind": "fact",
+        "text": "抽查的 2 個娛樂城頁（3a娛樂城、娛樂城），各有 4 個 CTA（立即註冊領取優惠等），都指向同一個 3A 品牌網址，帶 ?st=wg2030 參數，rel=nofollow noopener。抽查的首頁、MLB 頁、舊短網址頁、分類頁都有 WG 品牌外連，其中一部分寫在 script 字串裡。工具統計首頁的 followed 外連主機只有 Facebook 和 Twitter。",
+        "evidence_ids": [
+          "E-0150",
+          "E-0158",
+          "E-0059",
+          "E-0116",
+          "E-0134",
+          "E-0162"
+        ]
+      }
+    ]
+  },
+  "markdown": "# https://2030.tw 競品 SEO 研究報告\n\n- run：`sim-r1`　模型：`opus`　產生：2026-11-17 20:48\n- 標記：[事實]＝直接觀察、[推論]＝根據證據推想、未知＝試過仍不知道\n- 網站底稿：hash `001831173267`，抓取時間 sitemap 2026-11-17T09:40:29+0800；home_menu 2026-11-17T09:40:29+0800；whois 2026-11-17T09:40:40+0800；wayback 2026-11-17T09:40:42+0800；search_1 2026-11-17T20:48:29+0800；search_2 2026-11-17T20:48:29+0800（標「快照」的證據來自底稿）\n\n## 1. 摘要\n2030.tw 是 WordPress 的「2030玩運彩瘋世足」。目前這次註冊的日期是 2026-04-15（RDAP）。Wayback 存檔顯示，這個網域以前是政府 DIGI⁺「2030 智慧國家｜Smart Taiwan」政策溝通平台；換手時間只能推測。\n觀察到三條主線：\n(1) 每頁選單都有「線上娛樂城推薦」，連到 /wordcup/。這個資料夾有自己的 sitemap，不在 robots.txt 裡，也不在 sitemap 索引裡，收了 2354 個不重複網址，其中 2197 個網址含「娛樂城」。每個關鍵字變體一個網址，例如 3a娛樂城、3a 娛樂城、3a娛樂城出金。抽查的 3 頁都用同一套 H2／FAQ 結構，並帶 FAQPage JSON-LD；\n(2) /taiwanplus/ 是每場 MLB 比賽一頁的賽前頁，/mlb/ 是賽後比分頁。抽查的賽前頁寫明資料來源是 Tank01 MLB API；\n(3) 沿用舊站網址：sitemap 裡有 15 個舊式短網址代碼頁（例如 /2kapb2a/，這個代碼 2022 年就被 Wayback 存檔過）；舊分類網址 /5G_Taiwan/ 現在是「MLB分析」分類頁；首頁選單連到 space-tech、smart-recreation 這類舊主題命名的網址，內容已換成世足運彩頁。\n抽查的 2 個娛樂城頁，CTA 都是 nofollow 外連，帶推廣參數。排名、收錄、流量、外鏈數量查不到。\n\n## 2. On-page\n- **[事實] ON-1** 首頁選單有「線上娛樂城推薦」連到 /wordcup/（HTML 裡出現 3 次）；抽查的 MLB 賽前頁 HTML 也有同樣 3 個連結。/wordcup/ 頁的 title 是「線上娛樂城推薦｜2026最新評價排名」，頁面寫「共 2502 篇評測」，並分成品牌、評價、優惠、遊戲、安全與出金等子分類。首頁的 title／H1 是運彩、MLB、世足，沒有「娛樂城」。　證據：[E-0061](raw/E-0061.json)、[E-0153](raw/E-0153.json)、[E-0108](raw/E-0108.json)、[E-0060](raw/E-0060.json)\n- **[事實] ON-2** /wordcup/ 有自己的 sitemap（2503 列、2354 個不重複網址），是靠資料夾探測找到的。robots.txt 只列 sitemap_index.xml。在 sitemap 裡搜「娛樂城」，2197 個符合的網址全部只出現在 /wordcup/sitemap.xml，沒有出現在 post／page sitemap 中。lastmod 分布是 2026-07 有 1171 筆、2026-08 有 1183 筆。　證據：[E-0103](raw/E-0103.json)、[E-0135](raw/E-0135.txt)、[E-0154](raw/E-0154.json)、[E-0148](raw/E-0148.json)\n- **[事實] ON-3** /wordcup/ 的網址直接用中文關鍵字原字串當 slug，連空白也保留。「3a娛樂城」和「3a 娛樂城」是兩個各自 canonical 到自己的獨立頁。在 sitemap 搜「3A」有 94 個不重複網址（100 列）；列出的 20 個例子都是「3a娛樂城」加意圖詞，例如官網、下載、評價、登入、註冊、app、出金、合法嗎、ptt、dcard、不出金、無法登入。　證據：[E-0107](raw/E-0107.json)、[E-0110](raw/E-0110.json)、[E-0114](raw/E-0114.json)\n- **[事實] ON-4** 抽查 3 個關鍵字頁（3a娛樂城、3a 娛樂城、娛樂城），三頁結構相同：title 是「{關鍵字}｜…」；H1 是「{關鍵字} - 完整評測與玩家指南」；6 個 H2 依序是平台特色、遊戲種類、出金與安全、註冊教學、優惠與首儲、客服；接著是 5 題同樣問題型式的 FAQ 和總結。JSON-LD 有 FAQPage／Question、Article、NewsArticle，還混進一個 MLB 頁的實體。og 的 article:section 是「mlb今日戰績」。三頁的開頭段落文字不同，都用 PTT／Dcard 口吻的第一人稱「實測」寫法。　證據：[E-0110](raw/E-0110.json)、[E-0112](raw/E-0112.json)、[E-0114](raw/E-0114.json)\n- **[推論] ON-5** /wordcup/ 這批娛樂城頁很可能是用關鍵字清單加上模板批次產生的長尾頁，用來大量覆蓋品牌加意圖的搜尋詞，包括指定的「娛樂城」「3A娛樂城」。（限制：只抽查 3 頁加 sitemap 樣本，沒有做內容相似度比對，生成方式無法直接觀察；這些頁是否被收錄、有沒有排名都不知道。）　證據：[E-0110](raw/E-0110.json)、[E-0112](raw/E-0112.json)、[E-0114](raw/E-0114.json)、[E-0104](raw/E-0104.json)、[E-0148](raw/E-0148.json)\n- **[事實] ON-6** 只量了「3a娛樂城」這一頁：有 16 個連結連到其他 /wordcup/ 關鍵字頁，不重複約 15 頁，分佈在正文和側欄；另有 6 個連結回到 /wordcup/ 入口頁。頁面有麵包屑「首頁 > 娛樂城推薦 > 3a娛樂城」。　證據：[E-0151](raw/E-0151.json)、[E-0110](raw/E-0110.json)\n- **[事實] ON-7** 日期訊號不一致。抽查的 3 個關鍵字頁和 /wordcup/ 入口頁，article:published_time／modified_time 都是同一個值 2026-07-12T15:32:34。正文顯示的「更新」日期則是 2026-11-07、11-10、11-11。sitemap lastmod 又是另一組值，例如 3a娛樂城是 2026-07-31。　證據：[E-0110](raw/E-0110.json)、[E-0112](raw/E-0112.json)、[E-0114](raw/E-0114.json)、[E-0108](raw/E-0108.json)、[E-0107](raw/E-0107.json)\n- **[推論] ON-7b** 這些頁的 og 時間和混進來的 MLB 實體，比較可能是模板從某個 MLB 頁繼承來的。正文的「更新」日期可能是動態產生或快取導致，不代表內容真的有更新。（限制：看不到後台；只抓了一次，沒有對同一頁重複抓取來比對日期。）　證據：[E-0110](raw/E-0110.json)、[E-0108](raw/E-0108.json)\n- **[事實] ON-8** /taiwanplus/ 的 sitemap 樣本都是 mlb-live-YYYYMMDD-隊伍-vs-隊伍。抽查的 1 頁 title 是「【MLB直播】… | 先發投手+打線+MLB今日賽程」，內容是戰績對照表、先發投手和打線，頁上寫「數據來源：Tank01 MLB API」，meta description 是表格圖例文字。/mlb/ 的 sitemap 樣本主要是 mlb-scores-YYYYMMDD-隊伍-vs-隊伍 的賽後比分頁，有些帶 -2 後綴；這類頁沒有抓內文。　證據：[E-0105](raw/E-0105.json)、[E-0116](raw/E-0116.json)、[E-0153](raw/E-0153.json)、[E-0152](raw/E-0152.json)\n- **[推論] ON-9** 這個站可能是用運彩、MLB、世足內容累積內容量和站內頁面，再透過每頁都有的「線上娛樂城推薦」選單連結，把連結權重導到 /wordcup/ 入口頁。（限制：只確認了選單連到 /wordcup/ 入口，沒有看到運彩頁直接連到個別關鍵字頁。/wordcup/ 頁的 generator 是 WordPress 7.0.1，主站是 7.1.4，可能是另一套安裝；sitemap 分開可能只是技術結構造成，不一定是刻意。意圖和搜尋引擎怎麼評估都看不到。）　證據：[E-0061](raw/E-0061.json)、[E-0153](raw/E-0153.json)、[E-0108](raw/E-0108.json)、[E-0059](raw/E-0059.json)\n\n## 3. Off-page\n- **[事實] OFF-1** RDAP 顯示目前這次註冊的日期是 2026-04-15，註冊商 GNAME.COM，DNS 在 Cloudflare，並有 google-site-verification TXT。Wayback 存檔清單從 2020-03 開始；其中 20240525 的首頁快照標題是「2030 智慧國家｜Smart Taiwan」，寫明是依 DIGI⁺2.0 計畫的政策溝通平台，連到 digi.nstc.gov.tw，專題包括太空科技（Space Tech）、智慧育樂（Smart Recreation）。　證據：[E-0144](raw/E-0144.json)、[E-0058](raw/E-0058.json)、[E-0145](raw/E-0145.html)、[E-0147](raw/E-0147.json)\n- **[推論] OFF-1b** 這個網域很可能是政府計畫站停用後過期，再被新主人註冊、改成博弈內容站。（限制：RDAP 只代表目前這次註冊；只讀了一個舊快照，政府站什麼時候結束、中間有沒有其他主人都沒有確認。）　證據：[E-0144](raw/E-0144.json)、[E-0147](raw/E-0147.json)、[E-0058](raw/E-0058.json)\n- **[事實] OFF-2** 舊網址被沿用的觀察：\n(a) Wayback 在 2022 年存檔過 2kAPB2a、2kinhBC、2kkX0Cx、2knX0Sr、2knX84n、2knXfNl、2kRmVSF、2lOnD3x、2lU8MEm、2lUi3MR、2lXfjyk 等短網址代碼；現在的 page-sitemap 有同名的小寫頁面，正在用的 /2k… 有 10 個、/2l… 有 5 個，lastmod 都在 2026-04-20～21。\n(b) 實抓 /2kAPB2a/ 會得到一個 2026-04 發布的「2026 NBA冠軍預測」運彩頁，response header 指向 wp/v2/pages/837，canonical 是小寫網址。\n(c) 舊分類網址 /5G_Taiwan 會 301 到 /5G_Taiwan/，現在是 title 「MLB分析」的 WordPress 分類頁，有 283 頁分頁。\n(d) 首頁選單「世界盃直播」連到 /article/space-tech-003-industry/，內容是「2026 世界盃哪裡看…精準玩運彩」，發布於 2026-04-17；其他選單項也連到 smart-recreation-016…、sports-everywhere-49… 這類網址。\n(e) 舊站存檔過的 /article/cover-story-04、digi-plus-2021-01…、/about-us 等抽查的 5 個網址，現在都回 404。　證據：[E-0119](raw/E-0119.json)、[E-0156](raw/E-0156.json)、[E-0155](raw/E-0155.json)、[E-0130](raw/E-0130.html)、[E-0134](raw/E-0134.json)、[E-0128](raw/E-0128.json)、[E-0157](raw/E-0157.html)、[E-0162](raw/E-0162.json)、[E-0159](raw/E-0159.json)、[E-0161](raw/E-0161.json)\n- **[推論] OFF-3** 新站主可能有意把舊站的部分網址從 Wayback 等來源重建成新的運彩頁或分類頁，包括短網址代碼、舊分類名、舊主題 slug，想承接舊站累積的外鏈與信任；舊的文章網址則大多沒有重建。（限制：沒有外鏈資料，無法確認這些舊網址有沒有外鏈，也無法確認權重有沒有轉移。space-tech、smart-recreation 這類 slug 是否就是舊站原本的文章網址，只從舊站專題名稱推測；用 Wayback 查詢時逾時（E-0163）。舊短網址 2022 年存檔時是 301，當年的目標未知。）　證據：[E-0119](raw/E-0119.json)、[E-0156](raw/E-0156.json)、[E-0134](raw/E-0134.json)、[E-0162](raw/E-0162.json)、[E-0161](raw/E-0161.json)、[E-0147](raw/E-0147.json)\n- **[事實] OFF-4** 抽查的 2 個娛樂城頁（3a娛樂城、娛樂城），各有 4 個 CTA（立即註冊領取優惠等），都指向同一個 3A 品牌網址，帶 ?st=wg2030 參數，rel=nofollow noopener。抽查的首頁、MLB 頁、舊短網址頁、分類頁都有 WG 品牌外連，其中一部分寫在 script 字串裡。工具統計首頁的 followed 外連主機只有 Facebook 和 Twitter。　證據：[E-0150](raw/E-0150.json)、[E-0158](raw/E-0158.json)、[E-0059](raw/E-0059.json)、[E-0116](raw/E-0116.json)、[E-0134](raw/E-0134.json)、[E-0162](raw/E-0162.json)\n\n## 4. 優先行動\n\n1. 先把「3A娛樂城」和「娛樂城」的候選意圖詞拿去做搜尋量和 SERP 驗證。候選詞參考對方 sitemap 裡的品牌加意圖詞，例如官網、登入、註冊、出金、不出金、合法嗎、ptt／dcard、app。確認值得做之後，把這些詞合併成少數幾個有深度的頁面（品牌總覽、出金／安全、註冊登入），不要一個變體開一頁。　理由：對方的變體網址清單是現成的意圖詞種子，但它的收錄和排名查不到，所以要先用自己的工具驗證。一個變體一頁、共用同一套結構的做法，有薄內容的風險；用較少但較實在的頁面去覆蓋比較穩。　依據：ON-3、ON-4、ON-5\n2. 在核心頁放對方模板裡沒有的可驗證資訊：附日期的實測截圖、出金紀錄、條款和流水倍數原文、真實作者頁；並讓顯示的更新日期、dateModified 和 sitemap lastmod 一致。　理由：抽查的對方頁面是第一人稱口吻的評測，沒有可以查證的依據；三種日期訊號互相矛盾，JSON-LD 還混進別頁的實體。這些是可以用品質拉開差距的地方。　依據：ON-4、ON-7、ON-7b\n3. 建一個娛樂城主題的入口頁，連到品牌頁和教學頁；在全站選單放入口連結，各頁加上麵包屑和有限的相關連結；FAQPage／Article 結構化資料只描述本頁。　理由：對方的做法是全站選單連到入口頁，再加上麵包屑和站內互連；抽查的那一頁有約 16 個連到其他關鍵字頁的連結。我們可以用更乾淨的結構做同樣的事。　依據：ON-1、ON-6、ON-4\n4. 用正常的外鏈和品牌經營累積權威，不要學對方重建過期網域的舊網址；如果要做體育／運彩內容，只在能提供原創分析時才做。　理由：對方的網域曾是政府計畫站，舊網址被重建成博弈相關內容；這類做法有被搜尋引擎視為濫用的風險。它的運彩賽事頁依賴 API 數據。　依據：OFF-2、OFF-3、ON-8\n5. 定期重新讀取對方的 sitemap，包括要靠資料夾探測才找得到的 /wordcup/ 獨立 sitemap，追蹤關鍵字頁數量和新的意圖詞。　理由：這個 sitemap 不在 robots 和 sitemap 索引裡，只看這兩處的監測會漏掉。　依據：ON-2\n\n## 5. 未知與限制\n- 「娛樂城」「3A娛樂城」的排名、搜尋量、對方流量：本次可用的唯一免費搜尋工具（DuckDuckGo HTML）資料卡和本次重試都回 network_error（E-0149）。沒有其他搜尋來源可以交叉確認，也沒有付費 SERP 工具。\n- /wordcup/ 頁有沒有被收錄、收錄多少：無法查證。\n- 外鏈數量和來源，包括舊政府站的外鏈現在指向哪些網址：沒有外鏈工具。\n- /wordcup/ 頁的內容是否由 AI 生成、各頁正文的相似度：沒有做比對。\n- 舊短網址 2022 年 301 的目標頁：用 id_ 方式取 Wayback 快照回 404（E-0133），可能只是取法失敗，尚未用其他方法確認。\n- 用 Wayback 查「space-tech」舊網址清單時逾時（E-0163），所以首頁選單那些舊主題 slug 當年是否存在，沒有直接證實。\n- 政府站什麼時候停用、網域什麼時候換主：只讀了 2024-05 的一個快照。\n- 抽樣範圍有限：只看了 3 個娛樂城頁、1 個 MLB 賽前頁、1 個舊短網址頁、1 個分類頁、1 個選單文章頁；/mlb/ 賽後頁、/2026-worldcup/、/iftomm2015cd/、/b5g/ 等分區沒有讀內文。\n\n## 經驗\n- 自稱用了哪些使用中經驗（是否真的用到由程式看 Tool 紀錄判定，見 experience_judgement.json）：無\n"
+}

@@ -1,0 +1,266 @@
+{
+  "status": "passed",
+  "status_label": "完成",
+  "run_id": "sim-r2",
+  "model": "claude-opus-5-5",
+  "started_at": 1794920363.1,
+  "elapsed_s": 564.8,
+  "tool_calls_total": 52,
+  "tool_calls_by_name": {
+    "sitemap_tree": 10,
+    "inspect_page": 23,
+    "polite_fetch": 3,
+    "wayback": 7,
+    "text_match": 2,
+    "web_search": 1,
+    "domain_info": 1,
+    "submit_report": 2,
+    "experience": 3
+  },
+  "tool_errors": {
+    "network_error": 3,
+    "rejected": 1
+  },
+  "evidence_total": 186,
+  "baseline": {
+    "domain": "2030.tw",
+    "baseline_hash": "0018311732677cb38f94d5d86d63e6ce5d1e5282cd94dabbde3a447aa9ebb9a3",
+    "updated_at": "2026-11-17T20:59:23+0800",
+    "action": "refetched_failed",
+    "refetched": [
+      "search_1",
+      "search_2"
+    ]
+  },
+  "http_requests": 94,
+  "coverage": {
+    "sections_read": [
+      "/",
+      "/2kapb2a/",
+      "/about-us/",
+      "/article/",
+      "/download/",
+      "/interactive/",
+      "/responsible-ai/",
+      "/robots.txt/",
+      "/semiconductor/",
+      "/space-tech/",
+      "/taiwanplus/",
+      "/theme/",
+      "/topic/",
+      "/wordcup/"
+    ],
+    "sections_not_yet_read": [
+      "/mlb/（316 個 sitemap 網址、3 個選單連結）",
+      "/digi_taiwan/（77 個 sitemap 網址、3 個選單連結）",
+      "/2026-worldcup/（14 個 sitemap 網址）",
+      "/2026-fifa-world-cup/（8 個 sitemap 網址）",
+      "/world-cup-betting-guide/（7 個 sitemap 網址）",
+      "/ai_taiwan/（6 個 sitemap 網址）",
+      "/world-cup-2026-predictions/（6 個 sitemap 網址）",
+      "/world-cup-sports-betting/（6 個 sitemap 網址）",
+      "/iftomm2015cd/（5 個 sitemap 網址）",
+      "/b5g/（4 個 sitemap 網址）",
+      "/pretech/（4 個 sitemap 網址）",
+      "/5g_taiwan/（3 個 sitemap 網址、8 個選單連結）",
+      "/ai/（3 個 sitemap 網址）",
+      "/uncategorized/（2 個 sitemap 網址）",
+      "/world-cup-schedule/（2 個 sitemap 網址）",
+      "/2026-nba-ai-e8-b3-bd-e4-ba-8b-e9-a0-90-e6-b8-ac-e7-b5-82-e7-ab-af-ef-bc-9a-e5-a4-a7-e6-95-b8-e6-93-9a-e8-a7-a3-e6-a7-8b-e5-8d-b3-e6-99-82-e6-88-b0-e6-b3-81-e3-80-81-e5-ad-a3-e5-be-8c-e8-b3-bd/（1 個 sitemap 網址）",
+      "/2k4xxza/（1 個 sitemap 網址）",
+      "/2kextwv/（1 個 sitemap 網址）",
+      "/2kinhbc/（1 個 sitemap 網址）",
+      "/2kkflq7/（1 個 sitemap 網址）",
+      "/2kkx0cx/（1 個 sitemap 網址）",
+      "/2knx0sr/（1 個 sitemap 網址）",
+      "/2knx84n/（1 個 sitemap 網址）",
+      "/2knxfnl/（1 個 sitemap 網址）",
+      "/2krmvsf/（1 個 sitemap 網址）",
+      "/2lond3x/（1 個 sitemap 網址）",
+      "/2lu8mem/（1 個 sitemap 網址）",
+      "/2lui3mr/（1 個 sitemap 網址）",
+      "/2lxec8c/（1 個 sitemap 網址）",
+      "/2lxfjyk/（1 個 sitemap 網址）",
+      "/2mjq759/（1 個 sitemap 網址）",
+      "/community-2/（1 個 sitemap 網址）",
+      "/community/（1 個 sitemap 網址）",
+      "/home-2/（1 個 sitemap 網址）",
+      "/author/（5 個選單連結）",
+      "/page/（3 個選單連結）"
+    ]
+  },
+  "why_filled": 47,
+  "stop": {
+    "elapsed_s": 564.8,
+    "final_streak": 0,
+    "stop_events": [],
+    "phase": "final",
+    "recheck_calls": 13
+  },
+  "experience_read": {
+    "notes_sha256": "406045133180acfa1be40e1d0e995cf40d9920bcdd2c9c1213fcd1c33b356b84",
+    "entry_ids": [
+      "EXP-001",
+      "EXP-002"
+    ]
+  },
+  "experience_proposals": 2,
+  "experience_changes": [],
+  "review": {
+    "triggered": 1,
+    "status": "passed",
+    "items": 15,
+    "revised": true,
+    "cost": {
+      "api_calls": 1,
+      "tokens": {
+        "input": 122483,
+        "output": 9505,
+        "total": 131988
+      },
+      "elapsed_s": 92.2
+    },
+    "total_with_review": {
+      "api_calls": 24,
+      "tokens": {
+        "input": 2999309,
+        "output": 32962,
+        "total": 3032271
+      }
+    }
+  },
+  "metrics": {
+    "wasted_calls": 5,
+    "blocked": [
+      {
+        "tool": "wayback",
+        "domain": "2030.tw",
+        "path": "/",
+        "error": "network_error",
+        "evidence_ids": [
+          "E-0117",
+          "E-0118"
+        ]
+      },
+      {
+        "tool": "web_search",
+        "domain": "web_search",
+        "path": "\"2030.tw\" 娛樂城",
+        "error": "network_error",
+        "evidence_ids": [
+          "E-0157"
+        ]
+      }
+    ],
+    "saved_calls": {
+      "count": 0,
+      "items": [],
+      "note": "模型自稱避開，不計分"
+    },
+    "key_finding": {
+      "claim_id": "OFF-1",
+      "rubric_items": [
+        "T05",
+        "T06"
+      ],
+      "evidence_id": "E-0057",
+      "calls": 0,
+      "elapsed_s": 0.0
+    },
+    "new_findings": {
+      "count": 0,
+      "items": []
+    }
+  },
+  "approvals_pending": [],
+  "tools_offered": [
+    "mcp__seo__domain_info",
+    "mcp__seo__experience",
+    "mcp__seo__inspect_page",
+    "mcp__seo__polite_fetch",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__submit_report",
+    "mcp__seo__text_match",
+    "mcp__seo__wayback",
+    "mcp__seo__web_search"
+  ],
+  "tools_used": [
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__polite_fetch",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__wayback",
+    "mcp__seo__wayback",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__wayback",
+    "mcp__seo__inspect_page",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__wayback",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__wayback",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__sitemap_tree",
+    "mcp__seo__text_match",
+    "mcp__seo__web_search",
+    "mcp__seo__domain_info",
+    "mcp__seo__submit_report",
+    "mcp__seo__polite_fetch",
+    "mcp__seo__polite_fetch",
+    "mcp__seo__wayback",
+    "mcp__seo__inspect_page",
+    "mcp__seo__text_match",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__wayback",
+    "mcp__seo__inspect_page",
+    "mcp__seo__inspect_page",
+    "mcp__seo__submit_report",
+    "mcp__seo__experience",
+    "mcp__seo__experience",
+    "mcp__seo__experience"
+  ],
+  "api_calls": 23,
+  "final_response": "報告在獨立審查後修過一次，第二次送出已被接受。網站上看到的手法我能確認，但這些手法有沒有效果仍不清楚：排名、流量和外鏈資料都拿不到。免費搜尋連不上，付費工具也不能用。\n\n**2030.tw 的主要 SEO 手法**\n\n1. **「娛樂城」關鍵字量產頁**：`/wordcup/` 有 2354 個網址，其中 2197 個網址含「娛樂城」、94 個含「3a」，涵蓋官網、評價、不出金、ptt、合法嗎等搜尋意圖。\n   - 我抽看了 6 頁，H1／H2 結構都一樣，只是插入不同關鍵字，連「娛樂城返水」這種資訊型詞也套評測模板。每頁都有 FAQ 結構化資料，頁面之間互相連結。\n   - 每頁有 4 個註冊按鈕，連到一個博弈品牌網站，帶推廣參數，並標 nofollow。\n   - 這個頁群的 sitemap 沒有列在 robots，但首頁選單有「線上娛樂城推薦」連進去。\n\n2. **接手舊政府網域**：這個網域在 2025-11 的存檔仍是政府的「2030 智慧國家」政策平台，目前的註冊日是 2026-04-15。\n   - 新站有些網址名稱和舊站一樣或很像，內容換成運彩。\n   - 我檢查了 13 個舊網址，只有 2 個會落到新內容，10 個已失效，所以看不出有系統地接住舊連結。\n   - 無法確定是網域過期後被搶註，還是轉手。\n\n3. **MLB 賽事頁**：`/taiwanplus/` 有約 1800 頁，由 MLB 數據 API 自動產生。我只抽看了 2 頁，其中一頁還留著「打線尚未公告」的舊內容。\n\n4. **網站的缺陷**：量產頁的結構化資料指向別的頁面；頁面上的「更新日期」看來是快取產生的時間，不是真的有更新。這只用 1 頁對過快取資訊，未確認是刻意設計。\n\n**建議的優先行動**\n1. 「3A娛樂城」做一個主頁，再依每種搜尋意圖各做一頁，每頁的內容結構不同，不要套同一個模板。\n2. 「娛樂城」主關鍵字做成真正的比較評測頁，附評分方法和可查證的資料，並從全站選單連入。\n3. 我們頁面的日期和結構化資料要正確、互相一致，這正是對手做不好的地方。\n4. 如果要做賽事頁，在數據之外加入獨家分析，賽後回頭更新內容。\n5. 定期重查對手的頁數和舊網址轉址，並用付費工具查它的外鏈有多少來自舊政府站時期。\n\n我另外寫了兩條研究路線，等程式審核：一條是判斷頁面日期是不是快取造成的，另一條是追舊網址轉址的最終落點。",
+  "completed": true,
+  "num_turns": 53,
+  "stop_reason": "success",
+  "cost_usd_equiv": 2.7479504000000006,
+  "tokens": {
+    "input": 2876826,
+    "output": 23457,
+    "total": 2900283
+  },
+  "error": null,
+  "runtime": "claude-code-cli",
+  "runner": "claude",
+  "simulated": true,
+  "exit_code": 0,
+  "non_project_tools_offered": [],
+  "non_project_tools_used": [],
+  "sim_note": "模擬執行：用 Claude Code CLI（訂閱）代替 Hermes AIAgent；不是 Hermes 整合證據",
+  "score": {
+    "total": 6.5,
+    "max": 14,
+    "marks": "yyynyypnnynnnn",
+    "note": "只給人看"
+  }
+}

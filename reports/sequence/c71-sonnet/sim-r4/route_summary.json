@@ -1,0 +1,274 @@
+{
+ "at": "2026-11-17T20:56:54+0800",
+ "steps": [
+  {
+   "n": 1,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "EXP-001 找關鍵字頁集中處",
+   "evidence_ids": [],
+   "ok": false,
+   "light_test_of": null
+  },
+  {
+   "n": 2,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "",
+   "evidence_ids": [],
+   "ok": false,
+   "light_test_of": null
+  },
+  {
+   "n": 3,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0060",
+    "E-0061"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 4,
+   "tool": "sitemap_tree",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0102"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 5,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/"
+   },
+   "why": "EXP-001 讀關鍵字資料夾列表頁",
+   "evidence_ids": [
+    "E-0103",
+    "E-0104"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 6,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "EXP-001 搜 3A 關鍵字頁",
+   "evidence_ids": [
+    "E-0105"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 7,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "",
+   "evidence_ids": [
+    "E-0106"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 8,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-001 看狀態碼變化",
+   "evidence_ids": [
+    "E-0108",
+    "E-0109"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 9,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "EXP-001 讀 3A 關鍵字頁",
+   "evidence_ids": [
+    "E-0110",
+    "E-0111"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 10,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/富遊娛樂城"
+   },
+   "why": "EXP-001 第二個品牌頁比對模板",
+   "evidence_ids": [
+    "E-0112",
+    "E-0113"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 11,
+   "tool": "wayback",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-001 看轉址前舊用途",
+   "evidence_ids": [
+    "E-0114",
+    "E-0115"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 12,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "web.archive.org",
+    "path": "/web/20251108182921id_/https://2030.tw/"
+   },
+   "why": "EXP-001 讀舊首頁",
+   "evidence_ids": [
+    "E-0114",
+    "E-0116"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 13,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城"
+   },
+   "why": "EXP-001 看推廣連結 rel",
+   "evidence_ids": [
+    "E-0117",
+    "E-0118"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 14,
+   "tool": "domain_info",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "EXP-002 查註冊日",
+   "evidence_ids": [
+    "E-0129"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 16,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "",
+   "evidence_ids": [
+    "E-0130"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 17,
+   "tool": "sitemap_tree",
+   "target": null,
+   "why": "",
+   "evidence_ids": [
+    "E-0131"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 18,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/富遊娛樂城"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0132",
+    "E-0133"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 19,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/3a娛樂城官網"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0134",
+    "E-0135"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 20,
+   "tool": "inspect_page",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/wordcup/娛樂城"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0136",
+    "E-0137"
+   ],
+   "ok": true,
+   "light_test_of": null
+  },
+  {
+   "n": 21,
+   "tool": "domain_info",
+   "target": {
+    "domain": "2030.tw",
+    "path": "/"
+   },
+   "why": "",
+   "evidence_ids": [
+    "E-0146"
+   ],
+   "ok": true,
+   "light_test_of": null
+  }
+ ]
+}

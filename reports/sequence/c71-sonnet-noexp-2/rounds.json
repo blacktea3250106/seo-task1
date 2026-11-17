@@ -1,0 +1,28 @@
+{
+ "at": "2026-11-17T21:38:30+0800",
+ "rows": [
+  {
+   "round": 1,
+   "run": "sim-r1",
+   "status": "passed",
+   "score": 5.0,
+   "max": 14,
+   "wrong_count": 0,
+   "cost": {
+    "tool_calls": 15,
+    "api_calls": 11,
+    "tokens": 789973,
+    "elapsed_s_reference": 219.3
+   },
+   "review_outcomes": {
+    "補查後修正": 3,
+    "降成推論": 0,
+    "沒處理": 0,
+    "需人工判定": 8
+   },
+   "compare": true,
+   "untrusted_run": null
+  }
+ ],
+ "note": "每輪單獨評分；不列入比較＝untrusted_run；秒數只當參考；累計表只當參考（決策 #59）"
+}

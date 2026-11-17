@@ -1,0 +1,14 @@
+{
+  "R02": {
+    "arm": "sonnet-noexp-2",
+    "dir": "c71-sonnet-noexp-2/sim-r1"
+  },
+  "R01": {
+    "arm": "sonnet-noexp-3",
+    "dir": "c71-sonnet-noexp-3/sim-r1"
+  },
+  "R03": {
+    "arm": "opus-r4",
+    "dir": "c71-opus/sim-r4"
+  }
+}

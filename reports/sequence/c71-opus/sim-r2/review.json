@@ -1,0 +1,215 @@
+{
+  "status": "passed",
+  "items": [
+    {
+      "source": "審查",
+      "sentence": "ON-2：「抽樣 3 個關鍵字頁……title 都是「{關鍵字}｜…」」",
+      "problem": "證據和結論不符。娛樂城頁的 title 是「娛樂城評價｜台灣玩家首選平台」，不是「娛樂城｜…」。另外抽到的 3a娛樂城官網頁 title 是「【3a娛樂城官網】註冊教學與最新活動」，格式也不同。title 並非統一套用「{關鍵字}｜…」。",
+      "evidence_ids": [
+        "E-0115",
+        "E-0116",
+        "E-0155"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R1"
+    },
+    {
+      "source": "審查",
+      "sentence": "摘要：「這些頁共用同一套模板：H2 依序是……」；行動 1 依據：「對手有 94 個 3a 變體頁，而且 H2 骨架完全相同（只換關鍵字）」",
+      "problem": "樣本太小。H2 結構只在 3 頁看過（其中 2 頁是 3a 頁），就推到 2354 頁、94 個 3a 頁「完全相同」，屬於過度概括。各頁正文其實不同，用「只換關鍵字」形容也不精確。行動 1 的論點建立在這個概括上，應該加抽樣數，或改成「抽樣頁相同」。",
+      "evidence_ids": [
+        "E-0109",
+        "E-0114",
+        "E-0116",
+        "E-0104"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R2"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-7：「畫面上的「更新」日期和頁面自己的 Article JSON-LD 日期都很接近 2026-11 中旬抓取的時間」；ON-8：「推測這個頁群用模板動態產生「更新日期」來營造新鮮度」",
+      "problem": "有另一種解釋沒有排除：頁面是快取版本。11-17 抓的 3a 頁，頁首日期是「2026年11月15日」；/wordcup/ 列表頁的頁首日期甚至是「2026年11月4日」。這表示回應來自某次產生或快取的時間點，JSON-LD dateModified=11-15 很可能就是快取產生日，不一定是刻意營造新鮮度。另外 /wordcup/ 頁的 generator 是 WordPress 7.0.1，首頁是 7.1.4，/wordcup/ 可能由另一套系統產生。要確認，需要在不同日期重抓同一頁，並檢查快取標頭。",
+      "evidence_ids": [
+        "E-0108",
+        "E-0106",
+        "E-0109",
+        "E-0101",
+        "E-0153",
+        "E-0155"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R3"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-9：「抽樣的頁面標題是……屬於資料驅動的賽事頁」；摘要：「/taiwanplus/ 有大量依 MLB 賽事自動產生的頁面，負責運動流量」",
+      "problem": "內容只看了 1 頁，網址樣式也只看了 15 筆 sample，不足以推到 1820 頁。「負責運動流量」沒有任何流量資料支持，報告的 unknowns 自己也承認拿不到流量，這是把推論寫成事實。",
+      "evidence_ids": [
+        "E-0121",
+        "E-0151"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R4"
+    },
+    {
+      "source": "審查",
+      "sentence": "行動 4 依據：「對手用 1800 多個自動產生的 MLB 頁吸流量。這類頁容易量產，但內容同質」",
+      "problem": "「吸流量」沒有流量或排名證據。「內容同質」只看了 1 頁，沒有比較多頁。這條行動的前提證據撐不起。",
+      "evidence_ids": [
+        "E-0151",
+        "E-0121"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R5"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-10：「og:title 卻是「Home 1」，沒有正確設定」",
+      "problem": "提供的證據看不到 og:title。E-0043 解析出的 og 欄位只有 og:type、og:url、og:updated_time 等，E-0101 在列出 og 之前就截斷了。另外首頁證據是快照。",
+      "evidence_ids": [
+        "E-0043",
+        "E-0101"
+      ],
+      "needs_evidence": true,
+      "stale": true,
+      "id": "R6"
+    },
+    {
+      "source": "審查",
+      "sentence": "ON-3：「首頁選單有 3 個「線上娛樂城推薦」錨文字，連到 /wordcup/」；行動 2 依據：「對手用選單錨文字……把首頁權重導到 /wordcup/ 列表頁」",
+      "problem": "首頁連結來自快照 E-0043，連結分析 E-0102 也以它為來源。另外「權重導入」是推論，沒有標成推論。",
+      "evidence_ids": [
+        "E-0043",
+        "E-0102"
+      ],
+      "needs_evidence": false,
+      "stale": true,
+      "id": "R7"
+    },
+    {
+      "source": "審查",
+      "sentence": "摘要：「這個分區的 sitemap 沒有列在 robots，也不在 sitemap 索引裡，只能用資料夾探測找到」",
+      "problem": "「只能」說過頭了。證據只能說明 robots 和已知索引沒有列出它。網站可能直接提交到 Search Console，這從外部看不到。而且全站選單本來就連到 /wordcup/，頁面本身可以被爬到。",
+      "evidence_ids": [
+        "E-0100",
+        "E-0112",
+        "E-0102"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R8"
+    },
+    {
+      "source": "審查",
+      "sentence": "OFF-3：「用 check_current 檢查 14 個舊網址……其餘 10 個舊網址……都回 404」；unknowns：「只驗了舊首頁連結中的 14 個網址」",
+      "problem": "數字不符。E-0140 驗了 11 個，E-0150 驗了 3 個，但其中 the-twin-green-digital-transition-itri-nzsso（小寫）是新站網址，不是舊網址。實際驗的舊網址是 13 個。ITRI-NZSSO 只 301 到加斜線的大寫網址，最後落點和狀態沒有驗證。",
+      "evidence_ids": [
+        "E-0140",
+        "E-0150"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R9"
+    },
+    {
+      "source": "審查",
+      "sentence": "OFF-4：「把部分舊網址 301 到新頁，盡量接住舊連結」；摘要：「少數舊網址會 301 到新頁」",
+      "problem": "證據大致和結論相反。13 個舊網址中有 10 個回 404。/topic→/topic/ 和 ITRI 加斜線，都可能只是 WordPress 預設的斜線轉址。真正轉到新內容的只有 /theme/smart-recreation 1 個。這撐不起「盡量接住舊連結」的刻意策略。",
+      "evidence_ids": [
+        "E-0140",
+        "E-0150"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R10"
+    },
+    {
+      "source": "審查",
+      "sentence": "OFF-4：「推測這是「過期政府計畫網域再利用」」",
+      "problem": "「過期」沒有證據。RDAP 的 registrant 聯絡人建立日是 2026-01-06，首頁 datePublished 是 2026-02-11，兩者都早於 RDAP 註冊日 2026-04-15。所以 4-15 可能是轉移或重新登記，而不是過期後被搶註。中間也可能是轉手或買賣。Wayback 最後一筆 200 存檔是 2025-11，當時的內容沒有檢查，網域換主的時間點因此沒有確定。",
+      "evidence_ids": [
+        "E-0161",
+        "E-0166",
+        "E-0043",
+        "E-0057",
+        "E-0058"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R11"
+    },
+    {
+      "source": "審查",
+      "sentence": "OFF-2：「新站沿用了舊站的 slug 樣式和分類名：……以及 /digi_taiwan/ 等分區」",
+      "problem": "/digi_taiwan/ 是舊站分類名，這點沒有證據。舊首頁的連結（E-0127）只有 /article/、/theme/、/topic 等，digi 只出現在外部網域 digi.nstc.gov.tw。responsible-ai-008-audrey-tang、space-tech-002 等 slug 也沒有和舊站網址清單比對，Wayback 舊網址清單逾時沒拿到，只能說命名相似。space-tech-002 的現有內容也沒有抓，「這些頁現在的內容是……」只有 2 頁的根據。",
+      "evidence_ids": [
+        "E-0127",
+        "E-0141",
+        "E-0142",
+        "E-0143",
+        "E-0145"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R12"
+    },
+    {
+      "source": "審查",
+      "sentence": "OFF-5：「全站模板也連到 bc5730m.wg1888.com，其中一部分寫在 script 裡。外部連結都帶 nofollow」",
+      "problem": "工具註明，寫在 script 裡的連結不計入 nofollow 統計，也不含 rel，所以這部分不能宣稱帶 nofollow。「全站」也只根據少數頁面。",
+      "evidence_ids": [
+        "E-0102",
+        "E-0144",
+        "E-0146",
+        "E-0109"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R13"
+    },
+    {
+      "source": "審查",
+      "sentence": "OFF-6：「2030.tw 應該是推廣聯盟型的導流站，靠 SEO 流量轉成註冊」",
+      "problem": "另一種可能沒有排除。st=wg2030 和 wg1888 同樣帶 wg，2030.tw 也可能是博弈業者自營的站，而不是第三方聯盟。「靠 SEO 流量」也沒有流量資料支持。",
+      "evidence_ids": [
+        "E-0110",
+        "E-0101",
+        "E-0156"
+      ],
+      "needs_evidence": false,
+      "stale": false,
+      "id": "R14"
+    },
+    {
+      "source": "審查",
+      "sentence": "行動 1／行動 2 rationale：「可以在內容差異度上勝過它」「它的單頁內容是泛泛的口語評測」",
+      "problem": "整份報告沒有排名、索引、流量資料，無法知道對手這些頁在「娛樂城」「3A娛樂城」是否有排名或成效。「差異化就能勝過」是沒有被結論支持的假設。單頁內容的評語也只根據 3 頁。",
+      "evidence_ids": [
+        "E-0108",
+        "E-0113",
+        "E-0115"
+      ],
+      "needs_evidence": true,
+      "stale": false,
+      "id": "R15"
+    }
+  ],
+  "cost": {
+    "api_calls": 1,
+    "tokens": {
+      "input": 122483,
+      "output": 9505,
+      "total": 131988
+    },
+    "elapsed_s": 92.2
+  },
+  "tools_offered": [],
+  "error": null,
+  "at": "2026-11-17T21:06:51+0800"
+}

@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "items": [
+    {
+      "sentence": "off1：網域 2026-04-15 重新註冊（RDAP），但 Wayback 從 2020 起有存檔……這是已過期的舊網域被重新註冊並改作運彩/娛樂城用途。",
+      "problem": "證據只顯示 RDAP 註冊日 2026-04-15、Wayback 2025-11 仍是政府站、2026-01 出現 301。工具自己註明註冊日只代表這次註冊，不能直接推出「舊網域過期後被他人重新註冊」。2026-01 的 301 也可能只是政府原營運者把網域轉址，之後才移轉或讓出。「已過期被重註」寫成事實，證據撐不起，應降為推論。2025-11 到 2026-04 之間沒有快照可核對網域的實際歷程，也沒有 RDAP 歷史紀錄。",
+      "evidence_ids": [
+        "E-0055",
+        "E-0104",
+        "E-0108"
+      ],
+      "needs_evidence": true,
+      "stale": true
+    },
+    {
+      "sentence": "summary：2030.tw 是一個 2026-04 重新註冊的舊政府智慧國家網站網域……整體是舊網域權重＋模板化大量長尾頁＋體育內容當外衣的打法。",
+      "problem": "「舊網域權重」是打法的核心，但報告自己說沒有外鏈、排名資料，off2 也承認是推測。summary 卻把它當成已確認的策略組成。「體育內容當外衣」同樣是意圖推論，寫成定論。另外 domain_info 是快照，抓取時間早於其他證據約 11 小時。",
+      "evidence_ids": [
+        "E-0055",
+        "E-0108"
+      ],
+      "needs_evidence": true,
+      "stale": true
+    },
+    {
+      "sentence": "on1：/wordcup/ 內容是娛樂城品牌與長尾詞頁，lastmod 集中在 2026-07-17～08-16。",
+      "problem": "「內容是娛樂城頁」只靠 sitemap 網址樣本（頭中尾各 5 筆）加列表頁與一頁 3A，不能涵蓋 2354 頁。另外 sitemap 兩次取得的數字不同（E-0042 是 2503 個網址、E-0102 去重後 2354 個），報告用 2354 而沒說明差異。E-0042 是舊快照。",
+      "evidence_ids": [
+        "E-0102",
+        "E-0106",
+        "E-0042"
+      ],
+      "needs_evidence": false,
+      "stale": false
+    },
+    {
+      "sentence": "on3：指定關鍵字「3a娛樂城」有專頁，並有至少 94 個變體網址……形成單一品牌詞的長尾矩陣。",
+      "problem": "search 回傳 matches=94，但 rows=100，by_sitemap 為 100，而 limit 只有 10。「3a」這個子字串可能也匹配到不相關網址（如其他含 3a 的品牌詞），不一定都是 3A 娛樂城變體。只展示 10 筆樣本，其餘 84 筆沒有被逐一確認。",
+      "evidence_ids": [
+        "E-0107"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "on4：同一模板的其他品牌頁開頭句型高度重複……看起來是模板化大量生成。",
+      "problem": "只抓了一頁 3A 專頁。其他品牌頁的重複開頭只來自列表頁的摘要片段（E-0110），沒有抓過其他品牌頁本身，且 unknowns 也承認只抽查一頁。「同一模板」「大量生成」是從摘要推測。幾種不同開頭句型也同時出現，並非全部相同。",
+      "evidence_ids": [
+        "E-0112",
+        "E-0110"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "on6：Article 的 datePublished 寫 2026-11-10、dateModified 11-15，與 OG 發佈時間 07-12 不一致；JSON-LD 帶入 MLB 比分文章的實體；article:section 為「mlb今日戰績」",
+      "problem": "article:section 為「mlb今日戰績」在給出的證據文字中找不到，E-0112 的 og 欄位只列了 type、url、published/modified time。另外 H1 兩個的說法：證據中沒有 H1 計數（只有首頁 inspect_page 的 h1_count=1），頁面的第二個 H1 沒有證據支持。日期不一致也可能是頁面後來更新（可見文字寫 2026-11-10 更新），並非技術錯誤。JSON-LD 同時有 07-12 與 11-10 兩組日期。",
+      "evidence_ids": [
+        "E-0112",
+        "E-0110"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "off3：娛樂城頁的外部連結全部標 nofollow，導向第三方推廣網域（don0911.3a1788.bet、bc5730m.wg1888.com……）",
+      "problem": "證據中沒有 nofollow 屬性，也沒有 don0911.3a1788.bet 的出現。E-0061 只有首頁的 external_hosts（bc5730m.wg1888.com、twitter、facebook），並沒有 nofollow 資訊；E-0112 的文字沒有連結屬性。「全部 nofollow」與「導向推廣網域」不是證據中可見的。是否為聯盟變現也沒有證據，只是推論。",
+      "evidence_ids": [
+        "E-0112",
+        "E-0110",
+        "E-0061"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "off4：外部搜尋工具（DuckDuckGo）連不上，無法確認目標關鍵字的收錄與排名",
+      "problem": "引用的 E-0042 是 sitemap_tree 快照，內容完全看不到 DuckDuckGo 失敗的紀錄，證據與結論不對應。這是否定性結論（連不上），沒有重試或改用別的來源的證據，不能排除是暫時被擋或逾時。",
+      "evidence_ids": [
+        "E-0042"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "on5：頁內有內部連結：麵包屑回 /wordcup/、內文『相關推薦』連到其他變體詞頁、側欄『熱門娛樂城推薦』連到其他品牌頁，形成站內互連網。",
+      "problem": "E-0112 只有可見文字，沒有連結目標網址。『相關推薦』的詞（如 ruz娛樂城、娛樂城怎麼玩）是否連到 /wordcup/ 其他頁，沒有 href 證據，只是從文字推測。",
+      "evidence_ids": [
+        "E-0112"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "actions 第一項：容易被 Google 的 spam 政策（expired domain abuse、scaled content abuse）處理。",
+      "problem": "建立在 off1（已過期被重註）與 on4（模板化大量生成）兩個證據不足的結論上；Google 政策內容本身沒有任何證據引用。且對方目前仍可被收錄是否被處理沒有查證。",
+      "evidence_ids": [
+        "E-0055",
+        "E-0104",
+        "E-0112"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    },
+    {
+      "sentence": "actions 第二、三項：品質差距是可以拉開的點；用較少、更完整的頁面對應同樣意圖。",
+      "problem": "對方頁面是否有排名、被搜尋者接受完全未知（排名資料缺），無法知道品質差距是否真的是競爭點，或 94 個變體頁是否真的有效佔位。『3900 字』字數也沒有出處（證據只有可見文字，未給字數）。",
+      "evidence_ids": [
+        "E-0112"
+      ],
+      "needs_evidence": true,
+      "stale": false
+    }
+  ],
+  "tools_offered": [],
+  "tools_used": [],
+  "api_calls": 1,
+  "tokens": {
+    "input": 40311,
+    "output": 2667,
+    "total": 42978
+  },
+  "error": null,
+  "elapsed_s": 23.1,
+  "model": "claude-sonnet-5-5",
+  "simulated": true,
+  "runtime": "claude-code-cli",
+  "runner": "claude"
+}

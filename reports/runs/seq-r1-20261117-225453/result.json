@@ -1,0 +1,186 @@
+{
+  "status": "passed",
+  "status_label": "完成",
+  "run_id": "seq-r1-20261117-225453",
+  "model": "claude-sonnet-5-5",
+  "started_at": 1794927296.761,
+  "elapsed_s": 454.6,
+  "tool_calls_total": 27,
+  "tool_calls_by_name": {
+    "inspect_page": 6,
+    "sitemap_tree": 5,
+    "domain_info": 1,
+    "polite_fetch": 4,
+    "wayback": 6,
+    "submit_report": 2,
+    "web_search": 1,
+    "experience": 2
+  },
+  "tool_errors": {
+    "network_error": 1,
+    "rejected": 1
+  },
+  "evidence_total": 148,
+  "baseline": {
+    "domain": "2030.tw",
+    "baseline_hash": "c146692fe46ad4278922b08ea24a68096a10228cbb3eda59876a415bfd84137a",
+    "updated_at": "2026-11-17T22:54:56+0800",
+    "action": "refetched_failed",
+    "refetched": [
+      "search_1",
+      "search_2"
+    ]
+  },
+  "http_requests": 75,
+  "coverage": {
+    "sections_read": [
+      "/",
+      "/5g_taiwan/",
+      "/article/",
+      "/digi_taiwan/",
+      "/page/",
+      "/robots.txt/",
+      "/wordcup/"
+    ],
+    "sections_not_yet_read": [
+      "/taiwanplus/（1850 個 sitemap 網址、15 個選單連結）",
+      "/mlb/（316 個 sitemap 網址、3 個選單連結）",
+      "/2026-worldcup/（14 個 sitemap 網址）",
+      "/2026-fifa-world-cup/（8 個 sitemap 網址）",
+      "/world-cup-betting-guide/（7 個 sitemap 網址）",
+      "/ai_taiwan/（6 個 sitemap 網址）",
+      "/topic/（6 個 sitemap 網址）",
+      "/world-cup-2026-predictions/（6 個 sitemap 網址）",
+      "/world-cup-sports-betting/（6 個 sitemap 網址）",
+      "/iftomm2015cd/（5 個 sitemap 網址）",
+      "/b5g/（4 個 sitemap 網址）",
+      "/pretech/（4 個 sitemap 網址）",
+      "/ai/（3 個 sitemap 網址）",
+      "/uncategorized/（2 個 sitemap 網址）",
+      "/world-cup-schedule/（2 個 sitemap 網址）",
+      "/2026-nba-ai-e8-b3-bd-e4-ba-8b-e9-a0-90-e6-b8-ac-e7-b5-82-e7-ab-af-ef-bc-9a-e5-a4-a7-e6-95-b8-e6-93-9a-e8-a7-a3-e6-a7-8b-e5-8d-b3-e6-99-82-e6-88-b0-e6-b3-81-e3-80-81-e5-ad-a3-e5-be-8c-e8-b3-bd/（1 個 sitemap 網址）",
+      "/2k4xxza/（1 個 sitemap 網址）",
+      "/2kapb2a/（1 個 sitemap 網址）",
+      "/2kextwv/（1 個 sitemap 網址）",
+      "/2kinhbc/（1 個 sitemap 網址）",
+      "/2kkflq7/（1 個 sitemap 網址）",
+      "/2kkx0cx/（1 個 sitemap 網址）",
+      "/2knx0sr/（1 個 sitemap 網址）",
+      "/2knx84n/（1 個 sitemap 網址）",
+      "/2knxfnl/（1 個 sitemap 網址）",
+      "/2krmvsf/（1 個 sitemap 網址）",
+      "/2lond3x/（1 個 sitemap 網址）",
+      "/2lu8mem/（1 個 sitemap 網址）",
+      "/2lui3mr/（1 個 sitemap 網址）",
+      "/2lxec8c/（1 個 sitemap 網址）",
+      "/2lxfjyk/（1 個 sitemap 網址）",
+      "/2mjq759/（1 個 sitemap 網址）",
+      "/community-2/（1 個 sitemap 網址）",
+      "/community/（1 個 sitemap 網址）",
+      "/home-2/（1 個 sitemap 網址）",
+      "/author/（5 個選單連結）"
+    ]
+  },
+  "why_filled": 22,
+  "stop": {
+    "elapsed_s": 454.6,
+    "final_streak": 1,
+    "stop_events": [],
+    "phase": "final",
+    "recheck_calls": 5
+  },
+  "experience_read": {
+    "notes_sha256": "706d1d8faf7e40cf48eacc96cd8b9a6ce3ca46625c43d0831748b0ea86a888df",
+    "entry_ids": []
+  },
+  "experience_proposals": 1,
+  "experience_changes": [],
+  "review": {
+    "triggered": 1,
+    "status": "passed",
+    "items": 14,
+    "revised": true,
+    "cost": {
+      "api_calls": 1,
+      "tokens": {
+        "input": 4,
+        "output": 12033,
+        "total": 98437
+      },
+      "elapsed_s": 95.4
+    },
+    "total_with_review": {
+      "api_calls": 12,
+      "tokens": {
+        "input": 28,
+        "output": 31577,
+        "total": 1309711
+      }
+    }
+  },
+  "metrics": {
+    "wasted_calls": 1,
+    "blocked": [
+      {
+        "tool": "wayback",
+        "domain": "2030.tw",
+        "path": "/",
+        "error": "network_error",
+        "evidence_ids": [
+          "E-0135"
+        ]
+      }
+    ],
+    "saved_calls": {
+      "count": 0,
+      "items": [],
+      "note": "模型自稱避開，不計分"
+    },
+    "key_finding": {
+      "claim_id": "on1",
+      "rubric_items": [
+        "T01",
+        "T10"
+      ],
+      "evidence_id": "E-0042",
+      "calls": 0,
+      "elapsed_s": 0.0
+    },
+    "new_findings": null
+  },
+  "approvals_pending": [],
+  "api_mode": "anthropic_messages",
+  "provider": "anthropic",
+  "tools_offered": [
+    "domain_info",
+    "experience",
+    "inspect_page",
+    "polite_fetch",
+    "sitemap_tree",
+    "submit_report",
+    "text_match",
+    "wayback",
+    "web_search"
+  ],
+  "final_response": "報告已交出並通過審查，路線經驗 P1 已提出，等待評分後的寫入審核。\n\n重點結論如下：\n\n- **兩個指定關鍵字都有專頁。** 「娛樂城」和「3a娛樂城」各有一個專頁，放在 `/wordcup/` 底下，網址直接用關鍵字當 slug。這個資料夾在 sitemap 裡約有 2,350 個不重複網址。\n- **結構相同。** 我只讀了 2 個品牌頁和列表頁，兩頁的 H2 結構和 FAQ 問題一樣，所以很可能是模板量產。這是樣本觀察，不代表全部約 2,500 頁都一樣。\n- **占比可能高估。** sitemap 的 lastmod 只到 2026-08，首頁最新的 10/31 比賽文不在 sitemap 裡，因此 `/wordcup/` 占 sitemap 約 50%，不能當全站比例。\n- **網域換過用途。** 2030.tw 在 2026-04-15 註冊，Wayback 2025-11 的首頁快照是政府「2030 智慧國家」站。換手的時間和方式無法判定，因為 2026-01 和 2026-02 的證據與註冊日對不上。\n- **有導流跡象。** 品牌頁上的外部連結全部是 nofollow，部分指向 3a1788.bet 和 wg1888.com。這只是從網址推論，沒追到最終落點，也沒有分潤證據。\n- **技術瑕疵。** `/wordcup/` 這 3 頁有雙 H1，JSON-LD 還指向一篇 MLB 比分文章。\n\n排名、收錄、流量和外鏈這次都沒拿到。兩次關鍵字搜尋和一次 `site:` 搜尋都被人機驗證擋下（HTTP 202），這是被擋，不是查無，所以全部標為未知。\n\n建議的行動順序：\n\n1. 先用你自己的排名和外鏈工具確認它到底有沒有排名。\n2. 針對「娛樂城」和「3A娛樂城」做更深的專頁，補上可驗證的實測數據、作者和審稿資訊，以及風險提示。\n3. 用分類頁承接品牌長尾詞，先小量上線，確認有收錄和排名再擴。\n4. 不要照抄它的量產模板、雙 H1 和錯置的 JSON-LD。\n5. 把它列入定期觀察名單。",
+  "api_calls": 11,
+  "completed": true,
+  "error": null,
+  "tokens": {
+    "input": 24,
+    "output": 19544,
+    "total": 1211274
+  },
+  "hermes_home_matches_run": true,
+  "worker_exit_code": 0,
+  "global_hermes_home": {
+    "existed_before": true,
+    "exists_after": true
+  },
+  "score": {
+    "total": 6.0,
+    "max": 14,
+    "marks": "yyynyynnnynnnn",
+    "note": "只給人看"
+  }
+}
