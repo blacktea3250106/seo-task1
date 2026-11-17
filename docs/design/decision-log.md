@@ -1106,3 +1106,4 @@
 - 順手修：README「Harness 實驗結果」有一段重複的舊成績表（Opus 只有 3 輪），已刪除。
 - 使用者決定：sim 執行器和 Hermes 實跑走同一套 Tool、審查、經驗程式，文件不再反覆強調「模擬，非 Hermes」；README 只留一行說明批次實驗用 sim 執行器。
 - 使用者認為 Task1 README 結構不如 Task2：改照 Task2 骨架（快速開始 → 系統怎麼運作 → 符合題目要求 → 實驗結果 → 限制 → 4 週 → 常見問題 → 題目原文），手動命令、輸出檔、專案結構移到 `docs/usage.md`，Glossary 移到 `docs/glossary.md`；Demo Video 改用 GitHub user-attachments 網址，可在 README 內直接播放。
+- 追加（11/17 晚）：`docs/ai-dev-log.md` 案例 16 與第 5 節原寫「目前架構還沒用 Hermes 實跑」，與本條實跑事實矛盾，改為「實跑 1 次、多輪實驗是模擬執行器」；README 與 `docs/architecture.md` 流程圖改由上而下（使用者覺得橫向太寬）。Windows CI 修正：sitemap.sqlite 連線收進 `Context.close()`、oauth 測試補 USERPROFILE、`.gitattributes` 固定 LF、模擬 runner 測試在 Windows 略過。

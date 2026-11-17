@@ -102,7 +102,7 @@ https://github.com/user-attachments/assets/e10504e5-d3d1-4c1f-b8d8-48559c4eb048
 - 筆記要事後有人核過（評分＋寫入審核），下次才拿得到
 
 ```mermaid
-flowchart LR
+flowchart TB
   B["2 網站底稿<br/>程式抓、只抓不判讀"] --> L
   subgraph L["3 研究（Hermes Loop）"]
     M(["LLM 決定下一步"]) -- "Tool 名＋參數＋why" --> H["Hermes 執行"]

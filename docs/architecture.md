@@ -13,7 +13,7 @@
 ## 圖
 
 ```mermaid
-flowchart LR
+flowchart TB
   BASE["2 網站底稿（程式，每站一次）<br/>robots＋sitemap、首頁選單、WHOIS、Wayback、搜尋 ×2<br/>只抓不判讀"] -- "資料卡（數字並排）＋快照證據" --> OPUS
 
   subgraph LOOP["3 研究迴圈（主線，模型自己決定）"]

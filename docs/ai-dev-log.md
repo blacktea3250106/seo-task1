@@ -171,7 +171,7 @@ V1 案例的路徑與 commit 指 V1 repo（私人 repo，未附）；V2 沒有 c
 - **Problem**：原題要求「使用 Hermes 建立」，但 API workspace 用量上限擋住實跑。
 - **Implementation**：`.env` 設 `SEO_MODEL_AUTH=oauth` 就改用 Hermes 原生登入；每個 run 的 Hermes home 用 profile 模式讀上層登入，不借本機 Claude Code／Codex 登入。
 - **Verification**：獨立程式審查第一次 changes_requested：只傳 `api_key=None` 時 Hermes 不會換新 token，過期後每輪都 401。改用 `credential_pool.select()` 並把 pool 交給 AIAgent；新增測試「過期 token 會換新並寫回上層」（同條件下舊寫法回傳過期 token）；220 passed。
-- **Revision**：API 用量上限到 2026-12-01 才恢復；訂閱登入（oauth）能否用於第三方 Agent 未確認，所以沒拿來實跑；目前成績都是模擬，非 Hermes。
+- **Revision**：之後（#74）就用這個訂閱登入，以 Hermes 實跑目前架構一次（`claude-sonnet-5-5`，27 次 Tool、1.31M Token、455 秒），紀錄在 `reports/runs/seq-r1-20261117-225453/`，也是 README 的 Demo Video。多輪批次實驗仍用模擬執行器（同一套 Tool、審查、經驗程式）。
 
 ### 案例 17（V3，#64–#66）：讀模型的決策紀錄找說錯來源 → 先修 Tool 回傳的事實
 - **Problem**：精簡版實驗中 6 筆說錯有 2 筆是 Tool 自己回錯：`sitemap_tree` 沒 build 就查會回「都不在 sitemap」；`inspect_page` 追蹤碼漏 `GT-`。我要求每一刀都有理由，先排出最可疑的地方，不要全部拆一遍。
@@ -211,7 +211,7 @@ V1 案例的路徑與 commit 指 V1 repo（私人 repo，未附）；V2 沒有 c
 
 ## 5. 沒做的事與限制
 
-- **目前架構還沒用 Hermes 實跑**：決策 #39–#50 與 #59 已實作並 commit（de97e01）；之後的驗證都是模擬執行（Claude Code CLI 代替 Hermes 叫模型），不算 Hermes 整合證據。API 用量上限到 2026-12-01 才恢復；訂閱登入（oauth）能否用於第三方 Agent 未確認，所以沒拿來實跑。
+- **目前架構只用 Hermes 實跑 1 次**：#74 用 Hermes 訂閱登入跑 `claude-sonnet-5-5` 研究 2030.tw 一輪（`reports/runs/seq-r1-20261117-225453/`）。第 4 節的多輪成績表是模擬執行器跑的（Claude Code CLI 代替 Hermes 叫模型，Tool、證據、審查、經驗同一套程式）；API workspace 用量上限到 2026-12-01 才恢復，所以沒用 Hermes 重跑那批實驗。
 - **#61、#63 的研究結果只有通用部分接進正式流程**：`page_text` 在 #71 併入 `inspect_page`；scout 分包、分段跑沒有採用。#61–#71 的改動在撰寫本紀錄時還沒 commit。
 - **沒有證明經驗讓 AI 逐輪變好**：Opus 依序 3 輪、Sonnet 依序 5 輪，差距都在隨機範圍內，或者不能歸功給經驗；#51 的數據顯示經驗只讓 Opus 變快（664 → 591 → 475 秒），沒有查得更多。
 - **樣本很小**：每個設定只跑 1–3 次，只測 2030.tw 一個網站；分數不能當作統計顯著的結果。
