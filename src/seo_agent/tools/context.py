@@ -24,6 +24,12 @@ class Context:
         self.light_test_routes: dict[str, list[dict]] = {}  # 別走（查不到）經驗的原路線，判斷輕試用（G-34）
         self._lock = threading.Lock()
         self.started = time.time()
+        self.closers: list = []  # 要在 close() 釋放的資源（例如 sitemap.sqlite；Windows 開著的檔不能刪）
+
+    def close(self) -> None:
+        self.fetcher.close()
+        while self.closers:
+            self.closers.pop()()
 
     def append_jsonl(self, path: Path, record: dict) -> None:
         with self._lock, path.open("a", encoding="utf-8") as fh:

@@ -1,8 +1,14 @@
 """模擬執行（sim.py）：MCP 轉接與 claude 輸出解析（離線）。"""
 import json
+import os
+
+import pytest
 
 from seo_agent.hermes_bridge import Tool, ToolLog
 from seo_agent.sim import ToolServer, handle_rpc, parse_stream
+
+# 模擬 runner 用 Unix socket 與 shell 假 CLI，Windows 不支援；正式 Hermes 路徑不受影響
+pytestmark = pytest.mark.skipif(os.name == "nt", reason="模擬 runner 只支援 macOS／Linux")
 
 
 def test_handle_rpc_list_and_call():

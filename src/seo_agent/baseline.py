@@ -109,7 +109,7 @@ class Baseline:
                     "error": None if ok else (result.get("error") or {"code": result.get("status", "failed"),
                                                                         "detail": result.get("message")})}
         finally:
-            ctx.fetcher.close()
+            ctx.close()
         data["updated_at"] = _now()
         data["baseline_hash"] = hashlib.sha256(json.dumps(
             {s: (data["sources"].get(s) or {}).get("sha256") for s in SOURCES}, sort_keys=True).encode()).hexdigest()

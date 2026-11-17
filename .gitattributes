@@ -1,0 +1,3 @@
+# 所有平台都用 LF 換行：凍結檔、日誌以 sha256 釘住，Windows checkout 改成 CRLF 會對不上
+* text=auto eol=lf
+*.ps1 text eol=crlf

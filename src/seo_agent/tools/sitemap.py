@@ -32,6 +32,7 @@ class SitemapDB:
     def __init__(self, ctx: Context):
         self.ctx = ctx
         self.db = sqlite3.connect(ctx.run_dir / "sitemap.sqlite", check_same_thread=False)
+        ctx.closers.append(self.db.close)
         self.db.executescript("""
             CREATE TABLE IF NOT EXISTS sitemaps(url TEXT PRIMARY KEY, status INTEGER, kind TEXT, n_urls INTEGER,
                 parent TEXT, found_by TEXT, evidence_id TEXT, note TEXT);

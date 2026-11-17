@@ -3,12 +3,16 @@
 from __future__ import annotations
 
 import json
+import os
 import socket
 
 import pytest
 from fixture_site import FakeSite
 
 from seo_agent import sim
+
+# 模擬 runner 用 Unix socket 與 shell 假 CLI，Windows 不支援；正式 Hermes 路徑不受影響
+pytestmark = pytest.mark.skipif(os.name == "nt", reason="模擬 runner 只支援 macOS／Linux")
 
 REPORT = {"summary": "s", "onpage": [], "offpage": [], "actions": [], "limits": {}, "process": {}}
 

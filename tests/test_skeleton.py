@@ -1,5 +1,6 @@
 """第 1 步骨架的離線測試（不呼叫模型）。"""
 import json
+import os
 import subprocess
 import sys
 
@@ -8,6 +9,13 @@ import pytest
 from seo_agent import ROOT
 from seo_agent.hermes_home import prepare_run_home, run_home_parent
 from seo_agent.model_env import load_model_settings, read_dotenv, sdk_base_url
+
+
+def _win_env(home) -> dict:
+    """Windows 的 Path.home() 讀 USERPROFILE（不看 HOME），子程序缺 SYSTEMROOT 也無法正常啟動。"""
+    if os.name != "nt":
+        return {}
+    return {"USERPROFILE": str(home), "SYSTEMROOT": os.environ.get("SYSTEMROOT", "C:\\Windows")}
 
 
 def test_base_url_drops_v1_once():
@@ -44,7 +52,7 @@ def test_run_home_config_and_hermes_reads_it(tmp_path):
         " 'tool_search': cfg['tools']['tool_search']['enabled'],"
         " 'adopt': adopt_external_logins_enabled()}))\n"
     )
-    env = {"HERMES_HOME": str(home), "PATH": "/usr/bin:/bin", "HOME": str(tmp_path / "fakehome")}
+    env = {"HERMES_HOME": str(home), "PATH": "/usr/bin:/bin", "HOME": str(tmp_path / "fakehome"), **_win_env(tmp_path / "fakehome")}
     out = subprocess.run([sys.executable, "-c", code], env=env, capture_output=True, text=True, timeout=120)
     assert out.returncode == 0, out.stderr[-2000:]
     data = json.loads(out.stdout.strip().splitlines()[-1])
@@ -85,7 +93,7 @@ def test_oauth_run_home_reads_shared_login_without_borrowing(tmp_path):
         " 'adopt': adopt_external_logins_enabled(),"
         " 'pool': [e.get('id') for e in read_credential_pool('anthropic')]}))\n"
     )
-    env = {"HERMES_HOME": str(home), "PATH": "/usr/bin:/bin", "HOME": str(tmp_path / "fakehome")}
+    env = {"HERMES_HOME": str(home), "PATH": "/usr/bin:/bin", "HOME": str(tmp_path / "fakehome"), **_win_env(tmp_path / "fakehome")}
     out = subprocess.run([sys.executable, "-c", code], env=env, capture_output=True, text=True, timeout=120)
     assert out.returncode == 0, out.stderr[-2000:]
     assert json.loads(out.stdout.strip().splitlines()[-1]) == {"root": str(auth_home), "adopt": False, "pool": ["x1"]}
@@ -112,7 +120,7 @@ def test_oauth_expired_token_is_refreshed_and_written_back_to_auth_home(tmp_path
         "key, pool = oauth_credentials('claude-opus-5-5')\n"
         "print(json.dumps({'key': key, 'calls': calls, 'pool': pool is not None}))\n"
     )
-    env = {"HERMES_HOME": str(home), "PATH": "/usr/bin:/bin", "HOME": str(tmp_path / "fakehome"),
+    env = {"HERMES_HOME": str(home), "PATH": "/usr/bin:/bin", "HOME": str(tmp_path / "fakehome"), **_win_env(tmp_path / "fakehome"),
            "PYTHONPATH": str(ROOT / "src")}
     out = subprocess.run([sys.executable, "-c", code], env=env, capture_output=True, text=True, timeout=120)
     assert out.returncode == 0, out.stderr[-2000:]

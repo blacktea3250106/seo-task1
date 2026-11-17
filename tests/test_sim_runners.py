@@ -1,5 +1,6 @@
 """模擬執行者 --runner claude|codex|agy（決策 #57）：全部離線，用假的 CLI 執行檔，不打網路、不叫模型。"""
 import json
+import os
 import stat
 import sys
 from pathlib import Path
@@ -9,6 +10,9 @@ import pytest
 from seo_agent import sim
 from seo_agent.hermes_bridge import Tool, ToolLog
 from seo_agent.sequence import dry_run_fn, run_sequence
+
+# 模擬 runner 用 Unix socket 與 shell 假 CLI，Windows 不支援；正式 Hermes 路徑不受影響
+pytestmark = pytest.mark.skipif(os.name == "nt", reason="模擬 runner 只支援 macOS／Linux")
 
 CODEX_OK = [{"type": "thread.started", "thread_id": "t"},
             {"type": "item.completed", "item": {"type": "reasoning", "text": "想"}},
